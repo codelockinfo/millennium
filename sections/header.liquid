@@ -109,7 +109,7 @@
       {%- endif -%}
       <header
         id="SiteHeader"
-        class="site-header{% if settings.type_navigation_style == 'heading' %} site-header--heading-style{% endif %}"
+        class="11111 site-header{% if settings.type_navigation_style == 'heading' %} site-header--heading-style{% endif %}"
         data-sticky="{{ sticky_header }}"
         data-overlay="{{ overlay_header }}">
         <div class="page-width">
@@ -118,22 +118,22 @@
             data-logo-align="{{ logo_alignment }}">
 
             {%- if logo_alignment == 'left' -%}
-              <div class="header-item header-item--logo">
+              <div class="header-item   header-item--logo">
                 {%- render 'header-logo-block', section: section -%}
               </div>
             {%- endif -%}
 
             {%- if logo_alignment == 'left' and section.settings.main_menu_alignment != 'left-drawer' -%}
-              <div class="header-item header-item--navigation{% if section.settings.main_menu_alignment == 'left-center' %} text-center{% endif %}">
+              <div class="header-item   header-item--navigation{% if section.settings.main_menu_alignment == 'left-center' %} text-center{% endif %}">
                 {%- render 'header-desktop-nav', main_menu: main_menu, dropdown_alignment: dropdown_alignment -%}
               </div>
             {%- endif -%}
 
             {%- if logo_alignment == 'center' -%}
-              <div class="header-item header-item--left header-item--navigation">
+              {% comment %} <div class="header-item header-item--left header-item--navigation">
                 {%- if section.settings.main_menu_alignment == 'center' or section.settings.main_menu_alignment == 'center-split' -%}
                   {%- if settings.search_enable -%}
-                    <div class="site-nav small--hide">
+                    <div class="site-nav small--hide 11111">
                       <a href="{{ routes.search_url }}" class="site-nav__link site-nav__link--icon js-search-header">
                         <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 64 64"><path d="M47.16 28.58A18.58 18.58 0 1 1 28.58 10a18.58 18.58 0 0 1 18.58 18.58zM54 54L41.94 42"/></svg>
                         <span class="icon__fallback-text">{{ 'general.search.title' | t }}</span>
@@ -155,7 +155,7 @@
                     <span class="icon__fallback-text">{{ 'general.drawers.navigation' | t }}</span>
                   </button>
                 </div>
-              </div>
+              </div> {% endcomment %}
 
               {%- if section.settings.main_menu_alignment == 'center-split' -%}
                 {%- render 'header-split-nav', main_menu: main_menu, section: section, dropdown_alignment: dropdown_alignment -%}
