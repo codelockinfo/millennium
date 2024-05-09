@@ -1,0 +1,61 @@
+<div class="explore">
+    <div class="w-50">
+        <div class="explore-box">
+            <div class="explore-img">
+                <img src="https://wallpapers.com/images/high/the-plitvice-lakes-national-park-hd-waterfall-sf8py6pwi5j90fzx.webp" alt="">
+                <div class="explore-content"> 
+                    <h1>svfkfvkfvfv</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-50">
+        <div class="explore-box">
+            <img src="https://wallpapers.com/images/high/the-plitvice-lakes-national-park-hd-waterfall-sf8py6pwi5j90fzx.webp" alt="">
+                <div class="explore-content">
+                    <h1>svfkfvkfvfv</h1>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% schema %}
+    {
+      "name": "explore Section",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "categoryheading",
+          "label": "Heading text" 
+        }
+      ],
+      
+      "presets": [
+        {
+          "name": "explore section"
+        }
+      ]
+    }
+  {% endschema %}
+
+
+
+<style>
+    .explore .explore-box{
+        position: relative;
+
+    }
+    .explore{
+        display: flex;
+        /* gap: 10px; */
+        /* grid-template-rows: repeat(2,1fr); */
+    }
+    /* .explore .explore-content{
+        position: absolute;
+    } */
+    .w-50{
+        width: 50%;
+    }
+</style>
