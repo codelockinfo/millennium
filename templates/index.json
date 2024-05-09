@@ -29,10 +29,16 @@
         "btn_img2": "shopify:\/\/shop_images\/arrow-right.png",
         "image_main_1": "shopify:\/\/shop_images\/5f14608647b6bcaee38172e581188f98.png"
       }
+    },
+    "banner_custom_section_N3MWmb": {
+      "type": "banner-custom-section",
+      "settings": {
+      }
     }
   },
   "order": [
     "map",
-    "millennium_jewelery_AP9YXh"
+    "millennium_jewelery_AP9YXh",
+    "banner_custom_section_N3MWmb"
   ]
 }
