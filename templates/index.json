@@ -62,11 +62,22 @@
         "btn_img2": "shopify:\/\/shop_images\/arrow-right.png",
         "image_main_1": "shopify:\/\/shop_images\/5f14608647b6bcaee38172e581188f98.png"
       }
+    },
+    "our_mission_XLE69f": {
+      "type": "our-mission",
+      "settings": {
+        "Commitment_head": "Our <br> Mission",
+        "Commitment_para_1": "",
+        "Commitment_para_2": "",
+        "Commitment_para_3": "",
+        "Commitment_para_4": ""
+      }
     }
   },
   "order": [
     "banner_custom_section_N3MWmb",
     "map",
-    "millennium_jewelery_AP9YXh"
+    "millennium_jewelery_AP9YXh",
+    "our_mission_XLE69f"
   ]
 }
