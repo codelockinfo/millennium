@@ -1,5 +1,38 @@
 {
   "sections": {
+    "banner_custom_section_N3MWmb": {
+      "type": "banner-custom-section",
+      "blocks": {
+        "text_QQUdXR": {
+          "type": "text",
+          "settings": {
+            "banner_img": "shopify:\/\/shop_images\/banner.png",
+            "banner_heading": "",
+            "button1_text": "",
+            "button2_text": "",
+            "collection_url": "",
+            "sell_discount": ""
+          }
+        },
+        "text_PCRqch": {
+          "type": "text",
+          "settings": {
+            "banner_img": "shopify:\/\/shop_images\/banner.png",
+            "banner_heading": "",
+            "button1_text": "",
+            "button2_text": "",
+            "collection_url": "",
+            "sell_discount": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_QQUdXR",
+        "text_PCRqch"
+      ],
+      "settings": {
+      }
+    },
     "map": {
       "type": "map",
       "disabled": true,
@@ -29,10 +62,26 @@
         "btn_img2": "shopify:\/\/shop_images\/arrow-right.png",
         "image_main_1": "shopify:\/\/shop_images\/5f14608647b6bcaee38172e581188f98.png"
       }
+    },
+    "our_mission_XLE69f": {
+      "type": "our-mission",
+      "settings": {
+        "Commitment_head": "Our <br> Mission",
+        "Commitment_img_1": "shopify:\/\/shop_images\/11502090.png",
+        "Commitment_para_1": "Best and Easy Service  <br> to Customer",
+        "Commitment_img_2": "shopify:\/\/shop_images\/8909309.png",
+        "Commitment_para_2": "",
+        "Commitment_img_3": "shopify:\/\/shop_images\/5078214.png",
+        "Commitment_para_3": "",
+        "Commitment_img_4": "shopify:\/\/shop_images\/5790545.png",
+        "Commitment_para_4": ""
+      }
     }
   },
   "order": [
+    "banner_custom_section_N3MWmb",
     "map",
-    "millennium_jewelery_AP9YXh"
+    "millennium_jewelery_AP9YXh",
+    "our_mission_XLE69f"
   ]
 }

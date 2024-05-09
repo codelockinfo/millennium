@@ -12,7 +12,7 @@
 
       <div class="content_01">
         <div class="head_main">
-          <h1 class="commit-h1">Our <br> Mission</h1>
+          <h1 class="commit-h1">{{ section.settings.Commitment_head }}</h1>
         </div>
       </div>
 
@@ -20,45 +20,41 @@
 
         <div class="image_content_1">
           <div class="img_1">
-            <img src="https://cdn-icons-png.flaticon.com/128/11502/11502090.png" alt="">
+            <img src="{{ section.settings.Commitment_img_1 | img_url: 'master' }}" alt="">
           </div>
           <div class="para_1">
-            <p>Best and easy Service <br> to Customer</p>
+            <p>{{ section.settings.Commitment_para_1 }}</p>
           </div>
         </div>
 
-
         <div class="image_content_1">
           <div class="img_1">
-            <img src="https://cdn-icons-png.flaticon.com/128/8909/8909309.png" alt="">
+            <img src="{{ section.settings.Commitment_img_2 | img_url: 'master' }}" alt="">
           </div>
           <div class="para_1">
-            <p>Be Eco-friendly</p>
+            <p>{{ section.settings.Commitment_para_2 }}</p>
           </div>
         </div>
 
-
         <div class="image_content_1">
           <div class="img_1">
-            <img src="https://cdn-icons-png.flaticon.com/128/5078/5078214.png" alt="">
+            <img src="{{ section.settings.Commitment_img_3 | img_url: 'master' }}" alt="">
           </div>
           <div class="para_1">
-            <p>Increase <br> Employment</p>
+            <p>{{ section.settings.Commitment_para_3 }}</p>
           </div>
         </div>
 
-
         <div class="image_content_1">
           <div class="img_1">
-            <img src="https://cdn-icons-png.flaticon.com/128/5790/5790545.png" alt="">
+            <img src="{{ section.settings.Commitment_img_4 | img_url: 'master' }}" alt="">
           </div>
           <div class="para_1">
-            <p>World Wide <br> Presence</p>
+            <p>{{ section.settings.Commitment_para_4 }}</p>
           </div>
         </div>
 
       </div>
-
     </div>
   </div>
 </div>
@@ -107,14 +103,6 @@
         "type": "text",
         "id": "Commitment_para_4",
         "label": "Commitment_para_4"
-      }, {
-        "type": "image_picker",
-        "id": "Commitment_img_5",
-        "label": "Commitment_img_5"
-      }, {
-        "type": "text",
-        "id": "Commitment_para_5",
-        "label": "Commitment_para_5"
       }
     ],
     "presets": [
