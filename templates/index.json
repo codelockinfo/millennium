@@ -11,9 +11,28 @@
         "show_button": true,
         "background_image_position": "center center"
       }
+    },
+    "millennium_jewelery_AP9YXh": {
+      "type": "millennium-jewelery",
+      "settings": {
+        "image_main": "shopify:\/\/shop_images\/e2a50fbc28054d6b61ede2607242b2d7.png",
+        "para_head": "MILLENNIUM JEWELERY",
+        "company_name": "Alibaba",
+        "paragraph": "Discover Millennium Jewelery, a trusted and verified supplier on Alibaba.com. This platform helps to connect with customers worldwide, offering a convenient hub for retailers seeking top-quality moissanite watches and jewelry. With a focus on craftsmanship and reliability, we are your go-to manufacturer for exquisite moissanite pieces. Explore our extensive range of products on our Alibaba store for a showcase of elegance and sophistication.",
+        "button": "Explore More",
+        "btn_img": "shopify:\/\/shop_images\/arrow-right.png",
+        "image1": "shopify:\/\/shop_images\/Vector_22.png",
+        "para_head2": "MILLENNIUM JEWELERY",
+        "company_name2": "Amazon",
+        "paragraph2": "Amazon stands as a beacon of trust for customers, providing a seamless platform for placing orders with confidence. We are proud to announce that our products are now available on Amazon, catering specifically to the USA market. Explore our Amazon store to discover a wide range of offerings and experience the convenience of secure online shopping.",
+        "button2": "Explore More",
+        "btn_img2": "shopify:\/\/shop_images\/arrow-right.png",
+        "image_main_1": "shopify:\/\/shop_images\/5f14608647b6bcaee38172e581188f98.png"
+      }
     }
   },
   "order": [
-    "map"
+    "map",
+    "millennium_jewelery_AP9YXh"
   ]
 }
