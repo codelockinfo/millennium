@@ -32,6 +32,34 @@
     },
     "banner_custom_section_N3MWmb": {
       "type": "banner-custom-section",
+      "blocks": {
+        "text_QQUdXR": {
+          "type": "text",
+          "settings": {
+            "banner_img": "shopify:\/\/shop_images\/banner.png",
+            "banner_heading": "",
+            "button1_text": "",
+            "button2_text": "",
+            "collection_url": "",
+            "sell_discount": ""
+          }
+        },
+        "text_PCRqch": {
+          "type": "text",
+          "settings": {
+            "banner_img": "shopify:\/\/shop_images\/banner.png",
+            "banner_heading": "",
+            "button1_text": "",
+            "button2_text": "",
+            "collection_url": "",
+            "sell_discount": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_QQUdXR",
+        "text_PCRqch"
+      ],
       "settings": {
       }
     }
