@@ -7,9 +7,9 @@
           "type": "text",
           "settings": {
             "banner_img": "shopify:\/\/shop_images\/banner.png",
-            "banner_heading": "",
-            "button1_text": "",
-            "button2_text": "",
+            "banner_heading": "<p>You Were Born <\/p><p>To Stand Out<\/p>",
+            "button1_text": "Get 40-60% Off",
+            "button2_text": "View Collection",
             "collection_url": "",
             "sell_discount": ""
           }
