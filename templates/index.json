@@ -33,6 +33,64 @@
       "settings": {
       }
     },
+    "category_slider_LU46Ei": {
+      "type": "category-slider",
+      "blocks": {
+        "text_JyN4kr": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/category_1.png",
+            "category_text": "<p>Men's Watches<\/p>",
+            "collection_url": ""
+          }
+        },
+        "text_nWQjV8": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/category_2.png",
+            "category_text": "<p>Cuban Chain<\/p>",
+            "collection_url": ""
+          }
+        },
+        "text_aDNqVC": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/category_3.png",
+            "category_text": "<p>Hip Hop Pendants<\/p>",
+            "collection_url": ""
+          }
+        },
+        "text_89teFA": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/category_4.jpg",
+            "category_text": "<p>Bracelets<\/p>",
+            "collection_url": ""
+          }
+        },
+        "text_fAL8xq": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/category_5.jpg",
+            "category_text": "<p>Rings<\/p>",
+            "collection_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_JyN4kr",
+        "text_nWQjV8",
+        "text_aDNqVC",
+        "text_89teFA",
+        "text_fAL8xq"
+      ],
+      "settings": {
+        "categoryheading": "<p>Our Category<\/p>",
+        "background": "#f0f0f0",
+        "png_1": "shopify:\/\/shop_images\/Vector_20_2.png",
+        "png_2": "shopify:\/\/shop_images\/Vector_20_2.png"
+      }
+    },
     "map": {
       "type": "map",
       "disabled": true,
@@ -80,6 +138,7 @@
   },
   "order": [
     "banner_custom_section_N3MWmb",
+    "category_slider_LU46Ei",
     "map",
     "millennium_jewelery_AP9YXh",
     "our_mission_XLE69f"
