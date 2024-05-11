@@ -85,7 +85,7 @@
         "text_fAL8xq"
       ],
       "settings": {
-        "categoryheading": "<p>Our Category<\/p>",
+        "headingtext": "",
         "background": "#f0f0f0",
         "png_1": "shopify:\/\/shop_images\/Vector_20_2.png",
         "png_2": "shopify:\/\/shop_images\/Vector_20_2.png"
@@ -134,6 +134,17 @@
         "Commitment_img_4": "shopify:\/\/shop_images\/5790545.png",
         "Commitment_para_4": "World Wide <br>  Presence"
       }
+    },
+    "collection_slider_section_VnyWwX": {
+      "type": "collection-slider-section",
+      "settings": {
+        "headingtext": "",
+        "sub_p": "",
+        "subhead": "",
+        "subheadp": "",
+        "background": "",
+        "collectionproduct": ""
+      }
     }
   },
   "order": [
@@ -141,6 +152,7 @@
     "category_slider_LU46Ei",
     "map",
     "millennium_jewelery_AP9YXh",
-    "our_mission_XLE69f"
+    "our_mission_XLE69f",
+    "collection_slider_section_VnyWwX"
   ]
 }
