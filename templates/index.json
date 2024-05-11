@@ -33,6 +33,13 @@
       "settings": {
       }
     },
+    "category_slider_LU46Ei": {
+      "type": "category-slider",
+      "settings": {
+        "categoryheading": "",
+        "background": ""
+      }
+    },
     "map": {
       "type": "map",
       "disabled": true,
@@ -80,6 +87,7 @@
   },
   "order": [
     "banner_custom_section_N3MWmb",
+    "category_slider_LU46Ei",
     "map",
     "millennium_jewelery_AP9YXh",
     "our_mission_XLE69f"
