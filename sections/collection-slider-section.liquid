@@ -1,18 +1,22 @@
 <link rel="canonical" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> \
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 
 <div class="Collection-grid-section" id="{{ section.id }}">
-  <div class="Main-collections">
-    {%- if section.settings.title != blank -%}
-      <div class="page-width">
-        <div class="section-header">
-          <h2>{{ section.settings.title | escape }}</h2>
-        </div>
+  <div class="width-container">
+    <div class="common-heading ">
+      <div class="section-header">
+        <h2 class="heading-text">{{ section.settings.headingtext }}</h2>
+        <P class="sub-heading-p">{{section.settings.sub_p}}</P>
       </div>
-    {%- endif -%}
+    </div>
+    <div class="subheading">
+      <h1 class="sub-heading-h1">{{section.settings.subhead}}</h1>
+      <p class="sub-heading-p2">{{section.settings.subheadp}}</p>
+    </div>
     <div class="Main-Coll Collection-cls">
+     
       {% for product in section.settings.collectionproduct.products %}
         <div class="First-collection">
           <div class="image-collection">
@@ -40,6 +44,9 @@
         </div>
       {% endfor %}
     </div>
+   <div class="view-all-button">
+    <button class="collection-view-all"><a href="{{section.settings.viewall}}">View all <i class="fa-solid fa-chevron-right c-arrow-icon"></i></a></button>
+   </div>
   </div>
 </div>
 
@@ -47,15 +54,40 @@
 {
   "name": "collection slider section",
   "settings": [
-    {
-      "type": "text",
-      "id": "title",
-      "label": "Heading"
-    },
+      {
+        "type": "richtext",
+        "id": "headingtext",
+        "label": "Heading text" 
+      },
+      {
+        "type": "text",
+        "id": "sub_p",
+        "label": "paragraph text" 
+      },
+      {
+        "type": "richtext",
+        "id": "subhead",
+        "label": "sub heading text" 
+      },
+      {
+        "type": "text",
+        "id": "subheadp",
+        "label": "sub paragraph text" 
+      },
+      {
+        "type": "color",
+        "id": "background",
+        "label": " background color" 
+      },
     {
       "id": "collectionproduct",
       "type": "collection",
       "label": "Select collection"
+    },
+    {
+      "id": "viewall",
+      "type": "url",
+      "label": "view all collection"
     }
   ],
   "presets": [
@@ -67,12 +99,11 @@
 {% endschema %}
 
 <style>
-    #{{ section.id }}{
-    background : {{section.settings.background}};
-  }
+ 
   .Collection-grid-section{
-    background-color: #EAEAEA;  
-    padding: 50px 0;
+    background-color: {{section.settings.background}};  
+    padding-top:60px;
+    padding-bottom:80px;
   }
     .Collection-grid-section .Main-collections{
       max-width:1400px;
@@ -155,6 +186,26 @@
     width: 80%;
     border: 0 !important;
   }
+  .collection-view-all{
+    background-color: #282828;
+    padding: 10px 20px;
+    margin-right: 15px;
+    text-align: end;
+  }
+  .collection-view-all a{
+    color: #ffffff;
+  }
+  .c-arrow-icon{
+    margin-left: 5px;
+    font-size: 12px;
+    border: 2px solid #ffffff;
+    padding: 5px 7px;
+    border-radius: 50%;
+  }
+  .view-all-button{
+    text-align:end ;
+    margin-top: 30px;
+  }
     @media(max-width:768px){
       .Main-collections .head{
         display: none;
@@ -168,7 +219,7 @@
   }
     }
 
-      	.slick-slider {
+      .Collection-grid-section	.slick-slider {
     position: relative;
     display: block;
     box-sizing: border-box;
@@ -177,72 +228,72 @@
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent; }
 
-  .slick-list {
+    .Collection-grid-section	 .slick-list {
     position: relative;
     overflow: hidden;
     display: block;
     margin: 0;
     padding: 0; }
-    .slick-list:focus {
+    .Collection-grid-section	 .slick-list:focus {
       outline: none; }
-    .slick-list.dragging {
+      .Collection-grid-section	 .slick-list.dragging {
       cursor: pointer;
       cursor: hand; }
 
-  .slick-slider .slick-track,
-  .slick-slider .slick-list {
+      .Collection-grid-section	 .slick-slider .slick-track,
+      .Collection-grid-section	 .slick-slider .slick-list {
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
 
-  .slick-track {
+    .Collection-grid-section	 .slick-track {
     position: relative;
     left: 0;
     top: 0;
     display: block; }
-    .slick-track:before, .slick-track:after {
+    .Collection-grid-section .slick-track:before,.Collection-grid-section	 .slick-track:after {
       content: "";
       display: table; }
-    .slick-track:after {
+      .Collection-grid-section	 .slick-track:after {
       clear: both; }
-    .slick-loading .slick-track {
+      .Collection-grid-section	 .slick-loading .slick-track {
       visibility: hidden; }
 
-  .slick-slide {
+      .Collection-grid-section	.slick-slide {
     float: left;
     height: 100%;
     min-height: 1px;
     display: none; }
-    [dir="rtl"] .slick-slide {
+    [dir="rtl"] .Collection-grid-section .slick-slide {
       float: right; }
-    .slick-slide img {
+    .Collection-grid-section .slick-slide img {
       display: block; }
-    .slick-slide.slick-loading img {
+    .Collection-grid-section .slick-slide.slick-loading img {
       display: none; }
-    .slick-slide.dragging img {
+    .Collection-grid-section .slick-slide.dragging img {
       pointer-events: none; }
-    .slick-initialized .slick-slide {
+    .Collection-grid-section .slick-initialized .slick-slide {
       display: block; }
-    .slick-loading .slick-slide {
+    .Collection-grid-section .slick-loading .slick-slide {
       visibility: hidden; }
-    .slick-vertical .slick-slide {
+    .Collection-grid-section .slick-vertical .slick-slide {
       display: block;
       height: auto;
       border: 1px solid transparent; }
 
-  .slick-arrow.slick-hidden {
+      .Collection-grid-section	.slick-arrow.slick-hidden {
     display: none; }
 
   /*================ Slick Slider Theme ================*/
-  .slick-loading .slick-list {
+  .Collection-grid-section	.slick-loading .slick-list {
     background: #fff var(--slick-img-url) center center no-repeat; }
 
   / Icons /
   / Arrows /
-  .slick-prev,
-  .slick-next {
+  .Collection-grid-section	.slick-prev,
+  .Collection-grid-section	.slick-next {
     position: absolute;
     display: block;
     height: 20px;
@@ -250,7 +301,7 @@
     line-height: 0px;
     font-size: 0px;
     cursor: pointer;
-    background: white;
+    /* background: white; */
     color: transparent;
     top: 50%;
     -webkit-transform: translate(0, -50%);
@@ -259,23 +310,23 @@
     padding: 0;
     border: none;
   }
-    .slick-prev:hover, .slick-prev:focus,
-    .slick-next:hover,
-    .slick-next:focus {
+  .Collection-grid-section	.slick-prev:hover, .Collection-grid-section	.slick-prev:focus,
+  .Collection-grid-section	.slick-next:hover,
+  .Collection-grid-section	 .slick-next:focus {
       background: white;
       color: blue;
     }
-      .slick-prev:hover:before, .slick-prev:focus:before,
-      .slick-next:hover:before,
-      .slick-next:focus:before {
+      .Collection-grid-section	.slick-prev:hover:before, .Collection-grid-section	.slick-prev:focus:before,
+      .Collection-grid-section	.slick-next:hover:before,
+      .Collection-grid-section	.slick-next:focus:before {
         opacity: 1;
       }
-    .slick-prev.slick-disabled:before,
-    .slick-next.slick-disabled:before {
+    .Collection-grid-section	.slick-prev.slick-disabled:before,
+    .Collection-grid-section	.slick-next.slick-disabled:before {
       opacity: 0.25;
     }
-    .slick-prev:before,
-    .slick-next:before {
+    .Collection-grid-section	.slick-prev:before,
+    .Collection-grid-section	.slick-next:before {
       font-family: "slick-icons, sans-serif";
       font-size: 40px;
       line-height: 1;
@@ -284,46 +335,48 @@
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale; }
 
-  .slick-prev {
-     left: -25px;
-     top:100%;
+  .Collection-grid-section	.slick-prev {
+     left: 45%;
+     top:105%;
      position: absolute;
      z-index:10;
-     background-color: white;
-      border: 0;
-        box-shadow: 0px 0px 10px black;
+     border: 2px solid #282828;
+     border-radius: 50%;
+     width: 50px;
+     height: 50px;
   }
     [dir="rtl"]
-      .slick-prev {
+      .Collection-grid-section	.slick-prev {
       left: auto;
         top:50%;
       }
-    .slick-prev:before {
-      content: "←";
+    .Collection-grid-section	.slick-prev:before {
+      content: "\276F";
     }
-      [dir="rtl"] .slick-prev:before {
-        content: "→";
+      [dir="rtl"] .Collection-grid-section	.slick-prev:before {
+        content: "\276E";
       }
 
-  .slick-next {
-    right: -25px;
+  .Collection-grid-section	.slick-next {
+    right: 45%;
       position: absolute;
        z-index:10;
-      top:30%;
-        background-color: white;
-      border: 0;
-        box-shadow: 0px 0px 10px black;
+      top:105%;
+      border: 2px solid #282828;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
   }
-    [dir="rtl"] .slick-next {
+    [dir="rtl"] .Collection-grid-section	.slick-next {
       left: -25px;
       right: auto;
     }
-    .slick-next:before {
-      content: "→";
+    .Collection-grid-section	.slick-next:before {
+      content: "\276E";
     }
       [dir="rtl"]
-      .slick-next:before {
-        content: "←";
+      .Collection-grid-section	.slick-next:before {
+        content: "\276F";
       }
 
 
@@ -331,7 +384,6 @@
 
 <script>
   $('.Collection-cls').slick({
-    dots: false,
     infinite: true,
     arrows: true,
     slidesToShow: 4,
@@ -341,24 +393,20 @@
     responsive: [
       {
         breakpoint: 576,
-        settings: {
-          dots: true,
-          slidesToShow: 1,
+        settings: { slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 768,
-        settings: {
-          dots: true,
+        settings: { 
           slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 1024,
-        settings: {
-          dots: true,
+        settings: { 
           slidesToShow: 3,
           slidesToScroll: 1,
         },

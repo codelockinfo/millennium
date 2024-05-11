@@ -7,9 +7,9 @@
           "type": "text",
           "settings": {
             "banner_img": "shopify:\/\/shop_images\/banner.png",
-            "banner_heading": "",
-            "button1_text": "",
-            "button2_text": "",
+            "banner_heading": "<p>You Were Born <\/p><p>To Stand Out<\/p>",
+            "button1_text": "Get 40-60% Off",
+            "button2_text": "View Collection",
             "collection_url": "",
             "sell_discount": ""
           }
@@ -18,9 +18,9 @@
           "type": "text",
           "settings": {
             "banner_img": "shopify:\/\/shop_images\/banner.png",
-            "banner_heading": "",
-            "button1_text": "",
-            "button2_text": "",
+            "banner_heading": "<p>You Were Born <\/p><p>To Stand Out<\/p>",
+            "button1_text": "Get 40-60% Off",
+            "button2_text": "View Collection",
             "collection_url": "",
             "sell_discount": ""
           }
@@ -31,6 +31,75 @@
         "text_PCRqch"
       ],
       "settings": {
+      }
+    },
+    "category_slider_LU46Ei": {
+      "type": "category-slider",
+      "blocks": {
+        "text_JyN4kr": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/category_1.png",
+            "category_text": "<p>Men's Watches<\/p>",
+            "collection_url": ""
+          }
+        },
+        "text_nWQjV8": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/category_2.png",
+            "category_text": "<p>Cuban Chain<\/p>",
+            "collection_url": ""
+          }
+        },
+        "text_aDNqVC": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/category_3.png",
+            "category_text": "<p>Hip Hop Pendants<\/p>",
+            "collection_url": ""
+          }
+        },
+        "text_89teFA": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/category_4.jpg",
+            "category_text": "<p>Bracelets<\/p>",
+            "collection_url": ""
+          }
+        },
+        "text_fAL8xq": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/category_5.jpg",
+            "category_text": "<p>Rings<\/p>",
+            "collection_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_JyN4kr",
+        "text_nWQjV8",
+        "text_aDNqVC",
+        "text_89teFA",
+        "text_fAL8xq"
+      ],
+      "settings": {
+        "headingtext": "",
+        "background": "#f0f0f0",
+        "png_1": "shopify:\/\/shop_images\/Vector_20_2.png",
+        "png_2": "shopify:\/\/shop_images\/Vector_20_2.png"
+      }
+    },
+    "collection_slider_section_VnyWwX": {
+      "type": "collection-slider-section",
+      "settings": {
+        "headingtext": "<p>Millennium Jewelery<br\/><\/p>",
+        "sub_p": "Millennium Jewelery is a manufacturer of Gems & Jewelry. We are dealing in Moissanite, Lab Grown Diamond, Natural Diamond Etc. and uses precious metal like Silver, Gold Etc.",
+        "subhead": "<p>Moissanite Watch<\/p>",
+        "subheadp": "Introducing the epitome of elegance and innovation: the Moissanite Watch. Crafted with precision and adorned with the brilliance of lab-created Moissanite gems, this timepiece redefines luxury. Each watch is a testament to sophistication, featuring a sleek design and unparalleled sparkle.",
+        "background": "#eaeaea",
+        "collectionproduct": "latest-products"
       }
     },
     "map": {
@@ -80,6 +149,8 @@
   },
   "order": [
     "banner_custom_section_N3MWmb",
+    "category_slider_LU46Ei",
+    "collection_slider_section_VnyWwX",
     "map",
     "millennium_jewelery_AP9YXh",
     "our_mission_XLE69f"
