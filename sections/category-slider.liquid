@@ -1,9 +1,11 @@
 <div class="slider-category">
   <img src="{{section.settings.png_1 | img_url:'master'}}" class="png-img-1" alt="">
   <img src="{{section.settings.png_2 | img_url:'master'}}" class="png-img-2" alt="">
-  <div class="width-container">
-    <div class="common-heading">
-      <h1 class="slider-category-h1">{{section.settings.categoryheading}}</h1>
+  <div class="width-container 111111">
+    <div class="common-heading ">
+      <div class="section-header">
+        <h2 class="heading-text">{{ section.settings.headingtext }}</h2>
+      </div>
     </div>
   </div>
   <div class="slider-container">
@@ -45,7 +47,7 @@
     "settings": [
       {
         "type": "richtext",
-        "id": "categoryheading",
+        "id": "headingtext",
         "label": "Heading text" 
       },
       {
@@ -108,17 +110,8 @@
     position: relative;
   }
   
-  .common-heading {
-    text-align: center;
-  }
-  .slider-category-h1 {
-    font-size: 64px;
-    font-weight: 400;
-    line-height: 83.43px;
-    font-family: 'Italiana' !important;
-    color: #282828;
-    text-transform: capitalize !important;
-  }
+ 
+ 
  
   .png-img-1{
     position: absolute;
@@ -234,9 +227,6 @@
   }
   }
   @media (max-width: 1024px) {
-    .slider-category-h1 {
-      font-size: 50px;
-    }
     .slider-container{
     margin-left: 5%;
   }
@@ -254,10 +244,6 @@
 }
   }
   @media (max-width: 768px) {
-    .slider-category-h1 {
-      line-height: 50px;
-      font-size: 50px;
-    }
     .slider-category-collection-box {
       padding: 0 15px;
     }
@@ -279,10 +265,6 @@
   }
   }
   @media (max-width: 576px) {
-    .slider-category-h1 {
-      font-size: 40px;
-      line-height: 60px;
-    }
     .slider-container .swiper-button-next{
 	
   top: 110% !important;
@@ -293,11 +275,7 @@
   left: 30% !important;
 }
   }
-  @media (max-width: 400px) {
-    .slider-category-h1 {
-      font-size: 30px;
-    }
-  }
+
 
 </style>
 
