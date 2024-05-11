@@ -86,7 +86,9 @@
       ],
       "settings": {
         "categoryheading": "<p>Our Category<\/p>",
-        "background": "#f0f0f0"
+        "background": "#f0f0f0",
+        "png_1": "shopify:\/\/shop_images\/Vector_20_2.png",
+        "png_2": "shopify:\/\/shop_images\/Vector_20_2.png"
       }
     },
     "map": {
