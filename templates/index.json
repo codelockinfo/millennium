@@ -85,8 +85,8 @@
         "text_fAL8xq"
       ],
       "settings": {
-        "categoryheading": "",
-        "background": ""
+        "categoryheading": "<p>Our Category<\/p>",
+        "background": "#f0f0f0"
       }
     },
     "map": {
