@@ -40,7 +40,7 @@
           "type": "text",
           "settings": {
             "category_img": "shopify:\/\/shop_images\/category_1.png",
-            "category_text": "",
+            "category_text": "<p>Men's Watches<\/p>",
             "collection_url": ""
           }
         },
@@ -48,7 +48,7 @@
           "type": "text",
           "settings": {
             "category_img": "shopify:\/\/shop_images\/category_2.png",
-            "category_text": "",
+            "category_text": "<p>Cuban Chain<\/p>",
             "collection_url": ""
           }
         },
@@ -56,7 +56,7 @@
           "type": "text",
           "settings": {
             "category_img": "shopify:\/\/shop_images\/category_3.png",
-            "category_text": "",
+            "category_text": "<p>Hip Hop Pendants<\/p>",
             "collection_url": ""
           }
         },
@@ -64,7 +64,7 @@
           "type": "text",
           "settings": {
             "category_img": "shopify:\/\/shop_images\/category_4.jpg",
-            "category_text": "",
+            "category_text": "<p>Bracelets<\/p>",
             "collection_url": ""
           }
         },
@@ -72,7 +72,7 @@
           "type": "text",
           "settings": {
             "category_img": "shopify:\/\/shop_images\/category_5.jpg",
-            "category_text": "",
+            "category_text": "<p>Rings<\/p>",
             "collection_url": ""
           }
         }
