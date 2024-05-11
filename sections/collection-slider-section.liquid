@@ -45,7 +45,7 @@
       {% endfor %}
     </div>
    <div class="view-all-button">
-    <button class="collection-view-all"><a href="">View all <i class="fa-solid fa-chevron-right c-arrow-icon"></i></a></button>
+    <button class="collection-view-all"><a href="{{section.settings.viewall}}">View all <i class="fa-solid fa-chevron-right c-arrow-icon"></i></a></button>
    </div>
   </div>
 </div>
@@ -83,6 +83,11 @@
       "id": "collectionproduct",
       "type": "collection",
       "label": "Select collection"
+    },
+    {
+      "id": "viewall",
+      "type": "url",
+      "label": "view all collection"
     }
   ],
   "presets": [
@@ -346,10 +351,10 @@
         top:50%;
       }
     .Collection-grid-section	.slick-prev:before {
-      content: "\10094";
+      content: "\276F";
     }
       [dir="rtl"] .Collection-grid-section	.slick-prev:before {
-        content: "\10095";
+        content: "\276E";
       }
 
   .Collection-grid-section	.slick-next {
@@ -367,11 +372,11 @@
       right: auto;
     }
     .Collection-grid-section	.slick-next:before {
-      content: "\10095";
+      content: "\276E";
     }
       [dir="rtl"]
       .Collection-grid-section	.slick-next:before {
-        content: "\10094";
+        content: "\276F";
       }
 
 

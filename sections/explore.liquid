@@ -1,61 +1,69 @@
 <div class="explore">
-    <div class="w-50">
-        <div class="explore-box">
-            <div class="explore-img">
-                <img src="https://wallpapers.com/images/high/the-plitvice-lakes-national-park-hd-waterfall-sf8py6pwi5j90fzx.webp" alt="">
-                <div class="explore-content"> 
-                    <h1>svfkfvkfvfv</h1>
-                </div>
-            </div>
+  <div class="w-50">
+    <div class="explore-box1">
+      <div class="explore-img">
+        <img src="{{section.settings.explore1 |  img_url:'master' }}" alt="" class="explore_img_1">
+        <div class="explore-content">
+          <h1>svfkfvkfvfv</h1>
         </div>
+      </div>
     </div>
-    <div class="w-50">
-        <div class="explore-box">
-            <img src="https://wallpapers.com/images/high/the-plitvice-lakes-national-park-hd-waterfall-sf8py6pwi5j90fzx.webp" alt="">
-                <div class="explore-content">
-                    <h1>svfkfvkfvfv</h1>
-                </div>
+  </div>
+  <div class="w-50">
+    <div class="explore-box2">
+      <div class="explore-img">
+        <img src="{{section.settings.explore2 |  img_url:'master' }}" alt="" class="explore_img_2">
+        <div class="explore-content">
+          <h1>svfkfvkfvfv</h1>
         </div>
+      </div>
     </div>
+  </div>
 </div>
 
-
-
 {% schema %}
+{
+  "name": "explore Section",
+  "settings": [
     {
-      "name": "explore Section",
-      "settings": [
-        {
-          "type": "richtext",
-          "id": "categoryheading",
-          "label": "Heading text" 
-        }
-      ],
-      
-      "presets": [
-        {
-          "name": "explore section"
-        }
-      ]
+      "type": "image_picker",
+      "id": "explore1",
+      "label": " explore img 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "explore2",
+      "label": "explore img 2"
     }
-  {% endschema %}
+  ],
 
-
+  "presets": [
+    {
+      "name": "explore section"
+    }
+  ]
+}
+{% endschema %}
 
 <style>
-    .explore .explore-box{
-        position: relative;
-
-    }
-    .explore{
-        display: flex;
-        /* gap: 10px; */
-        /* grid-template-rows: repeat(2,1fr); */
-    }
-    /* .explore .explore-content{
-        position: absolute;
-    } */
-    .w-50{
-        width: 50%;
-    }
+  .explore .explore-box1,.explore-box2 {
+    position: relative;
+    object-fit: cover;
+  }
+  .explore {
+    display: flex;
+  }
+  .explore .explore-content {
+    position: absolute;
+    background-color: #faf7ed;
+    bottom: -20px;
+    padding: 30px;
+    left: 40%;
+  }
+  .explore-box2 {
+    margin-left: 10px;
+  }
+  .w-50 {
+    width: 50%;
+  }
 </style>
