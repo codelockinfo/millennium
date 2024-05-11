@@ -1,6 +1,6 @@
 <div class="slider-category">
-  <img src="https://cdn.shopify.com/s/files/1/0604/2458/5422/files/Vector_20_2.png?v=1715401038" class="png-img-1" alt="">
-  <img src="https://cdn.shopify.com/s/files/1/0604/2458/5422/files/Vector_20_2.png?v=1715401038" class="png-img-2" alt="">
+  <img src="{{section.settings.png_1 | img_url:'master'}}" class="png-img-1" alt="">
+  <img src="{{section.settings.png_2 | img_url:'master'}}" class="png-img-2" alt="">
   <div class="width-container">
     <div class="common-heading">
       <h1 class="slider-category-h1">{{section.settings.categoryheading}}</h1>
@@ -96,7 +96,7 @@
 <style>
   .slider-category {
     padding-top: 100px;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
     background-color: {{ section.settings.background }};
     position: relative;
     z-index:1;
