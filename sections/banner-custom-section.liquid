@@ -87,18 +87,18 @@
     object-fit: cover !important;
     width: 90%;
     position: relative;
-    z-index:99 ;
+    z-index:-1 ;
   }
-  .banner-main-box  .banner-img::after{
+  /* .banner-main-box::after{
     position: absolute;
     content: "";
-    width: 100%;
+    width: 90%;
     height: 100%;
     background-color: #000;
     top: 0;
     left: 0;
-    z-index: 9999;
-  }
+    z-index: 1;
+  } */
   .banner-content{
 		position: absolute;
 		left: 10%;
@@ -141,10 +141,10 @@
 	}
   .banner-slider {
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
     height: 100vh;
   }
-  .banner-slider::after {
+  /* .banner-slider::after {
     position: absolute;
     width: 85%;
     height: 100%;
@@ -152,8 +152,8 @@
     top: 0;
     left: 0;
     content: '';
-    z-index: -1;
-  }
+    /* z-index: -1; */
+  } */
   / Arrows /
 /* .slick-prev,
 .slick-next {
