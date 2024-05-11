@@ -2,15 +2,21 @@
 <div class="banner-slider">
   <div class="slick-slider">
     {%- for block in section.blocks -%}
-    <div class="banner-main-box">
-      <img src="{{block.settings.banner_img |  img_url:'master' }}" class="banner-img">
-      <div class="banner-content">
-                  <h1 class="banner-heading">{{block.settings.banner_heading}}</h1>
-				  <button class="banner-sell-button"><a href="{{block.settings.sell_discount}}"  class="button-sell">{{block.settings.button1_text}}</a></button>
-				  <button class="banner-collection-button"><a href="{{block.settings.collection_url}}" class="button-collection">{{block.settings.button2_text}}</a></button>
-			</div>
-    </div>
-{% endfor %}
+      <div class="banner-main-box">
+        <div class="banner-img-box">
+          <img src="{{block.settings.banner_img |  img_url:'master' }}" class="banner-img">
+        </div>
+        <div class="banner-content">
+          <h1 class="banner-heading">{{ block.settings.banner_heading }}</h1>
+          <button class="banner-sell-button">
+            <a href="{{block.settings.sell_discount}}" class="button-sell">{{ block.settings.button1_text }}</a>
+          </button>
+          <button class="banner-collection-button">
+            <a href="{{block.settings.collection_url}}" class="button-collection">{{ block.settings.button2_text }}</a>
+          </button>
+        </div>
+      </div>
+    {% endfor %}
   </div>
 </div>
 
@@ -68,7 +74,6 @@
     text-align: center;
   }
   .slick-slider .banner-main-box {
-    height:100vh;
     display: inline-block;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -82,69 +87,72 @@
     font-size: 20px;
     position: relative;
   }
-  .banner-main-box .banner-img{
-    height: 100vh;
+  .banner-content {
+    position: absolute;
+    left: 10%;
+    text-align: left;
+    z-index: 999;
+  }
+  .banner-main-box .banner-img-box {
+    /* height: 100vh; */
     object-fit: cover !important;
     width: 90%;
     position: relative;
-    z-index:-1 ;
+    z-index: -1;
   }
-  /* .banner-main-box::after{
+  .banner-main-box .banner-img {
+    position: relative;
+    z-index: -1;
+  }
+  .banner-img-box::after {
     position: absolute;
-    content: "";
-    width: 90%;
+    content: '';
+    width: 100%;
     height: 100%;
-    background-color: #000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%);
     top: 0;
     left: 0;
     z-index: 1;
-  } */
-  .banner-content{
-		position: absolute;
-		left: 10%;
-		text-align: left;
-    z-index: 999;
-	}
-	.banner-content .banner-heading{
-		font-size: 96px;
-        color: #ffffff;
-        font-weight: 400;
-        line-height: 125.14px;
-	}
-	.banner-content .banner-sell-button{
-		outline: none;
-		border: 0;
-		padding: 10px 30px;
-		border-radius: 25px;
-		background: linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(119, 119, 119, 0.102) 69%);
-		display:block;
-		margin: 30px 0;
-	}
-	.banner-content .banner-sell-button .button-sell{
-		font-size: 24px;
+  }
+
+  .banner-content .banner-heading {
+    font-size: 96px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 125.14px;
+  }
+  .banner-content .banner-sell-button {
+    outline: none;
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(48, 48, 48, 1) 0%, rgba(119, 119, 119, 0.102) 69%);
+    display: block;
+    margin: 30px 0;
+  }
+  .banner-content .banner-sell-button .button-sell {
+    font-size: 24px;
     color: #ffffff;
     font-weight: 500;
-    line-height:36px;
-	}
-	.banner-content .banner-collection-button {
-		padding: 10px 30px;
-    background-color: #D0C272;
+    /* line-height: 36px; */
+  }
+  .banner-content .banner-collection-button {
+    padding: 10px 30px;
+    background-color: #d0c272;
     border: 0;
     outline: none;
-     
-	}
-	.banner-content .banner-collection-button .button-collection {
-		font-size: 24px !important;
+  }
+  .banner-content .banner-collection-button .button-collection {
+    font-size: 24px ;
     color: #000000;
     font-weight: 500;
-    line-height:36px;
-	}
+    /* line-height: 36px; */
+  }
   .banner-slider {
     position: relative;
-    /* z-index: 1; */
-    height: 100vh;
+    z-index: 1;
   }
-  /* .banner-slider::after {
+  .banner-slider::after {
     position: absolute;
     width: 85%;
     height: 100%;
@@ -152,71 +160,52 @@
     top: 0;
     left: 0;
     content: '';
-    /* z-index: -1; */
-  } */
-  / Arrows /
-/* .slick-prev,
-.slick-next {
-  position: absolute;
-  display: block;
-  height: 50px;
-  width: 50px;
-  border: 2px solid #282828;
-  line-height: 0px;
-  font-size: 20px;
-  cursor: pointer;
-  top: 50%;
-  background-color: #000;
-  -webkit-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
- 
-} */
-  .slick-prev:hover, .slick-prev:focus,
+    z-index: -1;
+  }
+  / Arrows / .slick-prev:hover,
+  .slick-prev:focus,
   .slick-next:hover,
   .slick-next:focus {
     background: transparent;
-    color: transparent; 
-}
-    .slick-prev:hover:before, .slick-prev:focus:before,
-    .slick-next:hover:before,
-    .slick-next:focus:before {
-      opacity: 1; 
-    }
+    color: transparent;
+  }
+  .slick-prev:hover:before,
+  .slick-prev:focus:before,
+  .slick-next:hover:before,
+  .slick-next:focus:before {
+    opacity: 1;
+  }
   .slick-prev.slick-disabled:before,
   .slick-next.slick-disabled:before {
-    opacity: 0.25; 
-}
+    opacity: 0.25;
+  }
   .slick-prev:before,
   .slick-next:before {
-    font-family: "slick-icons, sans-serif";
+    font-family: 'slick-icons, sans-serif';
     font-size: 30px;
     line-height: 1;
     color: #000;
-    opacity: 0.75;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
- }
+    font-weight: bold;
+  }
 
   .slick-prev {
-    left: 20px;
-    position: absolute;  
+    left: 30px;
+    position: absolute;
     width: 50px;
     height: 50px;
-    border: 2px solid #282828;
+    border: 3px solid #282828;
     transform: rotate(-45deg);
     top: 50%;
-    
-}
-.slick-next {
-  right: 20px;
-  position: absolute;
-   width: 50px;
-   height: 50px;
-   border: 2px solid #282828;
-   transform: rotate(-45deg);
-   top: 50%;
-}
+  }
+  .slick-next {
+    right: 30px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #282828;
+    transform: rotate(-45deg);
+    top: 50%;
+  }
   [dir='rtl'] .slick-prev {
     left: auto;
     /* right: -25px; */
@@ -224,6 +213,7 @@
   .slick-prev:before {
     content: '←';
     transform: rotate(45deg);
+    display: inline-block;
   }
   [dir='rtl'] .slick-prev:before {
     content: '→';
@@ -235,15 +225,165 @@
   .slick-next:before {
     content: '→';
     transform: rotate(45deg);
+    display: inline-block;
   }
   [dir='rtl'] .slick-next:before {
     content: '←';
   }
 
   .slick-slider .banner-main-box img {
-    width: 90%;
+    width: 100%;
     -o-object-fit: contain;
     object-fit: contain;
+  }
+
+  @media (max-width: 1600px) {
+    .slick-prev {
+      width: 40px;
+      height: 40px;
+      left: 20px;
+    }
+    .slick-next {
+      width: 40px;
+      height: 40px;
+      right: 20px;
+    }
+  }
+  @media (max-width: 1200px) {
+    .slick-prev {
+      width: 30px;
+      height: 30px;
+      left: 15px;
+    }
+    .slick-next {
+      width: 30px;
+      height: 30px;
+      right: 15px;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+      font-size: 20px;
+    }
+    .banner-content .banner-heading {
+      font-size: 80px;
+      line-height: 84px;
+    }
+  }
+  @media (max-width: 1024px) {
+    .slick-prev {
+      width: 30px;
+      height: 30px;
+      left: 10px;
+    }
+    .slick-next {
+      width: 30px;
+      height: 30px;
+      right: 10px;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+      font-size: 20px;
+    }
+    .banner-content .banner-heading {
+      font-size: 64px;
+      line-height: 60px;
+    }
+    .banner-content .banner-sell-button .button-sell {
+      font-size: 18px;
+    }
+    .banner-content  .button-collection {
+      font-size: 18px !important;
+    }
+  }
+  @media (max-width: 900px) {
+    .slick-prev {
+      width: 30px;
+      height: 30px;
+      left: 5px;
+    }
+    .slick-next {
+      width: 30px;
+      height: 30px;
+      right: 5px;
+    }
+  }
+  @media (max-width: 768px) {
+    .slick-prev {
+      width: 25px;
+      height: 25px;
+      left: 5px;
+    }
+    .slick-next {
+      width: 25px;
+      height: 25px;
+      right: 5px;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+      font-size: 15px;
+    }.banner-content .banner-heading{
+		font-size: 50px;
+       line-height: 50px;
+	}
+  .banner-content .banner-sell-button .button-sell {
+      font-size: 16px;
+    }
+    .banner-content  .button-collection {
+      font-size: 16px !important;
+    }
+    .slick-slider .banner-main-box img {
+    width: 100%;
+    -o-object-fit: contain;
+    object-fit: cover;
+    height: 80vh;
+}
+  }
+  @media (max-width: 700px) {
+   
+  .banner-main-box .banner-img-box { 
+    width: 85%;
+  }
+  .slick-prev {
+      width: 25px;
+      height: 25px;
+      left: 15px;
+    }
+    .slick-next {
+      width: 25px;
+      height: 25px;
+      right: 15px;
+    }
+  }
+  @media (max-width: 600px) {
+    .slick-prev {
+      width: 25px;
+      height: 25px;
+      left: 5px;
+    }
+    .slick-next {
+      width: 25px;
+      height: 25px;
+      right: 5px;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+      font-size: 15px;
+    }.banner-content .banner-heading{
+		font-size: 30px;
+       line-height: 30px;
+	}
+  .banner-content .banner-sell-button .button-sell {
+      font-size: 14px;
+    }
+    .banner-content  .button-collection {
+      font-size: 14px !important;
+    }
+    .slick-slider .banner-main-box img {
+    width: 100%;
+    -o-object-fit: contain;
+    object-fit: cover;
+    height: 80vh;
+}
   }
 </style>
 <script>
