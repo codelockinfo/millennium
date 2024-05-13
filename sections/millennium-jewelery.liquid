@@ -2,31 +2,45 @@
   <div class="millennium_main2">
     <div class="content_jewelery_1">
       <div class="box1">
-        <div class="image1">
-          <img src="{{ section.settings.image_main | img_url: 'master' }}" alt="">
-        </div>
+        {% if section.settings.image_main != blank %}
+          <div class="image1">
+            <img src="{{ section.settings.image_main | img_url: 'master' }}" alt="">
+          </div>
+        {% endif %}
         <div class="paragraph1">
           <h6 class="para_h6">{{ section.settings.para_head }}</h6>
           <h2 class="para_h2">{{ section.settings.company_name }}</h2>
           <p class="para_p">{{ section.settings.paragraph }}</p>
-          <button class="para_button">{{ section.settings.button }}<img src="{{ section.settings.btn_img |  img_url: 'master' }}" alt=""></button>
+          <button class="para_button">{{ section.settings.button }}
+            {% if section.settings.btn_img != blank %}
+              <img src="{{ section.settings.btn_img |  img_url: 'master' }}" alt="">
+            {% endif %}
+          </button>
         </div>
       </div>
     </div>
-    <div class="line">
-      <img src="{{ section.settings.image1 | img_url: 'master' }}" alt="">
-    </div>
+    {% if section.settings.image1 != blank %}
+      <div class="line">
+        <img src="{{ section.settings.image1 | img_url: 'master' }}" alt="">
+      </div>
+    {% endif %}
     <div class="content_jewelery_2">
       <div class="box2">
         <div class="paragraph2">
           <h6 class="para_h6">{{ section.settings.para_head2 }}</h6>
           <h2 class="para_h2_2">{{ section.settings.company_name2 }}</h2>
           <p class="para_p_2">{{ section.settings.paragraph2 }}</p>
-          <button class="para_button">{{ section.settings.button2 }}<img src="{{ section.settings.btn_img2 | img_url: 'master' }}" alt=""></button>
+          <button class="para_button">{{ section.settings.button2 }}
+            {% if section.settings.btn_img2 != blank %}
+              <img src="{{ section.settings.btn_img2 | img_url: 'master' }}" alt="">
+            {% endif %}
+          </button>
         </div>
-        <div class="image1">
-          <img src="{{ section.settings.image_main_1 | img_url: 'master' }}" alt="">
-        </div>
+        {% if section.settings.image_main_1 != blank %}
+          <div class="image1">
+            <img src="{{ section.settings.image_main_1 | img_url: 'master' }}" alt="">
+          </div>
+        {% endif %}
       </div>
     </div>
   </div>
