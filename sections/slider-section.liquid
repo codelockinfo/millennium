@@ -7,31 +7,31 @@
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
           <div class="box_1">
-            <img src="https://cdn-icons-png.flaticon.com/128/2985/2985150.png" alt="">
+            <img src="{{ section.settings.box_image | img_url: 'master' }}" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptatibus omnis illum dolores. Obcaecati molestias ullam aliquid, doloremque suscipit reprehenderit assumenda adipisci iusto laborum, veniam aliquam, iure totam sint neque.</p>
             <h2>Russell H</h2>
             <h6>united Kingdom, 1 month ago</h6>
           </div>
           <div class="box_1">
-            <img src="https://cdn-icons-png.flaticon.com/128/2985/2985150.png" alt="">
+            <img src="{{ section.settings.box_image | img_url: 'master' }}" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptatibus omnis illum dolores. Obcaecati molestias ullam aliquid, doloremque suscipit reprehenderit assumenda adipisci iusto laborum, veniam aliquam, iure totam sint neque.</p>
             <h2>Russell H</h2>
             <h6>united Kingdom, 1 month ago</h6>
           </div>
           <div class="box_1">
-            <img src="https://cdn-icons-png.flaticon.com/128/2985/2985150.png" alt="">
+            <img src="{{ section.settings.box_image | img_url: 'master' }}" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptatibus omnis illum dolores. Obcaecati molestias ullam aliquid, doloremque suscipit reprehenderit assumenda adipisci iusto laborum, veniam aliquam, iure totam sint neque.</p>
             <h2>Russell H</h2>
             <h6>united Kingdom, 1 month ago</h6>
           </div>
           <div class="box_1">
-            <img src="https://cdn-icons-png.flaticon.com/128/2985/2985150.png" alt="">
+            <img src="{{ section.settings.box_image | img_url: 'master' }}" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptatibus omnis illum dolores. Obcaecati molestias ullam aliquid, doloremque suscipit reprehenderit assumenda adipisci iusto laborum, veniam aliquam, iure totam sint neque.</p>
             <h2>Russell H</h2>
             <h6>united Kingdom, 1 month ago</h6>
           </div>
           <div class="box_1">
-            <img src="https://cdn-icons-png.flaticon.com/128/2985/2985150.png" alt="">
+            <img src="{{ section.settings.box_image | img_url: 'master' }}" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptatibus omnis illum dolores. Obcaecati molestias ullam aliquid, doloremque suscipit reprehenderit assumenda adipisci iusto laborum, veniam aliquam, iure totam sint neque.</p>
             <h2>Russell H</h2>
             <h6>united Kingdom, 1 month ago</h6>
@@ -43,31 +43,31 @@
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
           <div class="box_1">
-            <img src="https://cdn-icons-png.flaticon.com/128/2985/2985150.png" alt="">
+            <img src="{{ section.settings.box_image | img_url: 'master' }}" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptatibus omnis illum dolores. Obcaecati molestias ullam aliquid, doloremque suscipit reprehenderit assumenda adipisci iusto laborum, veniam aliquam, iure totam sint neque.</p>
             <h2>Russell H</h2>
             <h6>united Kingdom, 1 month ago</h6>
           </div>
           <div class="box_1">
-            <img src="https://cdn-icons-png.flaticon.com/128/2985/2985150.png" alt="">
+            <img src="{{ section.settings.box_image | img_url: 'master' }}" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptatibus omnis illum dolores. Obcaecati molestias ullam aliquid, doloremque suscipit reprehenderit assumenda adipisci iusto laborum, veniam aliquam, iure totam sint neque.</p>
             <h2>Russell H</h2>
             <h6>united Kingdom, 1 month ago</h6>
           </div>
           <div class="box_1">
-            <img src="https://cdn-icons-png.flaticon.com/128/2985/2985150.png" alt="">
+            <img src="{{ section.settings.box_image | img_url: 'master' }}" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptatibus omnis illum dolores. Obcaecati molestias ullam aliquid, doloremque suscipit reprehenderit assumenda adipisci iusto laborum, veniam aliquam, iure totam sint neque.</p>
             <h2>Russell H</h2>
             <h6>united Kingdom, 1 month ago</h6>
           </div>
           <div class="box_1">
-            <img src="https://cdn-icons-png.flaticon.com/128/2985/2985150.png" alt="">
+            <img src="{{ section.settings.box_image | img_url: 'master' }}" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptatibus omnis illum dolores. Obcaecati molestias ullam aliquid, doloremque suscipit reprehenderit assumenda adipisci iusto laborum, veniam aliquam, iure totam sint neque.</p>
             <h2>Russell H</h2>
             <h6>united Kingdom, 1 month ago</h6>
           </div>
           <div class="box_1">
-            <img src="https://cdn-icons-png.flaticon.com/128/2985/2985150.png" alt="">
+            <img src="{{ section.settings.box_image | img_url: 'master' }}" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptatibus omnis illum dolores. Obcaecati molestias ullam aliquid, doloremque suscipit reprehenderit assumenda adipisci iusto laborum, veniam aliquam, iure totam sint neque.</p>
             <h2>Russell H</h2>
             <h6>united Kingdom, 1 month ago</h6>
@@ -76,14 +76,19 @@
         <div class="swiper-pagination"></div>
       </div>
     </div>
-
   </div>
 </div>
 
 {%- schema -%}
   {
     "name": "slider",
-    "settings": [],
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "box_image",
+        "label": "image_box"
+      }
+    ],
     "presets": [
       {
         "name": "slider"
@@ -120,10 +125,15 @@
 
   .heading {
     margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .heading h1 {
     font-size: 45px;
+    color: #282828;
   }
 
   .box_1 {
@@ -138,8 +148,8 @@
   }
 
   .box_1 img {
-    width: 30px;
-    height: 30px;
+    width: 39px;
+    height: 32px;
   }
 
   .box_1 p {
@@ -149,7 +159,7 @@
 
   .box_1 h2 {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: none;
   }
 
@@ -172,7 +182,7 @@
 
 <script>
     var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 2,
+      slidesPerView: 4,
       centeredSlides: true,
       spaceBetween: 20,
       grabCursor: true,
