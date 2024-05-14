@@ -31,6 +31,7 @@
         "text_PCRqch"
       ],
       "settings": {
+        "banner_background": ""
       }
     },
     "category_slider_LU46Ei": {
@@ -160,6 +161,16 @@
         "img_4": "shopify:\/\/shop_images\/14380b2a0e665f8de5ba745113630712-removebg-preview.png",
         "img_5": "shopify:\/\/shop_images\/8142ba6890f40e396c61518353ef36df-removebg-preview.png"
       }
+    },
+    "certificate_N8JM7b": {
+      "type": "Certificate",
+      "settings": {
+        "heading_image": "shopify:\/\/shop_images\/Vector_20_2.png",
+        "Certificate_1": "shopify:\/\/shop_images\/image_19.png",
+        "Certificate_2": "shopify:\/\/shop_images\/Group_1000004694.png",
+        "Certificate_3": "shopify:\/\/shop_images\/image_21.png",
+        "Certificate_4": "shopify:\/\/shop_images\/image_22.png"
+      }
     }
   },
   "order": [
@@ -169,6 +180,7 @@
     "map",
     "millennium_jewelery_AP9YXh",
     "our_mission_XLE69f",
-    "trusted_by_FUaihx"
+    "trusted_by_FUaihx",
+    "certificate_N8JM7b"
   ]
 }
