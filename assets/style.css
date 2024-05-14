@@ -63,6 +63,9 @@
     line-height: 32px;
     padding: 0 10px;
   }
+  .site-header{
+    background-color: #E1DAD0;
+  }
   @media (max-width: 1200px) {
     .heading-text {
       font-size: 50px;

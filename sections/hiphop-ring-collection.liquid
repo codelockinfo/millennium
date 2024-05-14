@@ -1,0 +1,441 @@
+<link rel="canonical" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+<div class="Collection-grid-section" id="{{ section.id }}">
+  <div class="width-container">
+    <div class="subheading">
+      <p class="hiphop-heading">{{section.settings.subheadp}}</p>
+    </div>
+    <div class="Main-Coll hiphop-collection"> 
+      {% for product in section.settings.collectionproduct.products %}
+        <div class="First-collection">
+          <div class="image-collection">
+            {% if product.featured_image != blank %}
+              <div class="product-img">
+                <a href="{{ product.url }}">
+                  <img src="{{  product.featured_image  | img_url: 'large' }}" class="main-img">
+                  <img src="{{  product.images[1]  | img_url: 'large' }}" class="hover-image ">
+                </a>
+              </div>
+            {% endif %}
+            <div class="product-content-box">
+              <div class="product-title">
+                {{ product.title }}
+              </div>
+              <div class="product-price">{{ product.price | money }}</div>
+
+              <form method="post" action="/cart/add" class="add-to-cart">
+                <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+                <input min="1" type="number" id="quantity" name="quantity" value="1" class="hide">
+                <input type="submit" value="Add to cart" class="btn">
+              </form>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+   <div class="view-all-button">
+    <button class="collection-view-all"><a href="{{section.settings.viewall}}">View all <i class="fa-solid fa-chevron-right c-arrow-icon"></i></a></button>
+   </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "hip hop slider section",
+  "settings": [
+      {
+        "type": "text",
+        "id": "subheadp",
+        "label": "heading" 
+      },
+      {
+        "type": "color",
+        "id": "background",
+        "label": " background color" 
+      },
+    {
+      "id": "collectionproduct",
+      "type": "collection",
+      "label": "Select collection"
+    },
+    {
+      "id": "viewall",
+      "type": "url",
+      "label": "view all collection"
+    }
+  ],
+  "presets": [
+    {
+      "name": "hip hop slider section"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+ 
+  .Collection-grid-section{
+    background-color: {{section.settings.background}};  
+    padding-top:60px;
+    padding-bottom:80px;
+  }
+    .Collection-grid-section .Main-collections{
+      max-width:1400px;
+      width: 100%;
+      margin : auto;
+      padding: 55px 20px;
+     
+    }
+    .First-collection {
+      margin: 0 20px;
+  }
+      .image-collection img {
+      width: 100%;
+
+  }
+      .image-collection {
+      border-radius: 50%;
+
+  }
+   .image-collection .product-img{
+      position: relative;
+     overflow:hidden;
+     tarnsition:all 0.5s;
+  }
+  .hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0; /* Initially hide the second image */
+    transition: opacity 0.3s ease; /* Add a smooth transition effect */
+  }
+
+   .image-collection:hover .hover-image {
+    opacity: 1;
+  }
+    .Main-collections .head h2.heading {
+      font-family: 'sofia-pro';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 55px;
+      text-align: center;
+      color: #95694C;
+      margin: 0 0 50px;
+      letter-spacing: normal;
+  }
+      .First-collection h2.title {
+      font-family: 'sofia-pro-light' !important;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 28px;
+      text-align: center;
+      color: #95694C;
+        margin: 30px 0 0;
+        letter-spacing: normal;
+  }
+      .First-collection h2.title a {
+      color: #95694C;
+  }
+  
+  .image-collection:hover   .product-content-box {
+    text-align: center  ;
+    background-color: #ffffff;
+    padding: 20px 0;
+  }
+  .product-content-box{
+    text-align: center;
+    padding: 20px 0;
+  }
+  .add-to-cart .btn{
+    width: 100%;
+    background-color: transparent !important;
+    border: 2px solid #282828;
+    color:#282828;
+  }
+  .image-collection:hover .add-to-cart .btn{
+    background-color: #D0C272 !important;
+    color: #282828;
+    width: 80%;
+    border: 0 !important;
+  }
+  .collection-view-all{
+    background-color: #282828;
+    padding: 10px 20px;
+    margin-right: 15px;
+    text-align: end;
+  }
+  .collection-view-all a{
+    color: #ffffff;
+  }
+  .c-arrow-icon{
+    margin-left: 5px;
+    font-size: 12px;
+    border: 2px solid #ffffff;
+    padding: 5px 7px;
+    border-radius: 50%;
+  }
+  .view-all-button{
+    text-align:end ;
+    margin-top: 30px;
+  }
+  .hiphop-heading{
+    font-size:' Montserrat Alternates';
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 36px;
+    color:#282828;
+    text-transform: capitalize;
+  }
+    @media(max-width:768px){
+      .Main-collections .head{
+        display: none;
+      }
+      .Collection-grid-section .Main-collections{
+      padding: 40px 20px;
+    }
+      .First-collection h2.title {
+      font-size: 18px;
+      line-height: 23px;
+  }
+    }
+
+      .Collection-grid-section	.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent; }
+
+    .Collection-grid-section	 .slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0; }
+    .Collection-grid-section	 .slick-list:focus {
+      outline: none; }
+      .Collection-grid-section	 .slick-list.dragging {
+      cursor: pointer;
+      cursor: hand; }
+
+      .Collection-grid-section	 .slick-slider .slick-track,
+      .Collection-grid-section	 .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+
+    .Collection-grid-section	 .slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block; }
+    .Collection-grid-section .slick-track:before,.Collection-grid-section	 .slick-track:after {
+      content: "";
+      display: table; }
+      .Collection-grid-section	 .slick-track:after {
+      clear: both; }
+      .Collection-grid-section	 .slick-loading .slick-track {
+      visibility: hidden; }
+
+      .Collection-grid-section	.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: none; }
+    [dir="rtl"] .Collection-grid-section .slick-slide {
+      float: right; }
+    .Collection-grid-section .slick-slide img {
+      display: block; }
+    .Collection-grid-section .slick-slide.slick-loading img {
+      display: none; }
+    .Collection-grid-section .slick-slide.dragging img {
+      pointer-events: none; }
+    .Collection-grid-section .slick-initialized .slick-slide {
+      display: block; }
+    .Collection-grid-section .slick-loading .slick-slide {
+      visibility: hidden; }
+    .Collection-grid-section .slick-vertical .slick-slide {
+      display: block;
+      height: auto;
+      border: 1px solid transparent; }
+
+      .Collection-grid-section	.slick-arrow.slick-hidden {
+    display: none; }
+
+  /*================ Slick Slider Theme ================*/
+  .Collection-grid-section	.slick-loading .slick-list {
+    background: #fff var(--slick-img-url) center center no-repeat; }
+
+  / Icons /
+  / Arrows /
+  .Collection-grid-section	.slick-prev,
+  .Collection-grid-section	.slick-next {
+    position: absolute;
+    display: block;
+    line-height: 0px;
+    font-size: 0px;
+    cursor: pointer;
+    /* background: white; */
+    color: transparent;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    padding: 0;
+    border: none;
+  }
+  /* .Collection-grid-section	.slick-prev:hover, .Collection-grid-section	.slick-prev:focus,
+  .Collection-grid-section	.slick-next:hover,
+  .Collection-grid-section	 .slick-next:focus {
+      background: white;
+      color: blue;
+    } */
+      /* .Collection-grid-section	.slick-prev:hover:before, .Collection-grid-section	.slick-prev:focus:before,
+      .Collection-grid-section	.slick-next:hover:before,
+      .Collection-grid-section	.slick-next:focus:before {
+        opacity: 1;
+      } */
+    /* .Collection-grid-section	.slick-prev.slick-disabled:before,
+    .Collection-grid-section	.slick-next.slick-disabled:before {
+      opacity: 0.25;
+    } */
+    .Collection-grid-section	.slick-prev:before,
+    .Collection-grid-section	.slick-next:before {
+      font-family: "slick-icons, sans-serif";
+      font-size: 18px;
+      line-height: 1;
+      color: #000;
+      opacity: 0.75;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
+
+  .Collection-grid-section	.slick-prev {
+     left: 45%;
+     top:105%;
+     position: absolute;
+     z-index:10;
+     border: 3px solid #282828;
+     border-radius: 50%;
+     width: 35px;
+     height: 35px;
+     color:#282828;
+  }
+    [dir="rtl"]
+      .Collection-grid-section	.slick-prev {
+      left: auto;
+        top:50%;
+      }
+    .Collection-grid-section	.slick-prev:before {
+      content: "\276E";
+    }
+      [dir="rtl"] .Collection-grid-section	.slick-prev:before {
+        content: "\276F";
+      }
+
+  .Collection-grid-section	.slick-next {
+    right: 49%;
+      position: absolute;
+       z-index:10;
+      top:105%;
+      border: 3px solid #282828;
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+      color:#282828;
+  }
+    [dir="rtl"] .Collection-grid-section	.slick-next {
+      left: -25px;
+      right: auto;
+    }
+    .Collection-grid-section	.slick-next:before {
+      content: "\276F";
+    }
+      [dir="rtl"]
+      .Collection-grid-section	.slick-next:before {
+        content: "\276E";
+      }
+      @media (max-width:1500px) {
+    .Collection-grid-section	.slick-prev{
+      left: 45%;
+    }
+    .Collection-grid-section	.slick-next{
+      right: 45%;
+    }
+  }
+  @media (max-width:900px) {
+    .Collection-grid-section	.slick-prev{
+      left: 38%;
+    }
+    .Collection-grid-section	.slick-next{
+      right: 40%;
+    }
+  }
+  @media (max-width: 768px) {
+    .Collection-grid-section	.slick-prev{
+      left: 40%;
+    }
+    .Collection-grid-section	.slick-next{
+      right: 40%;
+    }
+  }
+  @media (max-width: 576px) {
+    .Collection-grid-section	.slick-prev{
+      left: 30%;
+    }
+    .Collection-grid-section	.slick-next{
+      right: 35%;
+    }
+  }
+  @media (max-width: 449px) {
+    .Collection-grid-section	.slick-prev{
+      left: 10%;
+    }
+    .Collection-grid-section	.slick-next{
+      right: 65%;
+    }
+  }
+
+
+</style>
+
+<script>
+  $('.hiphop-collection').slick({
+    infinite: true,
+    arrows: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    prevArrow: "<button type='button' class='slick-prev pull-left arrowidth'></button>",
+    nextArrow: "<button type='button' class='slick-next pull-right arrowidth'></button>",
+    responsive: [
+      {
+        breakpoint: 576,
+        settings: { slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: { 
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: { 
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  });
+</script>
