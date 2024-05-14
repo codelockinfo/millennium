@@ -104,6 +104,15 @@
         "viewall": ""
       }
     },
+    "hiphop_ring_collection_gRUgG4": {
+      "type": "hiphop-ring-collection",
+      "settings": {
+        "subheadp": "Hip Hop Rings",
+        "background": "#f0f0f0",
+        "collectionproduct": "hip-hop-jewelry",
+        "viewall": ""
+      }
+    },
     "map": {
       "type": "map",
       "disabled": true,
@@ -177,6 +186,7 @@
     "banner_custom_section_N3MWmb",
     "category_slider_LU46Ei",
     "collection_slider_section_VnyWwX",
+    "hiphop_ring_collection_gRUgG4",
     "map",
     "millennium_jewelery_AP9YXh",
     "our_mission_XLE69f",
