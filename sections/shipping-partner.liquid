@@ -1,47 +1,51 @@
 <div class="Shipping_partner">
   <div class="Shipping_partner_1">
     <div class="head_img">
-      <div class="side_image">
-        <img src="" alt="">
-      </div>
+      {% if section.settings.heading_side_image != blank %}
+        <div class="side_image">
+          <img src="{{ section.settings.heading_side_image | img_url: 'master' }}" alt="">
+        </div>
+      {% endif %}
       <h1>Shipping Partner</h1>
-      <div class="side_image">
-        <img src="" alt="">
-      </div>
+      {% if section.settings.heading_side_image != blank %}
+        <div class="side_image">
+          <img src="{{ section.settings.heading_side_image | img_url: 'master' }}" alt="">
+        </div>
+      {% endif %}
     </div>
     <div class="shipping_image">
       <div class="box_content_1">
-        <div>
+        <div class="box_image_1">
           <img src="https://s3-alpha-sig.figma.com/img/5595/34d2/f4798250133f5bc49e18f96b77c7d6e9?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=drmz3UyHzp1F0jEXR4UZskKWO3OAjrM9dzTLWsSpf~jdK9vU~vjmB8v~tiWG3c7YICn2ug8rcyRWRo7znZGXsjSu8HJB4GWNbPMh9569Hq9bDeyE~yB1Tz5g935Z4SD7Vlbb8I8sgd7aJgj0~Hc4IGmkwmxlROADUVyZamF73gTE-A-N1pmbJAfIn8iW~DN2z~vIJMgi34uI3qnL-a~wR1mjYtsqUyTpv4vNcRJYE2ZERnqjiFT9CUsMZS8DPSrJrhvew1XQU77X7tZ6esDYA5Ny0s4hw5vQCgNyW5VJyy0lM4o9Yjz4RqgrQfs~zatbbzbrmtkT1vOeeU4ScXtQSg__" alt="">
         </div>
-        <div>
+        <div class="box_img_paragraph">
           <p>Track Your Parce</p>
           <img src="https://cdn-icons-png.flaticon.com/128/1549/1549454.png" alt="">
         </div>
       </div>
-      <div class="box_content_2">
-        <div>
+      <div class="box_content_1">
+        <div class="box_image_2">
           <img src="https://s3-alpha-sig.figma.com/img/552e/2bb6/1a2dc24ec115f0b1e63bd80caf9dbb50?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hIX83k6i78gBJMRBrF1~c8cPMkfzHNgEIuB6A47O-EAkgKMXRzzpfDjTtIMUtFX3sXUsVzTnQLaelhJ5zLGj7qniLd7855-48pCb-k~7JYi9Gh3fv2EZvMNGIMaLenaUzYm-yVIk~oIb7cs~jkqpYwDKiII~8LVTTxnk5b3WQmwOxVmciwNpiTPPFP6b~Zzh-z25iZnCMu3PCyzns57yu3gThrtSMkETX4NMZk7l58eDrMvDHKZsydwSJjNxInIYM2lzQJJnCiMhX-kvmEytpojnyctBM08fVw~Gn3Fom~o1KO3ILmBRSxoq9GZ9PMwnLRpG0F9NUv-ic0nO0dxgGg__" alt="">
         </div>
-        <div>
+        <div class="box_img_paragraph">
           <p>Track Your Parce</p>
           <img src="https://cdn-icons-png.flaticon.com/128/1549/1549454.png" alt="">
         </div>
       </div>
-      <div class="box_content_3">
-        <div>
+      <div class="box_content_1">
+        <div class="box_image_3">
           <img src="https://s3-alpha-sig.figma.com/img/c24e/af2c/28bb8a4d67cf559fa3821c5155a8dc11?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L2X9gsVAX5D2LQP8bcXaDif89zCSomcHi8Q91B1vCjOh~PTF65uXEm8ymAoFdhHYpptfMFDpdYbM7458NPzJLa7Lo1FhXbznjd8O8NJ5xaLZMgfjqHjA014a6beocjlwMEmb3HUvoUIkikiv1e2GfzDMdExGthZ8Vm5J-07EBHmmhuqX03McGdv5hw4SInduaZniKO3wf2MIzExgaBYQBKBoJb2whu4fDN3lSId8oBnRYpiijHp-PqGGd3HzbBmtBzSJWD6s1SGXIt8Y6lm2PD8NnkjMAuKMHNN13mISqaiPuryWfY5L8jO4WMLs7sDTPASSTjl7w4tcX5mU95vBjQ__" alt="">
         </div>
-        <div>
+        <div class="box_img_paragraph">
           <p>Track Your Parce</p>
           <img src="https://cdn-icons-png.flaticon.com/128/1549/1549454.png" alt="">
         </div>
       </div>
-      <div class="box_content_4">
-        <div>
+      <div class="box_content_1">
+        <div class="box_image_4">
           <img src="https://s3-alpha-sig.figma.com/img/a222/d492/bffa9a1dc2f9feac7498a5656cf67c8a?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Qkd3KDBw7LLjmUqPNqgYrTOaL254BII3zqoGQs2MVRhA0adFIkeynFCqwN7ppyMYSI-lVvH8UO-IIi815J0N2RCTo0woJKCmQKyLKApC~UJMX2SVKKOK4CshVDT06Ll8cG2nbxbMnqzZ4SyqWPaJ4rL3S0WAtn1UIvMEq6GpuJk1QJ2F17jmaPzVj0qzi9sE4RxRU-WYKLNBuqtlO4rYJzz0d-20hdLeBz0-kVrVaa5in0F00dz1GNnwoCDsYYztwrxJCOsewrc40z4o8xUZLXqlsuKCeQqbegy-SbFaKlbLi59~9dDeRSrUADQdm5q1H8fB4OSKjAxfOSwXup~~pw__" alt="">
         </div>
-        <div>
+        <div class="box_img_paragraph">
           <p>Track Your Parce</p>
           <img src="https://cdn-icons-png.flaticon.com/128/1549/1549454.png" alt="">
         </div>
@@ -62,7 +66,17 @@
 {%- schema -%}
   {
     "name": "Shipping-partner",
-    "settings": [],
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "bg_image_1",
+        "label": "bg_img"
+      }, {
+        "type": "image_picker",
+        "id": "heading_side_image",
+        "label": "heading_side_image"
+      }
+    ],
     "presets": [
       {
         "name": "Shipping-partner"
@@ -78,6 +92,26 @@
     padding: 0;
   }
 
+  .shipping_video {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .shipping_video video {
+    width: 60%;
+    border: 6px solid white;
+    border-radius: 70px;
+  }
+
+  .side_image {
+    width: 450px;
+    margin-top: 100px;
+  }
+  .side_image img {
+    width: 100%;
+  }
   .Shipping_partner {
     width: 100%;
     height: auto;
@@ -87,8 +121,11 @@
   }
   .Shipping_partner_1 {
     width: 100%;
-    background-image: url("");
+    background-image: url("{{ section.settings.bg_image_1 | img_url: 'master' }}");
     height: auto;
+    background-position: top;
+    margin-top: -102px;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,9 +136,126 @@
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 70px 0;
   }
+  .head_img h1 {
+    font-family: "Italiana";
+    color: #fff;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 83.43px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-top: 100px;
+    text-transform: none;
+  }
+  .shipping_image {
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .box_content_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 225px;
+    height: 225px;
 
+    background-color: #313131;
+  }
+
+  .box_content_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 225px;
+    height: 225px;
+    background-color: #313131;
+  }
+
+  .box_content_3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 225px;
+    height: 225px;
+    background-color: #313131;
+  }
+
+  .box_content_4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 225px;
+    height: 225px;
+    background-color: #313131;
+  }
+
+  .box_image_1 {
+    width: 93.51px;
+    height: 111.22px;
+  }
+
+  .box_image_2 {
+    width: 119.45px;
+    height: 100.84px;
+  }
+
+  .box_image_3 {
+    width: 96.88px;
+    height: 98.56px;
+    border-radius: 14px;
+  }
+
+  .box_image_3 img {
+    border-radius: 14px;
+  }
+
+  .box_image_4 {
+    width: 129.93px;
+    height: 98.56px;
+  }
+  .box_img_paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  .box_img_paragraph p {
+    font-family: "Montserrat Alternates";
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    Color: #777777;
+  }
+  .box_img_paragraph img {
+    width: 24px;
+    height: 24px;
+    filter: invert(50%);
+  }
+
+  .box_content_1:hover {
+    outline: 1px solid white;
+    transition: 0.3s;
+  }
+
+  .box_content_1:hover .box_img_paragraph p {
+    color: white;
+    transition: 0.3s;
+  }
+
+  .box_content_1:hover .box_img_paragraph img {
+    filter: invert(1);
+    transition: 0.3s;
+  }
 </style>
