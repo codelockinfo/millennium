@@ -3,9 +3,11 @@
   <div class="slick-slider">
     {%- for block in section.blocks -%}
       <div class="banner-main-box">
+        {% if block.settings.banner_img != blank %}
         <div class="banner-img-box">
           <img src="{{block.settings.banner_img |  img_url:'master' }}" class="banner-img">
         </div>
+      {% endif %}
         <div class="banner-content">
           <h1 class="banner-heading">{{ block.settings.banner_heading }}</h1>
           <button class="banner-sell-button">
@@ -23,6 +25,13 @@
 {% schema %}
 {
   "name": "banner custom section",
+  "settings": [
+    {
+      "type": "color",
+      "id" : "banner_background",
+      "label":"background color"
+    }
+  ],
   "blocks": [
     {
       "name": " banner slide",
@@ -86,6 +95,7 @@
     align-items: center;
     font-size: 20px;
     position: relative;
+    /* height: 100vh; */
   }
   .banner-content {
     position: absolute;
@@ -149,19 +159,11 @@
     /* line-height: 36px; */
   }
   .banner-slider {
+    background-color: {{section.settings.banner_background}};
     position: relative;
     z-index: 1;
   }
-  .banner-slider::after {
-    position: absolute;
-    width: 85%;
-    height: 100%;
-    background-color: #e1dad0;
-    top: 0;
-    left: 0;
-    content: '';
-    z-index: -1;
-  }
+ 
   / Arrows / .slick-prev:hover,
   .slick-prev:focus,
   .slick-next:hover,
@@ -234,7 +236,8 @@
   .slick-slider .banner-main-box img {
     width: 100%;
     -o-object-fit: contain;
-    object-fit: contain;
+    object-fit: cover;
+    height: 100vh;
   }
 
   @media (max-width: 1600px) {

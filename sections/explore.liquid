@@ -1,22 +1,26 @@
 <div class="explore">
   <div class="w-50">
     <div class="explore-box1">
+      {% if product.featured_image != blank %}
       <div class="explore-img">
         <img src="{{section.settings.explore1 |  img_url:'master' }}" alt="" class="explore_img_1">
         <div class="explore-content">
           <h1>svfkfvkfvfv</h1>
         </div>
       </div>
+    {% endif %}
     </div>
   </div>
   <div class="w-50">
     <div class="explore-box2">
+      {% if product.featured_image != blank %}
       <div class="explore-img">
         <img src="{{section.settings.explore2 |  img_url:'master' }}" alt="" class="explore_img_2">
         <div class="explore-content">
           <h1>svfkfvkfvfv</h1>
         </div>
       </div>
+    {% endif %}
     </div>
   </div>
 </div>
