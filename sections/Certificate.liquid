@@ -1,26 +1,34 @@
 <div class="Certificate_main_1">
-  <div class="banner_image">
-    <img src="{{ section.settings.heading_image | img_url: 'master' }}" alt="">
-  </div>
+  {% if section.settings.heading_image != blank %}
+    <div class="banner_image">
+      <img src="{{ section.settings.heading_image | img_url: 'master' }}" alt="">
+    </div>
+  {% endif %}
   <div class="Certificate_main_2">
     <div class="Certificate_heading">
-
       <h1>Certificate</h1>
-
     </div>
     <div class="Certificate_image">
-      <div class="Certificate_image_1">
-        <img src="{{ section.settings.Certificate_1 | img_url: 'master' }}" alt="">
-      </div>
-      <div class="Certificate_image_2">
-        <img src="{{ section.settings.Certificate_2 | img_url: 'master' }}" alt="">
-      </div>
-      <div class="Certificate_image_3">
-        <img src="{{ section.settings.Certificate_3 | img_url: 'master' }}" alt="">
-      </div>
-      <div class="Certificate_image_4">
-        <img src="{{ section.settings.Certificate_4 | img_url: 'master' }}" alt="">
-      </div>
+      {% if section.settings.Certificate_1 != blank %}
+        <div class="Certificate_image_1">
+          <img src="{{ section.settings.Certificate_1 | img_url: 'master' }}" alt="">
+        </div>
+      {% endif %}
+      {% if section.settings.Certificate_2 != blank %}
+        <div class="Certificate_image_2">
+          <img src="{{ section.settings.Certificate_2 | img_url: 'master' }}" alt="">
+        </div>
+      {% endif %}
+      {% if section.settings.Certificate_3 != blank %}
+        <div class="Certificate_image_3">
+          <img src="{{ section.settings.Certificate_3 | img_url: 'master' }}" alt="">
+        </div>
+      {% endif %}
+      {% if section.settings.Certificate_4 != blank %}
+        <div class="Certificate_image_4">
+          <img src="{{ section.settings.Certificate_4 | img_url: 'master' }}" alt="">
+        </div>
+      {% endif %}
     </div>
   </div>
 </div>
@@ -92,6 +100,7 @@
     margin-bottom: 70px;
     display: flex;
     align-items: center;
+    z-index: 20;
     justify-content: center;
   }
   .Certificate_heading h1 {
@@ -153,6 +162,13 @@
   @media (max-width: 690px) {
     .banner_image {
       display: none;
+    }
+  }
+
+  @media (max-width: 425px) {
+
+    .Certificate_heading h1 {
+      font-size: 35px;
     }
   }
 </style>
