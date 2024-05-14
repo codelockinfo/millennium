@@ -1,28 +1,52 @@
 <div class="main_div">
   <div class="bg_image">
     <div class="video_section">
-      <video src="https://s3-figma-videos-production-sig.figma.com/video/1279519040122898043/TEAM/f35e/d146/-64b2-4232-a650-dd4b0302e4cb?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OKPmFjBlJB~pHT5qrmn-syJLBFA2rDm0j1ybifFYvR9ckRWROAiysZ8znOcOtp7feXUBiSjbnd-PHx91jMHzcTBYbi8JvuPMqba5eCzO7JQ-xKAV7qJXmK1XqG-1Gu2fzo5xr4xvi9fagBTApal2yOCIlZKT67mvutx7ab5d4Pk9koGC-qB1L78TfUQkpdJG0Fjte8ClsFAuZi7O5vZVxLNYXT36h3FgGrQhiIo25JgcHZJjlF9n2eTYlTW~i~Hv5U-u753-6dQZ~h677SIJ-eSLhQbhK0FjTf37WTVLQXs0pYwMUo9xrEM1x3johYKt0aYRmOTdJsgbnhbhWXqB-Q__"></video>
+      <video
+        src="{{ section.settings.video_url }}"
+        controls
+        autoplay
+        muted
+        loop></video>
     </div>
     <div class="trusted_by">
-      <img src="" alt="">
+      {% if section.settings.trusted_by_image != blank %}
+        <div class="main_image_1">
+          <img src="{{ section.settings.trusted_by_image | img_url: 'master' }}" alt="">
+        </div>
+      {% endif %}
       <h1>Trusted by</h1>
+      {% if section.settings.trusted_by_image != blank %}
+        <div class="main_image_1">
+          <img src="{{ section.settings.trusted_by_image | img_url: 'master' }}" alt="">
+        </div>
+      {% endif %}
     </div>
     <div class="images">
-      <div class="img_box1">
-        <img src="https://s3-alpha-sig.figma.com/img/e440/6773/2872272c47209e71c6591b6e20091e4c?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pMdDQmJXzgncgO2h1S6R5rGIXG~h-lTvKOnHbvGPPBEkauSlQYR77spGNuN7a5zoFMSX9uPvsP8t4HonzacIUGzPN8rfWv~EY-IYjKmLckXI4pKTKOEBRBbU9B2WLqWPDCoq9K0b3S8nQFK7qndzrPWoG~2rSorjxhZ6tXgJnmEhllcmGNrSyKeSSUGBSTwsr8yRn8nIJr~DdC35Z4C0WuQGd7hmgtA~ZpP30tzJuEXchi3DNNQGKFUGWD~TdhtDBbobYtcoceqT5LOKN8-9i9gj75bJsjH1YjvrlWk9K1kyRXcTXo7iSeaHxv3V52zI8H7buoXHJa~rAUh7ixuzFg__" alt="">
-      </div>
-      <div class="img_box1">
-        <img src="https://s3-alpha-sig.figma.com/img/d73c/5e41/0c28e22aa98bbdbca1b5c042413c6ca9?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b4sTtplqTySSipvgKK4-~HYIdOLooxsOQnKrkixiFo1u15GZfnneJuEOB9qgC~FrCVceTP0DR1opv9o~JeS3BypTJcSdBVoxMpoA0DPUNwgzCbKfbTOL5EImNGXc~ac5HFTe9Hhfk9D~b9wxqZXsH8bXx2YoPZ2~jPNI3~ERfWkiPjnOfKYq2tGawCtcRmcHXDepgEuSK-HzhiTNOHUbJXBmmig~Z0zB03zLJ88Zerv974aTATfun3qkQBSyaBs6n-i0Fn4M4nugrsBMU8p87hjWnJINLXOfS8lEGpTQVTJeB-STOebOmCaXmsA1vbIjrJKrrRHGpdpfLpNJ31ZqEQ__" alt="">
-      </div>
-      <div class="img_box1">
-        <img src="https://s3-alpha-sig.figma.com/img/2aa6/c8c2/ea475abb89993637851c39d473e3a58a?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IF~r2T7sn5cFBGlv91dGzEKrrH~iy4DyXhdLCojR1iVM3dTyDA5HwILnIUyjzY2GPUCafkFeFKCxAyHd7ORqKm8O7i~~wLnaZ~NYx3b95kbLB2jPmWQZvgwI8Ghw9QHbD4bhGrLOORuA1Es0jKvJd7z9ucmuFVrQ5d-Z4KJRzM3voqzlzCK1ixAmirw0mOz8-weXbbDltlw5c5O5LfpwuI6prNA-bwjhZwjXv49vI18uJaDbdtmWhXnl-W8VBrFH5raMeJeKLWSU5bIHxjyfqPBVkV9zxd-ve~rqGNPuohhqXGhbjZL8V0pPr7B-T~bE6rGrwfP6xlIJ2rDQexgpIA__" alt="">
-      </div>
-      <div class="img_box1">
-        <img src="https://s3-alpha-sig.figma.com/img/ce3c/2345/14380b2a0e665f8de5ba745113630712?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OzYB9xcaHmh3t3XtTszWhiKj7GsTTl39tEus8Q3J9XSiAaDz60~i8RXIp5P1DdYJvTBSbhf-cy3w5zQ-Te3HG2-pmNjZcm9VJmxUT42uHCNKyjW4VFLSHJsVGt8fYkkw7G62pLrYy1SeMGnhuKlspoBjKipGWxlAYhzy~FgMGXGf7mUhlTDfsBYhyaHXzb-TtwOTucQT2T9RBk~9AZg44RQg2l92wq4K~aXMMJGlFn9XIEQQrVpPvSj8Hi4kfGocB0a3YYmDOEoT4J8ebaV1RvIVDRuH1Y5OUSnWsJRA0cdQw4kTg8RkppQ2mQmLCa2CdBGnvZUs9Ius1oe3A1LWMg__" alt="">
-      </div>
-      <div class="img_box1">
-        <img src="https://s3-alpha-sig.figma.com/img/a9d2/a69b/8142ba6890f40e396c61518353ef36df?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JV-pJYRG2YTRa2J2csxvpUHH-62sPIUA~OhMKLpFtttlDc~pfDL6hnOMm8mkFVHmBvjVf4q05Ds7DH6WlzkGqpNSM3Zn1m2NbDe8A-hsRidpIJfz2-uOsWxBFAJE3i9oPFYYXTgYOJ4QRNaBl~rMEQSi5-QQ~rl1oBeLoiIy~~khV3daorC5UWEcgX5R3uB~XnJA7rBE7lCYT2MtldCeZS7HJJVNadZONBHa0M7FPESmae9p-4XRDH45ziWZ-~UD61QBq0qplVjXdOLhXCZTnmdiDNKrs6FPjlU6a-9azEb8blhL6vBwyoEF9-CYmMMg4wrNUC7sk6NESb9CyeXZ-A__" alt="">
-      </div>
+      {% if section.settings.img_1 != blank %}
+        <div class="img_box1">
+          <img src="{{ section.settings.img_1 | img_url: 'master' }}" alt="">
+        </div>
+      {% endif %}
+      {% if section.settings.img_2 != blank %}
+        <div class="img_box2">
+          <img src="{{ section.settings.img_2 | img_url: 'master' }}" alt="">
+        </div>
+      {% endif %}
+      {% if section.settings.img_3 != blank %}
+        <div class="img_box3">
+          <img src="{{ section.settings.img_3 | img_url: 'master' }}" alt="">
+        </div>
+      {% endif %}
+      {% if section.settings.img_4 != blank %}
+        <div class="img_box4">
+          <img src="{{ section.settings.img_4 | img_url: 'master' }}" alt="">
+        </div>
+      {% endif %}
+      {% if section.settings.img_5 != blank %}
+        <div class="img_box5">
+          <img src="{{ section.settings.img_5 | img_url: 'master' }}" alt="">
+        </div>
+      {% endif %}
     </div>
   </div>
 </div>
@@ -32,7 +56,46 @@
   {
     "name": "Testimonial",
     "settings": [
-     
+      {
+        "type": "video",
+        "id": "video_url",
+        "label": "video_watch"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "heading"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_bg",
+        "label": "image_bg"
+      },
+      {
+        "type": "image_picker",
+        "id": "trusted_by_image",
+        "label": "trusted_by_image"
+      }, {
+        "type": "image_picker",
+        "id": "img_1",
+        "label": "img_1"
+      }, {
+        "type": "image_picker",
+        "id": "img_2",
+        "label": "img_2"
+      }, {
+        "type": "image_picker",
+        "id": "img_3",
+        "label": "img_3"
+      }, {
+        "type": "image_picker",
+        "id": "img_4",
+        "label": "img_4"
+      }, {
+        "type": "image_picker",
+        "id": "img_5",
+        "label": "img_5"
+      }
     ],
     "presets": [
       {
@@ -51,39 +114,203 @@
 
   .main_div {
     width: 100%;
-    height: 100%;
+    height: auto;
+    margin-top: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: rgb(255, 255, 255);
   }
 
-  .video_section video {
-    width: 200px;
+  .video_section {
+    width: 100%;
+    display: flex;
+    margin-top: -250px;
+    align-items: center;
+    justify-content: center;
   }
+
+  .video_section video {
+    width: 60%;
+    border: 6px solid white;
+    border-radius: 70px;
+  }
+
   .bg_image {
     width: 100%;
-    height: 700px;
+    height: auto;
+    background-image: url("{{ section.settings.image_bg | img_url: 'master' }}");
+    background-position: top;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
 
+  .images {
+    width: 100%;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
   .img_box1 {
     width: 150px;
-    height: 100px;
-    background: #D9D9D9;
-    gap: 10px;
-  }
-  .img_box1 img {
-    width: 70px;
     height: 70px;
-
-  }
-  .images {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #D9D9D9;
+  }
+
+  .img_box1 img {
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img_box2 {
+    width: 150px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+  }
+
+  .img_box2 img {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 57px;
+  }
+
+  .img_box3 {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: #D9D9D9;
+  }
+
+  .img_box3 img {
+    width: 107px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+  }
+
+  .img_box4 {
+    width: 150px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+  }
+
+  .img_box4 img {
+    width: 60px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img_box5 {
+    width: 150px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+  }
+
+  .img_box5 img {
+    width: 60px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .main_image_1 {
+    width: 400px;
+  }
+
+  .main_image_1 img {
+    width: 100%;
+  }
+
+  .trusted_by {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    justify-content: center;
+  }
+
+  .trusted_by h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+
+
+  @media (max-width: 1024px) {
+    .video_section {
+      margin-top: -175px;
+    }
+
+    .video_section video {
+      width: 65%;
+      border-radius: 40px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .video_section {
+      margin-top: -160px;
+    }
+
+    .video_section video {
+      width: 75%;
+      border-radius: 35px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .video_section {
+      margin-top: -110px;
+    }
+
+    .video_section video {
+      width: 90%;
+      border-radius: 25px;
+    }
+  }
+
+  @media (max-width: 321px) {
+    .video_section {
+      margin-top: -80px;
+    }
+
+    .video_section video {
+      width: 95%;
+      border-radius: 15px;
+    }
   }
 </style>

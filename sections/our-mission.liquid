@@ -19,36 +19,44 @@
       <div class="item">
 
         <div class="image_content_1">
-          <div class="img_1">
-            <img src="{{ section.settings.Commitment_img_1 | img_url: 'master' }}" alt="">
-          </div>
+          {% if section.settings.Commitment_img_1 != blank %}
+            <div class="img_1">
+              <img src="{{ section.settings.Commitment_img_1 | img_url: 'master' }}" alt="">
+            </div>
+          {% endif %}
           <div class="para_1">
             <p>{{ section.settings.Commitment_para_1 }}</p>
           </div>
         </div>
 
         <div class="image_content_1">
-          <div class="img_1">
-            <img src="{{ section.settings.Commitment_img_2 | img_url: 'master' }}" alt="">
-          </div>
+          {% if section.settings.Commitment_img_2 != blank %}
+            <div class="img_1">
+              <img src="{{ section.settings.Commitment_img_2 | img_url: 'master' }}" alt="">
+            </div>
+          {% endif %}
           <div class="para_1">
             <p>{{ section.settings.Commitment_para_2 }}</p>
           </div>
         </div>
 
         <div class="image_content_1">
-          <div class="img_1">
-            <img src="{{ section.settings.Commitment_img_3 | img_url: 'master' }}" alt="">
-          </div>
+          {% if section.settings.Commitment_img_3 != blank %}
+            <div class="img_1">
+              <img src="{{ section.settings.Commitment_img_3 | img_url: 'master' }}" alt="">
+            </div>
+          {% endif %}
           <div class="para_1">
             <p>{{ section.settings.Commitment_para_3 }}</p>
           </div>
         </div>
 
         <div class="image_content_1">
-          <div class="img_1">
-            <img src="{{ section.settings.Commitment_img_4 | img_url: 'master' }}" alt="">
-          </div>
+          {% if section.settings.Commitment_img_4 != blank %}
+            <div class="img_1">
+              <img src="{{ section.settings.Commitment_img_4 | img_url: 'master' }}" alt="">
+            </div>
+          {% endif %}
           <div class="para_1">
             <p>{{ section.settings.Commitment_para_4 }}</p>
           </div>

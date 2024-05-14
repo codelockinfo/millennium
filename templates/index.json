@@ -85,7 +85,7 @@
         "text_fAL8xq"
       ],
       "settings": {
-        "headingtext": "",
+        "headingtext": "<p>our category<\/p>",
         "background": "#f0f0f0",
         "png_1": "shopify:\/\/shop_images\/Vector_20_2.png",
         "png_2": "shopify:\/\/shop_images\/Vector_20_2.png"
@@ -99,7 +99,8 @@
         "subhead": "<p>Moissanite Watch<\/p>",
         "subheadp": "Introducing the epitome of elegance and innovation: the Moissanite Watch. Crafted with precision and adorned with the brilliance of lab-created Moissanite gems, this timepiece redefines luxury. Each watch is a testament to sophistication, featuring a sleek design and unparalleled sparkle.",
         "background": "#eaeaea",
-        "collectionproduct": "latest-products"
+        "collectionproduct": "iced-out-watches",
+        "viewall": ""
       }
     },
     "map": {
@@ -145,6 +146,20 @@
         "Commitment_img_4": "shopify:\/\/shop_images\/5790545.png",
         "Commitment_para_4": "World Wide <br>  Presence"
       }
+    },
+    "trusted_by_FUaihx": {
+      "type": "trusted-by",
+      "settings": {
+        "video_url": "shopify:\/\/files\/videos\/01.mp4",
+        "heading": "Trusted by",
+        "image_bg": "shopify:\/\/shop_images\/Ellipse_5.png",
+        "trusted_by_image": "shopify:\/\/shop_images\/Vector_23_aeb8b8f4-6296-422b-b52b-20ce593e645f.png",
+        "img_1": "shopify:\/\/shop_images\/2872272c47209e71c6591b6e20091e4c.png",
+        "img_2": "shopify:\/\/shop_images\/0c28e22aa98bbdbca1b5c042413c6ca9-removebg-preview.png",
+        "img_3": "shopify:\/\/shop_images\/ea475abb89993637851c39d473e3a58a.png",
+        "img_4": "shopify:\/\/shop_images\/14380b2a0e665f8de5ba745113630712-removebg-preview.png",
+        "img_5": "shopify:\/\/shop_images\/8142ba6890f40e396c61518353ef36df-removebg-preview.png"
+      }
     }
   },
   "order": [
@@ -153,6 +168,7 @@
     "collection_slider_section_VnyWwX",
     "map",
     "millennium_jewelery_AP9YXh",
-    "our_mission_XLE69f"
+    "our_mission_XLE69f",
+    "trusted_by_FUaihx"
   ]
 }
