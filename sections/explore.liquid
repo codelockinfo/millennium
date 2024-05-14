@@ -1,11 +1,13 @@
 <div class="explore">
   <div class="w-50">
     <div class="explore-box1">
-      {% if product.featured_image != blank %}
+      {% if section.settings.explore2 != blank %}
       <div class="explore-img">
         <img src="{{section.settings.explore1 |  img_url:'master' }}" alt="" class="explore_img_1">
         <div class="explore-content">
-          <h1>svfkfvkfvfv</h1>
+          <h1>Moissanite Cuban Chain</h1>
+          <p>Cuban Chain: Cuban Craftsmanship, Unmatched Elegance</p>
+          <button><a href="#">Explore More &nbsp; <i class="fa-solid fa-angle-right c-arrow-icon"></i></a></button>
         </div>
       </div>
     {% endif %}
@@ -13,7 +15,7 @@
   </div>
   <div class="w-50">
     <div class="explore-box2">
-      {% if product.featured_image != blank %}
+      {% if section.settings.explore2 != blank %}
       <div class="explore-img">
         <img src="{{section.settings.explore2 |  img_url:'master' }}" alt="" class="explore_img_2">
         <div class="explore-content">
@@ -38,6 +40,11 @@
       "type": "image_picker",
       "id": "explore2",
       "label": "explore img 2"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "background color"
     }
   ],
 
@@ -52,10 +59,11 @@
 <style>
   .explore .explore-box1,.explore-box2 {
     position: relative;
-    object-fit: cover;
+    object-fit: contain;
   }
   .explore {
     display: flex;
+    background-color: {{section.settings.background_color}};
   }
   .explore .explore-content {
     position: absolute;
@@ -64,8 +72,11 @@
     padding: 30px;
     left: 40%;
   }
+  .explore-box1 {
+    margin-right: 5px;
+  }
   .explore-box2 {
-    margin-left: 10px;
+    margin-left: 5px;
   }
   .w-50 {
     width: 50%;

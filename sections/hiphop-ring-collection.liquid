@@ -5,18 +5,10 @@
 
 <div class="Collection-grid-section" id="{{ section.id }}">
   <div class="width-container">
-    <div class="common-heading ">
-      <div class="section-header">
-        <h2 class="heading-text">{{ section.settings.headingtext }}</h2>
-        <P class="sub-heading-p">{{section.settings.sub_p}}</P>
-      </div>
-    </div>
     <div class="subheading">
-      <h1 class="sub-heading-h1">{{section.settings.subhead}}</h1>
-      <p class="sub-heading-p2">{{section.settings.subheadp}}</p>
+      <p class="hiphop-heading">{{section.settings.subheadp}}</p>
     </div>
-    <div class="Main-Coll Collection-cls">
-     
+    <div class="Main-Coll hiphop-collection"> 
       {% for product in section.settings.collectionproduct.products %}
         <div class="First-collection">
           <div class="image-collection">
@@ -52,27 +44,12 @@
 
 {% schema %}
 {
-  "name": "collection slider section",
+  "name": "hip hop slider section",
   "settings": [
-      {
-        "type": "richtext",
-        "id": "headingtext",
-        "label": "Heading text" 
-      },
-      {
-        "type": "text",
-        "id": "sub_p",
-        "label": "paragraph text" 
-      },
-      {
-        "type": "richtext",
-        "id": "subhead",
-        "label": "sub heading text" 
-      },
       {
         "type": "text",
         "id": "subheadp",
-        "label": "sub paragraph text" 
+        "label": "heading" 
       },
       {
         "type": "color",
@@ -92,7 +69,7 @@
   ],
   "presets": [
     {
-      "name": "collection slider section"
+      "name": "hip hop slider section"
     }
   ]
 }
@@ -174,7 +151,6 @@
     text-align: center;
     padding: 20px 0;
   }
- 
   .collection-view-all{
     background-color: #282828;
     padding: 10px 20px;
@@ -184,10 +160,25 @@
   .collection-view-all a{
     color: #ffffff;
   }
-
+  .c-arrow-icon{
+    margin-left: 5px;
+    font-size: 12px;
+    border: 2px solid #ffffff;
+    padding: 5px 7px;
+    border-radius: 50%;
+  }
   .view-all-button{
     text-align:end ;
     margin-top: 30px;
+  }
+  .hiphop-heading{
+    font-family:'Montserrat Alternates';
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 36px;
+    color:#282828;
+    text-transform: capitalize;
+    margin-bottom: 30px;
   }
     @media(max-width:768px){
       .Main-collections .head{
@@ -392,6 +383,9 @@
     .Collection-grid-section	.slick-next{
       right: 35%;
     }
+    .hiphop-heading{
+      text-align: center;
+    }
   }
   @media (max-width: 449px) {
     .Collection-grid-section	.slick-prev{
@@ -406,7 +400,7 @@
 </style>
 
 <script>
-  $('.Collection-cls').slick({
+  $('.hiphop-collection').slick({
     infinite: true,
     arrows: true,
     slidesToShow: 4,

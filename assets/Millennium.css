@@ -54,6 +54,7 @@
     line-height: 32px;
     font-weight: 500;
     color: #282828;
+    font-family: 'Fira Sans';
   }
   .product-title{
     font-family: 'Fira Sans';
@@ -62,6 +63,44 @@
     color: #000000;
     line-height: 32px;
     padding: 0 10px;
+  }
+  .site-header{
+    background-color: #E1DAD0;
+  }
+  .site-nav__link{
+    color: #282828;
+    font-family: 'Montserrat Alternates' ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.26px;
+    text-align: center;
+  }
+  .add-to-cart .btn{
+    width: 100%;
+    background-color: transparent !important;
+    border: 2px solid #282828;
+    color:#282828;
+    font-family: 'Fira Sans';
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  }
+  .image-collection:hover .add-to-cart .btn{
+    background-color: #D0C272 !important;
+    color: #282828;
+    width: 80%;
+    border: 0 !important;
+  }
+  .c-arrow-icon{
+    margin-left: 5px;
+    font-size: 12px;
+    border: 2px solid #ffffff;
+    padding: 5px 7px;
+    border-radius: 50%;
+  }
+
+  @font-face {
+    font-family: 'Italiana';
+    src: url(https://cdn.shopify.com/s/files/1/0571/2825/5601/files/Italiana-Regular.woff2?v=1715669580);
   }
   @media (max-width: 1200px) {
     .heading-text {
