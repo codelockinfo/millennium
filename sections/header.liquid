@@ -130,7 +130,7 @@
             {%- endif -%}
 
             {%- if logo_alignment == 'center' -%}
-              {% comment %} <div class="header-item header-item--left header-item--navigation">
+               <div class="header-item header-item--left header-item--navigation">
                 {%- if section.settings.main_menu_alignment == 'center' or section.settings.main_menu_alignment == 'center-split' -%}
                   {%- if settings.search_enable -%}
                     <div class="site-nav small--hide 11111">
@@ -155,7 +155,7 @@
                     <span class="icon__fallback-text">{{ 'general.drawers.navigation' | t }}</span>
                   </button>
                 </div>
-              </div> {% endcomment %}
+              </div> 
 
               {%- if section.settings.main_menu_alignment == 'center-split' -%}
                 {%- render 'header-split-nav', main_menu: main_menu, section: section, dropdown_alignment: dropdown_alignment -%}
