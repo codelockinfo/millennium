@@ -101,7 +101,7 @@
         "subheadp": "Introducing the epitome of elegance and innovation: the Moissanite Watch. Crafted with precision and adorned with the brilliance of lab-created Moissanite gems, this timepiece redefines luxury. Each watch is a testament to sophistication, featuring a sleek design and unparalleled sparkle.",
         "background": "#eaeaea",
         "collectionproduct": "iced-out-watches",
-        "viewall": "",
+        "viewall": "shopify:\/\/collections\/mens-watches",
         "button_text": "View All"
       }
     },
@@ -143,8 +143,8 @@
         "subheadp": "Hip Hop Rings",
         "background": "#f0f0f0",
         "collectionproduct": "hip-hop-jewelry",
-        "viewall": "",
-        "button_text": ""
+        "viewall": "shopify:\/\/collections\/hip-hop-jewelry",
+        "button_text": "View All"
       }
     },
     "millennium_jewelery_AP9YXh": {
