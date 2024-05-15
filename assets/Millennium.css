@@ -187,9 +187,7 @@
   height: 100px !important;
   padding-bottom: 0 !important;
 }
-
-
-.footer__newsletter .footer__newsletter-input {
+.footer__collapsible p {
   font-family: "Montserrat Alternates";
   font-size: 16px;
 }
@@ -202,7 +200,11 @@
   text-align: left;
 
 }
-
+.footer_box{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
 
 
