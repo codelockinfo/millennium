@@ -76,7 +76,8 @@
     line-height: 20.26px;
     text-align: center;
     text-transform: capitalize;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
+    padding: 7.5px 10px;
   }
   .add-to-cart .btn{
     width: 100%;
@@ -121,7 +122,25 @@
     background-color: #D0C272;
 }
 #SiteHeader .page-width{
-  max-width:1600px;
+  max-width:1650px;
+  padding: 0;
+}
+.header-item--split-right{
+  justify-content: end;
+}
+.header-layout{
+  background: #F0F0F0;
+  border-radius: 49.88px;
+  padding: 0 30px;
+}
+.header-item--split-left{
+  justify-content: start;
+}
+.header-wrapper.is-light .site-nav__link:hover{
+  color:#282828;
+}
+.icon-hamburger.icon{
+  color:#282828;
 }
   @font-face {
     font-family: 'Italiana';
@@ -178,4 +197,12 @@
     .subheading .sub-heading-h1{
       font-size:24px ;
     }
+}
+@media  only screen and (min-width: 769px){
+  .header-item--navigation{
+    display: none;
+  }
+  .header-layout[data-logo-align=center] .header-item--logo{
+    margin: 0;
+  }
 }
