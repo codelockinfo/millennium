@@ -74,17 +74,19 @@
 {% endschema %}
 
 <style>
-  .explore .explore-box1,.explore-box2 {
+  .explore .explore-box1 {
     position: relative;
     object-fit: contain;
+    background-color: #f0f0f0;
   }
   .explore {
     display: flex;
     background-color: {{section.settings.background_color}};
+    flex-wrap: wrap;
   }
   .explore .explore-content {
     position: absolute;
-    background-color: #faf7ed;
+    background: linear-gradient(180deg, #FAF7ED 0%, #F0F0F0 100%);
     bottom: -15%;
     padding: 20px 10px ;
     left:15%;
@@ -133,7 +135,7 @@
   .explore .content-p{
     font-size: 18px;
   }
-
+ 
   }
   @media (max-width:1175px) {
     .explore .content-heading{
@@ -149,22 +151,38 @@
     .explore .w-50{
       width: 100% !important;
     }
-    .explore{
-      display: block;
-    }
+  
+    .explore-box1{
+  padding-bottom: 80px;
+ }
     .explore .explore-content {
     bottom: 0;
     /* left:20%;
     right: 20%;*/
   }
-  .explore-box1 {
-    margin-right: 0;
+
   }
-  .explore-box2 {
-    margin-left: 0;
-  }
+  @media (max-width:680px) {
+    .explore-box1{
+  padding-bottom: 100px;
+ }
+
   }
   @media (max-width:600px) {
+  
+   
+    .explore .content-heading{
+    line-height: normal;
+  }
+    .explore .content-p{
+    line-height: normal;
+  }
+  }
+  @media (max-width:400px) {
+  
+  .explore-box1{
+  padding-bottom: 0px;
+ }
     .explore .explore-content{
       position: static;
     }
