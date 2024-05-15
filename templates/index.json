@@ -210,10 +210,37 @@
             "box_content": "Track Your Parce",
             "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
           }
+        },
+        "text_6VLPH9": {
+          "type": "text",
+          "settings": {
+            "box_image_1": "shopify:\/\/shop_images\/1a2dc24ec115f0b1e63bd80caf9dbb50.png",
+            "box_content": "Track Your Parce",
+            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
+          }
+        },
+        "text_mL3gaA": {
+          "type": "text",
+          "settings": {
+            "box_image_1": "shopify:\/\/shop_images\/image_16.png",
+            "box_content": "Track Your Parce",
+            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
+          }
+        },
+        "text_zqNcTM": {
+          "type": "text",
+          "settings": {
+            "box_image_1": "shopify:\/\/shop_images\/bffa9a1dc2f9feac7498a5656cf67c8a.png",
+            "box_content": "Track Your Parce",
+            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
+          }
         }
       },
       "block_order": [
-        "text_hKYC7N"
+        "text_hKYC7N",
+        "text_6VLPH9",
+        "text_mL3gaA",
+        "text_zqNcTM"
       ],
       "settings": {
         "bg_image_1": "shopify:\/\/shop_images\/Ellipse_6_1.png",
