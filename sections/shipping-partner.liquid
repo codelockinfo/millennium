@@ -6,7 +6,7 @@
           <img src="{{ section.settings.heading_side_image | img_url: 'master' }}" alt="">
         </div>
       {% endif %}
-      <h1>Shipping Partner</h1>
+      <h1>{{ section.settings.header }}</h1>
       {% if section.settings.heading_side_image != blank %}
         <div class="side_image">
           <img src="{{ section.settings.heading_side_image | img_url: 'master' }}" alt="">
@@ -14,46 +14,25 @@
       {% endif %}
     </div>
     <div class="shipping_image">
-      <div class="box_content_1">
-        <div class="box_image_1">
-          <img src="https://s3-alpha-sig.figma.com/img/5595/34d2/f4798250133f5bc49e18f96b77c7d6e9?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=drmz3UyHzp1F0jEXR4UZskKWO3OAjrM9dzTLWsSpf~jdK9vU~vjmB8v~tiWG3c7YICn2ug8rcyRWRo7znZGXsjSu8HJB4GWNbPMh9569Hq9bDeyE~yB1Tz5g935Z4SD7Vlbb8I8sgd7aJgj0~Hc4IGmkwmxlROADUVyZamF73gTE-A-N1pmbJAfIn8iW~DN2z~vIJMgi34uI3qnL-a~wR1mjYtsqUyTpv4vNcRJYE2ZERnqjiFT9CUsMZS8DPSrJrhvew1XQU77X7tZ6esDYA5Ny0s4hw5vQCgNyW5VJyy0lM4o9Yjz4RqgrQfs~zatbbzbrmtkT1vOeeU4ScXtQSg__" alt="">
+      {%- for block in section.blocks -%}
+        <div class="box_content_1">
+          {% if block.settings.box_image_1 != blank %}
+            <div class="box_image_1">
+              <img src="{{block.settings.box_image_1 | img_url: 'master'}}" alt="">
+            </div>
+          {% endif %}
+          <div class="box_img_paragraph">
+            <p>{{ block.settings.box_content }}</p>
+            {% if block.settings.box_arrow != blank %}
+              <img src="{{block.settings.box_arrow | img_url: 'master'}}" alt="">
+            {% endif %}
+          </div>
         </div>
-        <div class="box_img_paragraph">
-          <p>Track Your Parce</p>
-          <img src="https://cdn-icons-png.flaticon.com/128/1549/1549454.png" alt="">
-        </div>
-      </div>
-      <div class="box_content_1">
-        <div class="box_image_2">
-          <img src="https://s3-alpha-sig.figma.com/img/552e/2bb6/1a2dc24ec115f0b1e63bd80caf9dbb50?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hIX83k6i78gBJMRBrF1~c8cPMkfzHNgEIuB6A47O-EAkgKMXRzzpfDjTtIMUtFX3sXUsVzTnQLaelhJ5zLGj7qniLd7855-48pCb-k~7JYi9Gh3fv2EZvMNGIMaLenaUzYm-yVIk~oIb7cs~jkqpYwDKiII~8LVTTxnk5b3WQmwOxVmciwNpiTPPFP6b~Zzh-z25iZnCMu3PCyzns57yu3gThrtSMkETX4NMZk7l58eDrMvDHKZsydwSJjNxInIYM2lzQJJnCiMhX-kvmEytpojnyctBM08fVw~Gn3Fom~o1KO3ILmBRSxoq9GZ9PMwnLRpG0F9NUv-ic0nO0dxgGg__" alt="">
-        </div>
-        <div class="box_img_paragraph">
-          <p>Track Your Parce</p>
-          <img src="https://cdn-icons-png.flaticon.com/128/1549/1549454.png" alt="">
-        </div>
-      </div>
-      <div class="box_content_1">
-        <div class="box_image_3">
-          <img src="https://s3-alpha-sig.figma.com/img/c24e/af2c/28bb8a4d67cf559fa3821c5155a8dc11?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L2X9gsVAX5D2LQP8bcXaDif89zCSomcHi8Q91B1vCjOh~PTF65uXEm8ymAoFdhHYpptfMFDpdYbM7458NPzJLa7Lo1FhXbznjd8O8NJ5xaLZMgfjqHjA014a6beocjlwMEmb3HUvoUIkikiv1e2GfzDMdExGthZ8Vm5J-07EBHmmhuqX03McGdv5hw4SInduaZniKO3wf2MIzExgaBYQBKBoJb2whu4fDN3lSId8oBnRYpiijHp-PqGGd3HzbBmtBzSJWD6s1SGXIt8Y6lm2PD8NnkjMAuKMHNN13mISqaiPuryWfY5L8jO4WMLs7sDTPASSTjl7w4tcX5mU95vBjQ__" alt="">
-        </div>
-        <div class="box_img_paragraph">
-          <p>Track Your Parce</p>
-          <img src="https://cdn-icons-png.flaticon.com/128/1549/1549454.png" alt="">
-        </div>
-      </div>
-      <div class="box_content_1">
-        <div class="box_image_4">
-          <img src="https://s3-alpha-sig.figma.com/img/a222/d492/bffa9a1dc2f9feac7498a5656cf67c8a?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Qkd3KDBw7LLjmUqPNqgYrTOaL254BII3zqoGQs2MVRhA0adFIkeynFCqwN7ppyMYSI-lVvH8UO-IIi815J0N2RCTo0woJKCmQKyLKApC~UJMX2SVKKOK4CshVDT06Ll8cG2nbxbMnqzZ4SyqWPaJ4rL3S0WAtn1UIvMEq6GpuJk1QJ2F17jmaPzVj0qzi9sE4RxRU-WYKLNBuqtlO4rYJzz0d-20hdLeBz0-kVrVaa5in0F00dz1GNnwoCDsYYztwrxJCOsewrc40z4o8xUZLXqlsuKCeQqbegy-SbFaKlbLi59~9dDeRSrUADQdm5q1H8fB4OSKjAxfOSwXup~~pw__" alt="">
-        </div>
-        <div class="box_img_paragraph">
-          <p>Track Your Parce</p>
-          <img src="https://cdn-icons-png.flaticon.com/128/1549/1549454.png" alt="">
-        </div>
-      </div>
+      {% endfor %}
     </div>
     <div class="shipping_video">
       <video
-        src="https://s3-figma-videos-production-sig.figma.com/video/1279519040122898043/TEAM/2b2a/2e3a/-1a18-4279-b641-7b57853a37c6?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hDFPpqdEJQXPz6-7zlMKkjpmDD5t3J~1oWe0C095Lp~kAyX7n4NNNFDEbVtetxO2aDtf7eqbOjfUAkyKd~5AmEfN3LWvqRaRgZBvalwhMXaG7GSmbWJ8JiURgf7-3Y31moo28UaSCQQkJITRwQnX5nN9eUtw9kL-wvRdL8UOqt9QkSuP5A4oVbJOkqei9x1h0SskzpxgWeVjHwj8AF5RDDd~lqVLcSzTfRLAFmVayUEn7sNoFvfx1RyUa~gy9EJbNGkVr1VBE1HVVCVD3X3nVzm0S~uVSf8nknahBQifUmqHuFI5pgTebcOSzae3HgFmpy7jJsWWVcXtRYzOztMZIg__"
+        src="{{ section.settings.Video_2 }}"
         controls
         autoplay
         muted
@@ -75,6 +54,35 @@
         "type": "image_picker",
         "id": "heading_side_image",
         "label": "heading_side_image"
+      }, {
+        "type": "text",
+        "id": "header",
+        "label": "heading"
+      }, {
+        "type": "video",
+        "id": "Video_2",
+        "label": "video_watch"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "block",
+        "type": "text",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "box_image_1",
+            "label": "box image"
+          }, {
+            "type": "text",
+            "id": "box_content",
+            "label": "box content"
+          }, {
+            "type": "image_picker",
+            "id": "box_arrow",
+            "label": "box arrow"
+          }
+        ]
       }
     ],
     "presets": [
@@ -94,6 +102,7 @@
 
   .shipping_video {
     width: 100%;
+    margin-bottom: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -153,7 +162,7 @@
   }
   .shipping_image {
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
     gap: 30px;
@@ -167,63 +176,16 @@
     flex-direction: column;
     width: 225px;
     height: 225px;
-
-    background-color: #313131;
-  }
-
-  .box_content_2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    width: 225px;
-    height: 225px;
-    background-color: #313131;
-  }
-
-  .box_content_3 {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    width: 225px;
-    height: 225px;
-    background-color: #313131;
-  }
-
-  .box_content_4 {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    width: 225px;
-    height: 225px;
     background-color: #313131;
   }
 
   .box_image_1 {
-    width: 93.51px;
-    height: 111.22px;
+    width: 97.51px;
+    height: 100.22px;
   }
-
-  .box_image_2 {
-    width: 119.45px;
-    height: 100.84px;
-  }
-
-  .box_image_3 {
-    width: 96.88px;
-    height: 98.56px;
-    border-radius: 14px;
-  }
-
-  .box_image_3 img {
-    border-radius: 14px;
-  }
-
-  .box_image_4 {
-    width: 129.93px;
-    height: 98.56px;
+  .box_image_1 img {
+    width: 100%;
+    height: 100%;
   }
   .box_img_paragraph {
     display: flex;
@@ -242,6 +204,7 @@
     width: 24px;
     height: 24px;
     filter: invert(50%);
+    cursor: pointer;
   }
 
   .box_content_1:hover {
@@ -258,4 +221,161 @@
     filter: invert(1);
     transition: 0.3s;
   }
+
+
+  @media (max-width: 1024px) {
+
+    .head_img h1 {
+      font-size: 40px;
+      line-height: 0;
+      padding-top: 100px;
+    }
+
+    .side_image {
+      width: 250px;
+      margin-top: 100px;
+    }
+
+    .box_content_1 {
+      width: 200px;
+      height: 200px;
+    }
+
+    .box_img_paragraph p {
+      font-size: 14px;
+    }
+
+    .box_img_paragraph img {
+      width: 20px;
+      height: 20px;
+    }
+    .shipping_video video {
+      width: 70%;
+      border-radius: 50px;
+    }
+  }
+
+
+  @media (max-width: 890px) {
+
+    .head_img h1 {
+      font-size: 40px;
+      line-height: 0;
+      padding-top: 100px;
+    }
+    .head_img {
+      margin: 90px 0;
+    }
+
+    .side_image {
+      width: 150px;
+      margin-top: 100px;
+    }
+
+
+    .box_content_1 {
+      width: 185px;
+      height: 200px;
+    }
+  }
+  @media (max-width: 827px) {
+
+    .head_img {
+      margin: 50px 0;
+    }
+    .shipping_image {
+      margin-bottom: 50px;
+    }
+
+  }
+
+  @media (max-width: 642px) {
+    .side_image {
+      display: none;
+    }
+
+    .head_img {
+      margin: 65px 0;
+    }
+    .shipping_image {
+      margin-bottom: 95px;
+    }
+
+    .shipping_video video {
+      width: 75%;
+      border-radius: 40px;
+    }
+  }
+
+
+  @media (max-width: 425px) {
+
+    .box_image_1 {
+      width: 75.51px;
+      height: 67.22px;
+    }
+
+    .box_img_paragraph p {
+      font-size: 11px;
+    }
+
+    .box_img_paragraph img {
+      width: 16px;
+      height: 16px;
+    }
+
+    .box_content_1 {
+      width: 150px;
+      height: 160px;
+    }
+
+    .box_img_paragraph {
+      gap: 10px;
+    }
+    .shipping_image {
+      gap: 10px;
+    }
+    .head_img {
+      margin: 85px 0;
+    }
+    .shipping_video video {
+      width: 95%;
+      border-radius: 18px;
+    }
+    .shipping_image {
+      margin-bottom: 133px;
+    }
+  }
+
+  @media (max-width: 342px) {
+    .head_img h1 {
+      font-size: 32px;
+    }
+
+  }
+
+  @media (max-width: 310px) {
+    .head_img h1 {
+      padding-top: 55px;
+    }
+    .head_img {
+      margin-bottom: 35px;
+    }
+    .box_content_1 {
+      width: 140px;
+      height: 160px;
+    }
+    .shipping_image {
+      gap: 5px;
+    }
+  }
+
+
+  @media (max-width: 285px) {
+    .shipping_image {
+      margin-bottom: 15px;
+    }
+  }
+
+
 </style>
