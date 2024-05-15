@@ -106,6 +106,30 @@
     },
     "explore_TEHqRw": {
       "type": "explore",
+      "blocks": {
+        "text_VGUH6c": {
+          "type": "text",
+          "settings": {
+            "explore1": "shopify:\/\/shop_images\/explore2.png",
+            "heading_text": "<p>Moissanite Cuban Chain<\/p>",
+            "pargraph_text": "Cuban Chain: Cuban Craftsmanship, Unmatched Elegance",
+            "button_text": "Explore More"
+          }
+        },
+        "text_ANmiib": {
+          "type": "text",
+          "settings": {
+            "explore1": "shopify:\/\/shop_images\/explore1.png",
+            "heading_text": "<p>Moissanite Hip Hop Pendant<\/p>",
+            "pargraph_text": "Epic Sparkle, Legendary Style: Moissanite Hip Hop Pendant",
+            "button_text": "Explore More"
+          }
+        }
+      },
+      "block_order": [
+        "text_VGUH6c",
+        "text_ANmiib"
+      ],
       "settings": {
         "background_color": "#f0f0f0"
       }
