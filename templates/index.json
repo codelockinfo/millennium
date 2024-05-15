@@ -104,6 +104,36 @@
         "viewall": ""
       }
     },
+    "explore_TEHqRw": {
+      "type": "explore",
+      "blocks": {
+        "text_VGUH6c": {
+          "type": "text",
+          "settings": {
+            "explore1": "shopify:\/\/shop_images\/explore2.png",
+            "heading_text": "<p>Moissanite Cuban Chain<\/p>",
+            "pargraph_text": "Cuban Chain: Cuban Craftsmanship, Unmatched Elegance",
+            "button_text": "Explore More"
+          }
+        },
+        "text_ANmiib": {
+          "type": "text",
+          "settings": {
+            "explore1": "shopify:\/\/shop_images\/explore1.png",
+            "heading_text": "<p>Moissanite Hip Hop Pendant<\/p>",
+            "pargraph_text": "Epic Sparkle, Legendary Style: Moissanite Hip Hop Pendant",
+            "button_text": "Explore More"
+          }
+        }
+      },
+      "block_order": [
+        "text_VGUH6c",
+        "text_ANmiib"
+      ],
+      "settings": {
+        "background_color": "#f0f0f0"
+      }
+    },
     "hiphop_ring_collection_gRUgG4": {
       "type": "hiphop-ring-collection",
       "settings": {
@@ -160,7 +190,6 @@
     "trusted_by_FUaihx": {
       "type": "trusted-by",
       "settings": {
-        "video_url": "shopify:\/\/files\/videos\/01.mp4",
         "heading": "Trusted by",
         "image_bg": "shopify:\/\/shop_images\/Ellipse_5.png",
         "trusted_by_image": "shopify:\/\/shop_images\/Vector_23_aeb8b8f4-6296-422b-b52b-20ce593e645f.png",
@@ -186,6 +215,7 @@
     "banner_custom_section_N3MWmb",
     "category_slider_LU46Ei",
     "collection_slider_section_VnyWwX",
+    "explore_TEHqRw",
     "hiphop_ring_collection_gRUgG4",
     "map",
     "millennium_jewelery_AP9YXh",
