@@ -106,7 +106,6 @@
   .banner-main-box .banner-img-box {
     /* height: 100vh; */
     object-fit: cover !important;
-    width: 90%;
     position: relative;
     z-index: -1;
   }
@@ -162,8 +161,6 @@
   }
   .banner-slider {
     background-color:{{section.settings.banner_background}};
-    position: relative;
-    z-index: 1;
   }
  
   / Arrows / .slick-prev:hover,
@@ -197,7 +194,7 @@
     position: absolute;
     width: 50px;
     height: 50px;
-    border: 3px solid #282828;
+    border: 3px solid #d9d9d9;
     transform: rotate(-45deg);
     top: 50%;
   }
@@ -206,7 +203,7 @@
     position: absolute;
     width: 50px;
     height: 50px;
-    border: 3px solid #282828;
+    border: 3px solid #d9d9d9;
     transform: rotate(-45deg);
     top: 50%;
   }
@@ -218,6 +215,7 @@
     content: '←';
     transform: rotate(45deg);
     display: inline-block;
+    color: #d9d9d9;
   }
   [dir='rtl'] .slick-prev:before {
     content: '→';
@@ -230,6 +228,7 @@
     content: '→';
     transform: rotate(45deg);
     display: inline-block;
+    color: #d9d9d9;
   }
   [dir='rtl'] .slick-next:before {
     content: '←';
@@ -239,7 +238,7 @@
     width: 100%;
     -o-object-fit: contain;
     object-fit: cover;
-    height: 100vh;
+    /* height: 100vh; */
   }
 
   @media (max-width: 1600px) {
@@ -274,11 +273,11 @@
       line-height: 84px;
     }
   }
-  @media (max-width: 1100px) {
+  /* @media (max-width: 1100px) {
     .slick-slider .banner-main-box img {
     height: 70vh;
   }
-  }
+  } */
   @media (max-width: 1024px) {
     .slick-prev {
       width: 30px;
@@ -305,7 +304,7 @@
       font-size: 18px !important;
     }
     .slick-slider .banner-main-box img {
-    height: 50vh;
+    /* height: 50vh; */
   }
   }
   @media (max-width: 900px) {
@@ -348,16 +347,10 @@
     width: 100%;
     -o-object-fit: contain;
     object-fit: cover;
-    height: 70vh;
+    /* height: 70vh; */
 }
   }
-  @media (max-width: 700px) {
-   
-  .banner-main-box .banner-img-box { 
-    width: 85%;
-  }
-  
-  }
+
   @media (max-width: 600px) {
    
     .slick-prev:before,
@@ -374,17 +367,18 @@
       font-size: 14px !important;
    
   }
-  @media (max-width: 430px) {
-  
-  .banner-main-box .banner-img-box { 
-    width: 80%;
-  }
-  }
+ 
     .slick-slider .banner-main-box img {
-    height: 60vh;
+    /* height: 60vh; */
 }
 .banner-content {
     left: 13%;
+  }
+  }
+  @media (max-width: 450px) {
+   
+  .banner-content .banner-sell-button {
+    margin: 10px 0;
   }
   }
 </style>
