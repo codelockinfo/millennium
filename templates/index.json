@@ -202,6 +202,19 @@
     },
     "shipping_partner_Y7Rf8m": {
       "type": "shipping-partner",
+      "blocks": {
+        "text_hKYC7N": {
+          "type": "text",
+          "settings": {
+            "box_image_1": "shopify:\/\/shop_images\/f4798250133f5bc49e18f96b77c7d6e9.png",
+            "box_content": "Track Your Parce",
+            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_hKYC7N"
+      ],
       "settings": {
         "bg_image_1": "shopify:\/\/shop_images\/Ellipse_6_1.png",
         "heading_side_image": "shopify:\/\/shop_images\/Vector_23_aeb8b8f4-6296-422b-b52b-20ce593e645f.png",
