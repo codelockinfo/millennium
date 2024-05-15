@@ -106,8 +106,8 @@
     position: absolute;
     content: "";
     width: 100%;
-    height: 5px;
-    background-color: red;
+    height: 6px;
+    background-color: #D0C272;
    z-index: 1;
    bottom: 0;
   }
