@@ -113,7 +113,8 @@
             "explore1": "shopify:\/\/shop_images\/explore2.png",
             "heading_text": "<p>Moissanite Cuban Chain<\/p>",
             "pargraph_text": "Cuban Chain: Cuban Craftsmanship, Unmatched Elegance",
-            "button_text": "Explore More"
+            "button_text": "Explore More",
+            "explolre_url": ""
           }
         },
         "text_ANmiib": {
@@ -122,7 +123,8 @@
             "explore1": "shopify:\/\/shop_images\/explore1.png",
             "heading_text": "<p>Moissanite Hip Hop Pendant<\/p>",
             "pargraph_text": "Epic Sparkle, Legendary Style: Moissanite Hip Hop Pendant",
-            "button_text": "Explore More"
+            "button_text": "Explore More",
+            "explolre_url": ""
           }
         }
       },
@@ -141,18 +143,6 @@
         "background": "#f0f0f0",
         "collectionproduct": "hip-hop-jewelry",
         "viewall": ""
-      }
-    },
-    "map": {
-      "type": "map",
-      "disabled": true,
-      "settings": {
-        "map_title": "Our retail store",
-        "address": "<p>301 Front St W<br\/>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br\/>Saturday, 8:30am - 10:30pm<br\/>Sunday, 8:30am - 10:30pm<\/p>",
-        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
-        "api_key": "",
-        "show_button": true,
-        "background_image_position": "center center"
       }
     },
     "millennium_jewelery_AP9YXh": {
@@ -209,6 +199,55 @@
         "Certificate_3": "shopify:\/\/shop_images\/image_21.png",
         "Certificate_4": "shopify:\/\/shop_images\/image_22.png"
       }
+    },
+    "shipping_partner_Y7Rf8m": {
+      "type": "shipping-partner",
+      "blocks": {
+        "text_hKYC7N": {
+          "type": "text",
+          "settings": {
+            "box_image_1": "shopify:\/\/shop_images\/f4798250133f5bc49e18f96b77c7d6e9.png",
+            "box_content": "Track Your Parce",
+            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
+          }
+        },
+        "text_6VLPH9": {
+          "type": "text",
+          "settings": {
+            "box_image_1": "shopify:\/\/shop_images\/1a2dc24ec115f0b1e63bd80caf9dbb50.png",
+            "box_content": "Track Your Parce",
+            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
+          }
+        },
+        "text_mL3gaA": {
+          "type": "text",
+          "settings": {
+            "box_image_1": "shopify:\/\/shop_images\/image_16.png",
+            "box_content": "Track Your Parce",
+            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
+          }
+        },
+        "text_zqNcTM": {
+          "type": "text",
+          "settings": {
+            "box_image_1": "shopify:\/\/shop_images\/bffa9a1dc2f9feac7498a5656cf67c8a.png",
+            "box_content": "Track Your Parce",
+            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_hKYC7N",
+        "text_6VLPH9",
+        "text_mL3gaA",
+        "text_zqNcTM"
+      ],
+      "settings": {
+        "bg_image_1": "shopify:\/\/shop_images\/Ellipse_6_1.png",
+        "heading_side_image": "shopify:\/\/shop_images\/Vector_23_aeb8b8f4-6296-422b-b52b-20ce593e645f.png",
+        "header": "Shipping Partner",
+        "Video_2": "shopify:\/\/files\/videos\/Factory Video.mp4"
+      }
     }
   },
   "order": [
@@ -217,10 +256,10 @@
     "collection_slider_section_VnyWwX",
     "explore_TEHqRw",
     "hiphop_ring_collection_gRUgG4",
-    "map",
     "millennium_jewelery_AP9YXh",
     "our_mission_XLE69f",
     "trusted_by_FUaihx",
-    "certificate_N8JM7b"
+    "certificate_N8JM7b",
+    "shipping_partner_Y7Rf8m"
   ]
 }
