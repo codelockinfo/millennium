@@ -132,7 +132,8 @@
     font-weight: 400;
     text-align: left;
     line-height: 62.57px;
-    font-family: 'Vindea ' !important;
+    font-family: "Italiana";
+    text-transform: none !important;
   }
   .mission {
     width: 100%;
@@ -176,13 +177,12 @@
     align-items: center;
   }
   .head_main {
-    font-family: 'Vindea';
     font-size: 43px;
     font-weight: 400;
     line-height: 62.57px;
     text-align: left;
-
   }
+
   .image_content_1 {
     display: flex;
     flex-direction: column;
@@ -207,9 +207,9 @@
     filter: invert(1);
   }
   .para_1 {
-
+    font-family: "Montserrat Alternates";
     font-weight: 600;
-    font-size: 22px;
+    font-size: 18px;
   }
 
   @media only screen and (max-width: 1024px) {
@@ -224,7 +224,7 @@
 
     .head_main .commit-h1 {
       margin-bottom: 15px;
-      font-size: 30px;
+      font-size: 38px !important;
       font-weight: 400;
       line-height: 32.57px;
       text-align: center;
@@ -247,11 +247,22 @@
     .mission_main {
       bottom: -205px;
     }
+
+    .para_1 {
+      font-family: "Montserrat Alternates";
+      font-weight: 600;
+      font-size: 15px;
+    }
+
+
   }
 
   @media only screen and (max-width: 540px) {
     .mission_main {
-      bottom: -310px;
+      bottom: -350px;
+    }
+    .commit-h1 {
+      font-size: 38px;
     }
   }
 
