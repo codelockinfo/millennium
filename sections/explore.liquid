@@ -9,11 +9,11 @@
             <div class="explore-content">
               <h1 class="content-heading">{{block.settings.heading_text}}</h1>
               <p class="content-p">{{block.settings.pargraph_text}}</p>
+              <a href="#" class="explore-a" >
               <button class="explore-btn">
-                <a href="#" class="explore-a"
-                  >{{block.settings.button_text}} &nbsp; <i class="fa-solid fa-angle-right c-arrow-icon"></i
-                ></a>
-              </button>
+                  {{block.settings.button_text}} &nbsp; <i class="fa-solid fa-angle-right c-arrow-icon"></i>
+                  </button>
+                  </a>
             </div>
           </div>
         {% endif %}
@@ -104,6 +104,7 @@
     font-weight: 500;
     font-family: 'Fira Sans';
     color: #282828;
+    text-transform: capitalize;
   }
   .explore .content-p{
     font-size: 20px;
