@@ -2,11 +2,17 @@
   <div class="site-nav__icons">
     {%- if shop.customer_accounts_enabled -%}
       <a href="{{ routes.search_url }}" class="site-nav__link site-nav__link--icon js-search-header">
-        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 64 64"><path d="M47.16 28.58A18.58 18.58 0 1 1 28.58 10a18.58 18.58 0 0 1 18.58 18.58zM54 54L41.94 42"/></svg>
+        {% comment %} <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 64 64"><path d="M47.16 28.58A18.58 18.58 0 1 1 28.58 10a18.58 18.58 0 0 1 18.58 18.58zM54 54L41.94 42"/></svg> {% endcomment %}
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+<path d="M22.8187 21.4699L17.1066 15.7766C18.5753 14.1035 19.38 11.9983 19.38 9.80675C19.38 4.6864 15.033 0.520508 9.68999 0.520508C4.34701 0.520508 0 4.6864 0 9.80675C0 14.9271 4.34701 19.093 9.68999 19.093C11.6958 19.093 13.6073 18.5132 15.2415 17.4126L20.9969 23.1491C21.2375 23.3885 21.5611 23.5205 21.9078 23.5205C22.236 23.5205 22.5473 23.4006 22.7837 23.1826C23.2859 22.7195 23.3019 21.9515 22.8187 21.4699ZM9.68999 2.94301C13.6393 2.94301 16.8522 6.022 16.8522 9.80675C16.8522 13.5915 13.6393 16.6705 9.68999 16.6705C5.74069 16.6705 2.52782 13.5915 2.52782 9.80675C2.52782 6.022 5.74069 2.94301 9.68999 2.94301Z" fill="#282828"/>
+</svg>
         <span class="icon__fallback-text">{{ 'general.search.title' | t }}</span>
       </a>
       <a class="site-nav__link site-nav__link--icon small--hide" href="{{ routes.account_url }}">
-        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-user" viewBox="0 0 64 64"><path d="M35 39.84v-2.53c3.3-1.91 6-6.66 6-11.41 0-7.63 0-13.82-9-13.82s-9 6.19-9 13.82c0 4.75 2.7 9.51 6 11.41v2.53c-10.18.85-18 6-18 12.16h42c0-6.19-7.82-11.31-18-12.16z"/></svg>
+        {% comment %} <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-user" viewBox="0 0 64 64"><path d="M35 39.84v-2.53c3.3-1.91 6-6.66 6-11.41 0-7.63 0-13.82-9-13.82s-9 6.19-9 13.82c0 4.75 2.7 9.51 6 11.41v2.53c-10.18.85-18 6-18 12.16h42c0-6.19-7.82-11.31-18-12.16z"/></svg> {% endcomment %}
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+<path d="M18.3906 0.427246C17.0883 0.427246 15.8943 0.839934 14.8419 1.65387C13.7232 2.519 11.808 2.519 10.6894 1.65387C9.63695 0.839934 8.44295 0.427246 7.14062 0.427246C3.50631 0.427246 0.765625 3.39992 0.765625 7.34197C0.765625 11.6007 4.18483 14.5145 9.36105 18.9256C10.24 19.6747 11.2364 20.5238 12.2719 21.4294C12.4084 21.5489 12.5837 21.6147 12.7656 21.6147C12.9475 21.6147 13.1228 21.5489 13.2593 21.4294C14.295 20.5237 15.2913 19.6747 16.1708 18.9252C21.3464 14.5145 24.7656 11.6007 24.7656 7.34197C24.7656 3.39992 22.0249 0.427246 18.3906 0.427246Z" fill="#282828"/>
+</svg>
         <span class="icon__fallback-text">
           {%- if customer -%}
             {{ 'layout.customer.account' | t }}
@@ -37,9 +43,12 @@
     <a href="{{ routes.cart_url }}" class="site-nav__link site-nav__link--icon js-drawer-open-cart" aria-controls="CartDrawer" data-icon="{{ settings.cart_icon }}">
       <span class="cart-link">
         {%- if settings.cart_icon == 'cart' -%}
-          <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart" viewBox="0 0 64 64"><path fill="none" d="M14 17.44h46.79l-7.94 25.61H20.96l-9.65-35.1H3"/><circle cx="27" cy="53" r="2"/><circle cx="47" cy="53" r="2"/></svg>
+          <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart 11111" viewBox="0 0 64 64"><path fill="none" d="M14 17.44h46.79l-7.94 25.61H20.96l-9.65-35.1H3"/><circle cx="27" cy="53" r="2"/><circle cx="47" cy="53" r="2"/></svg>
         {%- elsif settings.cart_icon == 'bag-minimal' -%}
-          <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-bag-minimal" viewBox="0 0 64 64"><path stroke="null" id="svg_4" fill-opacity="null" stroke-opacity="null" fill="null" d="M11.375 17.863h41.25v36.75h-41.25z"/><path stroke="null" id="svg_2" d="M22.25 18c0-7.105 4.35-9 9.75-9s9.75 1.895 9.75 9"/></svg>
+          {% comment %} <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-bag-minimal 222222" viewBox="0 0 64 64"><path stroke="null" id="svg_4" fill-opacity="null" stroke-opacity="null" fill="null" d="M11.375 17.863h41.25v36.75h-41.25z"/><path stroke="null" id="svg_2" d="M22.25 18c0-7.105 4.35-9 9.75-9s9.75 1.895 9.75 9"/></svg> {% endcomment %}
+          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="24" viewBox="0 0 26 24" fill="none">
+<path d="M1.44368 0.041504C0.845376 0.041504 0.360352 0.507874 0.360352 1.08317C0.360352 1.65847 0.845376 2.12484 1.44368 2.12484H3.37126C3.52899 2.12484 3.68272 2.17256 3.81067 2.26124C3.93862 2.34992 4.03431 2.47507 4.08418 2.61895L7.65592 12.924C7.81454 13.3815 7.8347 13.8742 7.71305 14.342L7.41895 15.4753C6.98741 17.135 8.33107 18.7915 10.1104 18.7915H23.1104C23.7087 18.7915 24.1937 18.3251 24.1937 17.7498C24.1937 17.1745 23.7087 16.7082 23.1104 16.7082H10.1104C9.68852 16.7082 9.41771 16.3754 9.52002 15.9819L9.74181 15.1301C9.7794 14.9858 9.86606 14.8576 9.98804 14.7661C10.11 14.6746 10.2603 14.6248 10.415 14.6248H22.027C22.4935 14.6251 22.9077 14.3382 23.0553 13.9128L25.9435 5.57943C26.1775 4.90465 25.6549 4.20785 24.9152 4.20817H7.46126C7.30353 4.20817 7.1498 4.16045 7.02184 4.07177C6.89388 3.98309 6.79819 3.85795 6.74831 3.71407L5.72201 0.753581C5.57439 0.328123 5.16014 0.0412696 4.69369 0.041504H1.44368ZM9.02702 19.8332C7.8304 19.8332 6.86035 20.7659 6.86035 21.9165C6.86035 23.0671 7.8304 23.9998 9.02702 23.9998C10.2236 23.9998 11.1937 23.0671 11.1937 21.9165C11.1937 20.7659 10.2236 19.8332 9.02702 19.8332ZM22.027 19.8332C20.8304 19.8332 19.8604 20.7659 19.8604 21.9165C19.8604 23.0671 20.8304 23.9998 22.027 23.9998C23.2236 23.9998 24.1937 23.0671 24.1937 21.9165C24.1937 20.7659 23.2236 19.8332 22.027 19.8332Z" fill="#282828"/>
+</svg>
         {%- else -%}
           <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-bag" viewBox="0 0 64 64"><g fill="none" stroke="#000" stroke-width="2"><path d="M25 26c0-15.79 3.57-20 8-20s8 4.21 8 20"/><path d="M14.74 18h36.51l3.59 36.73h-43.7z"/></g></svg>
         {%- endif -%}

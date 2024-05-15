@@ -5278,8 +5278,8 @@ form+.footer__social{
 .cart-link__bubble--visible{
   display:block;
   position:absolute;
-  top:50%;
-  right:0px;
+  top:15%;
+  right:-8%;
   width:15px;
   height:15px;
   background-color:#ff4f33;
@@ -5296,8 +5296,8 @@ form+.footer__social{
 }
 
 [data-icon=bag-minimal] .cart-link__bubble--visible{
-    top:50%;
-    right:0
+    top:15%;
+    right:-8%
 }
 
 [data-type_headers_align_text=true] .breadcrumb{
