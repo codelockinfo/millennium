@@ -67,13 +67,15 @@
   .site-header{
     background-color: #E1DAD0;
   }
-  .site-nav__link{
+  .site-nav__item .site-nav__link{
     color: #282828;
     font-family: 'Montserrat Alternates' ;
     font-weight: 500;
     font-size: 16px;
     line-height: 20.26px;
     text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
   }
   .add-to-cart .btn{
     width: 100%;
@@ -106,6 +108,9 @@
     right: -20% !important;
     /* border: 1px solid #282828;  */
     background-color: #D0C272;
+}
+#SiteHeader .page-width{
+  max-width:1600px;
 }
   @font-face {
     font-family: 'Italiana';
