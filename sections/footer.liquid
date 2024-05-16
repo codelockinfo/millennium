@@ -19,12 +19,15 @@
 {%- if settings.color_footer == settings.color_body_bg -%}
   {%- style -%}
     .site-footer {
-      border-top: 1px solid {{ settings.color_borders }};
+      border-top: 1px solid{{ settings.color_borders }};
     }
   {%- endstyle -%}
 {%- endif -%}
 
-<footer class="site-footer" data-section-id="{{ section.id }}" data-section-type="footer-section">
+<footer
+  class="site-footer"
+  data-section-id="{{ section.id }}"
+  data-section-type="footer-section">
   <div class="page-width">
 
     <div class="grid">
@@ -36,9 +39,12 @@
           {%- assign row_width = row_width | minus: 100 -%}
         {%- endif -%}
 
-        <div {{ block.shopify_attributes }} class="grid__item footer__item--{{ block.id }}" data-type="{{ block.type }}">
+        <div
+          {{ block.shopify_attributes }}
+          class="grid__item footer__item--{{ block.id }}"
+          data-type="{{ block.type }}">
           {%- style -%}
-            @media only screen and (min-width: 769px) and (max-width: 959px) {
+            @media only screen and (min-width: 769px) and(max-width: 959px) {
               .footer__item--{{ block.id }} {
                 width: 50%;
                 padding-top: 40px;
@@ -72,7 +78,8 @@
       {%- for block in section.blocks -%}
         {%- if block.type == 'logo' -%}
           <div class="grid__item medium-up--hide">
-            {%- render 'footer-logo', block: block -%}
+            {%- render 'footer-logo'
+              , block: block -%}
           </div>
         {%- endif -%}
       {%- endfor -%}
@@ -80,11 +87,14 @@
 
     {%- if show_selectors -%}
       <div class="footer__section">
-        {%- render 'multi-selectors',
-          locale_selector: locale_selector,
-          currency_selector: currency_selector,
-          show_currency_flags: section.settings.show_currency_flags
-          location: 'footer'
+        {%- render 'multi-selectors'
+          ,
+ locale_selector: locale_selector
+          ,
+ currency_selector: currency_selector
+          ,
+ show_currency_flags: section.settings.show_currency_flags
+ location: 'footer'
         -%}
       </div>
     {%- endif -%}
@@ -140,29 +150,24 @@
         "id": "show_currency_selector",
         "label": "Show currency selector",
         "default": true
-      },
-      {
+      }, {
         "type": "checkbox",
         "id": "show_currency_flags",
         "label": "Show currency flags",
         "default": true
-      },
-      {
+      }, {
         "type": "header",
         "content": "Additional footer content"
-      },
-      {
+      }, {
         "type": "checkbox",
         "id": "show_payment_icons",
         "label": "Show payment icons",
         "default": false
-      },
-      {
+      }, {
         "type": "checkbox",
         "id": "show_copyright",
         "label": "Show copyright"
-      },
-      {
+      }, {
         "type": "text",
         "id": "copyright_text",
         "label": "Additional copyright text"
@@ -178,8 +183,7 @@
             "type": "image_picker",
             "id": "logo",
             "label": "Logo image"
-          },
-          {
+          }, {
             "type": "range",
             "id": "desktop_logo_height",
             "label": "Logo height",
@@ -187,8 +191,7 @@
             "min": 20,
             "max": 120,
             "unit": "px"
-          },
-          {
+          }, {
             "type": "range",
             "id": "container_width",
             "label": "Column width",
@@ -198,8 +201,7 @@
             "unit": "%"
           }
         ]
-      },
-      {
+      }, {
         "type": "menu",
         "name": "Navigation",
         "limit": 4,
@@ -208,15 +210,13 @@
             "type": "checkbox",
             "id": "show_footer_title",
             "label": "Show heading"
-          },
-          {
+          }, {
             "type": "link_list",
             "id": "menu",
             "label": "Choose a menu",
             "default": "footer",
             "info": "This menu won't show dropdown items"
-          },
-          {
+          }, {
             "type": "range",
             "id": "container_width",
             "label": "Column width",
@@ -226,8 +226,7 @@
             "unit": "%"
           }
         ]
-      },
-      {
+      }, {
         "type": "newsletter",
         "name": "Newsletter and social",
         "limit": 1,
@@ -254,8 +253,7 @@
             "label": "Text",
             "info": "Optional",
             "default": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>"
-          },
-          {
+          }, {
             "type": "range",
             "id": "container_width",
             "label": "Column width",
@@ -265,8 +263,7 @@
             "unit": "%"
           }
         ]
-      },
-      {
+      }, {
         "type": "custom",
         "name": "Custom text",
         "settings": [
@@ -292,8 +289,7 @@
             "id": "text",
             "label": "Text",
             "default": "<p>Add your own custom text here.</p>"
-          },
-          {
+          }, {
             "type": "range",
             "id": "container_width",
             "label": "Column width",
@@ -311,8 +307,7 @@
         {
           "type": "menu",
           "settings": {}
-        },
-        {
+        }, {
           "type": "logo_social",
           "settings": {}
         }
