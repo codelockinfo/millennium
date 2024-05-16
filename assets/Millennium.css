@@ -178,11 +178,7 @@
   height: 100px !important;
   padding-bottom: 0 !important;
 }
-
-
-
-
- .footer__collapsible p {
+.footer__collapsible p {
   font-family: "Montserrat Alternates";
   font-size: 12px;
   font-weight: 500;
@@ -190,7 +186,11 @@
   text-align: left;
 
 }
-
+.footer_box{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
 
 

@@ -16,13 +16,16 @@
   endif
 -%}
 
+{%- style -%}
 {%- if settings.color_footer == settings.color_body_bg -%}
-  {%- style -%}
     .site-footer {
       border-top: 1px solid{{ settings.color_borders }};
     }
-  {%- endstyle -%}
-{%- endif -%}
+  {%- endif -%}
+  .footer_box{
+      background-color: {{ section.settings.bottom_footer_bgcolor }};
+  }
+{%- endstyle -%}
 
 <footer
   class="site-footer"
@@ -121,6 +124,48 @@
     {%- endif -%}
     <p class="footer__small-text">{{ powered_by_link }}</p>
 
+    <div class="footer_line">
+      <div class="footer_box">
+          {% if section.settings.bottom_footer_heading != blank %}
+            <div class="contact_us">
+              <p>{{ section.settings.bottom_footer_heading }}</p>
+            </div>
+          {% endif %}
+          {% if section.settings.contact_no != blank  %}
+            <div class="text-center">
+              <div>
+                <i class="fa-solid fa-phone-volume"></i>
+              </div>
+              <div class="contact_number">
+                {{ section.settings.contact_no }}
+              </div>
+            </div>
+          {% endif %}
+          {% if section.settings.address != blank %}
+            <div class="text-center">
+              <div>
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="location">
+                {{ section.settings.address }}
+              </div>
+            </div>
+          {% endif %}
+          {% if section.settings.email != blank %}
+            <div class="text-center">
+              <div>
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="Email">
+                {{ section.settings.email }}
+              </div>
+            </div>
+          {% endif %}
+      </div>
+      <div>
+  
+      </div>
+    </div>
   </div>
 </footer>
 
@@ -171,6 +216,36 @@
         "type": "text",
         "id": "copyright_text",
         "label": "Additional copyright text"
+      },
+      {
+        "type": "header",
+        "content": "Footer bottom content"
+      }, 
+      {
+            "type": "color",
+            "id": "bottom_footer_bgcolor",
+            "label": "bottom footer Background color ",
+            "default": "#F0F0F0"
+      },
+      {
+          "type": "text",
+          "id": "bottom_footer_heading",
+          "label": "Bottom footer Heading"
+      },
+      {
+          "type": "text",
+          "id": "contact_no",
+          "label": "Contact no"
+      },
+      {
+          "type": "text",
+          "id": "address",
+          "label": "Address"
+      },
+      {
+          "type": "text",
+          "id": "email",
+          "label": "Email"
       }
     ],
     "blocks": [

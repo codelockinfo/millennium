@@ -1,0 +1,71 @@
+{%- liquid
+    assign template_name = template | replace: '.', ' ' | truncatewords: 2, '' | handle
+    assign show_homepage = false
+    if template_name != 'index' and section.settings.show_homepage 
+        assign show_homepage = true 
+    endif
+    assign footer_menu = linklists[section.settings.footer_menu_link_list]
+-%}
+<style>
+    .address_footer{
+        background-color: {{ section.settings.bgcolor_footer_address }};
+        color: {{ section.settings.color_footer_address }}
+    }
+   
+</style>
+{% unless show_homepage %}
+    <div class="address_footer">
+        <div >
+            <div>
+                {% if section.settings.address != blank %} 
+                    {{ section.settings.address }}
+                {% endif %}
+            </div>
+            <div>
+                {%- for link in footer_menu.links -%}
+                        <a href="{{ link.url }}">
+                            {{ link.title }}
+                        </a>
+                {%- endfor -%}
+            </div>
+        </div>
+    </div>
+{% endunless %}
+{% schema %}
+    {
+      "name": "Footer Address",
+      "class": "footer-address",
+      "settings": [
+        {
+            "type": "checkbox",
+            "id": "show_homepage",
+            "label": "Show Only on Home page",
+            "default": true
+        },
+        {
+            "type": "color",
+            "id": "bgcolor_footer_address",
+            "label": "Background",
+            "default": "#111"
+        },
+        {
+            "type": "color",
+            "id": "color_footer_address",
+            "label": "color",
+            "default": "#111"
+        },
+        {
+            "type": "richtext",
+            "id": "address",
+            "label": "Address"
+            
+        },
+        {
+            "type": "link_list",
+            "id": "footer_menu_link_list",
+            "label": "Footer Navigation",
+            "default": "main-menu"
+        }
+        ]
+    }
+{% endschema %}
