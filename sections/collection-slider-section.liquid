@@ -45,7 +45,11 @@
       {% endfor %}
     </div>
    <div class="view-all-button">
-    <button class="collection-view-all"><a href="{{section.settings.viewall}}">View all <i class="fa-solid fa-chevron-right c-arrow-icon"></i></a></button>
+    <a href="{{section.settings.viewall}}">
+    <button class="collection-view-all">{{section.settings.button_text}}
+        <i class="fa-solid fa-chevron-right c-arrow-icon"></i>
+      </button>
+      </a>
    </div>
   </div>
 </div>
@@ -88,6 +92,11 @@
       "id": "viewall",
       "type": "url",
       "label": "view all collection"
+    },
+    {
+      "id": "button_text",
+      "type": "text",
+      "label": "Add button text"
     }
   ],
   "presets": [
@@ -183,7 +192,7 @@
     margin-right: 15px;
     text-align: end;
   }
-  .collection-view-all a{
+  .collection-view-all {
     color: #ffffff;
   }
 
@@ -417,22 +426,23 @@
     nextArrow: "<button type='button' class='slick-next pull-right arrowidth'></button>",
     responsive: [
       {
-        breakpoint: 576,
-        settings: { slidesToShow: 1,
+        breakpoint: 1025,
+        settings: { 
+          slidesToShow: 3,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 768,
+        breakpoint: 800,
         settings: { 
           slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 1024,
+        breakpoint: 600,
         settings: { 
-          slidesToShow: 3,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },

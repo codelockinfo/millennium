@@ -101,7 +101,8 @@
         "subheadp": "Introducing the epitome of elegance and innovation: the Moissanite Watch. Crafted with precision and adorned with the brilliance of lab-created Moissanite gems, this timepiece redefines luxury. Each watch is a testament to sophistication, featuring a sleek design and unparalleled sparkle.",
         "background": "#eaeaea",
         "collectionproduct": "iced-out-watches",
-        "viewall": ""
+        "viewall": "shopify:\/\/collections\/mens-watches",
+        "button_text": "View All"
       }
     },
     "explore_TEHqRw": {
@@ -114,7 +115,7 @@
             "heading_text": "<p>Moissanite Cuban Chain<\/p>",
             "pargraph_text": "Cuban Chain: Cuban Craftsmanship, Unmatched Elegance",
             "button_text": "Explore More",
-            "explolre_url": ""
+            "explolre_url": "shopify:\/\/collections\/cuban-chain"
           }
         },
         "text_ANmiib": {
@@ -124,7 +125,7 @@
             "heading_text": "<p>Moissanite Hip Hop Pendant<\/p>",
             "pargraph_text": "Epic Sparkle, Legendary Style: Moissanite Hip Hop Pendant",
             "button_text": "Explore More",
-            "explolre_url": ""
+            "explolre_url": "shopify:\/\/collections\/hip-hop-jewelry"
           }
         }
       },
@@ -142,7 +143,8 @@
         "subheadp": "Hip Hop Rings",
         "background": "#f0f0f0",
         "collectionproduct": "hip-hop-jewelry",
-        "viewall": ""
+        "viewall": "shopify:\/\/collections\/hip-hop-jewelry",
+        "button_text": "View All"
       }
     },
     "millennium_jewelery_AP9YXh": {
