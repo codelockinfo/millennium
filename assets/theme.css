@@ -6495,6 +6495,21 @@ form+.footer__social {
   animation: modal-open 0.5s forwards;
 }
 
+<<<<<<< HEAD
+.cart-link__bubble--visible{
+  display:block;
+  position:absolute;
+  top:50%;
+  right:0px;
+  width:15px;
+  height:15px;
+  background-color:#ff4f33;
+  background-color:var(--colorCartDot);
+  border:2px solid;
+  border-color:#ffffff;
+  border-color:var(--colorBody);
+  border-radius:50%
+=======
 .modal-open .modal:before {
   content: "";
   position: fixed;
@@ -6506,12 +6521,18 @@ form+.footer__social {
   background-color: var(--colorModalBg);
   animation: overlay-on 0.5s forwards;
   cursor: pointer;
+>>>>>>> b76d6484b003b205d56773eac4b8c6d7052f5ec4
 }
 
 .modal-closing .modal .modal__inner {
   animation: modal-closing 0.5s forwards;
 }
 
+<<<<<<< HEAD
+[data-icon=bag-minimal] .cart-link__bubble--visible{
+    top:50%;
+    right:0
+=======
 .modal-closing .modal:before {
   content: "";
   position: fixed;
@@ -6522,6 +6543,7 @@ form+.footer__social {
   background-color: #e6e6e6;
   background-color: var(--colorModalBg);
   animation: overlay-off 0.5s forwards;
+>>>>>>> b76d6484b003b205d56773eac4b8c6d7052f5ec4
 }
 
 .modal-open--solid .modal:before {

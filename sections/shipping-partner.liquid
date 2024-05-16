@@ -34,12 +34,15 @@
       {% endfor %}
     </div>
     <div class="shipping_video">
-      <video
+      {% comment %} <video
         src="{{ section.settings.Video_2 }}"
         controls
         autoplay
         muted
-        loop></video>
+        loop></video> {% endcomment %}
+        <video loop muted autoplay playsinline>
+          <source src="{{ section.settings.Video_2  }}" type="video/mp4">
+        </video> 
     </div>
   </div>
 </div>
@@ -69,7 +72,7 @@
         "id": "header",
         "label": "heading"
       }, {
-        "type": "video",
+        "type": "url",
         "id": "Video_2",
         "label": "video_watch"
       }
