@@ -107,7 +107,7 @@
 
 }
 
-.site-nav__link:hover {
+.site-nav__item .site-nav__link:hover {
   border-left: 1px solid #D0C272;
   border-right: 1px solid #D0C272;
   border-radius: 20px;
