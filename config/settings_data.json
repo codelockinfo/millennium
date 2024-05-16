@@ -102,11 +102,37 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "custom_L9xzAr": {
+            "type": "custom",
+            "settings": {
+              "show_footer_title": true,
+              "title": "",
+              "image": "shopify:\/\/shop_images\/image_18.png",
+              "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
+              "container_width": 25
+            }
+          },
+          "menu_TbxPen": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "our-categories-1",
+              "container_width": 18
+            }
+          },
           "1494301487049": {
             "type": "menu",
             "settings": {
               "show_footer_title": true,
               "menu": "footer",
+              "container_width": 18
+            }
+          },
+          "menu_YzRy88": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer-menu",
               "container_width": 18
             }
           },
@@ -118,29 +144,14 @@
               "text": "",
               "container_width": 18
             }
-          },
-          "menu_TbxPen": {
-            "type": "menu",
-            "settings": {
-              "show_footer_title": true,
-              "menu": "our-categories-1",
-              "container_width": 18
-            }
-          },
-          "menu_YzRy88": {
-            "type": "menu",
-            "settings": {
-              "show_footer_title": true,
-              "menu": "footer-menu",
-              "container_width": 18
-            }
           }
         },
         "block_order": [
-          "1494301487049",
-          "1494292487693",
+          "custom_L9xzAr",
           "menu_TbxPen",
-          "menu_YzRy88"
+          "1494301487049",
+          "menu_YzRy88",
+          "1494292487693"
         ],
         "settings": {
           "show_locale_selector": true,
