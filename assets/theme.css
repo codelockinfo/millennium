@@ -5296,12 +5296,11 @@ form+.footer__social {
     margin-right: -7.5px
   }
 }
-
 .site-header {
   position: relative;
   padding: 7px 0;
-  background: #ffffff;
-  background: var(--)
+  /* background: #ffffff;
+  background: var(--) */
 }
 
 @media only screen and (min-width:769px) {
@@ -5920,7 +5919,7 @@ form+.footer__social {
   position: relative
 }
 
-.site-nav__link--underline:after {
+/* .site-nav__link--underline:after {
   content: "";
   display: block;
   position: absolute;
@@ -5932,15 +5931,15 @@ form+.footer__social {
   border-bottom-color: #000000;
   border-bottom-color: var(--colorNavText);
   transition: right 0.5s
-}
+} */
 
 [data-disable-animations=true] .site-nav__link--underline:after {
   transition: none
 }
 
-.is-light .site-nav__item:not(.site-nav--has-dropdown) .site-nav__link--underline:after {
+/* .is-light .site-nav__item:not(.site-nav--has-dropdown) .site-nav__link--underline:after {
   border-bottom-color: #fff
-}
+} */
 
 .site-nav--has-dropdown .site-nav__link--underline:after {
   border-bottom-color: #000000;
