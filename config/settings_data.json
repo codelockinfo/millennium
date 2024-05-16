@@ -126,12 +126,21 @@
               "menu": "our-categories-1",
               "container_width": 18
             }
+          },
+          "menu_YzRy88": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer-menu",
+              "container_width": 18
+            }
           }
         },
         "block_order": [
           "1494301487049",
           "1494292487693",
-          "menu_TbxPen"
+          "menu_TbxPen",
+          "menu_YzRy88"
         ],
         "settings": {
           "show_locale_selector": true,
