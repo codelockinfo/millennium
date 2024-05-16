@@ -8,6 +8,156 @@
   overflow: hidden;
 }
 
+.footer__newsletter-btn {
+  width: 100px;
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+}
+
+.footer__newsletter-btn img {
+  width: 20px;
+}
+
+
+.address_footer {
+  width: 100%;
+  margin-top: 20px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+
+.footer_line_2 {
+  width: 80%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.footer_content_1 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer_content_1 p {
+  margin-bottom: 0;
+  font-family: "Montserrat Alternates";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: center;
+  padding: 10px 0px;
+
+}
+
+.footer_content_2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.footer_content_2 a {
+  color: #f0f0f0;
+  padding: 10px 0px;
+  font-family: "Montserrat Alternates";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: center;
+}
+
+.footer_content_2 a::after {
+  content: "|";
+  margin: 0 14px;
+  color: #fff;
+}
+
+.a :last-child {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer_line {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  flex-wrap: wrap;
+
+}
+
+.footer_box {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  padding: 10px 0;
+}
+
+.contact_us {
+  font-family: "Montserrat Alternates";
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 39.01px;
+  text-align: left;
+  padding: 10px;
+}
+
+.contact_number {
+  font-family: "Montserrat Alternates";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.location {
+  font-family: "Montserrat Alternates";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.Email {
+  font-family: "Montserrat Alternates";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  padding: 10px;
+
+}
+
+
+
+
 .heading-text {
   font-size: 64px;
   font-weight: 400;
@@ -209,6 +359,7 @@
   height: 100px !important;
   padding-bottom: 0 !important;
 }
+
 .footer__collapsible p {
   font-family: "Montserrat Alternates";
   font-size: 16px;
@@ -222,14 +373,17 @@
   text-align: left;
 
 }
-.footer_box{
+
+.footer_box {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.site-header__logo{
+
+.site-header__logo {
   margin: 0 0 10px;
 }
+
 
 
 @font-face {
@@ -396,6 +550,13 @@
   src: url(https://cdn.shopify.com/s/files/1/0571/2825/5601/files/Italiana-Regular.woff2?v=1715669580);
 }
 
+
+@media (max-width: 1389px) {
+  .footer_line_2 {
+    justify-content: center;
+  }
+}
+
 @media (max-width: 1200px) {
   .heading-text {
     font-size: 50px;
@@ -453,6 +614,44 @@
 
   .sub-heading-p2 {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 426px) {
+
+  .contact_us {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 416px) {
+
+  .Email {
+    font-size: 13px;
+  }
+
+  .contact_number {
+    font-size: 13px;
+  }
+
+  .location {
+    font-size: 13px;
+
+  }
+}
+
+@media (max-width: 340px) {
+
+  .Email {
+    font-size: 12px;
+  }
+
+  .contact_number {
+    font-size: 13px;
+  }
+
+  .location {
+    font-size: 13px;
   }
 }
 
