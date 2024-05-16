@@ -6,7 +6,10 @@
           <img src="{{ section.settings.heading_side_image | img_url: 'master' }}" alt="">
         </div>
       {% endif %}
-      <h1>{{ section.settings.header }}</h1>
+      <div>
+        <h1>{{ section.settings.header }}</h1>
+      {% comment %} <img src="{{ section.settings.heading_underline | img_url: 'master' }}" alt=""> {% endcomment %}
+      </div>
       {% if section.settings.heading_side_image != blank %}
         <div class="side_image">
           <img src="{{ section.settings.heading_side_image | img_url: 'master' }}" alt="">
@@ -50,11 +53,18 @@
         "type": "image_picker",
         "id": "bg_image_1",
         "label": "bg_img"
-      }, {
+      },
+      {
         "type": "image_picker",
         "id": "heading_side_image",
         "label": "heading_side_image"
-      }, {
+      },
+      {
+        "type": "image_picker",
+        "id": "heading_underline",
+        "label": "heading_underline"
+      },
+      {
         "type": "text",
         "id": "header",
         "label": "heading"
@@ -102,7 +112,7 @@
 
   .shipping_video {
     width: 100%;
-    margin-bottom: 200px;
+    margin-bottom: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
