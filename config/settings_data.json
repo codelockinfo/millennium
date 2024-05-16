@@ -118,11 +118,20 @@
               "text": "",
               "container_width": 18
             }
+          },
+          "menu_TbxPen": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "our-categories-1",
+              "container_width": 18
+            }
           }
         },
         "block_order": [
           "1494301487049",
-          "1494292487693"
+          "1494292487693",
+          "menu_TbxPen"
         ],
         "settings": {
           "show_locale_selector": true,
