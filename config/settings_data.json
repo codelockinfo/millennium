@@ -105,32 +105,24 @@
           "1494301487049": {
             "type": "menu",
             "settings": {
-              "show_footer_title": false,
+              "show_footer_title": true,
               "menu": "footer",
-              "container_width": 25
+              "container_width": 18
             }
           },
           "1494292487693": {
             "type": "newsletter",
             "settings": {
               "show_footer_title": true,
-              "title": "Sign up and save",
-              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-              "container_width": 33
-            }
-          },
-          "1494301487048": {
-            "type": "logo_social",
-            "settings": {
-              "desktop_logo_height": 50,
-              "container_width": 95
+              "title": "Subscribe",
+              "text": "",
+              "container_width": 18
             }
           }
         },
         "block_order": [
           "1494301487049",
-          "1494292487693",
-          "1494301487048"
+          "1494292487693"
         ],
         "settings": {
           "show_locale_selector": true,
