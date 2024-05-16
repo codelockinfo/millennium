@@ -1,15 +1,14 @@
 <div class="main_div">
   <div class="bg_image">
     <div class="video_section">
-      {% comment %} <video
-        src="{{ section.settings.VideoDrop }}"
-        controls
-        autoplay
+      <video
+        class="video"
+        loop
         muted
-        loop></video> {% endcomment %}
-  <video class="video" loop muted autoplay playsinline>
-  <source src="{{ section.settings.video  }}" type="video/mp4">
-</video> 
+        autoplay
+        playsinline>
+        <source src="{{ section.settings.video  }}" type="video/mp4">
+      </video>
 
     </div>
     <div class="trusted_by">
@@ -18,7 +17,7 @@
           <img src="{{ section.settings.trusted_by_image | img_url: 'master' }}" alt="">
         </div>
       {% endif %}
-      <h1>Trusted by</h1>
+      <h2 class="head">Trusted by</h2>
       {% if section.settings.trusted_by_image != blank %}
         <div class="main_image_1">
           <img src="{{ section.settings.trusted_by_image | img_url: 'master' }}" alt="">

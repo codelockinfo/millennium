@@ -18,6 +18,28 @@
   position: relative;
 }
 
+.head {
+  color: #F0F0F0 !important;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 83.43px;
+  font-family: 'Italiana' !important;
+  text-transform: capitalize !important;
+  position: relative;
+}
+
+.head::after {
+  background: linear-gradient(90deg, #282828 0%, #F0F0F0 48%, #282828 100%) !important;
+  height: 2px;
+  width: 100% !important;
+  bottom: -15px;
+  position: absolute;
+  content: "";
+  left: 0%;
+  right: 0%;
+
+}
+
 .heading-text::after {
   position: absolute;
   content: "";
