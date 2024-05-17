@@ -1,5 +1,62 @@
 {
   "sections": {
+    "slideshow_cjDeH6": {
+      "type": "slideshow",
+      "blocks": {
+        "image_WGV893": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "You Were Born\nTo Stand Out",
+            "title_size": 96,
+            "subheading": "",
+            "link": "",
+            "link_text": "Get 40-60% Off",
+            "link_2": "shopify:\/\/collections",
+            "link_text_2": "View Collection",
+            "color_accent": "rgba(0,0,0,0)",
+            "color_accent2": "#d0c272",
+            "color_text": "#000000",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/banner.png",
+            "overlay_opacity": 0,
+            "focal_point": "20% 0"
+          }
+        },
+        "image_bHAkaH": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "You Were Born\nTo Stand Out",
+            "title_size": 96,
+            "subheading": "",
+            "link": "",
+            "link_text": "Get 40-60% Off",
+            "link_2": "shopify:\/\/collections",
+            "link_text_2": "View Collection",
+            "color_accent": "rgba(0,0,0,0)",
+            "color_accent2": "#d0c272",
+            "color_text": "#000000",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/banner.png",
+            "overlay_opacity": 0,
+            "focal_point": "20% 0"
+          }
+        }
+      },
+      "block_order": [
+        "image_WGV893",
+        "image_bHAkaH"
+      ],
+      "settings": {
+        "section_height": "750px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
     "banner_custom_section_N3MWmb": {
       "type": "banner-custom-section",
       "blocks": {
@@ -30,6 +87,7 @@
         "text_QQUdXR",
         "text_PCRqch"
       ],
+      "disabled": true,
       "settings": {
         "banner_background": "#e1dad0"
       }
@@ -168,13 +226,13 @@
     "our_mission_XLE69f": {
       "type": "our-mission",
       "settings": {
-        "Commitment_head": "Our <br>  Mission",
+        "Commitment_head": "Our  Mission",
         "Commitment_img_1": "shopify:\/\/shop_images\/11502090.png",
-        "Commitment_para_1": "Best and Easy Service  <br> to Customer",
+        "Commitment_para_1": "Best and Easy Service <br>  to Customer",
         "Commitment_img_2": "shopify:\/\/shop_images\/8909309.png",
         "Commitment_para_2": "Be Eco-Friendly",
         "Commitment_img_3": "shopify:\/\/shop_images\/5078214.png",
-        "Commitment_para_3": "Increase  <br> Employment",
+        "Commitment_para_3": "Increase <br>  Employment",
         "Commitment_img_4": "shopify:\/\/shop_images\/5790545.png",
         "Commitment_para_4": "World Wide <br>  Presence"
       }
@@ -196,6 +254,7 @@
     "certificate_N8JM7b": {
       "type": "Certificate",
       "settings": {
+        "heading_1": "Certificate",
         "heading_image": "shopify:\/\/shop_images\/Vector_20_2.png",
         "Certificate_1": "shopify:\/\/shop_images\/image_19.png",
         "Certificate_2": "shopify:\/\/shop_images\/Group_1000004694.png",
@@ -254,6 +313,7 @@
     }
   },
   "order": [
+    "slideshow_cjDeH6",
     "banner_custom_section_N3MWmb",
     "category_slider_LU46Ei",
     "collection_slider_section_VnyWwX",
