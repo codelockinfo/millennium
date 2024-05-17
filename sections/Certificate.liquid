@@ -1,8 +1,8 @@
 <div class="Certificate_main_1">
   {% if section.settings.heading_image != blank %}
-    {% comment %} <div class="banner_image">
-                           <img src="{{ section.settings.heading_image | img_url: 'master' }}" alt="">
-                   </div> {% endcomment %}
+    <div class="banner_image">
+      <img src="{{ section.settings.heading_image | img_url: 'master' }}" alt="">
+    </div>
   {% endif %}
   <div class="width-container">
     <div class="Certificate_heading">
@@ -84,12 +84,13 @@
   .Certificate_main_1 {
     width: 100%;
     height: auto;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 100px 0;
+    z-index: 9999 !important;
     background-color: #F0F0F0;
+    position: relative;
   }
   .Certificate_main_2 {
     width: 100%;
@@ -140,11 +141,14 @@
     justify-content: center;
   }
   .banner_image {
-    width: 490px;
+    position: absolute;
+    top: 70px;
+    left: 100px;
   }
   .banner_image img {
-    width: 100%;
+    width: 400px;
   }
+
   .Certificate_image_1 {
     width: 323px;
     height: 254px;
@@ -182,6 +186,11 @@
   }
 
 
+  @media (max-width: 1270px) {
+    .banner_image {
+      display: none;
+    }
+  }
   @media (max-width: 1201px) {
     .main_head {
       font-size: 50px;

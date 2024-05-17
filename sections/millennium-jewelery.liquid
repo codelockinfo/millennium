@@ -11,10 +11,13 @@
           <h6 class="para_h6">{{ section.settings.para_head }}</h6>
           <h2 class="para_h2">{{ section.settings.company_name }}</h2>
           <p class="para_p">{{ section.settings.paragraph }}</p>
-          <button class="para_button">{{ section.settings.button }}
-            {% if section.settings.btn_img != blank %}
-              <img src="{{ section.settings.btn_img |  img_url: 'master' }}" alt="">
-            {% endif %}
+          <button class="para_button">
+            <a href="{{ section.settings.jewelery_url_1 }}">
+              {{ section.settings.button }}
+              {% if section.settings.btn_img != blank %}
+                <img src="{{ section.settings.btn_img |  img_url: 'master' }}" alt="">
+              {% endif %}
+            </a>
           </button>
         </div>
       </div>
@@ -30,10 +33,13 @@
           <h6 class="para_h6">{{ section.settings.para_head2 }}</h6>
           <h2 class="para_h2_2">{{ section.settings.company_name2 }}</h2>
           <p class="para_p_2">{{ section.settings.paragraph2 }}</p>
-          <button class="para_button">{{ section.settings.button2 }}
-            {% if section.settings.btn_img2 != blank %}
-              <img src="{{ section.settings.btn_img2 | img_url: 'master' }}" alt="">
-            {% endif %}
+          <button class="para_button">
+            <a href="{{ section.settings.jewelery_url }}">
+              {{ section.settings.button2 }}
+              {% if section.settings.btn_img2 != blank %}
+                <img src="{{ section.settings.btn_img2 | img_url: 'master' }}" alt="">
+              {% endif %}
+            </a>
           </button>
         </div>
         {% if section.settings.image_main_1 != blank %}
@@ -54,7 +60,7 @@
       {
         "type": "image_picker",
         "id": "image_main",
-        "label": "head_image"
+        "label": "head image"
       },
       {
         "type": "text",
@@ -77,15 +83,19 @@
       }, {
         "type": "image_picker",
         "id": "btn_img",
-        "label": "button_img"
+        "label": "button img"
+      }, {
+        "type": "url",
+        "id": "jewelery_url_1",
+        "label": "button url 1"
       }, {
         "type": "image_picker",
         "id": "image1",
-        "label": "vactor_img"
+        "label": "vactor img"
       }, {
         "type": "text",
         "id": "para_head2",
-        "label": "heading_2"
+        "label": "heading 2"
       }, {
         "type": "text",
         "id": "company_name2",
@@ -99,13 +109,17 @@
         "id": "button2",
         "label": "button"
       }, {
+        "type": "url",
+        "id": "jewelery_url",
+        "label": "button url"
+      }, {
         "type": "image_picker",
         "id": "btn_img2",
-        "label": "button_img"
+        "label": "button img"
       }, {
         "type": "image_picker",
         "id": "image_main_1",
-        "label": "head_image_2"
+        "label": "head image 2"
       }
     ],
     "presets": [
@@ -274,6 +288,14 @@
     width: 25px;
     height: 25px;
     filter: invert(1);
+  }
+  .para_button a {
+    color: #fff;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    text-decoration: none;
+    background: transparent;
   }
 
   @media only screen and (max-width: 1100px) {
