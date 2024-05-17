@@ -245,7 +245,7 @@
                             </div>
                             <div class="hero__link"></div>
                               {%- if block.settings.link_text_2 != blank -%}
-                                <a href="{{ block.settings.link_2 }}" class="btn{% if block.settings.color_accent contains 'rgba(0,0,0,0)' %} btn--inverse{% endif %}">
+                                <a href="{{ block.settings.link_2 }}" class="btn{% if block.settings.color_accent2 contains 'rgba(0,0,0,0)' %} btn--inverse{% endif %} buttonslider2" style="background-color: {{block.settings.color_accent2}}; color:{{block.settings.color_text}};">
                                   {{ block.settings.link_text_2 }}
                                 </a>
                               {%- endif -%}
@@ -275,6 +275,35 @@
     background: linear-gradient(90deg, #303030 0%, rgba(115, 115, 115, 0) 100%);
     border-radius: 32.46px;
     border: unset;
+    margin: 20px 0;
+    font-family: 'Montserrat Alternates';
+    font-weight: 500;
+    line-height: 36px;
+    font-size: 24px;
+    letter-spacing: normal;
+  }
+  .buttonslider2{
+    font-family: 'Montserrat Alternates';
+    font-weight: 500;
+    line-height: 36px;
+    font-size: 24px;
+    text-transform: capitalize;
+    letter-spacing: normal;
+  }
+  @media (max-width:1024px) {
+    .slideshow__slide  .buttonslider1,.buttonslider2{
+      font-size: 18px;
+    }
+  }
+  @media (max-width:768px) {
+    .slideshow__slide .buttonslider1,.buttonslider2{
+      font-size: 16px;
+    }
+  }
+  @media (max-width:600px) {
+    .slideshow__slide .buttonslider1,.buttonslider2{
+      font-size: 14px;
+    }
   }
 </style>
 {% schema %}
@@ -450,6 +479,18 @@
             "type": "color",
             "id": "color_accent",
             "label": "Buttons",
+            "default": "rgba(0,0,0,0)"
+          },
+          {
+            "type": "color",
+            "id": "color_accent2",
+            "label": "Buttons 2",
+            "default": "rgba(0,0,0,0)"
+          },
+          {
+            "type": "color",
+            "id": "color_text",
+            "label": "Buttons 2 text color",
             "default": "rgba(0,0,0,0)"
           },
           {

@@ -302,15 +302,17 @@
 .collection-img {
     height: 380px;
   }
-  }
-  @media (max-width: 400px) {
-    .png-img-1{
-    width: 250px;
+  .png-img-1{
+    display: none;
   }
   .png-img-2{
-   width: 250px;
+    display: none;
   }
-  }
+  .swiper-slide:nth-child(even) {
+  margin-top: 0;
+ }
+}
+
 
 
 </style>
@@ -345,7 +347,7 @@
       },
   
       576:{
-        slidesPerView: 2.2,
+        slidesPerView: 1.2,
         spaceBetween: 30,
       },
       768:{
