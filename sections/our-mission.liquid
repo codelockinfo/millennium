@@ -130,6 +130,7 @@
   .commit-h1 {
     font-size: 64px;
     font-weight: 400;
+    width: 200px;
     text-align: left !important;
     line-height: 62.57px;
     font-family: "Italiana";
@@ -247,15 +248,39 @@
 
   @media only screen and (max-width: 978px) {
     .mission_main {
-      bottom: -148px;
+      bottom: -108px;
     }
   }
   @media only screen and (max-width: 902px) {
     .mission_main {
-      bottom: -170px;
+      bottom: -102;
+    }
+  }
+
+  @media only screen and (max-width: 820px) {
+    .mission_main {
+      bottom: -140;
+    }
+    .commit-h1 {
+
+      line-height: 50.57px;
+      padding-left: 20px;
+
+    }
+
+    .image_content_1 {
+      padding: 0 20px;
     }
   }
   @media only screen and (max-width: 768px) {
+    .commit-h1 {
+      width: 100%;
+
+
+    }
+    .image_content_1 {
+      padding: 0 20px;
+    }
     .mission_section {
       display: flex;
       flex-direction: column;
@@ -278,15 +303,23 @@
 
   @media only screen and (max-width: 540px) {
     .mission_main {
-      bottom: -185px;
+      bottom: -302px;
     }
-
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
   }
 
 
   @media only screen and (max-width: 493px) {
     .mission_main {
-      bottom: -275px;
+      bottom: -296px;
+    }
+    .commit-h1 {
+      font-size: 35px;
     }
   }
 
@@ -298,7 +331,13 @@
 
   @media only screen and (max-width: 359px) {
     .mission_main {
-      bottom: -350px;
+      bottom: -205px;
+    }
+  }
+
+  @media only screen and (max-width: 326px) {
+    .mission_main {
+      bottom: -312px;
     }
   }
 
