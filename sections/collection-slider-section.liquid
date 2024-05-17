@@ -3,7 +3,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 
-<div class="Collection-grid-section" id="{{ section.id }}">
+<div class="Collection-grid-section" >
   <div class="width-container">
     <div class="common-heading ">
       <div class="section-header">
@@ -45,12 +45,14 @@
       {% endfor %}
     </div>
    <div class="view-all-button">
+    <div class="news__arrows"></div>
     <a href="{{section.settings.viewall}}">
     <button class="collection-view-all">{{section.settings.button_text}}
         <i class="fa-solid fa-chevron-right c-arrow-icon"></i>
       </button>
       </a>
    </div>
+   
   </div>
 </div>
 
@@ -80,7 +82,7 @@
       },
       {
         "type": "color",
-        "id": "background",
+        "id": "collection_color",
         "label": " background color" 
       },
     {
@@ -110,7 +112,7 @@
 <style>
  
   .Collection-grid-section{
-    background-color: {{section.settings.background}};  
+    background-color:{{section.settings.collection_color}} !important;  
     padding-top:60px;
     padding-bottom:80px;
   }
@@ -199,6 +201,7 @@
   .view-all-button{
     text-align:end ;
     margin-top: 30px;
+    position: relative;
   }
     @media(max-width:768px){
       .Main-collections .head{
@@ -284,134 +287,32 @@
   .Collection-grid-section	.slick-loading .slick-list {
     background: #fff var(--slick-img-url) center center no-repeat; }
 
-  / Icons /
-  / Arrows /
-  .Collection-grid-section	.slick-prev,
-  .Collection-grid-section	.slick-next {
+    .news__arrows{
+    width: 80px;
+    margin: 0 auto;
     position: absolute;
-    display: block;
-    line-height: 0px;
-    font-size: 0px;
-    cursor: pointer;
-    /* background: white; */
-    color: transparent;
-    top: 50%;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    padding: 0;
-    border: none;
+    left: 43%;
+    top: 10%;
   }
-  /* .Collection-grid-section	.slick-prev:hover, .Collection-grid-section	.slick-prev:focus,
-  .Collection-grid-section	.slick-next:hover,
-  .Collection-grid-section	 .slick-next:focus {
-      background: white;
-      color: blue;
-    } */
-      /* .Collection-grid-section	.slick-prev:hover:before, .Collection-grid-section	.slick-prev:focus:before,
-      .Collection-grid-section	.slick-next:hover:before,
-      .Collection-grid-section	.slick-next:focus:before {
-        opacity: 1;
-      } */
-    /* .Collection-grid-section	.slick-prev.slick-disabled:before,
-    .Collection-grid-section	.slick-next.slick-disabled:before {
-      opacity: 0.25;
-    } */
-    .Collection-grid-section	.slick-prev:before,
-    .Collection-grid-section	.slick-next:before {
-      font-family: "slick-icons, sans-serif";
-      font-size: 18px;
-      line-height: 1.5;
-      color: #000;
-      opacity: 0.75;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale; }
 
-  .Collection-grid-section	.slick-prev {
-     left: 45%;
-     top:105%;
-     position: absolute;
-     z-index:10;
-     border: 3px solid #282828;
-     border-radius: 50%;
-     width: 35px;
-     height: 35px;
-     color:#282828;
-  }
-    [dir="rtl"]
-      .Collection-grid-section	.slick-prev {
-      left: auto;
-        top:50%;
-      }
-    .Collection-grid-section	.slick-prev:before {
-      content: "\276E";
-    }
-      [dir="rtl"] .Collection-grid-section	.slick-prev:before {
-        content: "\276F";
-      }
-
-  .Collection-grid-section	.slick-next {
-    right: 49%;
-      position: absolute;
-       z-index:10;
-      top:105%;
-      border: 3px solid #282828;
-      border-radius: 50%;
-      width: 35px;
-      height: 35px;
-      color:#282828;
-  }
     [dir="rtl"] .Collection-grid-section	.slick-next {
       left: -25px;
       right: auto;
     }
     .Collection-grid-section	.slick-next:before {
       content: "\276F";
+      font-weight: 600;
     }
       [dir="rtl"]
       .Collection-grid-section	.slick-next:before {
         content: "\276E";
       }
-      @media (max-width:1500px) {
-    .Collection-grid-section	.slick-prev{
-      left: 45%;
-    }
-    .Collection-grid-section	.slick-next{
-      right: 45%;
+      @media (max-width: 529px) {
+    .news__arrows{
+      left: 4%;
     }
   }
-  @media (max-width:900px) {
-    .Collection-grid-section	.slick-prev{
-      left: 38%;
-    }
-    .Collection-grid-section	.slick-next{
-      right: 40%;
-    }
-  }
-  @media (max-width: 768px) {
-    .Collection-grid-section	.slick-prev{
-      left: 40%;
-    }
-    .Collection-grid-section	.slick-next{
-      right: 40%;
-    }
-  }
-  @media (max-width: 576px) {
-    .Collection-grid-section	.slick-prev{
-      left: 30%;
-    }
-    .Collection-grid-section	.slick-next{
-      right: 35%;
-    }
-  }
-  @media (max-width: 449px) {
-    .Collection-grid-section	.slick-prev{
-      left: 10%;
-    }
-    .Collection-grid-section	.slick-next{
-      right: 65%;
-    }
-  }
+ 
 
 
 </style>
@@ -422,6 +323,7 @@
     arrows: true,
     slidesToShow: 4,
     slidesToScroll: 1,
+    appendArrows: $('.news__arrows'),
     prevArrow: "<button type='button' class='slick-prev pull-left arrowidth'></button>",
     nextArrow: "<button type='button' class='slick-next pull-right arrowidth'></button>",
     responsive: [

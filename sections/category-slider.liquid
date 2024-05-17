@@ -38,10 +38,13 @@
         {% endfor %}
         </div>
         </div>
-          <div class="swiper-button-next"><i class="fa-solid fa-angle-right"></i></div>
-          <div class="swiper-button-prev"><i class="fa-solid fa-angle-left"></i></div>
+         
 
 
+  </div>
+  <div class="swiper-arrow-button">
+    <div class="swiper-button-next"><i class="fa-solid fa-angle-right"></i></div>
+   <div class="swiper-button-prev"><i class="fa-solid fa-angle-left"></i></div>
   </div>
 </div>
 
@@ -102,7 +105,7 @@
 <style>
   .slider-category {
     padding-top: 100px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     background-color: {{ section.settings.background }};
     position: relative;
     z-index:1;
@@ -170,7 +173,12 @@
     width: 100%;
     height: 100%;
   }
-
+  .swiper-arrow-button{
+    width: 100px;
+    position: relative;
+    margin: auto;
+    margin-top: 7%;
+  }
   .swiper-slide {
     display: flex;
     justify-content: center;
@@ -181,40 +189,48 @@
     /* overflow: hidden; */
     object-fit: cover;
   }
-  .slider-container .swiper-button-next{
+   .swiper-button-next{
 		color:#282828 !important;
 		border:3px solid #282828;
 		justify-content: center;
-		position: absolute;
-    top: 110% !important;
-		right: 55% !important;
+		/* position: absolute; */
+    /* top: 110% !important; */
 		width: 35px;
 		height: 35px;
 		border-radius: 50%;
-    margin-left: 50px;
-    font-size: 18px;    
+    /* margin-left: 50px; */
+    font-size: 18px;      
+    /* left: 44% !important;
+  right: 44% !important;
+  -webkit-transform: translate(-50%,-50%) !important;
+      -ms-transform: translate(-50%,-50%) !important;
+          transform: translate(-50%,-50%) !important; */
 	}
-	.slider-container .swiper-button-prev{
+ .swiper-button-prev{
 		color:#282828;
 		border:3px solid #282828;
 		justify-content: center;
-        position: absolute;
-		top:110% !important;
-		left: 40% !important;
+        /* position: absolute; */
+		/* top:110% !important; */
 		width: 35px;
 		height: 35px;
 		border-radius: 50%;
-    margin-right: 50px;
+    /* margin-right: 50px; */
     font-size: 18px;
+    /* left: 44% !important;
+  right: 44% !important;
+  -webkit-transform: translate(-50%,-50%) !important;
+      -ms-transform: translate(-50%,-50%) !important;
+          transform: translate(-50%,-50%) !important; */
 	}
   .swiper-slide:nth-child(even) {
   margin-top: 50px;
  }
-
+ 
  .swiper-slide:nth-child(odd) {
   color: #fff;
 }
-  @media (max-width: 1500px) {
+  /* @media (max-width: 1500px) {
     .slider-container .swiper-button-next{
 	
     top: 110% !important;
@@ -224,7 +240,7 @@
 		top:110% !important;
 		left: 40% !important;
 	}
-  }
+  } */
   @media (max-width: 1440px) {
     .slider-collection-heading {
     font-size: 24px !important;
@@ -244,7 +260,7 @@
     margin-left: 5%;
   }
   }
-  @media (max-width: 900px) {
+  /* @media (max-width: 900px) {
 
     .slider-container .swiper-button-next{
 	
@@ -255,21 +271,13 @@
   top:110% !important;
   left: 38% !important;
 }
-  }
+  } */
   @media (max-width: 768px) {
    
     .slider-category-collection-box {
       padding: 0 15px;
     }
-    .slider-container .swiper-button-next{
-	
-  top: 110% !important;
-  right: 40% !important;
-}
-.slider-container .swiper-button-prev{
-  top:110% !important;
-  left: 40% !important;
-}
+
 .slider-container{
     margin-left: 0;
   }
@@ -287,15 +295,6 @@
   }
   }
   @media (max-width: 576px) {
-    .slider-container .swiper-button-next{
-	
-  top: 110% !important;
-  right:35% !important;
-}
-.slider-container .swiper-button-prev{
-  top:110% !important;
-  left: 30% !important;
-}
 .slider-container{
   margin-top: 30px;
 }
@@ -311,6 +310,10 @@
   .swiper-slide:nth-child(even) {
   margin-top: 0;
  }
+ .swiper-arrow-button{
+    
+    margin-top: 10%;
+  }
 }
 
 
@@ -333,21 +336,12 @@
       clickable: true,
     },
     breakpoints :{
-      0:{
-        slidesPerView: 1,
-        spaceBetween: 30,
-      },
-      220:{
-        slidesPerView: 1,
-        spaceBetween: 30,
-      },
       320:{
         slidesPerView: 1,
         spaceBetween: 30,
       },
-  
-      576:{
-        slidesPerView: 1.2,
+      577:{
+        slidesPerView: 2.2,
         spaceBetween: 30,
       },
       768:{
