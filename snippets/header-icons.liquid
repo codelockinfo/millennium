@@ -22,6 +22,14 @@
         <span class="icon__fallback-text">{{ 'general.search.title' | t }}</span>
       </a>
     {%- endif -%}
+    {%- if settings.wishlist_enable -%}
+      <a href="{{ settings.wishlist_link }}" class="site-nav__link site-nav__link--icon {% if section.settings.main_menu_alignment == 'center' or section.settings.main_menu_alignment == 'center-split' %}{% endif %}">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+        <path d="M18.3906 0.288086C17.0883 0.288086 15.8943 0.700773 14.8419 1.51471C13.7232 2.37984 11.808 2.37984 10.6894 1.51471C9.63695 0.700773 8.44295 0.288086 7.14062 0.288086C3.50631 0.288086 0.765625 3.26076 0.765625 7.20281C0.765625 11.4616 4.18483 14.3754 9.36105 18.7865C10.24 19.5356 11.2364 20.3847 12.2719 21.2902C12.4084 21.4098 12.5837 21.4756 12.7656 21.4756C12.9475 21.4756 13.1228 21.4098 13.2593 21.2903C14.295 20.3846 15.2913 19.5355 16.1708 18.786C21.3464 14.3754 24.7656 11.4616 24.7656 7.20281C24.7656 3.26076 22.0249 0.288086 18.3906 0.288086Z" fill="#282828"/>
+        </svg>
+        <span class="icon__fallback-text">Wishlist</span>
+      </a>
+    {%- endif -%}
 
     {%- if section.settings.main_menu_alignment == 'left' or section.settings.main_menu_alignment == 'left-center' or section.settings.main_menu_alignment == 'left-drawer' -%}
       <button

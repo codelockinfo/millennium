@@ -985,6 +985,17 @@
         "default": true
       },
       {
+        "type": "checkbox",
+        "id": "wishlist_enable",
+        "label": "Enable Wishlist",
+        "default": true
+      },
+      {
+        "type": "url",
+        "id": "wishlist_link",
+        "label": "Wishlist page link"
+      },
+      {
         "type": "select",
         "id": "search_type",
         "label": "Search results",
