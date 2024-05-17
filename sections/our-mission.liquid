@@ -281,68 +281,75 @@
     .image_content_1 {
       padding: 0 20px;
     }
-  }
-  .image_content_1 p {
-    width: 118px;
-  }
-  .mission_section {
-    display: flex;
-    flex-direction: column;
-  }
-  .item {
-    margin-top: 5px;
-  }
-  .mission_main {
-    bottom: -200px;
+
+    .image_content_1 p {
+      width: 118px;
+    }
+    .mission_section {
+      display: flex;
+      flex-direction: column;
+    }
+    .item {
+      margin-top: 5px;
+    }
+    .mission_main {
+      bottom: -200px;
+    }
+
+    .para_1 {
+      font-family: "Montserrat Alternates";
+      font-weight: 600;
+      font-size: 15px;
+    }
+
+    .commit-h1 {
+
+      line-height: 50.57px;
+      padding-left: 0;
+
+    }
+
   }
 
-  .para_1 {
-    font-family: "Montserrat Alternates";
-    font-weight: 600;
-    font-size: 15px;
+
+  @media only screen and (max-width: 540px) {
+    .mission_main {
+      bottom: -302px;
+    }
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
   }
 
 
-}
+  @media only screen and (max-width: 493px) {
+    .mission_main {
+      bottom: -296px;
+    }
+    .commit-h1 {
+      font-size: 35px;
+    }
+  }
 
-@media only screen and (max-width: 540px) {
-  .mission_main {
-    bottom: -302px;
+  @media only screen and (max-width: 385px) {
+    .commit-h1 {
+      padding: 0 5px;
+    }
   }
-  .item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-}
 
+  @media only screen and (max-width: 359px) {
+    .mission_main {
+      bottom: -205px;
+    }
+  }
 
-@media only screen and (max-width: 493px) {
-  .mission_main {
-    bottom: -296px;
+  @media only screen and (max-width: 326px) {
+    .mission_main {
+      bottom: -312px;
+    }
   }
-  .commit-h1 {
-    font-size: 35px;
-  }
-}
-
-@media only screen and (max-width: 385px) {
-  .commit-h1 {
-    padding: 0 5px;
-  }
-}
-
-@media only screen and (max-width: 359px) {
-  .mission_main {
-    bottom: -205px;
-  }
-}
-
-@media only screen and (max-width: 326px) {
-  .mission_main {
-    bottom: -312px;
-  }
-}
 
 </style>
