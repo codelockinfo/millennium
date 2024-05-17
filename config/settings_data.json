@@ -44,9 +44,11 @@
     "button_style": "square",
     "icon_weight": "2px",
     "icon_linecaps": "miter",
+    "product_save_amount": false,
     "quick_shop_text": "Quick view",
-    "product_grid_image_size": "natural",
+    "product_grid_image_size": "square",
     "product_hover_image": false,
+    "enable_product_reviews": true,
     "collection_grid_style": "overlaid-box",
     "collection_grid_shape": "square",
     "collection_grid_image": "product",
@@ -160,7 +162,7 @@
           "show_payment_icons": false,
           "show_copyright": false,
           "copyright_text": "",
-          "bottom_footer_bgcolor": "#F0F0F0",
+          "bottom_footer_bgcolor": "#f0f0f0",
           "bottom_footer_heading": "Contact Us",
           "contact_no": "(629) 555-0129",
           "address": "Millennium Jewelery, Surat, Gujarat, India",
@@ -201,10 +203,10 @@
         "type": "footer-address",
         "settings": {
           "show_homepage": true,
-          "bgcolor_footer_address": "#111",
+          "bgcolor_footer_address": "#111111",
           "color_footer_address": "#ffffff",
           "address": "<p>© 2024, Millennium Jewelery All Rights Reserved by Millennium Jewelery<\/p>",
-          "footer_menu_link_list": "millennium-menu"
+          "footer_menu_link_list": "footer-1"
         }
       }
     },

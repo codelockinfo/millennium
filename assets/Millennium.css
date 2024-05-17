@@ -83,13 +83,11 @@
   line-height: 21px;
   text-align: center;
 }
-
-.footer_content_2 a::after {
+.footer_content_2 a:not(:last-child):after{
   content: "|";
   margin: 0 14px;
   color: #fff;
 }
-
 .a :last-child {
   display: none;
 }
