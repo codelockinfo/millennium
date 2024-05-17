@@ -22,10 +22,31 @@
             "overlay_opacity": 0,
             "focal_point": "20% 0"
           }
+        },
+        "image_bHAkaH": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "You Were Born\nTo Stand Out",
+            "title_size": 96,
+            "subheading": "",
+            "link": "",
+            "link_text": "Get 40-60% Off",
+            "link_2": "shopify:\/\/collections",
+            "link_text_2": "View Collection",
+            "color_accent": "rgba(0,0,0,0)",
+            "color_accent2": "#d0c272",
+            "color_text": "#000000",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/banner.png",
+            "overlay_opacity": 0,
+            "focal_point": "20% 0"
+          }
         }
       },
       "block_order": [
-        "image_WGV893"
+        "image_WGV893",
+        "image_bHAkaH"
       ],
       "settings": {
         "section_height": "750px",
@@ -233,6 +254,7 @@
     "certificate_N8JM7b": {
       "type": "Certificate",
       "settings": {
+        "heading_1": "",
         "heading_image": "shopify:\/\/shop_images\/Vector_20_2.png",
         "Certificate_1": "shopify:\/\/shop_images\/image_19.png",
         "Certificate_2": "shopify:\/\/shop_images\/Group_1000004694.png",
