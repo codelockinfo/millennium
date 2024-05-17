@@ -8,6 +8,11 @@
   overflow: hidden;
 }
 
+.animation-contents{
+  font-family: 'Italiana' !important;
+  text-transform: capitalize;
+  font-weight: 400;
+}
 .footer__newsletter-btn {
   width: 125px;
   display: flex;
