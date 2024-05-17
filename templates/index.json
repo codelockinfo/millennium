@@ -1,5 +1,41 @@
 {
   "sections": {
+    "slideshow_cjDeH6": {
+      "type": "slideshow",
+      "blocks": {
+        "image_WGV893": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "You Were Born\nTo Stand Out",
+            "title_size": 96,
+            "subheading": "",
+            "link": "",
+            "link_text": "Get 40-60% Off",
+            "link_2": "shopify:\/\/collections",
+            "link_text_2": "View Collection",
+            "color_accent": "rgba(0,0,0,0)",
+            "color_accent2": "#d0c272",
+            "color_text": "#000000",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/banner.png",
+            "overlay_opacity": 0,
+            "focal_point": "20% 0"
+          }
+        }
+      },
+      "block_order": [
+        "image_WGV893"
+      ],
+      "settings": {
+        "section_height": "750px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
     "banner_custom_section_N3MWmb": {
       "type": "banner-custom-section",
       "blocks": {
@@ -30,6 +66,7 @@
         "text_QQUdXR",
         "text_PCRqch"
       ],
+      "disabled": true,
       "settings": {
         "banner_background": "#e1dad0"
       }
@@ -254,6 +291,7 @@
     }
   },
   "order": [
+    "slideshow_cjDeH6",
     "banner_custom_section_N3MWmb",
     "category_slider_LU46Ei",
     "collection_slider_section_VnyWwX",
