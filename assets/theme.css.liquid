@@ -244,14 +244,15 @@
   color:var(--colorBtnPrimaryText);
   background:{{ settings.color_button | default: "#000" }};
   background:var(--colorBtnPrimary);
-  border-radius:50%
+  /* border-radius:50% */
 }
 
 .hero .flickity-button{
     color:{{ settings.color_body_text | default: "#1c1d1d" }};
     color:var(--colorTextBody);
-    background-color:{{ settings.color_body_bg | default: "#fff" }};
-    background-color:var(--colorBody);
+    border: 3px solid #d9d9d9;
+    /* background-color:{{ settings.color_body_bg | default: "#fff" }};
+    background-color:var(--colorBody); */
     box-shadow:0 5px 5px rgba(0, 0, 0, 0.1)
 }
 
@@ -311,6 +312,8 @@
   width:30%;
   height:30%;
   fill:currentColor;
+  transform: rotate(45deg);
+  color: #d9d9d9;
 }
 
 .flickity-page-dots{
@@ -371,22 +374,23 @@
 }
 
 .hero[data-arrows=true] .flickity-prev-next-button{
-    top:auto;
-    bottom:-20px;
+    /* top:auto;
+    bottom:-20px; */
     transform:none;
+    transform: rotate(315deg);
   }
 
 .hero[data-arrows=true] .flickity-prev-next-button:hover{
-    transform:scale(1.12);
+    /* transform:scale(1.12); */
   }
 
 .hero[data-arrows=true] .flickity-prev-next-button:active{
-    transform:scale(1);
+    /* transform:scale(1); */
   }
 
 .hero[data-arrows=true] .flickity-previous{
-    left:auto;
-    right:90px;
+    left: 40px;
+    /* right:90px; */
   }
 
 .hero[data-arrows=true] .flickity-next{
@@ -394,8 +398,8 @@
   }
 
 .hero[data-arrows=true].flickity-rtl .flickity-previous{
-    right:auto;
-    left:90px;
+    right:40px;
+    /* left:90px; */
   }
 
 .hero[data-arrows=true].flickity-rtl .flickity-next{
@@ -7034,13 +7038,13 @@ input[type=image]{
   }
 
 .hero__link .btn+.btn{
-    margin-left:2px
+    /* margin-left:2px */
   }
 
 @media only screen and (min-width:769px){
 
 .hero__link .btn+.btn{
-      margin-left:10px
+      /* margin-left:10px */
   }
     }
 

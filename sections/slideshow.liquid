@@ -238,10 +238,12 @@
                           {%- if block.settings.link_text != blank or block.settings.link_text_2 != blank -%}
                             <div class="hero__link">
                               {%- if block.settings.link_text != blank -%}
-                                <a href="{{ block.settings.link }}" class="btn{% if block.settings.color_accent contains 'rgba(0,0,0,0)' %} btn--inverse{% endif %}">
+                                <a href="{{ block.settings.link }}" class="btn{% if block.settings.color_accent contains 'rgba(0,0,0,0)' %} btn--inverse{% endif %} buttonslider1">
                                   {{ block.settings.link_text }}
                                 </a>
                               {%- endif -%}
+                            </div>
+                            <div class="hero__link"></div>
                               {%- if block.settings.link_text_2 != blank -%}
                                 <a href="{{ block.settings.link_2 }}" class="btn{% if block.settings.color_accent contains 'rgba(0,0,0,0)' %} btn--inverse{% endif %}">
                                   {{ block.settings.link_text_2 }}
@@ -268,7 +270,13 @@
     </div>
   {%- endif -%}
 </div>
-
+<style>
+  .slideshow__slide .buttonslider1{
+    background: linear-gradient(90deg, #303030 0%, rgba(115, 115, 115, 0) 100%);
+    border-radius: 32.46px;
+    border: unset;
+  }
+</style>
 {% schema %}
   {
     "name": "Hero (optional slideshow)",
