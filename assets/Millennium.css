@@ -3,6 +3,7 @@
   padding: 0px 15px;
   margin: 0 auto;
 }
+  /* START CLS - 017 */
 
 .shopify-section{
   background-color: #F0F0F0;
@@ -13,10 +14,6 @@
   padding: 10px 15px;
   background-color: #fff;
 }
-
-
-
-
 
 .overflow {
   overflow: hidden;
@@ -114,9 +111,6 @@
   display: none;
 }
 
-
-
-
 .footer_line {
   display: flex;
   width: 100%;
@@ -176,10 +170,6 @@
   padding: 10px;
 
 }
-
-
-
-
 .heading-text {
   font-size: 64px;
   font-weight: 400;
@@ -226,6 +216,7 @@
 .common-heading {
   text-align: center;
 }
+  /* END CLS - 017 */
 
 
 .sub-heading-p {
