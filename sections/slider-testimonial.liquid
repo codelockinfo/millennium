@@ -28,7 +28,6 @@
   </div>
 </div>
 
-
 {%- schema -%}
   {
     "name": "Slider Testimonial",
@@ -77,15 +76,18 @@
     flex-wrap: wrap;
     flex-direction: row;
   }
+
   .swiper-slide:nth-child(odd) {
     color: #000000 !important;
   }
+
   .swiper {
     width: 100%;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
   }
+
   .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -94,8 +96,24 @@
     justify-content: center;
     align-items: center;
   }
+
   .reviewimage {
     text-align: left;
+  }
+
+  .slider_button .fa-solid {
+    border: 3px solid black;
+    padding: 5px 8px;
+    border-radius: 50%;
+    color: black;
+  }
+
+  .fa-chevron-left {
+    margin-left: 30px;
+  }
+
+  .fa-chevron-right {
+    margin-right: 30px;
   }
 
   .review-box {
@@ -120,6 +138,7 @@
     font-weight: 700;
     text-align: left;
   }
+
   .country {
     font-family: "Montserrat Alternates";
     font-size: 15px;
@@ -130,7 +149,6 @@
     text-transform: none;
     text-align: left;
   }
-
 
   .slider_head {
     color: #282828 !important;
@@ -153,7 +171,6 @@
     content: "";
     left: 32%;
     right: 32%;
-
   }
 
   .gradiant {
@@ -164,6 +181,7 @@
     background: linear-gradient(270deg, rgba(240, 240, 240, 0) 0%, #F0F0F0 80%);
     z-index: 2;
   }
+
   .gradiant_1 {
     position: absolute;
     right: 0;
@@ -171,13 +189,6 @@
     width: 100px;
     background: linear-gradient(90deg, rgba(240, 240, 240, 0) 0%, #F0F0F0 80%);
     z-index: 2;
-  }
-  .slider_button .swiper-button-next {
-    right: 100px;
-
-  }
-  .slider_button .swiper-button-prev {
-    left: 100px;
   }
 
   @media (max-width: 1200px) {
@@ -192,6 +203,21 @@
     }
   }
 
+  @media (max-width: 570px) {
+    .review-box {
+      margin: 0 55px;
+    }
+
+    .fa-chevron-left {
+      margin-left: 10px;
+    }
+
+    .fa-chevron-right {
+      margin-right: 10px;
+    }
+
+  }
+
   @media (max-width: 700px) {
     .gradiant_1 {
       display: none;
@@ -199,20 +225,43 @@
     .gradiant {
       display: none;
     }
-    .slider_button .swiper-button-next {
-      right: 30px;
-
-    }
-    .slider_button .swiper-button-prev {
-      left: 30px;
-    }
   }
+
   @media (max-width: 650px) {
     .slider_head {
       line-height: 50px;
     }
   }
 
+  @media (max-width: 425px) {
+    .fa-chevron-left {
+      margin-left: 1px;
+    }
+
+    .fa-chevron-right {
+      margin-right: 1px;
+    }
+    .review-box {
+      margin: 0 45px;
+      padding: 12px;
+    }
+    .reviewimage {
+      width: 30px;
+      height: 30px;
+    }
+    .lorem_content {
+      font-size: 11px;
+    }
+    .name {
+      font-size: 16px;
+    }
+    .country {
+      font-size: 13px;
+    }
+    .slider_button .fa-solid {
+      padding: 2px 5px;
+    }
+  }
 
 </style>
 
