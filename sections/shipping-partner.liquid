@@ -35,11 +35,11 @@
     </div>
     <div class="shipping_video">
       {% comment %} <video
-                                                                                                                                                                                                                                                                                                                                                                                src="{{ section.settings.Video_2 }}"
-                                                                                                                                                                                                                                                                                                                                                                                controls
-                                                                                                                                                                                                                                                                                                                                                                                autoplay
-                                                                                                                                                                                                                                                                                                                                                                                muted
-                                                                                                                                                                                                                                                                                      loop></video> {% endcomment %}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                src="{{ section.settings.Video_2 }}"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                controls
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                autoplay
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                muted
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              loop></video> {% endcomment %}
       <video
         loop
         muted
@@ -269,6 +269,20 @@
 
     }
   }
+
+  @media (max-width: 1100px) {
+
+    .shipping_image {
+      width: 50%;
+    }
+    .head_img {
+      margin-bottom: 40px;
+    }
+    .box_content_1 {
+      width: 205px;
+      height: 175px;
+    }
+  }
   @media (max-width: 1024px) {
 
 
@@ -291,7 +305,7 @@
       height: 20px;
     }
     .shipping_image {
-      margin-bottom: 139px;
+      margin-bottom: 50px;
     }
     .shipping_video video {
       width: 70%;
@@ -299,6 +313,20 @@
     }
   }
 
+  @media (max-width: 800px) {
+
+    .shipping_image {
+      width: 70%;
+      gap: 20px;
+    }
+    .head_img {
+      margin-bottom: 40px;
+    }
+    .box_content_1 {
+      width: 205px;
+      height: 175px;
+    }
+  }
 
   @media (max-width: 890px) {
 
@@ -341,6 +369,14 @@
     .shipping_video video {
       width: 75%;
       border-radius: 40px;
+    }
+  }
+
+  @media (max-width: 800px) {
+
+    .shipping_image {
+      width: 70%;
+      gap: 20px;
     }
   }
 
@@ -389,27 +425,25 @@
     }
   }
 
-  @media (max-width: 342px) {}
-
-@media (max-width: 310px) {
-  .head_img h1 {
-    padding-top: 55px;
+  @media (max-width: 310px) {
+    .head_img h1 {
+      padding-top: 55px;
+    }
+    .box_content_1 {
+      width: 140px;
+      height: 160px;
+    }
+    .shipping_image {
+      gap: 5px;
+    }
   }
-  .box_content_1 {
-    width: 140px;
-    height: 160px;
-  }
-  .shipping_image {
-    gap: 5px;
-  }
-}
 
 
-@media (max-width: 285px) {
-  .shipping_image {
-    margin-bottom: 15px;
+  @media (max-width: 285px) {
+    .shipping_image {
+      margin-bottom: 15px;
+    }
   }
-}
 
 
 </style>
