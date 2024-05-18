@@ -48,11 +48,11 @@
 
   </div>
   <div class="swiper-arrow-button">
-    <div class="swiper-button-next">
-      <i class="fa-solid fa-angle-right"></i>
-    </div>
     <div class="swiper-button-prev">
       <i class="fa-solid fa-angle-left"></i>
+    </div>
+    <div class="swiper-button-next">
+      <i class="fa-solid fa-angle-right"></i>
     </div>
   </div>
 </div>
@@ -236,7 +236,9 @@
    transform: translate(-50%,-50%) !important; 
 */
   }
-  .swiper-slide:nth-child(even) {}
+  .swiper-slide:nth-child(even) {
+    margin-top: 50px;
+  }
 
 .swiper-slide:nth-child(odd) {
   color: #fff;
