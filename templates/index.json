@@ -124,7 +124,7 @@
           "settings": {
             "category_img": "shopify:\/\/shop_images\/category_4.jpg",
             "category_text": "<p>Bracelets<\/p>",
-            "collection_url": ""
+            "collection_url": "shopify:\/\/collections\/womens-watches"
           }
         },
         "text_fAL8xq": {
@@ -132,7 +132,7 @@
           "settings": {
             "category_img": "shopify:\/\/shop_images\/category_5.jpg",
             "category_text": "<p>Rings<\/p>",
-            "collection_url": ""
+            "collection_url": "shopify:\/\/collections\/womens-rings"
           }
         }
       },
