@@ -35,11 +35,11 @@
     </div>
     <div class="shipping_video">
       {% comment %} <video
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                src="{{ section.settings.Video_2 }}"
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                controls
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                autoplay
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                muted
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              loop></video> {% endcomment %}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        src="{{ section.settings.Video_2 }}"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        controls
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        autoplay
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        muted
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            loop></video> {% endcomment %}
       <video
         loop
         muted
@@ -262,14 +262,6 @@
   }
 
 
-  @media (max-width: 576px) {
-    .head_1 {
-      font-size: 40px;
-      line-height: 40.43px;
-
-    }
-  }
-
   @media (max-width: 1100px) {
 
     .shipping_image {
@@ -372,21 +364,23 @@
     }
   }
 
-  @media (max-width: 800px) {
 
+  @media (max-width: 557px) {
     .shipping_image {
-      width: 70%;
-      gap: 20px;
+      width: 100%;
     }
   }
-
-
   @media (max-width: 576px) {
+    .head_1 {
+      font-size: 40px;
+      line-height: 40.43px;
 
+    }
     .Shipping_partner_1 {
       margin-top: -50px;
     }
   }
+
   @media (max-width: 425px) {
 
     .box_image_1 {
