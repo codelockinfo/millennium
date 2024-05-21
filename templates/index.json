@@ -57,13 +57,6 @@
         "autoplay_speed": 8
       }
     },
-    "171626703189ff50f9": {
-      "type": "apps",
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
-    },
     "banner_custom_section_N3MWmb": {
       "type": "banner-custom-section",
       "blocks": {
@@ -397,7 +390,7 @@
         "text_mL3gaA": {
           "type": "text",
           "settings": {
-            "box_image_1": "shopify:\/\/shop_images\/Image_16.png",
+            "box_image_1": "shopify:\/\/shop_images\/image_16.png",
             "box_content": "Track Your Parce"
           }
         },
@@ -422,7 +415,6 @@
   },
   "order": [
     "slideshow_cjDeH6",
-    "171626703189ff50f9",
     "banner_custom_section_N3MWmb",
     "category_slider_LU46Ei",
     "collection_slider_section_VnyWwX",
