@@ -244,7 +244,12 @@
       "settings": {
         "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fe734f83b29a4181a1b18e9668fbaebc.mp4",
         "heading": "Trusted by",
-        "image_bg": "shopify:\/\/shop_images\/Ellipse_5.png"
+        "image_bg": "shopify:\/\/shop_images\/Ellipse_5.png",
+        "img_1": "shopify:\/\/shop_images\/2872272c47209e71c6591b6e20091e4c.png",
+        "img_2": "shopify:\/\/shop_images\/0c28e22aa98bbdbca1b5c042413c6ca9-removebg-preview.png",
+        "img_3": "shopify:\/\/shop_images\/ea475abb89993637851c39d473e3a58a.png",
+        "img_4": "shopify:\/\/shop_images\/14380b2a0e665f8de5ba745113630712-removebg-preview.png",
+        "img_5": "shopify:\/\/shop_images\/8142ba6890f40e396c61518353ef36df-removebg-preview.png"
       }
     },
     "slider_testimonial_bxePfz": {
