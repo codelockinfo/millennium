@@ -5,9 +5,11 @@
 
 <div class="Collection-grid-section hip-hop">
   <div class="width-container">
+    {% if section.settings.subheadp != blank %}
     <div class="subheading">
       <p class="hiphop-heading">{{section.settings.subheadp}}</p>
     </div>
+  {% endif %}
     <div class="Main-Coll hiphop-collection"> 
       {% for product in section.settings.collectionproduct.products %}
         <div class="First-collection">
@@ -36,6 +38,7 @@
         </div>
       {% endfor %}
     </div>
+    {% if section.settings.button_text != blank %}
    <div class="view-all-button">
     <div class="news__arrows2"></div>
      <a href="{{section.settings.viewall}}"> 
@@ -43,7 +46,7 @@
         <i class="fa-solid fa-chevron-right c-arrow-icon"></i>
         </button>
         </a>
-       
+      {% endif %}
    </div>
   </div>
 </div>

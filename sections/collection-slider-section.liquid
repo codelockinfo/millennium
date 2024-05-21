@@ -7,13 +7,21 @@
   <div class="width-container">
     <div class="common-heading ">
       <div class="section-header">
+        {% if section.settings.headingtext != blank %}
         <h2 class="heading-text">{{ section.settings.headingtext }}</h2>
+      {% endif %}
+      {% if section.settings.sub_p != blank %}
         <P class="sub-heading-p">{{section.settings.sub_p}}</P>
+      {% endif %}
       </div>
     </div>
     <div class="subheading">
+      {% if section.settings.subhead != blank %}
       <h1 class="sub-heading-h1">{{section.settings.subhead}}</h1>
+    {% endif %}
+    {% if section.settings.subheadp != blank %}
       <p class="sub-heading-p2">{{section.settings.subheadp}}</p>
+    {% endif %}
     </div>
     <div class="Main-Coll Collection-cls">
      
