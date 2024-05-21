@@ -100,7 +100,7 @@
           "settings": {
             "category_img": "shopify:\/\/shop_images\/category_1.png",
             "category_text": "<p>Men's Watches<\/p>",
-            "collection_url": ""
+            "collection_url": "shopify:\/\/collections\/mens-watches"
           }
         },
         "text_nWQjV8": {
@@ -108,7 +108,7 @@
           "settings": {
             "category_img": "shopify:\/\/shop_images\/category_2.png",
             "category_text": "<p>Cuban Chain<\/p>",
-            "collection_url": ""
+            "collection_url": "shopify:\/\/collections\/cuban-chain"
           }
         },
         "text_aDNqVC": {
@@ -116,7 +116,7 @@
           "settings": {
             "category_img": "shopify:\/\/shop_images\/category_3.png",
             "category_text": "<p>Hip Hop Pendants<\/p>",
-            "collection_url": ""
+            "collection_url": "shopify:\/\/collections\/hip-hop-jewelry"
           }
         },
         "text_89teFA": {
@@ -124,7 +124,7 @@
           "settings": {
             "category_img": "shopify:\/\/shop_images\/category_4.jpg",
             "category_text": "<p>Bracelets<\/p>",
-            "collection_url": ""
+            "collection_url": "shopify:\/\/collections\/womens-watches"
           }
         },
         "text_fAL8xq": {
@@ -132,7 +132,7 @@
           "settings": {
             "category_img": "shopify:\/\/shop_images\/category_5.jpg",
             "category_text": "<p>Rings<\/p>",
-            "collection_url": ""
+            "collection_url": "shopify:\/\/collections\/womens-rings"
           }
         }
       },
@@ -230,13 +230,13 @@
       "settings": {
         "Commitment_head": "Our Mission",
         "Commitment_img_1": "shopify:\/\/shop_images\/11502090.png",
-        "Commitment_para_1": "Best and Easy Service <br> to Customer",
+        "Commitment_para_1": "Best and Easy Service  to Customer",
         "Commitment_img_2": "shopify:\/\/shop_images\/8909309.png",
         "Commitment_para_2": "Be Eco-Friendly",
         "Commitment_img_3": "shopify:\/\/shop_images\/5078214.png",
-        "Commitment_para_3": "Increase <br>  Employment",
+        "Commitment_para_3": "Increase   Employment",
         "Commitment_img_4": "shopify:\/\/shop_images\/5790545.png",
-        "Commitment_para_4": "World Wide<br>   Presence"
+        "Commitment_para_4": "World Wide   Presence"
       }
     },
     "trusted_by_FUaihx": {
@@ -244,13 +244,7 @@
       "settings": {
         "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fe734f83b29a4181a1b18e9668fbaebc.mp4",
         "heading": "Trusted by",
-        "image_bg": "shopify:\/\/shop_images\/Ellipse_5.png",
-        "trusted_by_image": "shopify:\/\/shop_images\/Vector_23_aeb8b8f4-6296-422b-b52b-20ce593e645f.png",
-        "img_1": "shopify:\/\/shop_images\/2872272c47209e71c6591b6e20091e4c.png",
-        "img_2": "shopify:\/\/shop_images\/0c28e22aa98bbdbca1b5c042413c6ca9-removebg-preview.png",
-        "img_3": "shopify:\/\/shop_images\/ea475abb89993637851c39d473e3a58a.png",
-        "img_4": "shopify:\/\/shop_images\/14380b2a0e665f8de5ba745113630712-removebg-preview.png",
-        "img_5": "shopify:\/\/shop_images\/8142ba6890f40e396c61518353ef36df-removebg-preview.png"
+        "image_bg": "shopify:\/\/shop_images\/Ellipse_5.png"
       }
     },
     "slider_testimonial_bxePfz": {
@@ -368,19 +362,14 @@
         "text_A3dRmg"
       ],
       "settings": {
-        "heading": "Let customers speak for us",
-        "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png"
+        "heading": "Let customers speak for us"
       }
     },
     "certificate_N8JM7b": {
       "type": "Certificate",
       "settings": {
         "heading_1": "Certificate",
-        "heading_image": "shopify:\/\/shop_images\/Vector_20_2.png",
-        "Certificate_1": "shopify:\/\/shop_images\/image_19.png",
-        "Certificate_2": "shopify:\/\/shop_images\/Group_1000004694.png",
-        "Certificate_3": "shopify:\/\/shop_images\/image_21.png",
-        "Certificate_4": "shopify:\/\/shop_images\/image_22.png"
+        "heading_image": "shopify:\/\/shop_images\/Vector_20_2.png"
       }
     },
     "shipping_partner_Y7Rf8m": {
@@ -389,33 +378,26 @@
         "text_hKYC7N": {
           "type": "text",
           "settings": {
-            "box_image_1": "shopify:\/\/shop_images\/f4798250133f5bc49e18f96b77c7d6e9.png",
-            "box_content": "Track Your Parce",
-            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
+            "box_content": "Track Your Parce"
           }
         },
         "text_6VLPH9": {
           "type": "text",
           "settings": {
-            "box_image_1": "shopify:\/\/shop_images\/1a2dc24ec115f0b1e63bd80caf9dbb50.png",
-            "box_content": "Track Your Parce",
-            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
+            "box_content": "Track Your Parce"
           }
         },
         "text_mL3gaA": {
           "type": "text",
           "settings": {
             "box_image_1": "shopify:\/\/shop_images\/image_16.png",
-            "box_content": "Track Your Parce",
-            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
+            "box_content": "Track Your Parce"
           }
         },
         "text_zqNcTM": {
           "type": "text",
           "settings": {
-            "box_image_1": "shopify:\/\/shop_images\/bffa9a1dc2f9feac7498a5656cf67c8a.png",
-            "box_content": "Track Your Parce",
-            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
+            "box_content": "Track Your Parce"
           }
         }
       },
@@ -426,8 +408,6 @@
         "text_zqNcTM"
       ],
       "settings": {
-        "bg_image_1": "shopify:\/\/shop_images\/Ellipse_6_1.png",
-        "heading_side_image": "shopify:\/\/shop_images\/Vector_23_aeb8b8f4-6296-422b-b52b-20ce593e645f.png",
         "header": "Shipping Partner",
         "Video_2": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/640d7f396cce4f6f9d6e8ffd2dec0307.mp4"
       }
