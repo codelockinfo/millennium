@@ -386,7 +386,11 @@
       "type": "Certificate",
       "settings": {
         "heading_1": "Certificate",
-        "heading_image": "shopify:\/\/shop_images\/Vector_20_2.png"
+        "heading_image": "shopify:\/\/shop_images\/Vector_20_2.png",
+        "Certificate_1": "shopify:\/\/shop_images\/image_19.png",
+        "Certificate_2": "shopify:\/\/shop_images\/Group_1000004694.png",
+        "Certificate_3": "shopify:\/\/shop_images\/image_21.png",
+        "Certificate_4": "shopify:\/\/shop_images\/image_22.png"
       }
     },
     "shipping_partner_Y7Rf8m": {
