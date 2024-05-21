@@ -76,7 +76,6 @@
           "1524770014057": {
             "type": "logo",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/logo_0139e2b6-92e8-433d-ad1a-3c9dab0588f7.png",
               "desktop_logo_width": 140,
               "mobile_logo_width": 110
             }
@@ -86,7 +85,7 @@
           "1524770014057"
         ],
         "settings": {
-          "main_menu_link_list": "millennium-menu",
+          "main_menu_link_list": "",
           "mega_menu_images": true,
           "main_menu_alignment": "center-split",
           "header_style": "sticky",
@@ -109,7 +108,6 @@
             "settings": {
               "show_footer_title": true,
               "title": "",
-              "image": "shopify:\/\/shop_images\/image_18.png",
               "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
               "container_width": 25
             }
@@ -118,7 +116,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": true,
-              "menu": "our-categories-1",
+              "menu": "",
               "container_width": 17
             }
           },
@@ -134,7 +132,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": true,
-              "menu": "footer-menu",
+              "menu": "",
               "container_width": 17
             }
           },
@@ -206,7 +204,7 @@
           "bgcolor_footer_address": "#111111",
           "color_footer_address": "#ffffff",
           "address": "<p>© 2024, Millennium Jewelery All Rights Reserved by Millennium Jewelery<\/p>",
-          "footer_menu_link_list": "footer-1"
+          "footer_menu_link_list": ""
         }
       }
     },
@@ -214,9 +212,15 @@
 
     ],
     "blocks": {
+      "6933373160360723723": {
+        "type": "shopify:\/\/apps\/swishlist-simple-wishlist\/blocks\/wishlist_settings\/bfcb80f2-f00d-42ae-909a-9f00c726327b",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "10583289249535060075": {
         "type": "shopify:\/\/apps\/basic-wishlist\/blocks\/popup\/1611f065-e251-4250-8609-2fa2f1877c57",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "icon_width": 40,
           "icon": "regular",
@@ -386,7 +390,8 @@
             "1494301487048"
           ],
           "settings": {
-            "show_payment_icons": false
+            "show_payment_icons": false,
+            "bottom_footer_bgcolor": "#F0F0F0"
           }
         },
         "newsletter-popup": {
@@ -564,7 +569,8 @@
             "show_currency_flags": true,
             "show_payment_icons": false,
             "show_copyright": false,
-            "copyright_text": ""
+            "copyright_text": "",
+            "bottom_footer_bgcolor": "#F0F0F0"
           }
         },
         "newsletter-popup": {
@@ -781,7 +787,8 @@
             "1525444454442"
           ],
           "settings": {
-            "show_payment_icons": true
+            "show_payment_icons": true,
+            "bottom_footer_bgcolor": "#F0F0F0"
           }
         },
         "newsletter-popup": {
