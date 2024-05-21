@@ -13,7 +13,11 @@
       {%- for block in section.blocks -%}
         <div class="swiper-slide">
           <div class="review-box">
-            <div class="reviewimage"><img src="{{ section.settings.box_image |  img_url: 'master' }}" /></div>
+            {% if block.settings.box_image != blank %}
+              <div class="reviewimage">
+                <img src="{{ section.settings.box_image |  img_url: 'master' }}" />
+              </div>
+            {% endif %}
             <div class="lorem_content">{{ block.settings.content }}</div>
             <div class="name">{{ block.settings.customername }}</div>
             <div class="country">{{ block.settings.country }}</div>
