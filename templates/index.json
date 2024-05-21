@@ -244,103 +244,120 @@
       "settings": {
         "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fe734f83b29a4181a1b18e9668fbaebc.mp4",
         "heading": "Trusted by",
-        "image_bg": "shopify:\/\/shop_images\/Ellipse_5.png"
+        "image_bg": "shopify:\/\/shop_images\/Ellipse_5.png",
+        "img_1": "shopify:\/\/shop_images\/2872272c47209e71c6591b6e20091e4c.png",
+        "img_2": "shopify:\/\/shop_images\/0c28e22aa98bbdbca1b5c042413c6ca9-removebg-preview.png",
+        "img_3": "shopify:\/\/shop_images\/ea475abb89993637851c39d473e3a58a.png",
+        "img_4": "shopify:\/\/shop_images\/14380b2a0e665f8de5ba745113630712-removebg-preview.png",
+        "img_5": "shopify:\/\/shop_images\/8142ba6890f40e396c61518353ef36df-removebg-preview.png"
       }
     },
     "slider_testimonial_bxePfz": {
       "type": "slider-testimonial",
       "blocks": {
-        "text_QLmQFc": {
+        "text_iDK4hW": {
           "type": "text",
           "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
             "customername": "Russell H",
             "country": "United Kingdom, 1 month ago"
           }
         },
-        "text_tRPwL4": {
+        "text_nQAERh": {
           "type": "text",
           "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
             "customername": "Russell H",
             "country": "United Kingdom, 1 month ago"
           }
         },
-        "text_jGFPbP": {
+        "text_HiCneA": {
           "type": "text",
           "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
             "customername": "Russell H",
             "country": "United Kingdom, 1 month ago"
           }
         },
-        "text_ar9U9b": {
+        "text_jHXBiN": {
           "type": "text",
           "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
             "customername": "Russell H",
             "country": "United Kingdom, 1 month ago"
           }
         },
-        "text_YhhD4r": {
+        "text_giYmgn": {
           "type": "text",
           "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
             "customername": "Russell H",
             "country": "United Kingdom, 1 month ago"
           }
         },
-        "text_MBhPpB": {
+        "text_KztdmA": {
           "type": "text",
           "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
             "customername": "Russell H",
             "country": "United Kingdom, 1 month ago"
           }
         },
-        "text_EEBXU8": {
+        "text_9FAUYB": {
           "type": "text",
           "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
             "customername": "Russell H",
             "country": "United Kingdom, 1 month ago"
           }
         },
-        "text_cTeQwU": {
+        "text_MaeqL3": {
           "type": "text",
           "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
             "customername": "Russell H",
             "country": "United Kingdom, 1 month ago"
           }
         },
-        "text_jhtcDm": {
+        "text_enQm8X": {
           "type": "text",
           "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
             "customername": "Russell H",
             "country": "United Kingdom, 1 month ago"
           }
         },
-        "text_FVhm3E": {
+        "text_HfbJAA": {
           "type": "text",
           "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
             "customername": "Russell H",
             "country": "United Kingdom, 1 month ago"
           }
         },
-        "text_KARbKT": {
+        "text_CagigC": {
           "type": "text",
           "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
             "customername": "Russell H",
             "country": "United Kingdom, 1 month ago"
           }
         },
-        "text_A3dRmg": {
+        "text_Pm4xQh": {
           "type": "text",
           "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
             "customername": "Russell H",
             "country": "United Kingdom, 1 month ago"
@@ -348,18 +365,18 @@
         }
       },
       "block_order": [
-        "text_QLmQFc",
-        "text_tRPwL4",
-        "text_jGFPbP",
-        "text_ar9U9b",
-        "text_YhhD4r",
-        "text_MBhPpB",
-        "text_EEBXU8",
-        "text_cTeQwU",
-        "text_jhtcDm",
-        "text_FVhm3E",
-        "text_KARbKT",
-        "text_A3dRmg"
+        "text_iDK4hW",
+        "text_nQAERh",
+        "text_HiCneA",
+        "text_jHXBiN",
+        "text_giYmgn",
+        "text_KztdmA",
+        "text_9FAUYB",
+        "text_MaeqL3",
+        "text_enQm8X",
+        "text_HfbJAA",
+        "text_CagigC",
+        "text_Pm4xQh"
       ],
       "settings": {
         "heading": "Let customers speak for us"
@@ -369,7 +386,11 @@
       "type": "Certificate",
       "settings": {
         "heading_1": "Certificate",
-        "heading_image": "shopify:\/\/shop_images\/Vector_20_2.png"
+        "heading_image": "shopify:\/\/shop_images\/Vector_20_2.png",
+        "Certificate_1": "shopify:\/\/shop_images\/image_19.png",
+        "Certificate_2": "shopify:\/\/shop_images\/Group_1000004694.png",
+        "Certificate_3": "shopify:\/\/shop_images\/image_21.png",
+        "Certificate_4": "shopify:\/\/shop_images\/image_22.png"
       }
     },
     "shipping_partner_Y7Rf8m": {
@@ -378,26 +399,33 @@
         "text_hKYC7N": {
           "type": "text",
           "settings": {
-            "box_content": "Track Your Parce"
+            "box_image_1": "shopify:\/\/shop_images\/f4798250133f5bc49e18f96b77c7d6e9.png",
+            "box_content": "Track Your Parce",
+            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
           }
         },
         "text_6VLPH9": {
           "type": "text",
           "settings": {
-            "box_content": "Track Your Parce"
+            "box_image_1": "shopify:\/\/shop_images\/1a2dc24ec115f0b1e63bd80caf9dbb50.png",
+            "box_content": "Track Your Parce",
+            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
           }
         },
         "text_mL3gaA": {
           "type": "text",
           "settings": {
             "box_image_1": "shopify:\/\/shop_images\/image_16.png",
-            "box_content": "Track Your Parce"
+            "box_content": "Track Your Parce",
+            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
           }
         },
         "text_zqNcTM": {
           "type": "text",
           "settings": {
-            "box_content": "Track Your Parce"
+            "box_image_1": "shopify:\/\/shop_images\/bffa9a1dc2f9feac7498a5656cf67c8a.png",
+            "box_content": "Track Your Parce",
+            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
           }
         }
       },
@@ -408,6 +436,8 @@
         "text_zqNcTM"
       ],
       "settings": {
+        "bg_image_1": "shopify:\/\/shop_images\/Ellipse_6_1.png",
+        "heading_side_image": "shopify:\/\/shop_images\/Vector_23_aeb8b8f4-6296-422b-b52b-20ce593e645f.png",
         "header": "Shipping Partner",
         "Video_2": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/640d7f396cce4f6f9d6e8ffd2dec0307.mp4"
       }

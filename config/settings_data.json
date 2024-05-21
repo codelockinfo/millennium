@@ -108,6 +108,7 @@
             "settings": {
               "show_footer_title": true,
               "title": "",
+              "image": "shopify:\/\/shop_images\/image_18.png",
               "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<\/p>",
               "container_width": 25
             }
@@ -116,7 +117,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": true,
-              "menu": "",
+              "menu": "our-categories-1",
               "container_width": 17
             }
           },
@@ -132,7 +133,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": true,
-              "menu": "",
+              "menu": "footer-menu",
               "container_width": 17
             }
           },
@@ -192,43 +193,6 @@
       },
       "footer-promotions": {
         "type": "footer-promotions",
-        "blocks": {
-          "promotion_hVJycL": {
-            "type": "promotion",
-            "settings": {
-              "enable_image": true,
-              "title": "Site-wide promotion",
-              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
-              "button_label": "Optional button",
-              "button_link": ""
-            }
-          },
-          "promotion_dyKUah": {
-            "type": "promotion",
-            "settings": {
-              "enable_image": true,
-              "title": "Site-wide promotion",
-              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
-              "button_label": "Optional button",
-              "button_link": ""
-            }
-          },
-          "promotion_AtxtRP": {
-            "type": "promotion",
-            "settings": {
-              "enable_image": true,
-              "title": "Site-wide promotion",
-              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
-              "button_label": "Optional button",
-              "button_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "promotion_hVJycL",
-          "promotion_dyKUah",
-          "promotion_AtxtRP"
-        ],
         "settings": {
           "hide_homepage": false,
           "image_size": "wide"
@@ -241,7 +205,7 @@
           "bgcolor_footer_address": "#111111",
           "color_footer_address": "#ffffff",
           "address": "<p>© 2024, Millennium Jewelery All Rights Reserved by Millennium Jewelery<\/p>",
-          "footer_menu_link_list": ""
+          "footer_menu_link_list": "footer-1"
         }
       }
     },

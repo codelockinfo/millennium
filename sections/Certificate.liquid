@@ -6,7 +6,9 @@
   {% endif %}
   <div class="width-container">
     <div class="Certificate_heading">
-      <h1 class="main_head">{{ section.settings.heading_1 }}</h1>
+      {% if section.settings.heading_1 != blank %}
+        <h1 class="main_head">{{ section.settings.heading_1 }}</h1>
+      {% endif %}
     </div>
     <div class="Certificate_image">
       {% if section.settings.Certificate_1 != blank %}
