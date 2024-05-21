@@ -13,11 +13,11 @@
       {%- for block in section.blocks -%}
         <div class="swiper-slide">
           <div class="review-box">
-            {% if block.settings.box_image != blank %}
-              <div class="reviewimage">
-                <img src="{{ section.settings.box_image |  img_url: 'master' }}" />
-              </div>
-            {% endif %}
+            <div class="reviewimage">
+              {% if block.settings.box_image != blank %}
+                <img src="{{ block.settings.box_image |  img_url: 'master' }}" />
+              {% endif %}
+            </div>
             <div class="lorem_content">{{ block.settings.content }}</div>
             <div class="name">{{ block.settings.customername }}</div>
             <div class="country">{{ block.settings.country }}</div>
@@ -41,10 +41,6 @@
         "type": "text",
         "id": "heading",
         "label": "Heading"
-      }, {
-        "type": "image_picker",
-        "id": "box_image",
-        "label": "image_box"
       }
     ],
     "blocks": [
@@ -53,6 +49,10 @@
         "name": "text",
         "settings": [
           {
+            "type": "image_picker",
+            "id": "box_image",
+            "label": "image_box"
+          }, {
             "type": "richtext",
             "id": "content",
             "label": "Review message"
