@@ -192,6 +192,43 @@
       },
       "footer-promotions": {
         "type": "footer-promotions",
+        "blocks": {
+          "promotion_hVJycL": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "title": "Site-wide promotion",
+              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+              "button_label": "Optional button",
+              "button_link": ""
+            }
+          },
+          "promotion_dyKUah": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "title": "Site-wide promotion",
+              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+              "button_label": "Optional button",
+              "button_link": ""
+            }
+          },
+          "promotion_AtxtRP": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "title": "Site-wide promotion",
+              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+              "button_label": "Optional button",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "promotion_hVJycL",
+          "promotion_dyKUah",
+          "promotion_AtxtRP"
+        ],
         "settings": {
           "hide_homepage": false,
           "image_size": "wide"

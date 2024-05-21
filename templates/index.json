@@ -418,29 +418,6 @@
         "header": "Shipping Partner",
         "Video_2": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/640d7f396cce4f6f9d6e8ffd2dec0307.mp4"
       }
-    },
-    "17162671910b218a34": {
-      "type": "apps",
-      "blocks": {
-        "basic_wishlist_buttons_JBMiy3": {
-          "type": "shopify:\/\/apps\/basic-wishlist\/blocks\/buttons\/1611f065-e251-4250-8609-2fa2f1877c57",
-          "settings": {
-            "text_color": "#121212",
-            "added_text_color": "#121212",
-            "text_size": 16,
-            "icon_color": "#EA3C53",
-            "added_icon_color": "#EA3C53",
-            "icon_width": 20
-          }
-        }
-      },
-      "block_order": [
-        "basic_wishlist_buttons_JBMiy3"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
     }
   },
   "order": [
@@ -456,7 +433,6 @@
     "trusted_by_FUaihx",
     "slider_testimonial_bxePfz",
     "certificate_N8JM7b",
-    "shipping_partner_Y7Rf8m",
-    "17162671910b218a34"
+    "shipping_partner_Y7Rf8m"
   ]
 }
