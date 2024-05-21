@@ -7,22 +7,6 @@
     },
     "1716267558c9df340c": {
       "type": "apps",
-      "blocks": {
-        "basic_wishlist_buttons_bjNXGM": {
-          "type": "shopify:\/\/apps\/basic-wishlist\/blocks\/buttons\/1611f065-e251-4250-8609-2fa2f1877c57",
-          "settings": {
-            "text_color": "#121212",
-            "added_text_color": "#121212",
-            "text_size": 16,
-            "icon_color": "#EA3C53",
-            "added_icon_color": "#EA3C53",
-            "icon_width": 20
-          }
-        }
-      },
-      "block_order": [
-        "basic_wishlist_buttons_bjNXGM"
-      ],
       "settings": {
         "full_width": false,
         "space_around": true
