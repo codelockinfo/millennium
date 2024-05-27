@@ -61,6 +61,7 @@
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
     "search_enable": true,
+    "show_breadcrumbs": true,
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
