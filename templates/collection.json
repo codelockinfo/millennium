@@ -64,11 +64,13 @@
       "blocks": {
         "collection_description": {
           "type": "collection_description",
+          "disabled": true,
           "settings": {
           }
         },
         "subcollections": {
           "type": "subcollections",
+          "disabled": true,
           "settings": {
             "subcollections_per_row": 5
           }
