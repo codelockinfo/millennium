@@ -6390,9 +6390,7 @@ form+.footer__social {
   margin: -25px 0 10px
 }
 
-.template-product .breadcrumb {
-  margin-top: 10px
-}
+
 
 @media only screen and (min-width:769px) {
 
@@ -11591,7 +11589,7 @@ iframe.zoid-component-frame {
 }
 
 .page-content--product {
-  padding-top: 55px;
+  padding-top: 45px;
 }
 
 @media only screen and (max-width:768px) {

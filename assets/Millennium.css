@@ -360,7 +360,7 @@
   display: none;
 }
 
-.image-wrap {
+.footer__collapsible .image-wrap {
   width: 132px;
   margin: 0;
   height: 100px !important;
@@ -583,6 +583,162 @@
 .icon-hamburger.icon {
   color: #282828;
 }
+/* add css for collection page by cls003 */
+.collection-content .page-width{
+  max-width: 90%;
+}
+.grid-product__meta:hover{
+  background-color:  #FFFFFF;
+}
+.grid-product__meta{
+  background-color:  #F8F8F8;
+  padding: 10px 15px 6px 15px;
+  border-top: 5px solid #D0C272;
+}
+.grid-product__title{
+  letter-spacing: 0px;
+  font-family: Fira Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+}
+.grid-product__price{
+  font-family: 'Fira Sans';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+  margin: 10px 0;
+}
+.grid-product__price--original{
+  color: #00000089;
+}
+form.filter-form {
+  background: #FFFFFF;
+  padding: 15px;
+}
+.tag--active .tag__checkbox:after, .tag-list--checkboxes .tag--active a:after, input:checked~.tag__checkbox:after{
+  background-color:unset !important;
+  border-color : unset !important;
+  content: "\2714";
+  display: block;
+  position: absolute;
+  top: 2px;
+  border-width: 0 2px 2px 0;
+  transform: rotate(0deg);
+  font-size: 16px;
+}
+.filter-form .tag__checkbox:before{
+  border: 2px solid #777777
+}
+label.tag__checkbox-wrapper{
+  justify-content: space-between;
+}
+.tag__checkbox{
+  order: 2;
+}
+.collection-content .image-collection:hover .add-to-cart .btn{
+  width: 100%;
+}
+.collection-hero .collection-hero__content:before{
+  opacity: .7;
+}
+.section-header--hero .section-header__title{
+  font-family: 'Italiana';
+  font-weight: 400;
+  line-height: 83.43px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.collection-content .collapsible-trigger{
+  color: #282828;
+  position: relative;
+  font-family: 'Montserrat Alternates';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  letter-spacing: 0;
+  text-transform: capitalize;
+}
+.collection-title{
+  font-family: 'Montserrat Alternates';
+  font-size: 28px;
+  font-weight: 700;
+}
+.collection-content .pagination .next,.collection-content .pagination .prev{
+  background:unset;
+}
+.collection-content .pagination .next .icon,.collection-content .pagination .prev .icon{
+  color: #777777;
+}
+.collection-content .pagination .page.current{
+    opacity: 1; 
+    background: #111111;
+    color: #fff;
+    border-radius: 7px;
+}
+.collection-content .breadcrumb{
+  position: absolute;
+  background: #fff;
+  color: #777;
+  box-shadow: 0 4px 4px #0000001a;
+  padding: 5px 15px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 23px;
+  font-family: Montserrat Alternates;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  z-index: 9;
+}
+#CollectionAjaxContent{
+  padding-top: 10px;
+}
+@media screen and (min-width: 768px){
+  .template-product .breadcrumb{
+    margin: -25px 0 10px;
+  }
+  .template-product .breadcrumb{
+    position: absolute;
+    background: #fff;
+    color: #777;
+    box-shadow: 0 4px 4px #0000001a;
+    padding: 5px 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 23px;
+    font-family: Montserrat Alternates;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    z-index: 9;
+  }
+  .template-product .breadcrumb{
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .collection-content .small--one-half {
+    width: 100%;
+  }
+  .template-product .breadcrumb {
+    margin: 0;
+}
+
+}
+/* add css for collection page by cls003*/
+/* add css for product page by cls003*/
+.product-section .page-width{
+  max-width: 90%;
+}
+/* add css for product page by cls003*/
 
 @font-face {
   font-family: 'Italiana';

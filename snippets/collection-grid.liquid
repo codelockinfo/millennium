@@ -48,9 +48,9 @@ Snippet Arguments
       </button>
     </div>
 
-    <div class="collection-filter__item collection-filter__item--count small--hide">
+    <div class="collection-filter__item collection-filter__item--count small--hide"><span class="collection-title">{{ collection.title }}</span>&nbsp;&nbsp;
       {%- if enable_collection_count -%}
-        {{ count_label | t: count: count }}
+        ({{ count_label | t: count: count }})
       {%- endif -%}
     </div>
 

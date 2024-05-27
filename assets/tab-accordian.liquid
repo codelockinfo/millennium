@@ -1,0 +1,486 @@
+<section class="tab_section tab-main-heading width-container" style="background-color: {{ section.settings.bg }};">
+  {%- render 'section_title',section_title:'mb__40' -%}
+  <div class="tabs">
+    <ul id="tabs-nav">
+      {%- for block in section.blocks -%}
+      <li><a href="#tab{{ forloop.index   }}">{{block.settings.tabheading}}</a></li>
+    {% endfor %}
+    </ul> 
+    <div id="tabs-content">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'text' -%}
+              <div id="tab{{ forloop.index }}" class="tab-content">
+                  <ul class="accordion-list">
+                    {% if  block.settings.question1 != blank %}
+                      <li>
+                          <div class="accordian-heading">
+                            <span class="accordian-number">01</span>
+                            <h3>{{ block.settings.question1 }}</h3>
+                             <div class="icon-plus">
+                              <i class="fa-solid fa-plus"></i>
+                             </div>
+                        </div>
+                        <div class="answer">{{ block.settings.answer1 }}</div>
+                      </li>
+                    {% endif %}
+                    {% if  block.settings.question2 != blank %}
+                      <li>
+                          <div class="accordian-heading">
+                            <span class="accordian-number">02</span>
+                            <h3>{{ block.settings.question2 }}</h3>
+                            <div class="icon-plus">
+                              <i class="fa-solid fa-plus"></i>
+                             </div>
+                        </div>
+                        <div class="answer">{{ block.settings.answer2 }}</div>
+                      </li>
+                    {% endif %}
+                    {% if  block.settings.question3 != blank %}
+                      <li>
+                          <div class="accordian-heading">
+                            <span class="accordian-number">03</span>
+                            <h3>{{ block.settings.question3 }}</h3>
+                            <div class="icon-plus">
+                              <i class="fa-solid fa-plus"></i>
+                             </div>
+                        </div>
+                        <div class="answer">{{ block.settings.answer3 }}</div>
+                      </li>
+                    {% endif %}
+                    {% if  block.settings.question4 != blank %}
+                      <li>
+                          <div class="accordian-heading">
+                            <span class="accordian-number">04</span>
+                            <h3>{{ block.settings.question4 }}</h3>
+                            <div class="icon-plus">
+                              <i class="fa-solid fa-plus"></i>
+                             </div>
+                        </div>
+                        <div class="answer">{{ block.settings.answer4 }}</div>
+                      </li>
+                    {% endif %}
+                    {% if  block.settings.question5 != blank %}
+                      <li>
+                          <div class="accordian-heading">
+                            <span class="accordian-number">05</span>
+                            <h3>{{ block.settings.question5 }}</h3>
+                            <div class="icon-plus">
+                              <i class="fa-solid fa-plus"></i>
+                             </div>
+                        </div>
+                        <div class="answer">{{ block.settings.answer5 }}</div>
+                      </li>
+                    {% endif %}
+                </ul>
+              </div>
+          {%- when 'content' -%}
+              <div id="tab{{ forloop.index }}" class="tab-content">
+                <ul class="accordion-list">
+                  <li>{{ block.settings.textcontent }}</li>
+                </ul>
+              </div>
+        {%- endcase -%}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Accordian",
+    "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Have Any Questions?"
+        },
+        {
+          "type": "textarea",
+          "id": "sub_title",
+          "label": "Sub Text"
+        },
+        {
+          "type": "select",
+          "id": "sub_font",
+          "default": "2",
+          "options": [
+          {
+              "value": "1",
+              "label": "Body font"
+          },
+          {
+              "value": "2",
+              "label": "Sub title font"
+            }
+          ],
+          "label": "Sub Text use font:"
+        },
+        {
+          "type": "select",
+          "id": "style_title",
+          "options": [
+          {
+              "value": "title_1",
+              "label": "Design 1"
+          },
+          {
+              "value": "title_2",
+              "label": "Design 2"
+            },
+          {
+              "value": "title_3",
+              "label": "Design 3"
+            },
+          {
+              "value": "title_4",
+              "label": "Design 4"
+            },
+          {
+              "value": "title_5 lazyload",
+              "label": "Design 5"
+            },
+          {
+              "value": "title_6",
+              "label": "Design 6"
+            },
+          {
+              "value": "title_7 +la",
+              "label": "Design 7 (with line-awesome)"
+            },
+          {
+              "value": "title_8",
+              "label": "Design 8"
+            },
+          {
+              "value": "title_9",
+              "label": "Design 9"
+            },
+          {
+              "value": "title_10",
+              "label": "Design 10"
+            },
+          {
+              "value": "title_11",
+              "label": "Design 11"
+            },
+          {
+              "value": "title_12",
+              "label": "Design 12"
+            },
+          {
+              "value": "title_13",
+              "label": "Design 13"
+            }
+          ],
+          "label": "Design Title:"
+        },
+        {
+          "type": "text",
+          "id": "ic_tt",
+          "label": "Style 7 icon line-awesome",
+          "default": "gem"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_clpr",
+          "label": "Use icon color primary?",
+          "default": false
+        },
+        {
+          "type": "paragraph",
+          "content": "[Get icons Line awesome](https://icons8.com/line-awesome)"
+        }
+    ],
+    "blocks": [
+      {
+        "name": "tab",
+        "type": "text",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "tabheading",
+            "label": "tabheading"
+          },
+          {
+            "type": "text",
+            "id": "question1",
+            "label": "Question 1"
+          },
+          {
+            "type": "richtext",
+            "id": "answer1",
+            "label": "Answer 1"
+          },
+          {
+            "type": "text",
+            "id": "question2",
+            "label": "Question 2"
+          },
+          {
+            "type": "richtext",
+            "id": "answer2",
+            "label": "Answer 2"
+          },
+          {
+            "type": "text",
+            "id": "question3",
+            "label": "Question 3"
+          },
+          {
+            "type": "richtext",
+            "id": "answer3",
+            "label": "Answer 3"
+          },
+          {
+            "type": "text",
+            "id": "question4",
+            "label": "Question 4"
+          },
+          {
+            "type": "richtext",
+            "id": "answer4",
+            "label": "Answer 4"
+          },
+          {
+            "type": "text",
+            "id": "question5",
+            "label": "Question 5"
+          },
+          {
+            "type": "richtext",
+            "id": "answer5",
+            "label": "Answer 5"
+          }
+        ] 
+      },
+      {
+        "name": "content",
+        "type": "content",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "tabheading",
+            "label": "tabheading"
+          },
+          {
+            "type": "richtext",
+            "id": "textcontent",
+            "label": "Content"
+          }
+        ]
+      }
+    ],
+    "presets" : [
+      {
+        "name" : "Accordian"
+      }
+    ]
+  }
+{% endschema %} 
+<script>
+    $(document).ready(function(){
+     // Show the first tab and hide the rest
+      $('#tabs-nav li:first-child').addClass('active');
+      $('.tab-content').hide();
+      $('.tab-content:first').show();
+
+      // Click function
+      $('#tabs-nav li').click(function(){
+        $('#tabs-nav li').removeClass('active');
+        $(this).addClass('active');
+        $('.tab-content').hide();
+        
+        var activeTab = $(this).find('a').attr('href');
+        $(activeTab).fadeIn();
+        return false;
+      });
+
+      $('.accordion-list > li > .answer').hide();
+        
+      $('.accordion-list > li').click(function() {
+        if ($(this).hasClass("active")) {
+          $(this).removeClass("active").find(".answer").slideUp();
+        } else {
+          $(".accordion-list > li.active .answer").slideUp();
+          $(".accordion-list > li.active").removeClass("active");
+          $(this).addClass("active").find(".answer").slideDown();
+        }
+        return false;
+      });
+});
+</script>
+<style>
+  
+ #tabs-nav{
+  list-style: none;
+    display: flex;
+    overflow-x: scroll;
+    justify-content: center;
+    border-bottom: 2px solid #EDE9EB;
+    font-family: Montserrat Alternates;
+    font-weight: 600;
+    font-size: 24px;
+ }
+ #tabs-nav li{
+    padding: 0 20px;
+ }
+
+  #tabs-nav::-webkit-scrollbar-track,#tabs-nav::-webkit-scrollbar-track{
+    background-color: #fff;
+  }
+  #tabs-nav::-webkit-scrollbar,#tabs-nav::-webkit-scrollbar{
+    width: 0px;
+    background-color: #fff;
+  }
+
+  #tabs-nav::-webkit-scrollbar-thumb,#tabs-nav::-webkit-scrollbar-thumb{
+    background-color: #fff;	
+  }
+
+ ul.accordion-list {
+	 position: relative;
+	 display: block;
+	 width: 90%;
+	 height: auto;
+	 margin: 20px auto;
+	 list-style: none;
+	 background-color: #F9F9F9;
+}
+ ul.accordion-list li {
+	 position: relative;
+	 display: block;
+	 width: 100%;
+	 height: auto;
+	 background-color: #F9F9F9;
+	 padding: 20px;
+	 border-bottom: 1px solid #e4e5e6;
+	 border-radius: 5px;
+	 cursor: pointer;
+   /* display: flex; */
+  
+}
+ ul.accordion-list li .accordian-number {
+	 font-size: 48px;
+   line-height: 100px;
+   margin-right: 20px;
+}
+ ul.accordion-list li .accordian-main-box {
+	 /* font-size: 48px; */
+   display: flex;
+   align-items: flex-start;
+}
+ ul.accordion-list li.active .accordian-heading .icon-plus {
+	 transform: rotate(45deg);
+   background-color: #282828;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   line-height: 30px;
+   text-align: center;
+   transition: all 1s;
+   
+}
+ul.accordion-list li.active .accordian-heading .icon-plus i{
+  color: #ffffff;
+}
+ul.accordion-list li .accordian-heading .icon-plus i{
+  color: #000000;   
+}
+ul.accordion-list li .accordian-heading .icon-plus {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+   line-height: 30px;
+   text-align: center;
+   transition: all 1s;
+   color: #000000;
+}
+ ul.accordion-list li h3 {
+	 font-weight: 700;
+	 position: relative;
+	 display: block;
+	 width: 100%;
+	 height: auto;
+	 padding: 0 0 0 0;
+	 margin: 0;
+	 font-size: 24px;
+	 letter-spacing: 0.01em;
+	 cursor: pointer;
+   color: #000000;
+}
+ ul.accordion-list li .accordian-heading {
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: all 1s;
+}
+
+
+
+ ul.accordion-list li div.answer {
+	 position: relative;
+	 display: block;
+	 width: 100%;
+	 height: auto;
+	 margin: 0;
+	 padding: 0;
+	 cursor: pointer;
+   font-size: 20px;
+   font-family: 'Montserrat Alternates';
+   padding:0 70px;
+}
+ ul.accordion-list li div.answer p {
+	 position: relative;
+	 display: block;
+	 font-weight: 500;
+	 padding: 10px 0 0 0;
+	 cursor: pointer;
+	 line-height: 150%;
+	 font-size: 16px;
+   color: #3c3c43dc;
+}
+.tab-main-heading .section-title{
+  font-family: 'Vindea'; 
+font-weight:  400;
+font-size: 64px;
+line-height:83.43px;  
+color: #282828;
+}
+.tab-main-heading{
+  justify-content: center !important;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+
+@media (max-width: 1024px) {
+    .tab-main-heading .section-title {
+      font-size: 50px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .tab-main-heading .section-title{
+      line-height: 50px;
+      font-size: 50px;
+    }
+    #tabs-nav,ul.accordion-list li h3{
+  font-size: 16px;
+}
+  }
+  @media (max-width: 576px) {
+    .tab-main-heading .section-title {
+      font-size: 40px;
+      line-height: 60px;
+    }
+    #tabs-nav {
+    justify-content: flex-start;
+  }
+  }
+  @media (max-width: 400px) {
+    .tab-main-heading .section-title {
+      font-size: 30px;
+    }
+  }
+</style>
