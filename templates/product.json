@@ -109,14 +109,6 @@
         "max_width": true
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "show_product_recommendations": true,
-        "product_recommendations_heading": "You may also like",
-        "related_count": 5
-      }
-    },
     "recently-viewed": {
       "type": "recently-viewed",
       "disabled": true,
@@ -126,6 +118,7 @@
     },
     "collection-return": {
       "type": "collection-return",
+      "disabled": true,
       "settings": {
       }
     },
@@ -215,16 +208,125 @@
         "align_text": "left",
         "divider": false
       }
+    },
+    "slider_testimonial_mfGbj4": {
+      "type": "slider-testimonial",
+      "blocks": {
+        "text_kjUgWn": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
+            "customername": "Russell H",
+            "country": "United Kingdom, 1 month ago"
+          }
+        },
+        "text_4ADyNT": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
+            "customername": "Russell H",
+            "country": "United Kingdom, 1 month ago"
+          }
+        },
+        "text_Xddp6H": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
+            "customername": "Russell H",
+            "country": "United Kingdom, 1 month ago"
+          }
+        },
+        "text_j4q66X": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
+            "customername": "Russell H",
+            "country": "United Kingdom, 1 month ago"
+          }
+        },
+        "text_4NbLeW": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
+            "customername": "Russell H",
+            "country": "United Kingdom, 1 month ago"
+          }
+        },
+        "text_kXMY9Q": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
+            "customername": "Russell H",
+            "country": "United Kingdom, 1 month ago"
+          }
+        },
+        "text_3fJFfe": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
+            "customername": "Russell H",
+            "country": "United Kingdom, 1 month ago"
+          }
+        },
+        "text_b8znmB": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
+            "customername": "Russell H",
+            "country": "United Kingdom, 1 month ago"
+          }
+        },
+        "text_kczJzz": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
+            "customername": "Russell H",
+            "country": "United Kingdom, 1 month ago"
+          }
+        }
+      },
+      "block_order": [
+        "text_kjUgWn",
+        "text_4ADyNT",
+        "text_Xddp6H",
+        "text_j4q66X",
+        "text_4NbLeW",
+        "text_kXMY9Q",
+        "text_3fJFfe",
+        "text_b8znmB",
+        "text_kczJzz"
+      ],
+      "settings": {
+        "heading": ""
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like",
+        "related_count": 5
+      }
     }
   },
   "order": [
     "collection-header",
     "main",
     "sub",
-    "product-recommendations",
     "recently-viewed",
     "collection-return",
     "tab_accordian_PmaHAD",
-    "row_img_text_3WBrBt"
+    "row_img_text_3WBrBt",
+    "slider_testimonial_mfGbj4",
+    "product-recommendations"
   ]
 }
