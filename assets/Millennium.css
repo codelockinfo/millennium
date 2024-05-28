@@ -414,6 +414,12 @@
 }
 .content-column-images .image-wrap {
      background:none;
+     max-width: 43px;
+    /* background: var(--colorSmallImageBg); */
+}
+.content-column-images .image-wrap  img{
+     /* background:none; */
+     max-width: 43px;
     /* background: var(--colorSmallImageBg); */
 }
 
