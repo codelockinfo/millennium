@@ -1,5 +1,10 @@
 <section class="tab_section tab-main-heading width-container" style="background-color: {{ section.settings.bg }};">
-  {%- render 'section_title',section_title:'mb__40' -%}
+  {%- if section.settings.title != blank -%}
+    <div class="section-header text-{{ section.settings.align_text }}">
+      <h2>{{ section.settings.title }}</h2>
+      <p>{{  }}</p>
+    </div>
+  {%- endif -%}
   <div class="tabs">
     <ul id="tabs-nav">
       {%- for block in section.blocks -%}
@@ -89,108 +94,31 @@
   {
     "name": "Accordian",
     "settings": [
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Heading",
-          "default": "Have Any Questions?"
-        },
-        {
-          "type": "textarea",
-          "id": "sub_title",
-          "label": "Sub Text"
-        },
-        {
-          "type": "select",
-          "id": "sub_font",
-          "default": "2",
-          "options": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "select",
+        "id": "align_text",
+        "label": "Alignment",
+        "default": "center",
+        "options": [
           {
-              "value": "1",
-              "label": "Body font"
+            "value": "left",
+            "label": "Left"
           },
           {
-              "value": "2",
-              "label": "Sub title font"
-            }
-          ],
-          "label": "Sub Text use font:"
-        },
-        {
-          "type": "select",
-          "id": "style_title",
-          "options": [
-          {
-              "value": "title_1",
-              "label": "Design 1"
+            "value": "center",
+            "label": "Centered"
           },
           {
-              "value": "title_2",
-              "label": "Design 2"
-            },
-          {
-              "value": "title_3",
-              "label": "Design 3"
-            },
-          {
-              "value": "title_4",
-              "label": "Design 4"
-            },
-          {
-              "value": "title_5 lazyload",
-              "label": "Design 5"
-            },
-          {
-              "value": "title_6",
-              "label": "Design 6"
-            },
-          {
-              "value": "title_7 +la",
-              "label": "Design 7 (with line-awesome)"
-            },
-          {
-              "value": "title_8",
-              "label": "Design 8"
-            },
-          {
-              "value": "title_9",
-              "label": "Design 9"
-            },
-          {
-              "value": "title_10",
-              "label": "Design 10"
-            },
-          {
-              "value": "title_11",
-              "label": "Design 11"
-            },
-          {
-              "value": "title_12",
-              "label": "Design 12"
-            },
-          {
-              "value": "title_13",
-              "label": "Design 13"
-            }
-          ],
-          "label": "Design Title:"
-        },
-        {
-          "type": "text",
-          "id": "ic_tt",
-          "label": "Style 7 icon line-awesome",
-          "default": "gem"
-        },
-        {
-          "type": "checkbox",
-          "id": "show_clpr",
-          "label": "Use icon color primary?",
-          "default": false
-        },
-        {
-          "type": "paragraph",
-          "content": "[Get icons Line awesome](https://icons8.com/line-awesome)"
-        }
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      }
     ],
     "blocks": [
       {
