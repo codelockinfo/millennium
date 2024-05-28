@@ -116,6 +116,11 @@
       "settings": {
       }
     },
+    "product_servece_section_C8DbLG": {
+      "type": "product-servece-section",
+      "settings": {
+      }
+    },
     "tab_accordian_PmaHAD": {
       "type": "tab-accordian",
       "blocks": {
@@ -310,6 +315,7 @@
     "sub",
     "recently-viewed",
     "collection-return",
+    "product_servece_section_C8DbLG",
     "tab_accordian_PmaHAD",
     "row_img_text_3WBrBt",
     "slider_testimonial_mfGbj4",
