@@ -130,7 +130,7 @@
           "type": "text",
           "settings": {
             "service_text": "",
-            "back_ground": ""
+            "back_ground": "#ede9eb"
           }
         },
         "text_YCjgwA": {
@@ -138,7 +138,7 @@
           "settings": {
             "service_img": "shopify:\/\/shop_images\/world-wide-shopping.png",
             "service_text": "World Wide Free Shipping",
-            "back_ground": ""
+            "back_ground": "#ede9eb"
           }
         }
       },
