@@ -32,16 +32,18 @@
                   <a href="{{ block.settings.button_link }}">
                 {%- endif -%}
                 {%- if block.settings.image != blank -%}
-                  <div class="image-wrap text-spacing" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
-                    {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                    <img class="lazyload"
-                        data-src="{{ img_url }}"
-                        data-widths="[180, 360, 540, 720, 900, 1080]"
-                        data-aspectratio="{{ block.settings.image.aspect_ratio }}"
-                        data-sizes="auto"
-                        alt="{{ block.settings.image.alt }}">
-                  </div>
-                {%- else -%}
+                  <div class="img_width">
+                    <div class="image-wrap ">
+                      {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                      <img class="lazyload"
+                          data-src="{{ img_url }}"
+                          data-widths="[180, 360, 540, 720, 900, 1080]"
+                          data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                          data-sizes="auto"
+                          alt="{{ block.settings.image.alt }}">
+                    </div>
+                    </div>
+                  {%- else -%}
                   <div class="image-wrap text-spacing">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
                 {%- endif -%}
                 {%- if block.settings.button_link != blank -%}
@@ -196,5 +198,14 @@
     {% endschema %}
     
     <style>
-
+       .img_width{
+         background-color: #D9D9D9;
+         width: 80px;
+         height: 80px;
+         border-radius: 50%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-bottom: 30px;
+       }
     </style>
