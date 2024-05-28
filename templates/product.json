@@ -283,15 +283,6 @@
             "customername": "Russell H",
             "country": "United Kingdom, 1 month ago"
           }
-        },
-        "text_kczJzz": {
-          "type": "text",
-          "settings": {
-            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
-            "customername": "Russell H",
-            "country": "United Kingdom, 1 month ago"
-          }
         }
       },
       "block_order": [
@@ -302,8 +293,7 @@
         "text_4NbLeW",
         "text_kXMY9Q",
         "text_3fJFfe",
-        "text_b8znmB",
-        "text_kczJzz"
+        "text_b8znmB"
       ],
       "settings": {
         "heading": ""
