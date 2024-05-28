@@ -119,6 +119,7 @@
     },
     "recently-viewed": {
       "type": "recently-viewed",
+      "disabled": true,
       "settings": {
         "recent_count": 5
       }
@@ -161,11 +162,7 @@
       "disabled": true,
       "settings": {
         "title": "Have Any Questions?",
-        "sub_title": "",
-        "sub_font": "2",
-        "style_title": "title_1",
-        "ic_tt": "gem",
-        "show_clpr": false
+        "align_text": "center"
       }
     },
     "row_img_text_3WBrBt": {
