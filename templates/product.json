@@ -142,6 +142,7 @@
       "block_order": [
         "content_pxCdt6"
       ],
+      "disabled": true,
       "settings": {
         "title": "Have Any Questions?",
         "sub_title": "",
