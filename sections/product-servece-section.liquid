@@ -1,0 +1,127 @@
+<div class="service-main-box">
+  <div class="width-container">
+    <div class="service-box">
+        <div class="service">
+        {%- for block in section.blocks -%} 
+        <div class="w-33">
+          <div class="service-inner-box">
+            {% if block.settings.service_img != blank %}
+            <div class="service-img-box" style="background-color: {{block.settings.back_ground}};">
+                <img
+                src="{{block.settings.service_img | img_url:'master'}}"
+                class="png-img-2"
+                alt=""
+              >
+            </div>
+            {% endif %}
+            {% if block.settings.service_img != blank %}
+            <p class="service_p">{{block.settings.service_text}}</p>
+            {% endif %}
+          </div>
+        </div>
+    {%- endfor -%} 
+        </div>   
+    </div>
+    </div>
+
+  </div>
+
+
+{% schema %}
+{
+  "name": "Product service section",
+  "blocks": [
+    {
+      "type": "text",
+      "name": "block",
+      "settings": [
+        {
+            "type": "image_picker",
+            "id": "service_img",
+            "label": "Select img"
+        },
+        {
+            "type": "text",
+            "id": "service_text",
+            "label": "Add text"
+        },
+        {
+          "type": "color",
+          "id": "back_ground",
+          "label": "Img background"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "product service section"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+  .service-main-box {
+    padding: 50px 0;
+    background-color: #f0f0f0;
+  }
+  .service-box {
+    padding: 20px 0;
+    width: 100%;
+    /* border: 1px solid; */
+    border-image-source: linear-gradient(90deg, #f0f0f0 0%, #b69d62 44%, #f0f0f0 100%);
+    background: linear-gradient(90deg, #F0F0F0 0%, #F9F9F9 52.5%, #F0F0F0 100%);
+
+  }
+  .service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .w-33 {
+    width: 33%;
+    padding: 15px;
+  }
+  .service-inner-box {
+    display: flex;
+    align-items: center;
+  }
+  .service_p {
+    font-family: 'Montserrat Alternates';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+  }
+  .service-img-box {
+    min-width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 80px;
+    background-color: #EDE9EB;
+    border-radius: 100%;
+  }
+  @media (max-width:768px) {
+    .service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+  .w-33{
+    width: 100%;
+  }
+  }
+  @media (max-width:600px) {
+    .service {
+    width: 100%;
+  }
+  }
+</style>
