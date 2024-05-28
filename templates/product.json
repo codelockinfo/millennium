@@ -124,7 +124,7 @@
           "settings": {
             "service_img": "shopify:\/\/shop_images\/good-quality.png",
             "service_text": "100% Quality Guarantee",
-            "back_ground": "#ede9eb"
+            "back_ground": "#000000"
           }
         },
         "text_ibgaJt": {
