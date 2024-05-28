@@ -128,6 +128,29 @@
       "settings": {
       }
     },
+    "tab_accordian_PmaHAD": {
+      "type": "tab-accordian",
+      "blocks": {
+        "content_pxCdt6": {
+          "type": "content",
+          "settings": {
+            "tabheading": "<p>Packaging<\/p>",
+            "textcontent": "<p><strong>Premium Packaging for Your Timeless Treasures<\/strong><br\/>At Millennium Jewelery, we believe in delivering not just products but an experience. That's why we offer premium packaging to ensure your timeless treasures arrive in style and safety.<br\/><br\/><strong>Watch Packaging<\/strong><br\/>Each watch from Millennium Jewelery comes with theire premium branded watch box and the necessary papers of the particular brand. We take extra care by covering the package with two layers of bubble wrap, providing added protection during transportation.<br\/><br\/><strong>Jewelry Packaging<\/strong><br\/>Our jewelry is packaged in a beautiful jewelry box, accompanied by a soft cloth for cleaning. To safeguard your jewelry during transit, we wrap the package in bubble bag packing, ensuring it arrives in pristine condition.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_pxCdt6"
+      ],
+      "settings": {
+        "title": "Have Any Questions?",
+        "sub_title": "",
+        "sub_font": "2",
+        "style_title": "title_1",
+        "ic_tt": "gem",
+        "show_clpr": false
+      }
+    },
     "row_img_text_3WBrBt": {
       "type": "row-img-text",
       "blocks": {
@@ -187,6 +210,7 @@
     "product-recommendations",
     "recently-viewed",
     "collection-return",
+    "tab_accordian_PmaHAD",
     "row_img_text_3WBrBt"
   ]
 }
