@@ -303,7 +303,7 @@
       "settings": {
         "show_product_recommendations": true,
         "product_recommendations_heading": "Related Products",
-        "related_count": 5
+        "related_count": 4
       }
     }
   },
