@@ -123,13 +123,14 @@
           "type": "text",
           "settings": {
             "service_text": "",
-            "back_ground": ""
+            "back_ground": "#ede9eb"
           }
         },
         "text_ibgaJt": {
           "type": "text",
           "settings": {
-            "service_text": "",
+            "service_img": "shopify:\/\/shop_images\/handmade.png",
+            "service_text": "Hand Made Product",
             "back_ground": "#ede9eb"
           }
         },
