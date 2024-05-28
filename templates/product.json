@@ -118,6 +118,35 @@
     },
     "product_servece_section_C8DbLG": {
       "type": "product-servece-section",
+      "blocks": {
+        "text_FMdYiT": {
+          "type": "text",
+          "settings": {
+            "service_text": "",
+            "back_ground": ""
+          }
+        },
+        "text_ibgaJt": {
+          "type": "text",
+          "settings": {
+            "service_text": "",
+            "back_ground": ""
+          }
+        },
+        "text_YCjgwA": {
+          "type": "text",
+          "settings": {
+            "service_img": "shopify:\/\/shop_images\/world-wide-shopping.png",
+            "service_text": "World Wide Free Shipping",
+            "back_ground": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_FMdYiT",
+        "text_ibgaJt",
+        "text_YCjgwA"
+      ],
       "settings": {
       }
     },
