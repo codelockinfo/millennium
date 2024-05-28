@@ -25,9 +25,9 @@
           {%- else -%}
             {%- assign column_width = grid_item_width -%}
           {%- endif -%}
-          <div class="grid__item {{ column_width }} text-{{ section.settings.align_text }}" {{ block.shopify_attributes }} data-aos="row-of-3">
+          <div class="grid__item {{ column_width }} text-{{ block.settings.block_align_text }}" {{ block.shopify_attributes }} data-aos="row-of-3">
             {%- if block.settings.enable_image -%}
-              <div style="{% if section.settings.align_text == 'center' %}margin: 0 auto;{% endif %} max-width: {{ block.settings.image_width }}px;">
+              <div style="{% if block.settings.block_align_text == 'center' %}margin: 0 auto;{% endif %} max-width: {{ block.settings.image_width }}px;">
                 {%- if block.settings.button_link != blank -%}
                   <a href="{{ block.settings.button_link }}">
                 {%- endif -%}
@@ -152,6 +152,26 @@
                 "type": "url",
                 "id": "button_link",
                 "label": "Link"
+              },
+              {
+                "type": "select",
+                "id": "block_align_text",
+                "label": "Alignment",
+                "default": "center",
+                "options": [
+                  {
+                    "value": "left",
+                    "label": "Left"
+                  },
+                  {
+                    "value": "center",
+                    "label": "Centered"
+                  },
+                  {
+                    "value": "right",
+                    "label": "Right"
+                  }
+                ]
               }
             ]
           }
@@ -175,3 +195,6 @@
       }
     {% endschema %}
     
+    <style>
+
+    </style>

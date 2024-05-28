@@ -239,19 +239,22 @@
 });
 </script>
 <style>
-  
+  .tab_section{
+    font-family: 'Montserrat Alternates';
+  }
  #tabs-nav{
   list-style: none;
     display: flex;
-    overflow-x: scroll;
-    justify-content: center;
-    border-bottom: 2px solid #EDE9EB;
+    /* overflow-x: scroll; */
+    /* justify-content: center; */
+    border-bottom: 4px solid #D9D9D9;
     font-family: Montserrat Alternates;
     font-weight: 600;
     font-size: 24px;
+    margin-left: 0 !important;
  }
  #tabs-nav li{
-    padding: 0 20px;
+    padding-right: 40px;
  }
 
   #tabs-nav::-webkit-scrollbar-track,#tabs-nav::-webkit-scrollbar-track{
@@ -269,25 +272,26 @@
  ul.accordion-list {
 	 position: relative;
 	 display: block;
-	 width: 90%;
+	 /* width: 90%; */
 	 height: auto;
 	 margin: 20px auto;
 	 list-style: none;
-	 background-color: #F9F9F9;
+	 /* background-color: #F9F9F9; */
 }
  ul.accordion-list li {
 	 position: relative;
 	 display: block;
 	 width: 100%;
 	 height: auto;
-	 background-color: #F9F9F9;
-	 padding: 20px;
+	 /* background-color: #F9F9F9; */
+	 /* padding: 20px; */
 	 border-bottom: 1px solid #e4e5e6;
 	 border-radius: 5px;
 	 cursor: pointer;
    /* display: flex; */
   
 }
+
  ul.accordion-list li .accordian-number {
 	 font-size: 48px;
    line-height: 100px;
@@ -308,6 +312,21 @@
    text-align: center;
    transition: all 1s;
    
+}
+.active {
+  position: relative;
+}
+.active::after {
+  position: absolute;
+  content: "";
+  background-color: #282828;
+  width: 90%;
+  height: 4px;
+
+}
+.tabs #tabs-nav{
+   padding-bottom: 0 !important;
+   margin-bottom: 0 !important;
 }
 ul.accordion-list li.active .accordian-heading .icon-plus i{
   color: #ffffff;
@@ -377,7 +396,7 @@ color: #282828;
 }
 .tab-main-heading{
   justify-content: center !important;
-  padding-top: 30px;
+  padding-top: 80px;
   padding-bottom: 50px;
 }
 

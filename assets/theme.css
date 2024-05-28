@@ -2141,12 +2141,12 @@ html[dir=rtl] .text-right {
   flex: 0 0 auto;
 }
 
-ol,
+/* ol,
 ul {
   margin: 0 0 15px 30px;
   padding: 0;
   text-rendering: optimizeLegibility;
-}
+} */
 
 ol ol {
   list-style: lower-alpha;
@@ -7631,9 +7631,9 @@ input[type=image] {
   }
 }
 
-.index-section {
+/* .index-section {
   margin: 40px 0;
-}
+} */
 
 .index-section--small {
   margin: 18px 0;
@@ -7685,9 +7685,9 @@ input[type=image] {
 }
 
 @media only screen and (min-width:769px) {
-  .index-section {
+  /* .index-section {
     margin: 75px 0;
-  }
+  } */
 
   .index-section--small {
     margin: 30px 0;

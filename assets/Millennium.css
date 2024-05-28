@@ -390,7 +390,32 @@
 .site-header__logo {
   margin: 0 0 10px;
 }
-
+.content-column-images h2 {
+  font-size: 24px;
+  font-family: "Montserrat Alternates";
+  font-weight: 700;
+  line-height: 24px;
+  color: #344054;
+}
+.content-column-images h3 {
+  font-size: 24px;
+  font-family: "Montserrat Alternates";
+  font-weight: 700;
+  line-height: 27px;
+  color: #282828;
+}
+.content-column-images p {
+  font-size: 20px;
+  font-family: "Montserrat Alternates";
+  font-weight: 400;
+  line-height: 27px;
+  color: #282828;
+  letter-spacing: normal;
+}
+.content-column-images .image-wrap {
+     background:none;
+    /* background: var(--colorSmallImageBg); */
+}
 
 @font-face {
   font-family: 'Italiana';
