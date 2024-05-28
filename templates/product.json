@@ -127,6 +127,57 @@
       "type": "collection-return",
       "settings": {
       }
+    },
+    "row_img_text_3WBrBt": {
+      "type": "row-img-text",
+      "blocks": {
+        "text_block_YfNfzq": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Group_1000004722.png",
+            "image_width": 60,
+            "title": "Luxurious Presentation",
+            "text": "<p>Our premium packaging adds a touch of luxury to your purchase, making it a delight to unbox your new watch or jewelry.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_77dWib": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Vector_4.png",
+            "image_width": 60,
+            "title": "Protection and Safety",
+            "text": "<p>We prioritize the safety of your items, utilizing multiple layers of packaging to prevent damage during transportation.<br\/><\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_HibxR8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Group_2.png",
+            "image_width": 60,
+            "title": "Attention to Detail",
+            "text": "<p>From the branded watch box to the jewelry box and cleaning cloth, every detail is carefully considered to enhance your overall experience.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_YfNfzq",
+        "text_block_77dWib",
+        "text_block_HibxR8"
+      ],
+      "settings": {
+        "title": "Why Choose Us?",
+        "align_text": "left",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -135,6 +186,7 @@
     "sub",
     "product-recommendations",
     "recently-viewed",
-    "collection-return"
+    "collection-return",
+    "row_img_text_3WBrBt"
   ]
 }
