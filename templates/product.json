@@ -152,7 +152,6 @@
         "content_pbbj9g",
         "content_KE3FYd"
       ],
-      "disabled": true,
       "settings": {
         "title": "Have Any Questions?",
         "align_text": "center"
@@ -303,7 +302,7 @@
       "type": "product-recommendations",
       "settings": {
         "show_product_recommendations": true,
-        "product_recommendations_heading": "You may also like",
+        "product_recommendations_heading": "Related Products",
         "related_count": 5
       }
     }
