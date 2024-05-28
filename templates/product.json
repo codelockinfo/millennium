@@ -123,7 +123,7 @@
           "type": "content",
           "settings": {
             "tabheading": "<p>Packaging<\/p>",
-            "textcontent": "<p><strong>Premium Packaging for Your Timeless Treasures<\/strong><br\/>At Millennium Jewelery, we believe in delivering not just products but an experience. That's why we offer premium packaging to ensure your timeless treasures arrive in style and safety.<br\/><br\/><strong>Watch Packaging<\/strong><br\/>Each watch from Millennium Jewelery comes with theire premium branded watch box and the necessary papers of the particular brand. We take extra care by covering the package with two layers of bubble wrap, providing added protection during transportation.<br\/><br\/><strong>Jewelry Packaging<\/strong><br\/>Our jewelry is packaged in a beautiful jewelry box, accompanied by a soft cloth for cleaning. To safeguard your jewelry during transit, we wrap the package in bubble bag packing, ensuring it arrives in pristine condition.<\/p>"
+            "textcontent": "<p><strong>Premium Packaging for Your Timeless Treasures<\/strong><br\/>At Millennium Jewelery, we believe in delivering not just products but an experience. That's why we offer premium packaging to ensure your timeless treasures arrive in style and safety.<br\/><\/p><p><\/p><p><br\/><strong>Watch Packaging<\/strong><br\/>Each watch from Millennium Jewelery comes with theire premium branded watch box and the necessary papers of the particular brand. We take extra care by covering the package with two layers of bubble wrap, providing added protection during transportation.<br\/><br\/><strong>Jewelry Packaging<\/strong><br\/>Our jewelry is packaged in a beautiful jewelry box, accompanied by a soft cloth for cleaning. To safeguard your jewelry during transit, we wrap the package in bubble bag packing, ensuring it arrives in pristine condition.<\/p>"
           }
         },
         "content_pbbj9g": {
@@ -163,7 +163,8 @@
             "title": "Luxurious Presentation",
             "text": "<p>Our premium packaging adds a touch of luxury to your purchase, making it a delight to unbox your new watch or jewelry.<\/p>",
             "button_label": "",
-            "button_link": ""
+            "button_link": "",
+            "block_align_text": "center"
           }
         },
         "text_block_77dWib": {
@@ -175,7 +176,8 @@
             "title": "Protection and Safety",
             "text": "<p>We prioritize the safety of your items, utilizing multiple layers of packaging to prevent damage during transportation.<br\/><\/p>",
             "button_label": "",
-            "button_link": ""
+            "button_link": "",
+            "block_align_text": "center"
           }
         },
         "text_block_HibxR8": {
@@ -187,7 +189,8 @@
             "title": "Attention to Detail",
             "text": "<p>From the branded watch box to the jewelry box and cleaning cloth, every detail is carefully considered to enhance your overall experience.<\/p>",
             "button_label": "",
-            "button_link": ""
+            "button_link": "",
+            "block_align_text": "center"
           }
         }
       },
