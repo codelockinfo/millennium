@@ -30,6 +30,11 @@
             "color_swatches": false
           }
         },
+        "quantity_selector_PDn3Pa": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -72,6 +77,7 @@
         "price",
         "separator",
         "variant_picker",
+        "quantity_selector_PDn3Pa",
         "buy_buttons",
         "description",
         "tab",
