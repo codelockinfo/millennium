@@ -122,7 +122,8 @@
         "text_FMdYiT": {
           "type": "text",
           "settings": {
-            "service_text": "",
+            "service_img": "shopify:\/\/shop_images\/good-quality.png",
+            "service_text": "100% Quality Guarantee",
             "back_ground": "#ede9eb"
           }
         },
