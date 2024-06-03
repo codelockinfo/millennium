@@ -453,18 +453,15 @@
   transform: none;
 }
 
-.hero[data-arrows=true] .flickity-prev-next-button:hover {
-  /* transform: scale(1.12); */
+/* .hero[data-arrows=true] .flickity-prev-next-button:hover {
+  transform: scale(1.12);
 }
 
 .hero[data-arrows=true] .flickity-prev-next-button:active {
-  /* transform: scale(1); */
-}
-
-/* .hero[data-arrows=true] .flickity-previous {
-  left: 40px;
-  /* right: 90px; */
+  transform: scale(1);
 } */
+
+
 
 /* .hero[data-arrows=true] .flickity-next {
   right: 40px;
