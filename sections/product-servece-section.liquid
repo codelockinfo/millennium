@@ -1,31 +1,29 @@
 <div class="service-main-box">
   <div class="width-container">
     <div class="service-box">
-        <div class="service">
-        {%- for block in section.blocks -%} 
-        <div class="w-33">
-          <div class="service-inner-box">
-            {% if block.settings.service_img != blank %}
-            <div class="service-img-box" style="background-color: {{block.settings.back_ground}};">
-                <img
-                src="{{block.settings.service_img | img_url:'master'}}"
-                class="png-img-2"
-                alt=""
-              >
+      <div class="service">
+        {%- for block in section.blocks -%}
+          <div class="w-33">
+            <div class="service-inner-box">
+              {% if block.settings.service_img != blank %}
+                <div class="service-img-box" style="background-color: {{block.settings.back_ground}};">
+                  <img
+                    src="{{block.settings.service_img | img_url:'master'}}"
+                    class="png-img-2"
+                    alt=""
+                  >
+                </div>
+              {% endif %}
+              {% if block.settings.service_img != blank %}
+                <p class="service_p">{{ block.settings.service_text }}</p>
+              {% endif %}
             </div>
-            {% endif %}
-            {% if block.settings.service_img != blank %}
-            <p class="service_p">{{block.settings.service_text}}</p>
-            {% endif %}
           </div>
-        </div>
-    {%- endfor -%} 
-        </div>   
+        {%- endfor -%}
+      </div>
     </div>
-    </div>
-
   </div>
-
+</div>
 
 {% schema %}
 {
@@ -36,14 +34,14 @@
       "name": "block",
       "settings": [
         {
-            "type": "image_picker",
-            "id": "service_img",
-            "label": "Select img"
+          "type": "image_picker",
+          "id": "service_img",
+          "label": "Select img"
         },
         {
-            "type": "text",
-            "id": "service_text",
-            "label": "Add text"
+          "type": "text",
+          "id": "service_text",
+          "label": "Add text"
         },
         {
           "type": "color",
@@ -70,9 +68,10 @@
     padding: 20px 0;
     width: 100%;
     border: 10px solid; /* Border width */
-   border-image-slice: 1;
-  border-width: 3px; /* Border width */
-border-image-source: linear-gradient(90deg, #F0F0F0 0%, #B69D62 44%, #F0F0F0 100%);
+    border-image-slice: 1;
+    border-width: 3px; /* Border width */
+    border-image-source: linear-gradient(90deg, #f0f0f0 0%, #b69d62 44%, #f0f0f0 100%);
+    background: linear-gradient(90deg, #f0f0f0 0%, #f9f9f9 52.5%, #f0f0f0 100%);
   }
   .service {
     display: flex;
@@ -105,22 +104,22 @@ border-image-source: linear-gradient(90deg, #F0F0F0 0%, #B69D62 44%, #F0F0F0 100
     line-height: 80px;
     border-radius: 100%;
   }
-  @media (max-width:768px) {
+  @media (max-width: 768px) {
     .service {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 60%;
+      margin: 0 auto;
+    }
+    .w-33 {
+      width: 100%;
+    }
   }
-  .w-33{
-    width: 100%;
-  }
-  }
-  @media (max-width:600px) {
+  @media (max-width: 600px) {
     .service {
-    width: 100%;
-  }
+      width: 100%;
+    }
   }
 </style>
