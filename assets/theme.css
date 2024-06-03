@@ -8197,16 +8197,16 @@ input[type=image] {
   margin-left: 12px
 }
 
-.hero__link .btn+.btn {
-  /* margin-left: 2px */
-}
+/* .hero__link .btn+.btn {
+  margin-left: 2px
+} */
 
-@media only screen and (min-width:769px) {
+/* @media only screen and (min-width:769px) {
 
   .hero__link .btn+.btn {
-    /* margin-left: 10px */
+    margin-left: 10px
   }
-}
+} */
 
 [data-button_style=angled] .hero__link .btn+.btn {
   margin-left: 12px
