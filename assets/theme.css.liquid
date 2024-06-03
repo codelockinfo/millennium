@@ -1077,7 +1077,7 @@ html[dir=rtl] .grid--center .grid__item{
 
 @media only screen and (max-width:768px){.small--one-whole{width:100%;}.small--one-half{width:50%;}.small--one-third{width:33.33333%;}.small--two-thirds{width:66.66667%;}.grid--uniform .small--one-half:nth-of-type(odd),.grid--uniform .small--one-third:nth-of-type(3n+1){clear:both;}.small--one-quarter{width:25%;}.small--two-quarters{width:50%;}.small--three-quarters{width:75%;}.grid--uniform .small--one-quarter:nth-of-type(4n+1){clear:both;}.small--one-fifth{width:20%;}.small--two-fifths{width:40%;}.small--three-fifths{width:60%;}.small--four-fifths{width:80%;}.grid--uniform .small--one-fifth:nth-of-type(5n+1){clear:both;}.small--one-sixth{width:16.66667%;}.small--two-sixths{width:33.33333%;}.small--three-sixths{width:50%;}.small--four-sixths{width:66.66667%;}.small--five-sixths{width:83.33333%;}.grid--uniform .small--one-sixth:nth-of-type(6n+1),.grid--uniform .small--three-sixths:nth-of-type(odd),.grid--uniform .small--two-sixths:nth-of-type(3n+1){clear:both;}}
 
-@media only screen and (min-width:769px){.medium-up--one-whole{width:100%;}.medium-up--one-half{width:50%;}.medium-up--one-third{width:33.33333%;}.medium-up--two-thirds{width:66.66667%;}.grid--uniform .medium-up--one-half:nth-of-type(odd),.grid--uniform .medium-up--one-third:nth-of-type(3n+1){clear:both;}.medium-up--one-quarter{width:25%;}.medium-up--two-quarters{width:50%;}.medium-up--three-quarters{width:75%;}.grid--uniform .medium-up--one-quarter:nth-of-type(4n+1){clear:both;}.medium-up--one-fifth{width:20%;}.medium-up--two-fifths{width:40%;}.medium-up--three-fifths{width:60%;}.medium-up--four-fifths{width:80%;}.grid--uniform .medium-up--one-fifth:nth-of-type(5n+1){clear:both;}.medium-up--one-sixth{width:16.66667%;}.medium-up--two-sixths{width:33.33333%;}.medium-up--three-sixths{width:50%;}.medium-up--four-sixths{width:66.66667%;}.medium-up--five-sixths{width:83.33333%;}.grid--uniform .medium-up--one-sixth:nth-of-type(6n+1),.grid--uniform .medium-up--three-sixths:nth-of-type(odd),.grid--uniform .medium-up--two-sixths:nth-of-type(3n+1){clear:both;}}
+@media only screen and (min-width:769px){.medium-up--one-whole{width:100%;}.medium-up--one-half{width:50%;}.medium-up--one-third{width:33.33333%;}.medium-up--two-thirds{width:66.66667%;}.grid--uniform .medium-up--one-half:nth-of-type(odd),.grid--uniform .medium-up--one-third:nth-of-type(3n+1){clear:both;}.medium-up--one-quarter{width:25%;}.medium-up--two-quarters{width:50%;}.medium-up--three-quarters{width:75%;}.grid--uniform .medium-up--one-quarter:nth-of-type(4n+1){clear:both;}.medium-up--one-fifth{width:30%;}.medium-up--two-fifths{width:40%;}.medium-up--three-fifths{width:60%;}.medium-up--four-fifths{width:70%;}.grid--uniform .medium-up--one-fifth:nth-of-type(5n+1){clear:both;}.medium-up--one-sixth{width:16.66667%;}.medium-up--two-sixths{width:33.33333%;}.medium-up--three-sixths{width:50%;}.medium-up--four-sixths{width:66.66667%;}.medium-up--five-sixths{width:83.33333%;}.grid--uniform .medium-up--one-sixth:nth-of-type(6n+1),.grid--uniform .medium-up--three-sixths:nth-of-type(odd),.grid--uniform .medium-up--two-sixths:nth-of-type(3n+1){clear:both;}}
 
 .show{display:block !important;}
 
@@ -1690,6 +1690,7 @@ ol.alpha{ list-style:lower-alpha outside; }
 .no-bullets{
   list-style:none outside;
   margin-left:0;
+  padding: 0;
 }
 
 .inline-list{
@@ -2961,6 +2962,8 @@ svg.icon:not(.icon--full-color) circle,svg.icon:not(.icon--full-color) ellipse,s
 
 .drawer__title{
   width:100%;
+  font-family: 'Montserrat Alternates';
+  font-weight:600;
 }
 
 .drawer__close{
@@ -7296,7 +7299,7 @@ input[type=image]{
 .collection-filter{
     flex-wrap:wrap;
     justify-content:space-between;
-    position:sticky;
+    /* position:sticky; */
     top:17px;
     z-index:5
 }
@@ -7314,13 +7317,15 @@ input[type=image]{
 .collection-filter select{
     display:block;
     width:100%;
+    font-family: 'Montserrat Alternates'
   }
 
 .collection-filter .btn{
     padding:0 20px;
     border:1px solid;
     border-color:{{ settings.color_borders | default: "#1c1d1d" }};
-    border-color:var(--colorBorder)
+    border-color:var(--colorBorder);
+    font-family: 'Montserrat Alternates'
   }
 
 @media only screen and (max-width:768px){

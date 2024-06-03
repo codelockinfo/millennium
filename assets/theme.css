@@ -2182,6 +2182,7 @@ ol.alpha {
 .no-bullets {
   list-style: none outside;
   margin-left: 0;
+  padding: 0;
 }
 
 .inline-list {
@@ -3849,6 +3850,7 @@ symbol.icon:not(.icon--full-color) rect {
 
 .drawer__title {
   width: 100%;
+  font-family: 'Montserrat Alternates'
 }
 
 .drawer__close {
@@ -8482,7 +8484,7 @@ input[type=image] {
   .collection-filter {
     flex-wrap: wrap;
     justify-content: space-between;
-    position: sticky;
+    /* position: sticky; */
     top: 17px;
     z-index: 5
   }
@@ -8501,13 +8503,15 @@ input[type=image] {
 .collection-filter select {
   display: block;
   width: 100%;
+  font-family: 'Montserrat Alternates'
 }
 
 .collection-filter .btn {
   padding: 0 20px;
   border: 1px solid;
   border-color: #e8e8e1;
-  border-color: var(--colorBorder)
+  border-color: var(--colorBorder);
+  font-family: 'Montserrat Alternates'
 }
 
 @media only screen and (max-width:768px) {
