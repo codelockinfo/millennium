@@ -580,6 +580,13 @@
     z-index: 1;
     bottom: 0;
   }
+  .content-column-images p {
+    font-size: 16px;
+
+  }
+  .content-column-images h3 {
+    font-size: 18px;
+}
 }
 
 [data-icon=bag-minimal] .cart-link__bubble--visible {
