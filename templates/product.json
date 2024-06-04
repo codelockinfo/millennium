@@ -27,7 +27,7 @@
             "size_chart": "",
             "variant_labels": true,
             "picker_type": "button",
-            "color_swatches": false
+            "color_swatches": true
           }
         },
         "quantity_selector_PDn3Pa": {
