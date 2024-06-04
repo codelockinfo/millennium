@@ -32,6 +32,7 @@
         },
         "quantity_selector_PDn3Pa": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
