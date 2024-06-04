@@ -373,41 +373,52 @@
         {%- endunless -%}
       </div>
       {% comment %} {{product.description}} {% endcomment %}
-      <div class="custom_description">
-          <h1 class="custom_description_h1">Description</h1>
-      <div class="info_box">
-        <div class="information_main_box ">
-          <h2 class="information_h2">Information</h2>
-          <div class="information_box ">
-          <div class="information">
-           <h4 class="information_h4">Movement</h4>
-           <h5 class="information_h5">: Japan Automatic Movement</h5>
-          </div>
-          <div class="information">
-           <h4 class="information_h4">Number</h4>
-           <h5 class="information_h5">: English Numbers</h5>
-          </div>
-          </div>
-       </div>
-       <div class="information_main_box ">
-          <h2 class="information_h2">Metal Details</h2>
-          <div class="information_box ">
-          <div class="information">
-           <h4 class="information_h4">Metal</h4>
-           <h5 class="information_h5">: Stainless Steel</h5>
-          </div>
-          <div class="information">
-           <h4 class="information_h4">Belt Material</h4>
-           <h5 class="information_h5">: Black Rubber Belt</h5>
-          </div>
-          <div class="information">
-           <h4 class="information_h4">Metal Color Option</h4>
-           <h5 class="information_h5">: White</h5>
-          </div>
-          </div>
-       </div>
-      </div>
-      </div>
+      {% assign descriptioninformation = product.metafields.custom.description_information | remove: '["' | remove: '"]' %}
+      {% assign metaldetails = product.metafields.custom.metaldetails | remove: '["' | remove: '"]' %}
+        <div class="custom_description">
+          {% if descriptioninformation != blank or metaldetails != blank %}
+            <h1 class="custom_description_h1">Description</h1>
+          {% endif %}
+            <div class="info_box">
+              {% if descriptioninformation != blank %}
+                  <div class="information_main_box ">
+                    <h2 class="information_h2">Information</h2>
+                    <div class="information_box ">
+                        
+                          {%  if descriptioninformation != blank %}
+                                {% assign inforations = descriptioninformation | split:  '","' %}
+                                    {% for inforation in inforations %}
+                                      <div class="information">
+                                        {% assign inforationValue = inforation | split:  ':' %}
+                                            <h4 class="information_h4">{{ inforationValue[0] }} </h4>
+                                            <h5 class="information_h5">: {{ inforationValue[1] }} </h5>
+                                      </div>
+                                    {% endfor %}
+                          {% endif %}
+                    </div>
+                  </div>
+              {% endif %}
+              {% if metaldetails != blank %}
+                <div class="information_main_box ">
+                    <h2 class="information_h2">Metal Details</h2>
+                    <div class="information_box ">
+                      
+                      {%  if metaldetails != blank %}
+                            {% assign metaldetail = metaldetails | split:  '","' %}
+                                {% for metaldetailvalues in metaldetail %}
+                                  <div class="information">
+                                    {% assign metaldetailvalue = metaldetailvalues | split:  ':' %}
+                                        <h4 class="information_h4">{{ metaldetailvalue[0] }} </h4>
+                                        <h5 class="information_h5">: {{ metaldetailvalue[1] }} </h5>
+                                  </div>
+                                {% endfor %}
+                      {% endif %}
+                    </div>
+                </div>
+              {% endif %}
+            </div>
+        </div>
+        {% comment %} {{product.description}} {% endcomment %}
     </div>
   </div>
 </div>
