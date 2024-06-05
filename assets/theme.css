@@ -3005,6 +3005,8 @@ html input[disabled] {
 .add-to-cart.btn--secondary {
   border: 1px solid;
   border-color: #000000;
+  background-color: #000000;
+  color: #fff;
   border-color: var(--colorTextBody)
 }
 
@@ -6729,8 +6731,8 @@ form+.footer__social {
     .js-qty__wrapper {
       display: inline-block;
       position: relative;
-      max-width: 80px;
-      min-width: 60px;
+      max-width: 120px;
+      min-width: 120px;
       overflow: visible;
       background-color: #ffffff;
       background-color: var(--colorBody);
@@ -6748,7 +6750,7 @@ form+.footer__social {
       background: none;
       text-align: center;
       width: 100%;
-      padding: 5px 20px;
+      padding: 10px 20px;
       margin: 0;
       z-index: 1;
     }
@@ -6785,8 +6787,8 @@ form+.footer__social {
     }
 
     .js-qty__adjust:hover {
-      background-color: #f2f2f2;
-      background-color: var(--colorBodyDim);
+      background-color: #fff;
+      background-color: var(--colorBody);
       color: #000000;
       color: var(--colorTextBody);
     }
@@ -8979,8 +8981,8 @@ form+.footer__social {
     }
 
     .variant-input-wrap input[type=radio]:checked+label {
-      box-shadow: 0 0 0 2px #000000;
-      box-shadow: 0 0 0 2px var(--colorTextBody);
+      box-shadow: 0 0 0 2px #B69D62;
+      /* box-shadow: 0 0 0 2px var(--colorTextBody); */
     }
 
     .variant-input {
@@ -11618,7 +11620,7 @@ form+.footer__social {
     @media only screen and (max-width:768px) {
 
       .product-single__meta {
-        text-align: center;
+        /* text-align: center; */
         padding-left: 0;
         margin-top: 15px
       }

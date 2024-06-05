@@ -2357,7 +2357,10 @@ button[disabled],html input[disabled]{
 .add-to-cart.btn--secondary{
   border:1px solid;
   border-color:{{ settings.color_body_text | default: "#1c1d1d" }};
-  border-color:var(--colorTextBody)
+  border-color:var(--colorTextBody);
+  border-color: #000000;
+  background-color: #000000;
+  color: #fff;
 }
 
 [data-button_style=angled] .add-to-cart.btn--secondary{
@@ -5634,8 +5637,8 @@ form+.footer__social{
 .js-qty__wrapper{
   display:inline-block;
   position:relative;
-  max-width:80px;
-  min-width:60px;
+  max-width:120px;
+  min-width:120px;
   overflow:visible;
   background-color:{{ settings.color_body_bg | default: "#fff" }};
   background-color:var(--colorBody);
@@ -5653,7 +5656,7 @@ form+.footer__social{
   background:none;
   text-align:center;
   width:100%;
-  padding:5px 20px;
+  padding:10px 20px;
   margin:0;
   z-index:1;
 }
@@ -5690,8 +5693,8 @@ form+.footer__social{
   }
 
 .js-qty__adjust:hover{
-    background-color:{{ settings.color_body_bg | default: "#1c1d1d" | color_darken: 5 }};
-    background-color:var(--colorBodyDim);
+    background-color:#fff;
+    background-color:var(--colorBody);
     color:{{ settings.color_body_text | default: "#1c1d1d" }};
     color:var(--colorTextBody);
   }
@@ -7788,7 +7791,7 @@ label.tag__checkbox-wrapper{
 
 .variant-input-wrap input[type=radio]:checked+label{
     box-shadow:0 0 0 2px {{ settings.color_body_text | default:"#1c1d1d" }};
-    box-shadow:0 0 0 2px var(--colorTextBody);
+    box-shadow:0 0 0 2px #B69D62;
   }
 
 .variant-input{
@@ -10334,7 +10337,7 @@ iframe.zoid-component-frame{
 @media only screen and (max-width:768px){
 
 .product-single__meta{
-    text-align:center;
+    /* text-align:center; */
     padding-left:0;
     margin-top:15px
 }
