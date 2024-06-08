@@ -853,6 +853,13 @@ label.tag__checkbox-wrapper{
   align-items: end;
 
 }
+textarea#personalize-box::placeholder {
+  font-family: 'Montserrat Alternates';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: left;
+}
 @media screen and (max-width: 1024px){
   .product-single__title{
     font-size: 24px;
@@ -874,7 +881,7 @@ label.tag__checkbox-wrapper{
     gap: 15px;
     flex-wrap: wrap;
     align-items: center;
-    grid-product__price  }
+  }
   .product__quantity{
     display: grid;
   }
