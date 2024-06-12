@@ -134,6 +134,14 @@
             "category_text": "<p>Rings<\/p>",
             "collection_url": "shopify:\/\/collections\/womens-rings"
           }
+        },
+        "text_7AY3FC": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/BG-Copy_2_-Copy.jpg",
+            "category_text": "<p>Earrings<\/p>",
+            "collection_url": "shopify:\/\/collections\/earrings"
+          }
         }
       },
       "block_order": [
@@ -141,7 +149,8 @@
         "text_nWQjV8",
         "text_aDNqVC",
         "text_89teFA",
-        "text_fAL8xq"
+        "text_fAL8xq",
+        "text_7AY3FC"
       ],
       "settings": {
         "headingtext": "<p>our category<\/p>",
