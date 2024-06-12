@@ -11,14 +11,14 @@
             "title_size": 96,
             "subheading": "",
             "link": "",
-            "link_text": "Get 40-60% Off",
-            "link_2": "shopify:\/\/collections",
+            "link_text": "Get  Upto 40% Off",
+            "link_2": "shopify:\/\/collections\/iced-out-watches",
             "link_text_2": "View Collection",
             "color_accent": "rgba(0,0,0,0)",
             "color_accent2": "#d0c272",
             "text_color": "#000000",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/banner.png",
+            "image": "shopify:\/\/shop_images\/008.jpg",
             "overlay_opacity": 0,
             "focal_point": "20% 0"
           }
@@ -63,7 +63,7 @@
         "text_QQUdXR": {
           "type": "text",
           "settings": {
-            "banner_img": "shopify:\/\/shop_images\/banner.png",
+            "banner_img": "shopify:\/\/shop_images\/008.jpg",
             "banner_heading": "<p>You Were Born <\/p><p>To Stand Out<\/p>",
             "button1_text": "Get 40-60% Off",
             "button2_text": "View Collection",
