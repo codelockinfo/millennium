@@ -175,11 +175,11 @@ Arguments
           {%- endif -%}
           {%- if product.price_varies -%}
             {%- assign price = product.price_min | money -%}
-            {{ 'products.general.from_text_html' | t: price: price }}
+            {{ price }}
           {%- else -%}
             {{ product.price  | money }}
           {%- endif -%}
-          {%- if on_sale -%}
+          {% comment %} {%- if on_sale -%}
             {%- if settings.product_save_amount -%}
               {%- if settings.product_save_type == 'dollar' -%}
                 {%- capture saved_amount -%}{{ product.compare_at_price | minus: product.price | money }}{%- endcapture -%}
@@ -190,7 +190,7 @@ Arguments
                 {{ 'products.general.save_html' | t: saved_amount: saved_amount }}
               </span>
             {%- endif -%}
-          {%- endif -%}
+          {%- endif -%} {% endcomment %}
 
           {%- assign product_variant = product.selected_or_first_available_variant -%}
           {%- if product_variant.unit_price_measurement -%}

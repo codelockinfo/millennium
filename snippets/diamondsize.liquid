@@ -1,0 +1,26 @@
+{% if product.metafields.custom.diamond_size != blank %}
+    <div class="ringsize product-block">
+        <div class="ringsizelabel">
+            {% assign diamond_sizes = product.metafields.custom.diamond_size | remove: '["' | remove: '"]' %}
+              {%  if diamond_sizes != blank %}
+                <h4 class="swatch__title">Diamond Size</h4> 
+                <div>
+                {% comment %} <a class="sizechartlabel cd chp btn_size_guide mr__20" href="#" data-no-instant="" rel="nofollow" data-src="https://cdn.shopify.com/s/files/1/0571/2825/5601/files/Ring_Size_Chart.webp?v=1717481681" data-width="600" data-height="600">SIZE CHART</a> {% endcomment %}
+                </div>
+              {% endif %}     
+        </div>
+        {% if product.metafields.custom.diamond_size != blank %}
+          {% assign diamond_sizes = product.metafields.custom.diamond_size | remove: '["' | remove: '"]' %}
+          {%  if diamond_sizes != blank %}
+            <select class="customselect" name="properties[Diamond Size]" id="SingleOptionSelector-{{ section_id }}-{{ product.id }}-option-{{ forloop.index0 }}" data-index="option{{ forloop.index }}">
+                {% assign diamond_size = diamond_sizes | split:  '","' %}
+                {% for diamond_size_value in diamond_size %}
+                <option  value="{{ diamond_size_value }}" class="variant-input"  data-index="{{ forloop.index }}">
+                    {{ diamond_size_value }}
+                </option>
+                {%- endfor -%}
+            </select>           
+          {% endif %}     
+        {% endif %}
+    </div>
+  {% endif %}

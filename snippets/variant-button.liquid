@@ -19,7 +19,7 @@
     for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ forloop.index0 }}">
     {{ option.name }}
     {%- if is_size -%}
-      <span class="variant__label-info">
+      {% comment %} <span class="variant__label-info">
         &mdash;
         {%- render
           'tool-tip-trigger',
@@ -27,10 +27,10 @@
           content: block.settings.size_chart.content,
           context: 'size-chart'
         -%}
-      </span>
+      </span> {% endcomment %}
     {%- endif -%}
     {%- if is_color -%}
-      <span class="variant__label-info">
+      {% comment %} <span class="variant__label-info">
         &mdash;
         <span
           data-variant-color-label
@@ -38,7 +38,7 @@
           data-option-index="{{ color_option_index }}">
           {{ option.selected_value }}
         </span>
-      </span>
+      </span> {% endcomment %}
     {%- endif -%}
   </label>
   {%- assign option_index = forloop.index -%}

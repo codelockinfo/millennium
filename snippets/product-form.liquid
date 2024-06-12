@@ -1,47 +1,68 @@
 {%- form 'product', product, id: form_id, class: 'product-single__form' -%}
-
+  
   {%- liquid
     assign enable_dynamic_buttons = false
     if show_dynamic_checkout and template != 'product.preorder'
       assign enable_dynamic_buttons = true
     endif
   -%}
-
+  {% comment %} custom properties {% endcomment %}
+    {%  render 'diamondshape' %} 
+    <div class="displayflex">
+      {%  render 'diamondsize' %} 
+      {%  render 'jewelrysize' %} 
+    </div>
+    {% comment %} Personalize Box {% endcomment %}
+      <div>
+        <p class="line-item-property__field">
+          <span for="personalize-box" class="personalizebox-label">Personalize Box</span>
+          <textarea class="personalizebox" id="personalize-box" type="text" name="properties[Personalize Box]" placeholder="Mention Your Personalization Size, Metal Color, etc. Here"></textarea>
+        </p>
+      </div>
+    {% comment %} Personalize Box {% endcomment %}
+  {% comment %} custom properties {% endcomment %}
   {%- if enable_dynamic_buttons -%}
     <div class="payment-buttons">
   {%- endif -%}
-
-    {%- liquid
-      assign default_text = 'products.product.add_to_cart' | t
-      assign button_text = 'products.product.add_to_cart' | t
-      if template == 'product.preorder'
-        assign default_text = 'products.product.preorder' | t
-        assign button_text = 'products.product.preorder' | t
-      endif
-      unless current_variant.available
-        assign button_text = 'products.product.sold_out' | t
-      endunless
-    -%}
-
-    <button
-      {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
-      name="add"
-      data-add-to-cart
-      class="btn btn--full add-to-cart{% if enable_dynamic_buttons and product.selling_plan_groups == empty %} btn--secondary{% endif %}"
-      {% unless current_variant.available %} disabled="disabled"{% endunless %}>
-      <span data-add-to-cart-text data-default-text="{{ default_text }}">
-        {{ button_text }}
-      </span>
-    </button>
-
-    {%- if enable_dynamic_buttons -%}
-      {{ form | payment_button }}
-    {%- endif -%}
-
-  {%- if enable_dynamic_buttons -%}
+    <div class="custom-qtybtn" {{ block.shopify_attributes }}>
+      <div class="product__quantity">
+        {% assign qty_id = section_id | append: product.id %}
+        <span for="Quantity-{{ qty_id }}">{{ 'products.product.quantity' | t }}   </span>
+        {%- render 'quantity-input', form_id: form_id, id: qty_id, qty: 1, min: 1 -%}
+      </div>
     </div>
-  {%- endif -%}
+    <div class="custom-addtocart">
+        {%- liquid
+          assign default_text = 'products.product.add_to_cart' | t
+          assign button_text = 'products.product.add_to_cart' | t
+          if template == 'product.preorder'
+            assign default_text = 'products.product.preorder' | t
+            assign button_text = 'products.product.preorder' | t
+          endif
+          unless current_variant.available
+            assign button_text = 'products.product.sold_out' | t
+          endunless
+        -%}
 
+        <button
+          {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
+          name="add"
+          data-add-to-cart
+          class="btn btn--full add-to-cart{% if enable_dynamic_buttons and product.selling_plan_groups == empty %} btn--secondary{% endif %}"
+          {% unless current_variant.available %} disabled="disabled"{% endunless %}>
+          <span data-add-to-cart-text data-default-text="{{ default_text }}">
+            {{ button_text }}
+          </span>
+        </button>
+
+        {%- if enable_dynamic_buttons -%}
+          {{ form | payment_button }}
+        {%- endif -%}
+
+      {%- if enable_dynamic_buttons -%}
+        </div>
+      {%- endif -%}
+    </div>
   <div class="shopify-payment-terms product__policies">{{ form | payment_terms }}</div>
 
   <select name="id" data-product-select class="product-single__variants no-js">

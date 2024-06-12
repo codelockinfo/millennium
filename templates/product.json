@@ -11,6 +11,11 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "judge_me_reviews_preview_badge_PzV7wF": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -27,11 +32,12 @@
             "size_chart": "",
             "variant_labels": true,
             "picker_type": "button",
-            "color_swatches": false
+            "color_swatches": true
           }
         },
         "quantity_selector_PDn3Pa": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
@@ -44,16 +50,30 @@
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {
-            "is_tab": false
+            "is_tab": true
           }
         },
         "tab": {
           "type": "tab",
-          "disabled": true,
           "settings": {
-            "title": "Shipping information",
+            "title": "Diamond Detail",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_zWMTPp": {
+          "type": "tab",
+          "settings": {
+            "title": "Metal Type",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_7gAgt7": {
+          "type": "tab",
+          "settings": {
+            "title": "Other Information",
             "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
             "page": ""
           }
@@ -74,6 +94,7 @@
         }
       },
       "block_order": [
+        "judge_me_reviews_preview_badge_PzV7wF",
         "price",
         "separator",
         "variant_picker",
@@ -81,11 +102,13 @@
         "buy_buttons",
         "description",
         "tab",
+        "tab_zWMTPp",
+        "tab_7gAgt7",
         "contact",
         "share"
       ],
       "settings": {
-        "sku_enable": false,
+        "sku_enable": true,
         "image_position": "left",
         "image_size": "medium",
         "product_zoom_enable": true,

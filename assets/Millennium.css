@@ -423,7 +423,6 @@
 .product_re{
   padding: 60px 0;
 }
-
 @font-face {
   font-family: 'Italiana';
   src: url(https://cdn.shopify.com/s/files/1/0571/2825/5601/files/Italiana-Regular.woff2?v=1715669580);
@@ -498,7 +497,13 @@
   }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+  .product-single__meta .diamond-box {
+    width: 22%;
+  }
+  .product-single__meta .main-box-properties{
+    gap:10px;
+  }
   .heading-text {
     line-height: 50px;
     font-size: 50px;
@@ -738,7 +743,159 @@ label.tag__checkbox-wrapper{
 #CollectionAjaxContent{
   padding-top: 10px;
 }
+.variant__label-info [data-tool-tip="size-chart"] .tool-tip-trigger__title{
+  color: #53C7D7;
+  text-transform: uppercase;
+}
+.template-product .variant-wrapper .variant__label,.template-product .swatch__title{
+  font-family: 'Montserrat Alternates';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: left;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+.color-swatch--rose{
+  background: linear-gradient(180deg, #F6C8AE 0%, #FEEEE6 50.5%, #F4BEA0 100%);
+}
+.color-swatch--yellow{
+  background: linear-gradient(180deg, #EECE78 0%, #FDF5DC 50.5%, #EECE7A 100%);
+}
+.color-swatch--white{
+  background: linear-gradient(180deg, #DDDDDC 0%, #F6F6F6 50.5%, #D7D6D6 100%);
+}
+.customselect{
+  background-color: #fff;
+  width: 100%;
+}
+.ringsize{
+  width: 48%;
+}
+.displayflex{
+  display: flex;
+  justify-content: space-between;
+}
+.product-block.product-block--price{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap:10px;
+}
+.customvariant{
+  display: flex;
+  flex-direction: column;
+}
+.personalizebox{
+  width: 100%;
+  border: 1px solid #D9D9D9;
+  background: #F9F9F9;
+}
+.product__price.product__price--compare{
+  color: #777777;
+}
+.product__price.on-sale{
+  font-family: Montserrat Alternates;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.26px;
+  text-align: left;
+}
+.product__price-savings{
+  font-family: Montserrat Alternates;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.38px;
+  text-align: left;
+}
+.product-single__title{
+  font-family: Montserrat Alternates;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39.01px;
+  text-align: left;
+}
+.product__quantity,
+.personalizebox-label,
+.product-single__sku,
+.product__price.product__price--compare{
+  font-family: Montserrat Alternates;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.38px;
+  text-align: left;
+
+}
+.payment-buttons .shopify-payment-button__button--unbranded,
+.add-to-cart.btn--secondary{
+  font-family: Montserrat Alternates;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0rem;
+}
+.variant-input-wrap label.variant__button-label{
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.07px;
+  text-align: left;
+  color: #777777;
+}
+.product-section .page-width{
+  max-width: 90%;
+}
+.custom-addtocart{
+  width: 60%;
+  display: flex;
+  gap: 10px;
+  align-items: end;
+
+}
+textarea#personalize-box::placeholder {
+  font-family: 'Montserrat Alternates';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: left;
+}
+@media screen and (max-width: 1024px){
+  .product-single__title{
+    font-size: 24px;
+  }
+  .product__price.on-sale{
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 1300px){
+  .custom-addtocart{
+    width: 80%;
+    display: flex;
+    gap: 12px;
+  }
+}
+@media screen and (min-width: 1024px){
+  .payment-buttons{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .product__quantity{
+    display: grid;
+  }
+  .add-to-cart.btn--secondary{
+    width: 50%;
+    margin-top: 10px;
+  }
+  .shopify-payment-button{
+    width: 50%;
+  }
+}
 @media screen and (min-width: 768px){
+  
+
   .template-product .breadcrumb{
     margin: -25px 0 10px;
   }
@@ -764,6 +921,9 @@ label.tag__checkbox-wrapper{
 }
 
 @media only screen and (max-width: 768px){
+  .custom-qtybtn{
+    margin-bottom: 10px;
+  }
   .collection-content .small--one-half {
     width: 100%;
   }
@@ -773,11 +933,6 @@ label.tag__checkbox-wrapper{
 
 }
 /* add css for collection page by cls003*/
-/* add css for product page by cls003*/
-.product-section .page-width{
-  max-width: 90%;
-}
-/* add css for product page by cls003*/
 
 @font-face {
   font-family: 'Italiana';
@@ -926,4 +1081,7 @@ label.tag__checkbox-wrapper{
     margin: 0;
 
   }
+}
+.grid__item .grid-product__colors{
+  display: none;
 }

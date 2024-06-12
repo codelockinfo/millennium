@@ -1,0 +1,121 @@
+  {% comment %} custom properties Diamond shape {% endcomment %}
+        {% if product.metafields.custom.diamond_shape != blank %}
+        {% assign diamond_shapes = product.metafields.custom.diamond_shape | remove: '["' | remove: '"]' %}
+        {%  if diamond_shapes != blank %}
+            <div class="customproperties product-block">
+            <h4 class="swatch__title">
+                Diamond Shape
+            </h4>
+            <div class="flex main-box-properties">
+                {% assign diamond_shape = diamond_shapes | split:  '","' %}
+                {% for diamond_shape_value in diamond_shape %}
+                {% if diamond_shape_value == "Round" %}
+                    <div class="diamond-box radio-toolbar selected">
+                    <div class="diamond-img-box">
+                        <img src="https://cdn.shopify.com/s/files/1/0571/2825/5601/files/Rectangle_62_1.png?v=1717484890" class="diamond-img">
+                    </div>
+                    <h2  class="diamondshape-name">
+                        <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}" checked> <label>{{ diamond_shape_value }}</label>
+                    </h2>
+                    </div>
+                {% endif %}
+                {% if diamond_shape_value == "Oval" %}
+                    <div class="diamond-box radio-toolbar">
+                    <div class="diamond-img-box">
+                        <img src="https://cdn.shopify.com/s/files/1/0571/2825/5601/files/Rectangle_62_1.png?v=1717484890" class="diamond-img">
+                    </div>
+                    <h2  class="diamondshape-name">
+                        <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label >{{ diamond_shape_value }}</label>
+                    </h2>
+                    </div>
+                {% endif %}
+                {% if diamond_shape_value == "Radiant" %}
+                    <div class="diamond-box radio-toolbar">
+                    <div class="diamond-img-box">
+                        <img src="https://cdn.shopify.com/s/files/1/0571/2825/5601/files/Rectangle_68.png?v=1717484960" class="diamond-img">
+                    </div>
+                    <h2  class="diamondshape-name">
+                        <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label >{{ diamond_shape_value }}</label>
+                    </h2>
+                    </div>
+                {% endif %}
+                {% if diamond_shape_value == "Asscher" %}
+                    <div class="diamond-box radio-toolbar">
+                    <div class="diamond-img-box">
+                        <img src="https://cdn.shopify.com/s/files/1/0571/2825/5601/files/Rectangle_70.png?v=1717484960" class="diamond-img">
+                    </div>
+                    <h2  class="diamondshape-name">
+                        <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}"> <label >{{ diamond_shape_value }}</label>
+                    </h2>
+                    </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+            </div>
+        {% endif  %}
+        {% endif  %} 
+{% comment %} custom properties Diamond shape {% endcomment %}
+<style>
+    .template-product .diamondshape-name label{
+        font-family: 'Montserrat Alternates';
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: .5px;
+        text-transform: capitalize;
+    }
+    .main-box-properties{ 
+        gap:15px;
+        flex-wrap:wrap;
+        display: flex;
+    }
+    .diamond-img-box{
+        background-color: #f0eeef;
+        cursor:pointer;
+    }
+    .diamondshape-name {
+        /* float: left; */
+        margin: 0;
+        /* width: 100px; */
+        height: 40px;
+        position: relative;
+        color:#777777;
+        font-size: 14px;
+        text-align: center;
+    }
+
+.diamondshape-name label,
+.diamondshape-name input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.diamondshape-name input[type="radio"] {
+  opacity: 0.011;
+  z-index: 100;
+}
+
+.radio-toolbar.selected {
+    box-shadow: 0 0 0 2px #B69D62;
+}
+.diamondshape-name label {
+  cursor: pointer;
+  z-index: 9;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+</style>
+<script>
+$(document).on("click",".diamond-img-box",function(){
+    console.log("CLick");
+    $(".radio-toolbar").removeClass("selected");
+    $(this).closest(".radio-toolbar").addClass("selected");
+    $(this).closest(".radio-toolbar").find(".diamondshape-name input").prop("checked", true);
+});
+</script>
