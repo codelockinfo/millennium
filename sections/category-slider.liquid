@@ -200,6 +200,7 @@
       justify-content: center;
       align-items: center;
       object-fit: cover;
+      transition: transform 0.5s ease;
     }
     .slider-category .swiper-arrow-button .swiper-button-next {
       color: #282828 !important;
@@ -221,7 +222,9 @@
     }
     
 
-   
+    .swiper-wrapper{
+  transition-timing-function: linear;
+}
 
   @media (max-width: 1440px) {
     .slider-collection-heading {
@@ -292,18 +295,24 @@
 </style>
 
 <script>
+ $(document).ready(function() {
   var nswiper = new Swiper('.categorySlider', {
     slidesPerView: 4.2,
-    rewind: true,
+    loop: true,
+    freeMode: true,
+    spaceBetween: 30,
+    speed: 5000,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    loopAddBlankSlides: true,
+    grabCursor: true,
+    loopAdditionalSlides: 2,
+    cssMode: true,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
-    },
-    loop: true,
-    spaceBetween: 30,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
     },
     breakpoints: {
       320: {
@@ -336,4 +345,12 @@
       },
     },
   });
+
+  // Stop autoplay on mouse enter and restart on mouse leave
+  $(".categorySlider").mouseenter(function() {
+    nswiper.autoplay.stop();
+  }).mouseleave(function() {
+    nswiper.autoplay.start();
+  });
+});
 </script>
