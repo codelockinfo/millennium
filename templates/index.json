@@ -134,6 +134,14 @@
             "category_text": "<p>Rings<\/p>",
             "collection_url": "shopify:\/\/collections\/womens-rings"
           }
+        },
+        "text_7AY3FC": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/BG-Copy_2_-Copy.jpg",
+            "category_text": "<p>Earrings<\/p>",
+            "collection_url": "shopify:\/\/collections\/earrings"
+          }
         }
       },
       "block_order": [
@@ -141,7 +149,8 @@
         "text_nWQjV8",
         "text_aDNqVC",
         "text_89teFA",
-        "text_fAL8xq"
+        "text_fAL8xq",
+        "text_7AY3FC"
       ],
       "settings": {
         "headingtext": "<p>our category<\/p>",
@@ -169,7 +178,7 @@
         "text_VGUH6c": {
           "type": "text",
           "settings": {
-            "explore1": "shopify:\/\/shop_images\/explore2.png",
+            "explore1": "shopify:\/\/shop_images\/010_-_03.jpg",
             "heading_text": "<p>Moissanite Cuban Chain<\/p>",
             "pargraph_text": "Cuban Chain: Cuban Craftsmanship, Unmatched Elegance",
             "button_text": "Explore More",
@@ -179,7 +188,7 @@
         "text_ANmiib": {
           "type": "text",
           "settings": {
-            "explore1": "shopify:\/\/shop_images\/explore1.png",
+            "explore1": "shopify:\/\/shop_images\/0002_copy.jpg",
             "heading_text": "<p>Moissanite Hip Hop Pendant<\/p>",
             "pargraph_text": "Epic Sparkle, Legendary Style: Moissanite Hip Hop Pendant",
             "button_text": "Explore More",
