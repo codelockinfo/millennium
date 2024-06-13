@@ -391,15 +391,15 @@
         "heading": "Let customers speak for us"
       }
     },
-    "certificate_N8JM7b": {
-      "type": "Certificate",
+    "certificate_section_qjB9fx": {
+      "type": "certificate_section",
       "settings": {
         "heading_1": "Certificate",
-        "heading_image": "shopify:\/\/shop_images\/Vector_20_2.png",
-        "Certificate_1": "shopify:\/\/shop_images\/image_19.png",
-        "Certificate_2": "shopify:\/\/shop_images\/Group_1000004694.png",
-        "Certificate_3": "shopify:\/\/shop_images\/image_21.png",
-        "Certificate_4": "shopify:\/\/shop_images\/image_22.png"
+        "heading_image": "shopify:\/\/shop_images\/Vector_20_2_1969bd94-d62b-4e63-b987-1778315cbd03.png",
+        "Certificate_1": "shopify:\/\/shop_images\/Group_1000004694_2425daa3-863d-4c30-a5af-1885290c6b0d.png",
+        "Certificate_2": "shopify:\/\/shop_images\/image_19_a7941c90-ee6f-4fcb-8f12-9998bbb5e925.png",
+        "Certificate_3": "shopify:\/\/shop_images\/image_22_d905c0c0-611a-448d-be36-b42938b2579b.png",
+        "Certificate_4": "shopify:\/\/shop_images\/image_21.webp"
       }
     },
     "shipping_partner_Y7Rf8m": {
@@ -463,7 +463,7 @@
     "our_mission_XLE69f",
     "trusted_by_FUaihx",
     "slider_testimonial_bxePfz",
-    "certificate_N8JM7b",
+    "certificate_section_qjB9fx",
     "shipping_partner_Y7Rf8m"
   ]
 }
