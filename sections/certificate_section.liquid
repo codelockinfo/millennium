@@ -1,0 +1,198 @@
+<div class="Certificate_main_1">
+  {% if section.settings.heading_image != blank %}
+    <div class="banner_image">
+      <img src="{{ section.settings.heading_image | img_url: 'master' }}" alt="">
+    </div>
+  {% endif %}
+  <div class="width-container">
+    <div class="Certificate_heading">
+        {% if section.settings.heading_1 != blank %}
+          <h1 class="main_head">{{ section.settings.heading_1 }}</h1>
+        {% endif %}
+      </div>
+    <div class="Certificate_image">
+    <div class="swiper certiSwiper swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"> 
+        <img src="{{ section.settings.Certificate_1 | img_url: 'master' }}" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="{{ section.settings.Certificate_2 | img_url: 'master' }}" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="{{ section.settings.Certificate_3 | img_url: 'master' }}" alt="">
+      </div>              
+      <div class="swiper-slide">
+        <img src="{{ section.settings.Certificate_4 | img_url: 'master' }}" alt="">
+     </div>
+    </div>
+  </div>
+  </div>
+  
+  </div>
+</div>
+
+
+
+{%- schema -%}
+    {
+      "name": "Certificate section",
+      "settings": [
+        {
+        "type": "text",
+        "id": "heading_1",
+        "label": "heading"
+      },
+        {
+          "type": "image_picker",
+          "id": "heading_image",
+          "label": "heading image"
+        },
+        {
+          "type": "image_picker",
+          "id": "Certificate_1",
+          "label": "Certificate img 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "Certificate_2",
+          "label": "Certificate img 2"
+        }, {
+          "type": "image_picker",
+          "id": "Certificate_3",
+          "label": "Certificate img 3"
+        }, {
+          "type": "image_picker",
+          "id": "Certificate_4",
+          "label": "Certificate img 4"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Certificate section"
+        }
+      ]
+    }
+  {% endschema %}
+
+<style>
+     .Certificate_heading {
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  .main_head {
+    color: #282828 !important;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 83.43px;
+    letter-spacing: 3px;
+    font-family: 'Italiana' !important;
+    text-transform: capitalize !important;
+    position: relative;
+  }
+  .Certificate_main_1 {
+    padding: 100px 0;
+    background-color: #F0F0F0;
+    position: relative;
+  }
+  .main_head::after {
+    background: linear-gradient(90deg, #F0F0F0 0%, #282828 48%, #F0F0F0 100%) !important;
+    height: 2px;
+    width: 40%;
+    bottom: -15px;
+    position: absolute;
+    content: "";
+    left: 30%;
+  right: 30%;
+
+  }
+  .banner_image {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+  }
+  .banner_image img {
+    width: 400px;
+  }
+  
+  .Certificate_main_1 .swiper-wrapper{
+  transition-timing-function: linear;
+  align-items: center;
+  /* justify-content: center; */
+}
+  @media (max-width: 576px) {
+    .main_head {
+      font-size: 40px;
+      line-height: 40.43px;
+
+    }
+.banner_image {
+  display: none;
+}
+  }
+  @media (max-width: 425px) {
+
+.Certificate_heading {
+  margin-bottom: 60px;
+}
+}
+</style>
+
+<script>
+  $(document).ready(function() {
+    // Initialize Swiper
+    var vswiper = new Swiper('.certiSwiper', {
+        loop: true,
+        speed: 4000, 
+        slidesPerView: 4,
+        spaceBetween: 30,
+        autoplay: {
+            delay: 3000, // Adjust autoplay speed as needed
+            // pauseOnMouseEnter: true,
+            disableOnInteraction: true // Ensure autoplay doesn't stop on interactions
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 30,
+            },
+            577: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+            },
+            800: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+            900: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+            1020: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+            1100: {
+                slidesPerView: 4,
+                spaceBetween: 30,
+            },
+        },
+    });
+
+    $('.certiSwiper img').on('mouseenter', function(e) {
+        console.log('stop autoplay');
+        // vswiper.autoplay.stop();
+        vswiper.stopAutoplay();
+    });
+
+    $('.certiSwiper img').on('mouseleave', function(e) {
+        console.log('start autoplay');
+        vswiper.startAutoplay();    
+    });
+});
+
+  </script>
