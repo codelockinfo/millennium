@@ -607,7 +607,7 @@
 }
 
 .header-item--split-right {
-  justify-content: end;
+  justify-content: space-between;
 }
 
 .header-layout {
@@ -941,7 +941,10 @@ textarea#personalize-box::placeholder {
   }
   .template-product .breadcrumb {
     margin: 0;
-}
+  }
+  .header-item--split-right{
+    justify-content: end;
+  }
 
 }
 /* add css for collection page by cls003*/
