@@ -62,6 +62,7 @@
     "cart_type": "drawer",
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
+    "favicon": "shopify:\/\/shop_images\/logo_0139e2b6-92e8-433d-ad1a-3c9dab0588f7.png",
     "search_enable": true,
     "show_breadcrumbs": true,
     "checkout_logo_position": "left",
