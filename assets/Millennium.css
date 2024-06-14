@@ -279,7 +279,9 @@
   background-color: transparent !important;
   /* box-shadow: 0px 0px 15px #D0C272; */
 }
-
+.header-item.header-item--split-right .site-nav.site-navigation{
+  padding-left: 20px;
+}
 .site-nav__item .site-nav__link {
   color: #282828 !important;
   font-family: 'Montserrat Alternates';
@@ -906,7 +908,9 @@ textarea#personalize-box::placeholder {
   }
 }
 @media screen and (min-width: 768px){
-  
+  .header-item--logo-split .header-item:not(.header-item--logo){
+    flex:1 1 20%;
+  }
 
   .template-product .breadcrumb{
     margin: -25px 0 10px;
