@@ -19,6 +19,7 @@
             "text_color": "#000000",
             "text_align": "vertical-center horizontal-left",
             "image": "shopify:\/\/shop_images\/008.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/024_3000x2000_395fd6a5-0114-4f66-9536-f8c0a59c8b24.jpg",
             "overlay_opacity": 0,
             "focal_point": "20% 0"
           }
@@ -39,6 +40,7 @@
             "text_color": "#000000",
             "text_align": "vertical-center horizontal-left",
             "image": "shopify:\/\/shop_images\/013.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/025_2f108fc7-f327-4a85-a463-2102fd07236a.jpg",
             "overlay_opacity": 0,
             "focal_point": "20% 0"
           }
@@ -207,31 +209,31 @@
     "hiphop_ring_collection_gRUgG4": {
       "type": "hiphop-ring-collection",
       "settings": {
-        "subheadp": "Hip Hop Rings",
+        "subheadp": "Cuban Chains",
         "background": "#f0f0f0",
-        "collectionproduct": "hip-hop-jewelry",
-        "viewall": "shopify:\/\/collections\/hip-hop-jewelry",
+        "collectionproduct": "cuban-chain",
+        "viewall": "shopify:\/\/collections\/cuban-chain",
         "button_text": "View All"
       }
     },
     "millennium_jewelery_AP9YXh": {
       "type": "millennium-jewelery",
       "settings": {
-        "image_main": "shopify:\/\/shop_images\/e2a50fbc28054d6b61ede2607242b2d7.png",
+        "image_main": "shopify:\/\/shop_images\/006_-_01_74761680-f85c-43e3-973b-b3830fbdf7ea.jpg",
         "para_head": "MILLENNIUM JEWELERY",
         "company_name": "Alibaba",
         "paragraph": "Discover Millennium Jewelery, a trusted and verified supplier on Alibaba.com. This platform helps to connect with customers worldwide, offering a convenient hub for retailers seeking top-quality moissanite watches and jewelry. With a focus on craftsmanship and reliability, we are your go-to manufacturer for exquisite moissanite pieces. Explore our extensive range of products on our Alibaba store for a showcase of elegance and sophistication.",
         "button": "Explore More",
         "btn_img": "shopify:\/\/shop_images\/arrow-right.png",
-        "jewelery_url_1": "",
+        "jewelery_url_1": "https:\/\/in1564485498ycjd.trustpass.alibaba.com\/index.html?spm=a2700.shop_cp.88.12",
         "image1": "shopify:\/\/shop_images\/Vector_22.png",
         "para_head2": "MILLENNIUM JEWELERY",
         "company_name2": "Amazon",
         "paragraph2": "Amazon stands as a beacon of trust for customers, providing a seamless platform for placing orders with confidence. We are proud to announce that our products are now available on Amazon, catering specifically to the USA market. Explore our Amazon store to discover a wide range of offerings and experience the convenience of secure online shopping.",
         "button2": "Explore More",
-        "jewelery_url": "",
+        "jewelery_url": "https:\/\/www.amazon.com\/s?rh=n%3A7141123011%2Cp_4%3AMillennium+Jewelery&ref=bl_sl_s_je_web_7141123011",
         "btn_img2": "shopify:\/\/shop_images\/arrow-right.png",
-        "image_main_1": "shopify:\/\/shop_images\/5f14608647b6bcaee38172e581188f98.png"
+        "image_main_1": "shopify:\/\/shop_images\/005_copy_-_00_1.jpg"
       }
     },
     "our_mission_XLE69f": {
@@ -286,8 +288,8 @@
           "type": "text",
           "settings": {
             "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
-            "customername": "Russell H",
+            "content": "<p>Amazing craftsmanship and attention to detail! My iced-out chain gets compliments everywhere I go.<\/p>",
+            "customername": "Jack",
             "country": "United Kingdom, 1 month ago"
           }
         },
@@ -295,9 +297,9 @@
           "type": "text",
           "settings": {
             "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
-            "customername": "Russell H",
-            "country": "United Kingdom, 1 month ago"
+            "content": "<p>The jewelry is stunning, and the prices are unbeatable. I'll definitely be a returning customer.<\/p>",
+            "customername": "Richell",
+            "country": "United States, 1 month ago"
           }
         },
         "text_giYmgn": {

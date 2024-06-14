@@ -427,6 +427,12 @@
 .product_re{
   padding: 60px 0;
 }
+.collection-content .page-width{
+  min-width: 90% ;
+}
+.dispatch-class{
+  margin-bottom: 20px;
+}
 @font-face {
   font-family: 'Italiana';
   src: url(https://cdn.shopify.com/s/files/1/0571/2825/5601/files/Italiana-Regular.woff2?v=1715669580);
@@ -636,9 +642,7 @@
   display: flex;
   flex-wrap: wrap;
 }
-.collection-content .page-width{
-  max-width: 90%;
-}
+
 .grid-product__meta:hover{
   background-color:  #FFFFFF;
 }
@@ -881,6 +885,9 @@ textarea#personalize-box::placeholder {
   .product__price.on-sale{
     font-size: 22px;
   }
+  .collection-content .page-width{
+  max-width: 90% !important;
+}
 }
 @media screen and (max-width: 1300px){
   .custom-addtocart{
@@ -1029,6 +1036,9 @@ textarea#personalize-box::placeholder {
 
   .sub-heading-p2 {
     font-size: 12px;
+  }
+  .collection-hero{
+    height: 160px !important;
   }
 }
 
