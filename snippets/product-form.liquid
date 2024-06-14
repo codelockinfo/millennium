@@ -6,7 +6,7 @@
       assign enable_dynamic_buttons = true
     endif
   -%}
-
+{% if product.metafields.custom.est_days  != blank %} <div class="swatch__title dispatch-class">  Dispatch Within {{ product.metafields.custom.est_days }} Days</div> {% endif %}
       <div>
         <p class="line-item-property__field">
           <span for="personalize-box" class="personalizebox-label">Personalize Box</span>
