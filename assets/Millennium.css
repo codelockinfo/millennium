@@ -1030,6 +1030,9 @@ textarea#personalize-box::placeholder {
   .sub-heading-p2 {
     font-size: 12px;
   }
+  .collection-hero{
+    height: 160px !important;
+  }
 }
 
 @media (max-width: 426px) {
