@@ -630,6 +630,10 @@
   color: #282828;
 }
 /* add css for collection page by cls003 */
+.displayflex-collection{
+  display: flex;
+  flex-wrap: wrap;
+}
 .collection-content .page-width{
   max-width: 90%;
 }
@@ -644,16 +648,18 @@
 .grid-product__title{
   letter-spacing: 0px;
   font-family: Fira Sans;
-  font-size: 22px;
+  /* font-size: 22px; */
+  font-size: 18px;
   font-weight: 600;
-  line-height: 30px;
+  line-height: 23px;
   text-align: center;
 }
 .grid-product__price{
   font-family: 'Fira Sans';
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 16px;
   font-weight: 500;
-  line-height: 32px;
+  line-height: 25px;
   text-align: center;
   margin: 10px 0;
 }
@@ -975,7 +981,7 @@ textarea#personalize-box::placeholder {
     font-size: 18px;
   }
   .grid-product__title{
-    font-size: 18px;
+    font-size: 16px;
   }
   .grid-product__price{
     font-size: 16px;
