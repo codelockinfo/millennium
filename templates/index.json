@@ -27,18 +27,18 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "You Were Born\nTo Stand Out",
+            "title": "Shine With\nCuban Designs",
             "title_size": 96,
             "subheading": "",
             "link": "",
-            "link_text": "Get 40-60% Off",
+            "link_text": "Get 10% Off",
             "link_2": "shopify:\/\/collections",
             "link_text_2": "View Collection",
             "color_accent": "rgba(0,0,0,0)",
             "color_accent2": "#d0c272",
             "text_color": "#000000",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/banner.png",
+            "image": "shopify:\/\/shop_images\/013.jpg",
             "overlay_opacity": 0,
             "focal_point": "20% 0"
           }
@@ -98,7 +98,7 @@
         "text_JyN4kr": {
           "type": "text",
           "settings": {
-            "category_img": "shopify:\/\/shop_images\/category_1.png",
+            "category_img": "shopify:\/\/shop_images\/020.jpg",
             "category_text": "<p>Men's Watches<\/p>",
             "collection_url": "shopify:\/\/collections\/mens-watches"
           }
@@ -106,15 +106,15 @@
         "text_nWQjV8": {
           "type": "text",
           "settings": {
-            "category_img": "shopify:\/\/shop_images\/category_2.png",
-            "category_text": "<p>Cuban Chain<\/p>",
+            "category_img": "shopify:\/\/shop_images\/016.jpg",
+            "category_text": "<p>Cuban Chains<\/p>",
             "collection_url": "shopify:\/\/collections\/cuban-chain"
           }
         },
         "text_aDNqVC": {
           "type": "text",
           "settings": {
-            "category_img": "shopify:\/\/shop_images\/category_3.png",
+            "category_img": "shopify:\/\/shop_images\/018.jpg",
             "category_text": "<p>Hip Hop Pendants<\/p>",
             "collection_url": "shopify:\/\/collections\/hip-hop-jewelry"
           }
@@ -122,7 +122,7 @@
         "text_89teFA": {
           "type": "text",
           "settings": {
-            "category_img": "shopify:\/\/shop_images\/category_4.jpg",
+            "category_img": "shopify:\/\/shop_images\/015.jpg",
             "category_text": "<p>Bracelets<\/p>",
             "collection_url": "shopify:\/\/collections\/womens-watches"
           }
@@ -130,7 +130,7 @@
         "text_fAL8xq": {
           "type": "text",
           "settings": {
-            "category_img": "shopify:\/\/shop_images\/category_5.jpg",
+            "category_img": "shopify:\/\/shop_images\/019_98a5a1ff-c9c6-4586-8c27-94bd746afc78.jpg",
             "category_text": "<p>Rings<\/p>",
             "collection_url": "shopify:\/\/collections\/womens-rings"
           }
@@ -138,7 +138,7 @@
         "text_7AY3FC": {
           "type": "text",
           "settings": {
-            "category_img": "shopify:\/\/shop_images\/BG-Copy_2_-Copy.jpg",
+            "category_img": "shopify:\/\/shop_images\/017.jpg",
             "category_text": "<p>Earrings<\/p>",
             "collection_url": "shopify:\/\/collections\/earrings"
           }
@@ -178,7 +178,7 @@
         "text_VGUH6c": {
           "type": "text",
           "settings": {
-            "explore1": "shopify:\/\/shop_images\/010_-_03.jpg",
+            "explore1": "shopify:\/\/shop_images\/022.jpg",
             "heading_text": "<p>Moissanite Cuban Chain<\/p>",
             "pargraph_text": "Cuban Chain: Cuban Craftsmanship, Unmatched Elegance",
             "button_text": "Explore More",
@@ -188,7 +188,7 @@
         "text_ANmiib": {
           "type": "text",
           "settings": {
-            "explore1": "shopify:\/\/shop_images\/0002_copy.jpg",
+            "explore1": "shopify:\/\/shop_images\/023_-_01.jpg",
             "heading_text": "<p>Moissanite Hip Hop Pendant<\/p>",
             "pargraph_text": "Epic Sparkle, Legendary Style: Moissanite Hip Hop Pendant",
             "button_text": "Explore More",
@@ -251,7 +251,7 @@
     "trusted_by_FUaihx": {
       "type": "trusted-by",
       "settings": {
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fe734f83b29a4181a1b18e9668fbaebc.mp4",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/df1f0675733b4c97beb72d439b9e3ea6.mp4",
         "heading": "Trusted by",
         "image_bg": "shopify:\/\/shop_images\/Ellipse_5.png",
         "img_1": "shopify:\/\/shop_images\/2872272c47209e71c6591b6e20091e4c.png",
@@ -268,18 +268,18 @@
           "type": "text",
           "settings": {
             "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
-            "customername": "Russell H",
-            "country": "United Kingdom, 1 month ago"
+            "content": "<p>Fast shipping and excellent quality. My friends can't stop admiring my new chain!<\/p>",
+            "customername": "Daniel",
+            "country": "United States, 1 month ago"
           }
         },
         "text_nQAERh": {
           "type": "text",
           "settings": {
             "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
-            "customername": "Russell H",
-            "country": "United Kingdom, 1 month ago"
+            "content": "<p>The sparkle and shine of my new watch are out of this world. It's become my favorite piece of jewelry.<\/p>",
+            "customername": "Justine",
+            "country": "United States, 2 month ago"
           }
         },
         "text_HiCneA": {

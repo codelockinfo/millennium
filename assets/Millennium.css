@@ -279,7 +279,9 @@
   background-color: transparent !important;
   /* box-shadow: 0px 0px 15px #D0C272; */
 }
-
+.header-item.header-item--split-right .site-nav.site-navigation{
+  padding-left: 20px;
+}
 .site-nav__item .site-nav__link {
   color: #282828 !important;
   font-family: 'Montserrat Alternates';
@@ -607,7 +609,7 @@
 }
 
 .header-item--split-right {
-  justify-content: end;
+  justify-content: space-between;
 }
 
 .header-layout {
@@ -630,6 +632,10 @@
   color: #282828;
 }
 /* add css for collection page by cls003 */
+.displayflex-collection{
+  display: flex;
+  flex-wrap: wrap;
+}
 .collection-content .page-width{
   max-width: 90%;
 }
@@ -644,16 +650,22 @@
 .grid-product__title{
   letter-spacing: 0px;
   font-family: Fira Sans;
-  font-size: 22px;
+  /* font-size: 22px; */
+  font-size: 18px;
   font-weight: 600;
-  line-height: 30px;
+  line-height: 23px;
   text-align: center;
+  
+  min-height: 94px;
+  max-height: 94px;
+  overflow: hidden;
 }
 .grid-product__price{
   font-family: 'Fira Sans';
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 16px;
   font-weight: 500;
-  line-height: 32px;
+  line-height: 25px;
   text-align: center;
   margin: 10px 0;
 }
@@ -796,7 +808,7 @@ label.tag__checkbox-wrapper{
 .product__price.product__price--compare{
   color: #777777;
 }
-.product__price.on-sale{
+.product__price.on-sale,.product-block--price .product__price{
   font-family: Montserrat Alternates;
   font-size: 24px;
   font-weight: 700;
@@ -896,7 +908,9 @@ textarea#personalize-box::placeholder {
   }
 }
 @media screen and (min-width: 768px){
-  
+  .header-item--logo-split .header-item:not(.header-item--logo){
+    flex:1 1 20%;
+  }
 
   .template-product .breadcrumb{
     margin: -25px 0 10px;
@@ -931,7 +945,10 @@ textarea#personalize-box::placeholder {
   }
   .template-product .breadcrumb {
     margin: 0;
-}
+  }
+  .header-item--split-right{
+    justify-content: end;
+  }
 
 }
 /* add css for collection page by cls003*/
@@ -975,7 +992,10 @@ textarea#personalize-box::placeholder {
     font-size: 18px;
   }
   .grid-product__title{
-    font-size: 18px;
+    font-size: 16px;
+    min-height: 69px;
+    max-height: 69px;
+    overflow: hidden;
   }
   .grid-product__price{
     font-size: 16px;

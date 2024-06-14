@@ -68,7 +68,7 @@ Snippet Arguments
     </div>
   </div>
 
-  <div class="grid grid--uniform{% if mobile_flush_grid %} small--grid--flush{% endif %}"{% unless enable_collection_count %} data-scroll-to{% endunless %}>
+  <div class="displayflex-collection"{% unless enable_collection_count %} data-scroll-to{% endunless %}>
     {%- for item in items -%}
       {%- if item.object_type == 'product' -%}
         {%- render 'product-grid-item',
@@ -131,19 +131,33 @@ html[dir="rtl"] .collection-filter__item--count {
 {%- endunless -%}
 
 <style>
-  @media (max-width:900px) {
-    .medium-up--one-quarter {
-       width: 50%;
+  
+
+@media (max-width:1400px) {
+  .medium-up--one-quarter {
+       width: 33%;
+       padding-left:10px;
     }
 }
-  @media (max-width:768px) {
+@media (max-width:1024px) {
+    .medium-up--one-quarter {
+       width: 50%;
+       padding-left:10px;
+    }
+    .collection-content .page-width{
+      padding: 0;
+    }
+}
+@media (max-width:768px) {
     .collection-content .small--one-half{
        width: 50%;
     }
-}
-  @media (max-width:576px) {
+}  
+@media (max-width:576px) {
     .collection-content .small--one-half{
        width: 100%;
     }
 }
+
+
 </style>
