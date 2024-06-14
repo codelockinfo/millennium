@@ -653,6 +653,10 @@
   font-weight: 600;
   line-height: 23px;
   text-align: center;
+  
+  min-height: 94px;
+  max-height: 94px;
+  overflow: hidden;
 }
 .grid-product__price{
   font-family: 'Fira Sans';
@@ -982,6 +986,9 @@ textarea#personalize-box::placeholder {
   }
   .grid-product__title{
     font-size: 16px;
+    min-height: 69px;
+    max-height: 69px;
+    overflow: hidden;
   }
   .grid-product__price{
     font-size: 16px;
