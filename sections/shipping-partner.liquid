@@ -8,7 +8,7 @@
       {% endif %}
       <div>
         <h1 class="head_1">{{ section.settings.header }}</h1>
-      {% comment %} <img src="{{ section.settings.heading_underline | img_url: 'master' }}" alt=""> {% endcomment %}
+        {% comment %} <img src="{{ section.settings.heading_underline | img_url: 'master' }}" alt=""> {% endcomment %}
       </div>
       {% if section.settings.heading_side_image != blank %}
         <div class="side_image">
@@ -34,82 +34,79 @@
       {% endfor %}
     </div>
     <div class="shipping_video">
-      {% comment %} <video
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                src="{{ section.settings.Video_2 }}"
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                controls
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                autoplay
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                muted
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  loop></video> {% endcomment %}
+      
       <video
         loop
         muted
         autoplay
-        playsinline>
+        playsinline
+      >
         <source src="{{ section.settings.Video_2  }}" type="video/mp4">
       </video>
     </div>
   </div>
 </div>
 
-
 {%- schema -%}
-  {
-    "name": "Shipping-partner",
-    "settings": [
-      {
-        "type": "image_picker",
-        "id": "bg_image_1",
-        "label": "bg_img"
-      },
-      {
-        "type": "image_picker",
-        "id": "heading_side_image",
-        "label": "heading_side_image"
-      },
-      {
-        "type": "image_picker",
-        "id": "heading_underline",
-        "label": "heading_underline"
-      },
-      {
-        "type": "text",
-        "id": "header",
-        "label": "heading"
-      }, {
-        "type": "url",
-        "id": "Video_2",
-        "label": "video_watch"
-      }
-    ],
-    "blocks": [
-      {
-        "name": "block",
-        "type": "text",
-        "settings": [
-          {
-            "type": "image_picker",
-            "id": "box_image_1",
-            "label": "box image"
-          }, {
-            "type": "text",
-            "id": "box_content",
-            "label": "box content"
-          }, {
-            "type": "image_picker",
-            "id": "box_arrow",
-            "label": "box arrow"
-          }
-        ]
-      }
-    ],
-    "presets": [
-      {
-        "name": "Shipping-partner"
-      }
-    ]
-  }
-{% endschema %}
-
+{
+  "name": "Shipping-partner",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg_image_1",
+      "label": "bg_img"
+    },
+    {
+      "type": "image_picker",
+      "id": "heading_side_image",
+      "label": "heading_side_image"
+    },
+    {
+      "type": "image_picker",
+      "id": "heading_underline",
+      "label": "heading_underline"
+    },
+    {
+      "type": "text",
+      "id": "header",
+      "label": "heading"
+    },
+    {
+      "type": "url",
+      "id": "Video_2",
+      "label": "video_watch"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "block",
+      "type": "text",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "box_image_1",
+          "label": "box image"
+        },
+        {
+          "type": "text",
+          "id": "box_content",
+          "label": "box content"
+        },
+        {
+          "type": "image_picker",
+          "id": "box_arrow",
+          "label": "box arrow"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Shipping-partner"
+    }
+  ]
+}
+{%- endschema -%}
 
 <style>
   /* START CLS - 017 */
@@ -176,7 +173,7 @@
     background-image: url("{{ section.settings.bg_image_1 | img_url: 'master' }}");
     height: auto;
     background-position: top;
-    margin-top: -102px;
+    margin-top: -100px;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -442,5 +439,4 @@
   }
 
   /* END CLS - 017 */
-
 </style>
