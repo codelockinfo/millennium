@@ -209,9 +209,9 @@
     "hiphop_ring_collection_gRUgG4": {
       "type": "hiphop-ring-collection",
       "settings": {
-        "subheadp": "Cuban Chains",
+        "subheadp": "Rings",
         "background": "#f0f0f0",
-        "collectionproduct": "cuban-chain",
+        "collectionproduct": "mens-rings",
         "viewall": "shopify:\/\/collections\/cuban-chain",
         "button_text": "View All"
       }
