@@ -774,10 +774,10 @@ label.tag__checkbox-wrapper{
   letter-spacing: 0.5px;
   text-transform: capitalize;
 }
-.color-swatch--rose{
+.color-swatch--rose,.color-swatch--white-rose{
   background: linear-gradient(180deg, #F6C8AE 0%, #FEEEE6 50.5%, #F4BEA0 100%);
 }
-.color-swatch--yellow{
+.color-swatch--yellow,.color-swatch--white-yellow{
   background: linear-gradient(180deg, #EECE78 0%, #FDF5DC 50.5%, #EECE7A 100%);
 }
 .color-swatch--white{
