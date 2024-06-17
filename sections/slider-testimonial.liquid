@@ -1,3 +1,7 @@
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
 <div class="slider_section">
   {% if section.settings.heading != blank %}
     <div class="common-heading ">
@@ -6,7 +10,7 @@
       </div>
     </div>
   {% endif %}
-  <div class="swiper testiSwiper">
+  <div class="swiper testimonialSwiper">
     <div class="gradiant"></div>
     <div class="gradiant_1"></div>
     <div class="swiper-wrapper">
@@ -17,20 +21,20 @@
               {% if block.settings.box_image != blank %}
                 <img src="{{ block.settings.box_image |  img_url: 'master' }}" />
               {% endif %}
+              </div>
+              <div class="lorem_content">{{ block.settings.content }}</div>
+              <div class="name">{{ block.settings.customername }}</div>
+              <div class="country">{{ block.settings.country }}</div>
+              </div>
+              </div>
+            {%- endfor -%}
             </div>
-            <div class="lorem_content">{{ block.settings.content }}</div>
-            <div class="name">{{ block.settings.customername }}</div>
-            <div class="country">{{ block.settings.country }}</div>
-          </div>
-        </div>
-      {%- endfor -%}
-    </div>
-    <div class="slider_button swiper-button-prev">
-      <i class="fa-solid fa-chevron-left"></i>
-    </div>
-    <div class="slider_button swiper-button-next">
-      <i class="fa-solid fa-chevron-right"></i>
-    </div>
+            <div class="slider_button swiper-button-prev">
+              <i class="fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="slider_button swiper-button-next">
+                <i class="fa-solid fa-chevron-right"></i>
+                </div>
   </div>
 </div>
 {%- schema -%}
@@ -107,23 +111,35 @@
     text-align: left;
   }
 
-  .slider_button .fa-solid {
-    border: 3px solid black;
-    padding: 5px 8px;
+  .slider_section .swiper-button-prev{
+    border: 3px solid #282828;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
     border-radius: 50%;
-    color: black;
+    color:#282828;
+  }
+  .slider_section .swiper-button-next{
+    border: 3px solid #282828;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    color: #282828;
   }
 
-  .fa-chevron-left {
+  /* .fa-chevron-left {
     margin-left: 30px;
   }
 
   .fa-chevron-right {
     margin-right: 30px;
-  }
+  } */
 
   .review-box {
-    margin: 10px;
+    /* margin: 10px; */
     padding: 15px 23px;
   }
 
@@ -133,7 +149,7 @@
     font-weight: 600;
     text-align: left;
     padding-top: 12px;
-    min-height: 150px;
+    min-height: 100px;
   }
 
   .name {
@@ -241,13 +257,7 @@
   }
 
   @media (max-width: 425px) {
-    .fa-chevron-left {
-      margin-left: 1px;
-    }
-
-    .fa-chevron-right {
-      margin-right: 1px;
-    }
+    
     .review-box {
       margin: 0 45px;
       padding: 12px;
@@ -275,46 +285,40 @@
 
 
 <script>
-    var swiper = new Swiper(".testiSwiper", {
-      slidesPerView: 4,
-      grid: {
-        rows: 2,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      breakpoints :{
-        470:{
-        slidesPerView: 1,
-        grid: {
-        rows: 1,
-      }
-      },
-      570:{
-        slidesPerView: 2,
-        grid: {
-        rows: 1,
-      }
-      },
-      701:{
-        slidesPerView: 2,
-        grid: {
-        rows: 2,
-      }
-      },
-      850:{
-        slidesPerView: 3,
-        grid: {
-        rows: 2,
-      }
-      },
-      1301:{
+  document.addEventListener('DOMContentLoaded', function(event) {
+    event.preventDefault()  
+      var swiper = new Swiper(".testimonialSwiper", {
         slidesPerView: 4,
-        grid: {
-        rows: 2,
-      }
-      },
-    }
+        spaceBetween: 30,
+        cssMode: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        mousewheel: true,
+       keyboard: true,
+        breakpoints: {
+          470: {
+            slidesPerView: 1,
+            
+          },
+          570: {
+            slidesPerView: 2,
+           
+          },
+          701: {
+            slidesPerView: 2,
+            
+          },
+          850: {
+            slidesPerView: 3,
+            
+          },
+          1301: {
+            slidesPerView: 4,
+      
+          },
+        }
+      });
     });
 </script>
