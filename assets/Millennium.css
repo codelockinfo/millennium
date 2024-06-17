@@ -134,7 +134,7 @@
 
 .contact_us {
   font-family: "Montserrat Alternates";
-  font-size: 31px;
+  font-size: 28px;
   font-weight: 700;
   line-height: 39.01px;
   text-align: left;
@@ -171,7 +171,7 @@
 
 }
 .heading-text {
-  font-size: 64px;
+  font-size: 60px;
   font-weight: 400;
   line-height: 83.43px;
   font-family: 'Italiana' !important;
@@ -183,7 +183,7 @@
 .head {
   color: #F0F0F0 !important;
   width: 400px;
-  font-size: 64px;
+  font-size: 60px;
   font-weight: 400;
   line-height: 83.43px;
   font-family: 'Italiana' !important;
@@ -221,7 +221,7 @@
 
 .sub-heading-p {
   font-family: 'Montserrat Alternates';
-  font-size: 20px;
+  font-size: 18px;
   line-height: 36px;
   font-weight: 700;
   padding: 0 100px;
@@ -231,7 +231,7 @@
 
 .sub-heading-p2 {
   font-family: 'Montserrat Alternates';
-  font-size: 16px;
+  font-size: 14px;
   line-height: 36px;
   font-weight: 600;
   color: #6f6f6f;
@@ -241,7 +241,7 @@
 
 .subheading .sub-heading-h1 {
   font-family: 'Montserrat Alternates';
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 700;
   line-height: 36px;
   text-transform: capitalize;
@@ -257,7 +257,7 @@
 
 .product-price {
   margin: 10px 0;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 32px;
   font-weight: 500;
   color: #282828;
@@ -266,7 +266,7 @@
 
 .product-title {
   font-family: 'Fira Sans';
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   color: #000000;
   line-height: 32px;
@@ -351,7 +351,7 @@
 
 .footer__title {
   font-family: "Montserrat Alternates";
-  font-size: 17px;
+  font-size: 16px;
   letter-spacing: 0;
   word-spacing: 0;
   text-transform: none;
@@ -378,7 +378,7 @@
 
 .footer__collapsible p {
   font-family: "Montserrat Alternates";
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   color: #282828;
   text-align: left;
@@ -395,21 +395,21 @@
   margin: 0 0 10px;
 }
 .content-column-images h2 {
-  font-size: 24px;
+  font-size: 20px;
   font-family: "Montserrat Alternates";
   font-weight: 700;
   line-height: 24px;
   color: #344054;
 }
 .content-column-images h3 {
-  font-size: 24px;
+  font-size: 22px;
   font-family: "Montserrat Alternates";
   font-weight: 700;
   line-height: 27px;
   color: #282828;
 }
 .content-column-images p {
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Montserrat Alternates";
   font-weight: 400;
   line-height: 27px;
@@ -458,14 +458,14 @@
 
 @media (max-width: 1201px) {
   .head {
-    font-size: 50px;
+    font-size: 46px;
   }
 }
 
 
 @media (max-width: 576px) {
   .head {
-    font-size: 40px;
+    font-size: 36px;
     line-height: 40.43px;
 
   }
@@ -473,8 +473,7 @@
 
 @media (max-width: 1200px) {
   .heading-text {
-    font-size: 50px;
-    font-size: 64px;
+    font-size: 46px;
     font-weight: 400;
     line-height: 83.43px;
     font-weight: 400;
@@ -498,7 +497,7 @@
 
 @media (max-width: 1024px) {
   .heading-text {
-    font-size: 50px;
+    font-size: 46px;
   }
 
   .sub-heading-p {
@@ -516,7 +515,7 @@
   }
   .heading-text {
     line-height: 50px;
-    font-size: 50px;
+    font-size: 46px;
   }
 
 
@@ -527,7 +526,7 @@
 
   .product-price {
     margin: 10px 0;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 32px;
     font-weight: 500;
     color: #282828;
@@ -536,7 +535,7 @@
 
   .product-title {
     font-family: 'Fira Sans';
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     color: #000000;
     line-height: 32px;
@@ -598,7 +597,7 @@
 
   }
   .content-column-images h3 {
-    font-size: 18px;
+    font-size: 16px;
 }
 }
 
@@ -655,7 +654,7 @@
   letter-spacing: 0px;
   font-family: Fira Sans;
   /* font-size: 22px; */
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 23px;
   text-align: center;
@@ -718,7 +717,7 @@ label.tag__checkbox-wrapper{
   color: #282828;
   position: relative;
   font-family: 'Montserrat Alternates';
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 20px;
   text-align: left;
@@ -727,7 +726,7 @@ label.tag__checkbox-wrapper{
 }
 .collection-title{
   font-family: 'Montserrat Alternates';
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 700;
 }
 .collection-content .pagination .next,.collection-content .pagination .prev{
@@ -814,21 +813,21 @@ label.tag__checkbox-wrapper{
 }
 .product__price.on-sale,.product-block--price .product__price{
   font-family: Montserrat Alternates;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   line-height: 29.26px;
   text-align: left;
 }
 .product__price-savings{
   font-family: Montserrat Alternates;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 24.38px;
   text-align: left;
 }
 .product-single__title{
   font-family: Montserrat Alternates;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 600;
   line-height: 39.01px;
   text-align: left;
@@ -838,7 +837,7 @@ label.tag__checkbox-wrapper{
 .product-single__sku,
 .product__price.product__price--compare{
   font-family: Montserrat Alternates;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 24.38px;
   text-align: left;
@@ -880,10 +879,10 @@ textarea#personalize-box::placeholder {
 }
 @media screen and (max-width: 1024px){
   .product-single__title{
-    font-size: 24px;
+    font-size: 22px;
   }
   .product__price.on-sale{
-    font-size: 22px;
+    font-size: 20px;
   }
   .collection-content .page-width{
   max-width: 90% !important;
@@ -974,7 +973,7 @@ textarea#personalize-box::placeholder {
 
 @media (max-width: 1200px) {
   .heading-text {
-    font-size: 50px;
+    font-size: 46px;
   }
 
   .sub-heading-p {
@@ -985,34 +984,34 @@ textarea#personalize-box::placeholder {
 @media (max-width: 1110px) {
   .sub-heading-p {
     padding: 0 60px;
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
 @media (max-width: 1024px) {
   .heading-text {
-    font-size: 50px;
+    font-size: 46px;
   }
 
   .sub-heading-p {
     padding: 0 40px;
-    font-size: 18px;
+    font-size: 16px;
   }
   .grid-product__title{
-    font-size: 16px;
+    font-size: 14px;
     min-height: 69px;
     max-height: 69px;
     overflow: hidden;
   }
   .grid-product__price{
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
 @media (max-width: 768px) {
   .heading-text {
     line-height: 50px;
-    font-size: 50px;
+    font-size: 46px;
   }
 
   .sub-heading-p {
@@ -1025,7 +1024,7 @@ textarea#personalize-box::placeholder {
 
 @media (max-width: 576px) {
   .heading-text {
-    font-size: 40px;
+    font-size: 36px;
     line-height: 60px;
   }
 
@@ -1045,22 +1044,22 @@ textarea#personalize-box::placeholder {
 @media (max-width: 426px) {
 
   .contact_us {
-    font-size: 28px;
+    font-size: 26px;
   }
 }
 
 @media (max-width: 416px) {
 
   .Email {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .contact_number {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .location {
-    font-size: 13px;
+    font-size: 12px;
 
   }
 }
@@ -1072,21 +1071,21 @@ textarea#personalize-box::placeholder {
   }
 
   .contact_number {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .location {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
 
 @media (max-width: 400px) {
   .heading-text {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .heading-text {
-    font-size: 40px;
+    font-size: 36px;
     line-height: 60px;
   }
 
@@ -1100,7 +1099,7 @@ textarea#personalize-box::placeholder {
   }
 
   .subheading .sub-heading-h1 {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 
