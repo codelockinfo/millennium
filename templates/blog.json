@@ -21,13 +21,13 @@
           "settings": {
             "collection": "iced-out-watches",
             "title": "",
-            "focal_point": "20% 50%"
+            "focal_point": "center center"
           }
         },
         "collection2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "ring",
             "title": "",
             "focal_point": "center center"
           }
@@ -35,7 +35,7 @@
         "collection3": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "earrings",
             "title": "",
             "focal_point": "center center"
           }
@@ -43,7 +43,7 @@
         "collection4": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "cuban-chain",
             "title": "",
             "focal_point": "center center"
           }
