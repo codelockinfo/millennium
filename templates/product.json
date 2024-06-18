@@ -307,36 +307,72 @@
           "type": "text",
           "settings": {
             "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
-            "customername": "Russell H",
-            "country": "United Kingdom, 1 month ago"
+            "content": "<p>The sparkle and shine of my new watch are out of this world. It's become my favorite piece of jewelry. The quality is incredible, and it looks like it cost a fortune.<\/p>",
+            "customername": "David Lewis",
+            "country": "TX, United States"
           }
         },
         "text_kXMY9Q": {
           "type": "text",
           "settings": {
             "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
-            "customername": "Russell H",
-            "country": "United Kingdom, 1 month ago"
+            "content": "<p>Fast shipping and excellent quality. My friends can't stop admiring my new chain! The attention to detail is amazing, and the chain has a really nice weight to it. I'm thrilled with my purchase.<\/p>",
+            "customername": "Jessica Brown",
+            "country": "GA, United States"
           }
         },
         "text_3fJFfe": {
           "type": "text",
           "settings": {
             "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
-            "customername": "Russell H",
-            "country": "United Kingdom, 1 month ago"
+            "content": "<p>I'm so impressed with the durability and design of my hip-hop jewelry. It looks and feels expensive, and it's held up beautifully even with daily wear. This is my new go-to for jewelry.<\/p>",
+            "customername": "Chris Williams",
+            "country": "PA, United States"
           }
         },
         "text_b8znmB": {
           "type": "text",
           "settings": {
             "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>",
-            "customername": "Russell H",
-            "country": "United Kingdom, 1 month ago"
+            "content": "<p>The perfect accessory for any outfit. These pieces elevate my style effortlessly. The designs are versatile and eye-catching, and the quality is top-notch.<\/p>",
+            "customername": "Amanda King",
+            "country": "CA, United States"
+          }
+        },
+        "text_arw9A6": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a_5649220c-2d81-4a50-94cf-42bb99284ab6.png",
+            "content": "<p>I love how unique and eye-catching these designs are. Truly one-of-a-kind jewelry. Every piece I've bought feels special and stands out in the best way possible.<\/p>",
+            "customername": "Brian Smith",
+            "country": "NV, United States"
+          }
+        },
+        "text_8mR8TU": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a_5649220c-2d81-4a50-94cf-42bb99284ab6.png",
+            "content": "<p>I've bought hip-hop jewelry from many places, but this is by far the best. The quality, design, and customer service are all exceptional. Highly recommend!<\/p>",
+            "customername": "Matthew Harris",
+            "country": "MA, United States"
+          }
+        },
+        "text_bMdDkK": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a_5649220c-2d81-4a50-94cf-42bb99284ab6.png",
+            "content": "<p>The attention to detail is phenomenal. My iced-out watch is a real showstopper. It's a real work of art, and I feel so stylish whenever I wear it.<\/p>",
+            "customername": "Olivia Johnson",
+            "country": "CO, United States"
+          }
+        },
+        "text_dArEzr": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a_5649220c-2d81-4a50-94cf-42bb99284ab6.png",
+            "content": "<p>High-quality materials and flawless craftsmanship. These pieces are worth every penny. The quality is outstanding, and you can tell a lot of care goes into making each piece.<\/p>",
+            "customername": "James Parker",
+            "country": "AZ, United States"
           }
         }
       },
@@ -348,7 +384,11 @@
         "text_4NbLeW",
         "text_kXMY9Q",
         "text_3fJFfe",
-        "text_b8znmB"
+        "text_b8znmB",
+        "text_arw9A6",
+        "text_8mR8TU",
+        "text_bMdDkK",
+        "text_dArEzr"
       ],
       "settings": {
         "heading": "Let customers speak for us"
