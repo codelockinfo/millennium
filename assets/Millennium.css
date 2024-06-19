@@ -949,6 +949,7 @@ textarea#personalize-box::placeholder {
   }
   .collection-content .small--one-half {
     width: 100%;
+    padding: 0;
   }
   .template-product .breadcrumb {
     margin: 0;
