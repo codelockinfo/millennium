@@ -225,22 +225,13 @@
     .slider_head {
       font-size: 36px;
     }
-  }
-
-  @media (max-width: 570px) {
     .review-box {
       margin: 0 55px;
     }
 
-    .fa-chevron-left {
-      margin-left: 10px;
-    }
-
-    .fa-chevron-right {
-      margin-right: 10px;
-    }
-
   }
+
+ 
 
   @media (max-width: 700px) {
     .gradiant_1 {
@@ -276,9 +267,6 @@
     .country {
       font-size: 14px;
     }
-    .slider_button .fa-solid {
-      padding: 2px 5px;
-    }
   }
   /* END CLS - 017 */
 
@@ -292,6 +280,7 @@
         slidesPerView: 4,
         spaceBetween: 30,
         cssMode: true,
+        loop:true,
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
@@ -299,23 +288,26 @@
         mousewheel: true,
        keyboard: true,
         breakpoints: {
-          470: {
+          
+          375: {
             slidesPerView: 1,
+          },
+          576: {
+            slidesPerView: 1,
+          },
+          600: {
+            slidesPerView: 2  ,
+          },
+
+          768: {
+            slidesPerView: 2,
             
           },
-          570: {
-            slidesPerView: 2,
-           
-          },
-          701: {
-            slidesPerView: 2,
-            
-          },
-          850: {
+          800: {
             slidesPerView: 3,
             
           },
-          1301: {
+          1000: {
             slidesPerView: 4,
       
           },

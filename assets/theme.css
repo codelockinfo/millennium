@@ -4816,9 +4816,9 @@ ul+.footer__small-text {
   margin: 0
 }
 
-form+.footer__social {
-  margin-top: 30px
-}
+/* form+.footer__social {
+  margin-top: 60px;
+} */
 
 .footer__social li {
   display: inline-block;

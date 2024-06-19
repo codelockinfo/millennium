@@ -808,6 +808,7 @@ label.tag__checkbox-wrapper{
   border: 1px solid #D9D9D9;
   background: #F9F9F9;
 }
+
 .product__price.product__price--compare{
   color: #777777;
 }
@@ -825,12 +826,13 @@ label.tag__checkbox-wrapper{
   line-height: 24.38px;
   text-align: left;
 }
-.product-single__title{
-  font-family: Montserrat Alternates;
+.template-product .product-single__title{
+  font-family: "EB Garamond", serif;
   font-size: 28px;
   font-weight: 600;
   line-height: 39.01px;
   text-align: left;
+  text-transform: capitalize;
 }
 .product__quantity,
 .personalizebox-label,
