@@ -164,7 +164,7 @@
       text-decoration: none !important;
     }
     .slider-collection-heading {
-      font-size: 36px;
+      font-size: 30px;
       color: #ffffff;
       font-weight: 600;
       line-height: 36px;
@@ -209,7 +209,7 @@
       width: 35px;
       height: 35px;
       border-radius: 50%;
-      font-size: 18px;
+      font-size: 16px;
     }
     .slider-category .swiper-arrow-button .swiper-button-prev {
       color: #282828;
@@ -218,7 +218,7 @@
       width: 35px;
       height: 35px;
       border-radius: 50%;
-      font-size: 18px;
+      font-size: 16px;
     }
     
 
@@ -228,7 +228,7 @@
 
   @media (max-width: 1440px) {
     .slider-collection-heading {
-      font-size: 24px !important;
+      font-size: 22px !important;
     }
     .collection-img {
       height: 290px;
@@ -293,7 +293,6 @@
     }
   }
 </style>
-
 <script>
  $(document).ready(function() { 
   var nswiper = new Swiper('.categorySlider', {
@@ -309,7 +308,7 @@
     loopAddBlankSlides: true,
     grabCursor: true,
     loopAdditionalSlides: 2,
-    cssMode: true,
+    // cssMode: true,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -344,13 +343,6 @@
         spaceBetween: 30,
       },
     },
-  });
-
-  // Stop autoplay on mouse enter and restart on mouse leave
-  $(".categorySlider").mouseenter(function() {
-    nswiper.autoplay.stop();
-  }).mouseleave(function() {
-    nswiper.autoplay.start();
   });
 });
 </script>
