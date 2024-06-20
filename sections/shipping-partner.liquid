@@ -16,31 +16,33 @@
         </div>
       {% endif %}
     </div>
-    <div class="shipping_image">
-      {%- for block in section.blocks -%}
-        <div class="box_content_1">
-          {% if block.settings.box_image_1 != blank %}
-            <div class="box_image_1">
-              <img src="{{block.settings.box_image_1 | img_url: 'master'}}" alt="">
+    <div class="swiper shippingSwiper shipping_swiper">
+        <div class="swiper-wrapper">
+          {%- for block in section.blocks -%}
+            <div class="swiper-slide">
+              <div class="myshipping_slider">
+              {% if block.settings.box_image_1 != blank %}
+                <div class="box_image_1">
+                  <img src="{{block.settings.box_image_1 | img_url: 'master'}}" alt="">
+                </div>
+              {% endif %}
+              <div class="box_img_paragraph">
+                <p>{{ block.settings.box_content }}</p>
+                {% if block.settings.box_arrow != blank %}
+                  <img src="{{block.settings.box_arrow | img_url: 'master'}}" alt="">
+                {% endif %}
+              </div>
             </div>
-          {% endif %}
-          <div class="box_img_paragraph">
-            <p>{{ block.settings.box_content }}</p>
-            {% if block.settings.box_arrow != blank %}
-              <img src="{{block.settings.box_arrow | img_url: 'master'}}" alt="">
-            {% endif %}
-          </div>
+            </div>
+          {% endfor %}
         </div>
-      {% endfor %}
     </div>
     <div class="shipping_video">
-      
       <video
         loop
         muted
         autoplay
-        playsinline
-      >
+        playsinline>
         <source src="{{ section.settings.Video_2  }}" type="video/mp4">
       </video>
     </div>
@@ -110,12 +112,6 @@
 
 <style>
   /* START CLS - 017 */
-
-  * {
-    margin: 0;
-    padding: 0;
-  }
-
   .head_1 {
     color: #F0F0F0 !important;
     font-size: 64px;
@@ -207,12 +203,13 @@
     flex-direction: column;
     width: 225px;
     height: 225px;
-    background-color: #313131;
+    /* background-color: #313131; */
   }
 
   .box_image_1 {
     width: 97.51px;
     height: 100.22px;
+    margin: 0 auto;
   }
   .box_image_1 img {
     width: 100%;
@@ -221,8 +218,8 @@
   .box_img_paragraph {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: space-evenly;
+    /* gap: 20px; */
   }
   .box_img_paragraph p {
     font-family: "Montserrat Alternates";
@@ -253,7 +250,25 @@
     transition: 0.3s;
   }
 
+  .shipping_swiper{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
 
+  }
+  .myshipping_slider:hover{
+    outline: 1px solid white;
+    transition: 0.3s;
+  }
+  .myshipping_slider{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin: 10px;
+  }
   @media (max-width: 1201px) {
     .head_1 {
       font-size: 50px;
@@ -347,7 +362,11 @@
     }
 
   }
-
+  @media (max-width: 768px) {
+    .shipping_swiper{
+      width: 90%;
+    }
+  }
   @media (max-width: 642px) {
     .side_image {
       display: none;
@@ -440,3 +459,58 @@
 
   /* END CLS - 017 */
 </style>
+
+<script>
+
+$(document).ready(function() { 
+  var shippingSwiper = new Swiper('.shippingSwiper', {
+    slidesPerView: 4,
+    loop: true,
+    freeMode: true,
+    spaceBetween: 30,
+    speed: 5000,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    loopAddBlankSlides: true,
+    grabCursor: true,
+    loopAdditionalSlides: 2,
+    // cssMode: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 30,
+      },
+      577: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+      },
+      800: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      900: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1020: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1100: {
+        slidesPerView: 4,
+        spaceBetween: 30,
+      },
+    },
+  });
+});
+</script>
