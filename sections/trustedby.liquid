@@ -1,7 +1,9 @@
 <div class="trustedby_section page-width">
+    {% if section.settings.heading != blank %}
     <div class="section-header">
       <h1 class="main_head">{{ section.settings.heading }}</h1>
     </div>
+    {% endif %}
     <div class="trustedby_images">
         {% for block in section.blocks  %}
             {% if block.settings.trusted_by_image != blank %}
