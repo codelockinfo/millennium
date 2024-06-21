@@ -1,0 +1,424 @@
+<div class="millennium_video">
+  <div class="width-container">
+    <div class="content_jewelery_video">
+      <div class="box-1">
+        {% if section.settings.video != blank %}
+          <div class="video-section">
+            <video
+            class="videos"
+            loop
+            muted
+            autoplay
+            playsinline>
+            <source src="{{ section.settings.video  }}" type="video/mp4">
+          </video>
+          </div>
+        {% endif %}
+        <div class="paragraph-1">
+          <h6 class="para_h6">{{ section.settings.para_head }}</h6>
+          <h2 class="para_h2">{{ section.settings.company_name }}</h2>
+          <p class="para_p">{{ section.settings.paragraph }}</p>
+          <button class="para_button">
+            <a href="{{ section.settings.jewelery_url_1 }}">
+              {{ section.settings.button }}
+              {% if section.settings.btn_img != blank %}
+                <img src="{{ section.settings.btn_img |  img_url: 'master' }}" alt="">
+              {% endif %}
+            </a>
+          </button>
+        </div>
+      </div>
+    </div>
+    {% if section.settings.image1 != blank %}
+      <div class="line">
+        <img src="{{ section.settings.image1 | img_url: 'master' }}" alt="">
+      </div>
+    {% endif %}
+    <div class="content_jewelery_video-2">
+      <div class="box-2">
+        <div class="paragraph-2">
+          <h6 class="para_h6">{{ section.settings.para_head2 }}</h6>
+          <h2 class="para_h2_2">{{ section.settings.company_name2 }}</h2>
+          <p class="para_p_2">{{ section.settings.paragraph2 }}</p>
+          <button class="para_button">
+            <a href="{{ section.settings.jewelery_url }}">
+              {{ section.settings.button2 }}
+              {% if section.settings.btn_img2 != blank %}
+                <img src="{{ section.settings.btn_img2 | img_url: 'master' }}" alt="">
+              {% endif %}
+            </a>
+          </button>
+        </div>
+        {% if section.settings.video2 != blank %}
+          <div class="video-section">
+            <video
+            class="videos"
+            loop
+            muted
+            autoplay
+            playsinline>
+            <source src="{{ section.settings.video2}}" type="video/mp4">
+          </video>
+          </div>
+        
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{%- schema -%}
+  {
+    "name": "millennium video",
+    "settings": [
+      
+      {
+        "type": "url",
+        "id": "video",
+        "label": "video_watch"
+      },
+      {
+        "type": "url",
+        "id": "video2",
+        "label": "video_watch2"
+      },
+      {
+        "type": "text",
+        "id": "para_head",
+        "label": "heading"
+      },
+      {
+        "type": "text",
+        "id": "company_name",
+        "label": "company name"
+      },
+      {
+        "type": "text",
+        "id": "paragraph",
+        "label": "paragraph"
+      }, {
+        "type": "text",
+        "id": "button",
+        "label": "button"
+      }, {
+        "type": "image_picker",
+        "id": "btn_img",
+        "label": "button img"
+      }, {
+        "type": "url",
+        "id": "jewelery_url_1",
+        "label": "button url 1"
+      }, {
+        "type": "image_picker",
+        "id": "image1",
+        "label": "vactor img"
+      }, {
+        "type": "text",
+        "id": "para_head2",
+        "label": "heading 2"
+      }, {
+        "type": "text",
+        "id": "company_name2",
+        "label": "company name"
+      }, {
+        "type": "text",
+        "id": "paragraph2",
+        "label": "paragraph"
+      }, {
+        "type": "text",
+        "id": "button2",
+        "label": "button"
+      }, {
+        "type": "url",
+        "id": "jewelery_url",
+        "label": "button url"
+      }, {
+        "type": "image_picker",
+        "id": "btn_img2",
+        "label": "button img"
+      }, {
+        "type": "image_picker",
+        "id": "image_main_1",
+        "label": "head image 2"
+      }
+    ],
+    "presets": [
+      {
+        "name": "millennium video"
+      }
+    ]
+  }
+{% endschema %}
+
+
+<style>
+    /* START CLS - 017 */
+
+ 
+    .millennium_video{
+        padding: 50px 0;
+        position: relative;
+        z-index: 1;
+       padding-bottom: 145px;
+        background-color: #FAF7ED;
+    }
+
+  .millennium_video .box-1 {
+    padding: 0 10px;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+  }
+  .millennium_video .box-2 {
+    padding: 0 10px;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    margin-top: 50px;
+  }
+  .millennium_video .line {
+    width: 500px;
+    position: absolute;
+    top: 583px;
+    right: 490px;
+    z-index:-1;
+  }
+  .millennium_video .line img {
+    width: 100%;
+  }
+  .millennium_video .image1 {
+    width: 450px;
+    height: 550px;
+  }
+
+  .millennium_video .image1 img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+  .millennium_video .para_h6 {
+    font-size: 16px;
+    letter-spacing: 0;
+    font-weight: 600;
+    text-transform: none;
+    font-family: "Montserrat Alternates";
+  }
+
+  .millennium_video .para_h2 {
+    text-transform: none !important;
+    font-size: 36px;
+    font-family: "Italiana";
+    color: #F37936;
+  }
+
+  .millennium_video .para_h2_2 {
+    text-transform: none !important;
+    font-size: 36px;
+    color: #282828;
+    font-family: "Italiana";
+
+  }
+
+  .millennium_video .para_p {
+    font-size: 16px;
+    color: #282828;
+    font-weight: 600;
+    font-family: "Montserrat Alternates";
+    text-align: justify;
+    margin-bottom: 35px;
+  }
+
+  .millennium_video .para_p_2 {
+    font-size: 16px;
+    color: #282828;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+    margin-bottom: 70px;
+  }
+
+  .millennium_video .para_button {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    font-family: "Fira Sans";
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    padding: 10px 0;
+    background: rgb(31, 31, 31);
+  }
+
+  .millennium_video .para_button img {
+    width: 25px;
+    height: 25px;
+    filter: invert(1);
+  }
+  .millennium_video .para_button a {
+    color: #fff;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    text-decoration: none;
+    background: transparent;
+  }
+  .millennium_video .video-section {
+    width: 33%;
+  }
+  .millennium_video .paragraph-2 {
+    background-color: #E1E5E6;
+    width: 50%; 
+    padding: 40px 20px;
+    margin-bottom: 7px;
+  }
+  .millennium_video .paragraph-1 {
+    background-color: #EEDFC4;
+    padding: 40px 20px;
+    width: 50%;  
+    margin-bottom: 7px;
+  }
+ 
+  .millennium_video .video-section .videos {
+     width: 100%;
+  }
+  @media only screen and (max-width: 1100px) {
+    
+    
+    .millennium_video .para_p_2 {
+      margin-bottom: 20px;
+    }
+    .millennium_video .image1 {
+      width: 350px;
+      height: 450px;
+    }
+   
+    .millennium_video .line {
+      width: 530px;
+      position: absolute;
+      top: 490px;
+      right: 370px;
+    }
+    .millennium_video .line img {
+      width: 100%;
+    }
+  
+    .millennium_video .para_h6 {
+      font-size: 16px;
+    }
+
+    .millennium_video .para_h2 {
+      font-size: 26px;
+    }
+    .millennium_video .para_p {
+      font-size: 14px;
+    }
+    .millennium_video .para_button {
+      font-size: 16px;
+      font-weight: 600;
+      color: white;
+      width: 180px;
+      padding: 9px 0;
+    }
+    .millennium_video .para_button img {
+      width: 20px;
+      height: 20px;
+    }
+    .millennium_video .box1 {
+      padding: 0 10px;
+    }
+    .millennium_video .box2 {
+      padding: 0 10px;
+    }
+  }
+
+  @media (min-width:900px) and (max-width: 1024px) {
+    .millennium_video .video-section {
+    width: 40%;
+  }
+  }
+  @media only screen and (max-width: 900px) {
+    .millennium_video .content_jewelery_video {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .millennium_video .video-section {
+    width: 100%;
+  }
+    .millennium_video .paragraph-2 {
+    order: 2;
+    width: 100%;
+  }
+    .millennium_video .paragraph-1 {
+    order: 2;
+    width: 100%;
+  }
+  .millennium_video .box-2 {
+    margin-top: 0;
+  }
+  .millennium_video .box-1 {
+    margin-bottom: 30px;
+  }
+    .millennium_video .content_jewelery_video-2 {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      /* margin-top: 50px; */
+    }
+
+    .millennium_video  .box-1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .millennium_video .box-2 {
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .millennium_video .image1 {
+      margin-bottom: -6px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  @media only screen and (max-width: 921px) {
+    .millennium_video .line {
+      display: none;
+    }
+    @media only screen and (max-width: 768px) {
+    .millennium_video .video-section {
+    width: 100%;
+  }
+  .millennium_video{
+       padding-bottom: 240px;
+    }
+
+  }
+  }
+  @media only screen and (max-width: 490px) {
+  .millennium_video .box-1 {
+      width: 95%;
+      padding: 0;
+    }
+
+    .millennium_video .box-2 {
+      width: 95%;
+      padding: 0;
+    }
+  }
+</style>
