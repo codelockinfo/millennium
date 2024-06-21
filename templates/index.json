@@ -227,6 +227,7 @@
     },
     "millennium_jewelery_AP9YXh": {
       "type": "millennium-jewelery",
+      "disabled": true,
       "settings": {
         "image_main": "shopify:\/\/shop_images\/03_6cda9990-3e12-4df4-b3df-f5afe3463ba7.jpg",
         "para_head": "MILLENNIUM JEWELERY",
@@ -243,6 +244,23 @@
         "jewelery_url": "https:\/\/www.amazon.com\/s?rh=n%3A7141123011%2Cp_4%3AMillennium+Jewelery&ref=bl_sl_s_je_web_7141123011",
         "btn_img2": "shopify:\/\/shop_images\/arrow-right.png",
         "image_main_1": "shopify:\/\/shop_images\/04_b1cd1117-056d-4b12-82b5-fb2cdc3f0ad0.jpg"
+      }
+    },
+    "millennium_video_UarU6d": {
+      "type": "millennium-video",
+      "settings": {
+        "video": "",
+        "video2": "",
+        "para_head": "",
+        "company_name": "",
+        "paragraph": "",
+        "button": "",
+        "jewelery_url_1": "",
+        "para_head2": "",
+        "company_name2": "",
+        "paragraph2": "",
+        "button2": "",
+        "jewelery_url": ""
       }
     },
     "our_mission_XLE69f": {
@@ -472,6 +490,7 @@
     "explore_TEHqRw",
     "hiphop_ring_collection_gRUgG4",
     "millennium_jewelery_AP9YXh",
+    "millennium_video_UarU6d",
     "our_mission_XLE69f",
     "trusted_by_FUaihx",
     "slider_testimonial_bxePfz",
