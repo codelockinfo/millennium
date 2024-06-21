@@ -17,14 +17,25 @@
           <img src="{{ section.settings.trusted_by_image | img_url: 'master' }}" alt="">
         </div>
       {% endif %}
-      <h2 class="head">Trusted by</h2>
+      {% if section.settings.heading != blank %}<h2 class="head">{{ section.settings.heading }}</h2>{% endif %}
       {% if section.settings.trusted_by_image != blank %}
         <div class="main_image_1">
           <img src="{{ section.settings.trusted_by_image | img_url: 'master' }}" alt="">
         </div>
       {% endif %}
     </div>
-    <div class="images">
+    <div class="page-width">
+      <div class="trustedby_images">
+          {% for block in section.blocks  %}
+              {% if block.settings.trusted_by_image != blank %}
+                <div class="trustedby_image">
+                  <img src="{{ block.settings.trusted_by_image | img_url: 'master' }}" alt="">
+                </div>
+              {% endif %}
+          {% endfor %}
+      </div>
+    </div>
+    {% comment %} <div class="images">
       {% if section.settings.img_1 != blank %}
         <div class="img_box1">
           <img src="{{ section.settings.img_1 | img_url: 'master' }}" alt="">
@@ -50,7 +61,7 @@
           <img src="{{ section.settings.img_5 | img_url: 'master' }}" alt="">
         </div>
       {% endif %}
-    </div>
+    </div> {% endcomment %}
   </div>
 </div>
 
@@ -78,28 +89,42 @@
         "type": "image_picker",
         "id": "trusted_by_image",
         "label": "trusted_by_image"
-      }, {
-        "type": "image_picker",
-        "id": "img_1",
-        "label": "img_1"
-      }, {
-        "type": "image_picker",
-        "id": "img_2",
-        "label": "img_2"
-      }, {
-        "type": "image_picker",
-        "id": "img_3",
-        "label": "img_3"
-      }, {
-        "type": "image_picker",
-        "id": "img_4",
-        "label": "img_4"
-      }, {
-        "type": "image_picker",
-        "id": "img_5",
-        "label": "img_5"
       }
+      // , {
+      //   "type": "image_picker",
+      //   "id": "img_1",
+      //   "label": "img_1"
+      // }, {
+      //   "type": "image_picker",
+      //   "id": "img_2",
+      //   "label": "img_2"
+      // }, {
+      //   "type": "image_picker",
+      //   "id": "img_3",
+      //   "label": "img_3"
+      // }, {
+      //   "type": "image_picker",
+      //   "id": "img_4",
+      //   "label": "img_4"
+      // }, {
+      //   "type": "image_picker",
+      //   "id": "img_5",
+      //   "label": "img_5"
+      // }
     ],
+    "blocks": [
+            {
+            "type": "image",
+            "name": "image",
+            "settings": [
+                {
+                "type": "image_picker",
+                "id": "trusted_by_image",
+                "label": "trusted_by_image"
+                }
+            ]
+        }
+       ],
     "presets": [
       {
         "name": "Testimonial"
@@ -130,7 +155,7 @@
   .video_section {
     width: 100%;
     display: flex;
-    margin-top: -250px;
+    margin-top: -320px;
     align-items: center;
     justify-content: center;
   }
@@ -276,6 +301,17 @@
     letter-spacing: 0.1em;
     text-align: center;
   }
+  .trustedby_images {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 40px;
+  }
+  .trustedby_images img {
+      width: 100%;
+  }
 
   @media (max-width: 1024px) {
     .video_section {
@@ -305,7 +341,11 @@
       margin-top: 330px;
     }
   }
-
+  @media (max-width: 576px) {
+    .trustedby_images{
+        flex-wrap: wrap;
+    }
+  }
   @media (max-width: 425px) {
     .video_section {
       margin-top: -80px;
