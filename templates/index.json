@@ -249,18 +249,21 @@
     "millennium_video_UarU6d": {
       "type": "millennium-video",
       "settings": {
-        "video": "",
-        "video2": "",
-        "para_head": "",
-        "company_name": "",
-        "paragraph": "",
-        "button": "",
-        "jewelery_url_1": "",
-        "para_head2": "",
-        "company_name2": "",
-        "paragraph2": "",
-        "button2": "",
-        "jewelery_url": ""
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/005d82a9e497429bbab82aa5b0822df8.mp4",
+        "video2": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/005d82a9e497429bbab82aa5b0822df8.mp4",
+        "para_head": "MILLENNIUM JEWELERY",
+        "company_name": "Alibaba",
+        "paragraph": "Discover Millennium Jewelery, a trusted and verified supplier on Alibaba.com. This platform helps to connect with customers worldwide, offering a convenient hub for retailers seeking top-quality moissanite watches and jewelry. With a focus on craftsmanship and reliability, we are your go-to manufacturer for exquisite moissanite pieces. Explore our extensive range of products on our Alibaba store for a showcase of elegance and sophistication.",
+        "button": "Explore More",
+        "btn_img": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png",
+        "jewelery_url_1": "https:\/\/in1564485498ycjd.trustpass.alibaba.com\/index.html?spm=a2700.shop_cp.88.12",
+        "image1": "shopify:\/\/shop_images\/Vector_20_2_1969bd94-d62b-4e63-b987-1778315cbd03.png",
+        "para_head2": "MILLENNIUM JEWELERY",
+        "company_name2": "Amazon",
+        "paragraph2": "Amazon stands as a beacon of trust for customers, providing a seamless platform for placing orders with confidence. We are proud to announce that our products are now available on Amazon, catering specifically to the USA market. Explore our Amazon store to discover a wide range of offerings and experience the convenience of secure online shopping.",
+        "button2": "Explore More",
+        "jewelery_url": "https:\/\/www.amazon.com\/s?rh=n%3A7141123011%2Cp_4%3AMillennium+Jewelery&ref=bl_sl_s_je_web_7141123011",
+        "btn_img2": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
       }
     },
     "our_mission_XLE69f": {
