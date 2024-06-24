@@ -132,6 +132,7 @@
         },
         "text_89teFA": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "category_img": "shopify:\/\/shop_images\/015.jpg",
             "category_text": "<p>Bracelets<\/p>",
