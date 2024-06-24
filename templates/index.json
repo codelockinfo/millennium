@@ -28,7 +28,7 @@
             "text_color": "#000000",
             "text_align": "vertical-center horizontal-left",
             "image": "shopify:\/\/shop_images\/008.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/024_3000x2000_395fd6a5-0114-4f66-9536-f8c0a59c8b24.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/024_2500x2000_3.jpg",
             "overlay_opacity": 0,
             "focal_point": "20% 0"
           }
@@ -211,8 +211,24 @@
         "text_VGUH6c",
         "text_ANmiib"
       ],
+      "disabled": true,
       "settings": {
         "background_color": "#f0f0f0"
+      }
+    },
+    "explore_collection_tGJNWg": {
+      "type": "explore-collection",
+      "settings": {
+        "eimg1": "shopify:\/\/shop_images\/01_Watch_copy_2.jpg",
+        "eimg2": "shopify:\/\/shop_images\/02_Ring_copy.jpg",
+        "eimg3": "shopify:\/\/shop_images\/03_Cuban_Chain_copy_2.jpg",
+        "eimg4": "shopify:\/\/shop_images\/04_Pendant_copy_1.jpg",
+        "eimg5": "shopify:\/\/shop_images\/05_Earrings_copy.jpg",
+        "ecollectionurl1": "shopify:\/\/collections\/iced-out-watches",
+        "ecollectionurl2": "shopify:\/\/collections\/mens-rings",
+        "ecollectionurl3": "shopify:\/\/collections\/cuban-chain",
+        "ecollectionurl4": "shopify:\/\/collections\/pendant-necklace",
+        "ecollectionurl5": "shopify:\/\/collections\/earrings"
       }
     },
     "hiphop_ring_collection_gRUgG4": {
@@ -571,6 +587,7 @@
     "category_slider_LU46Ei",
     "collection_slider_section_VnyWwX",
     "explore_TEHqRw",
+    "explore_collection_tGJNWg",
     "hiphop_ring_collection_gRUgG4",
     "millennium_jewelery_AP9YXh",
     "millennium_video_UarU6d",
