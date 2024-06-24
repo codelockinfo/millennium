@@ -9,7 +9,9 @@
   background-color: #F0F0F0;
   position: relative;
 }
-
+.template-cart .main-content{
+  background-color: #f0f0f0;
+}
 .review-box{
   padding: 10px 15px;
   background-color: #fff;
