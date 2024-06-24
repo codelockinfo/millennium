@@ -130,6 +130,7 @@
   align-items: center;
   height: auto;
   padding: 10px 0;
+  border-radius: 10px;
 }
 
 .contact_us {
@@ -986,6 +987,25 @@ textarea#personalize-box::placeholder {
   .footer_line_2 {
     justify-content: center;
   }
+}
+@media (min-width: 1269px) {
+  .contact_us {
+    padding: 10px 30px;
+  }
+  
+  .contact_number {
+    padding: 10px 30px;
+  }
+  
+  .location {
+    padding: 10px 30px;
+  }
+  
+}
+@media (min-width: 1149px) {
+ .footer_box{
+  padding: 10px 20px;
+ }
 }
 
 @media (max-width: 1200px) {

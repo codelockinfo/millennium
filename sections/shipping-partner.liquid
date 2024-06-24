@@ -37,6 +37,7 @@
           {% endfor %}
         </div>
     </div>
+    <h1 class="head_1">{{ section.settings.header2 }}</h1>
     <div class="shipping_video">
       <video
         loop
@@ -71,6 +72,11 @@
     {
       "type": "text",
       "id": "header",
+      "label": "heading"
+    },
+    {
+      "type": "text",
+      "id": "header2",
       "label": "heading"
     },
     {
@@ -141,6 +147,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
   }
 
   .shipping_video video {
