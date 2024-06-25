@@ -494,6 +494,7 @@
           "settings": {
             "box_image_1": "shopify:\/\/shop_images\/f4798250133f5bc49e18f96b77c7d6e9.png",
             "box_content": "Track Your Parcel",
+            "box_url": "https:\/\/www.usps.com\/",
             "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
           }
         },
@@ -502,6 +503,7 @@
           "settings": {
             "box_image_1": "shopify:\/\/shop_images\/1a2dc24ec115f0b1e63bd80caf9dbb50.png",
             "box_content": "Track Your Parcel",
+            "box_url": "",
             "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
           }
         },
@@ -510,6 +512,7 @@
           "settings": {
             "box_image_1": "shopify:\/\/shop_images\/image_16.png",
             "box_content": "Track Your Parcel",
+            "box_url": "",
             "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
           }
         },
@@ -518,6 +521,7 @@
           "settings": {
             "box_image_1": "shopify:\/\/shop_images\/bffa9a1dc2f9feac7498a5656cf67c8a.png",
             "box_content": "Track Your Parcel",
+            "box_url": "",
             "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
           }
         },
@@ -526,6 +530,7 @@
           "settings": {
             "box_image_1": "shopify:\/\/shop_images\/fedex-logo-free-download-free-vector-1.jpg",
             "box_content": "Track Your Parcel",
+            "box_url": "",
             "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
           }
         }
