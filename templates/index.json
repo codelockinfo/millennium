@@ -503,7 +503,7 @@
           "settings": {
             "box_image_1": "shopify:\/\/shop_images\/1a2dc24ec115f0b1e63bd80caf9dbb50.png",
             "box_content": "Track Your Parcel",
-            "box_url": "",
+            "box_url": "https:\/\/www.usps.com\/",
             "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
           }
         },
