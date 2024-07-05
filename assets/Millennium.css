@@ -449,6 +449,9 @@
 .dispatch-class {
   margin-bottom: 20px;
 }
+.tab_section.width-container{
+  width:70%;
+}
 
 @font-face {
   font-family: 'Italiana';
@@ -546,6 +549,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  
+  .tab_section.width-container{
+    width:100%;
+  }
   .product-single__meta .diamond-box {
     width: 22%;
   }
