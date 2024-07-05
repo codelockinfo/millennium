@@ -119,7 +119,7 @@
           "settings": {
             "category_img": "shopify:\/\/shop_images\/016.jpg",
             "category_text": "<p>Cuban Chains<\/p>",
-            "collection_url": "shopify:\/\/collections\/cuban-chain"
+            "collection_url": "shopify:\/\/collections\/cuban-link-chain"
           }
         },
         "text_aDNqVC": {
@@ -193,7 +193,7 @@
             "heading_text": "<p>Cuban Chains<\/p>",
             "pargraph_text": "",
             "button_text": "Explore More",
-            "explolre_url": "shopify:\/\/collections\/cuban-chain"
+            "explolre_url": "shopify:\/\/collections\/cuban-link-chain"
           }
         },
         "text_ANmiib": {
@@ -226,7 +226,7 @@
         "eimg5": "shopify:\/\/shop_images\/05_Earrings.jpg",
         "ecollectionurl1": "shopify:\/\/collections\/fully-iced-out-moissanite-diamond-watches",
         "ecollectionurl2": "shopify:\/\/collections\/mens-rings",
-        "ecollectionurl3": "shopify:\/\/collections\/cuban-chain",
+        "ecollectionurl3": "shopify:\/\/collections\/cuban-link-chain",
         "ecollectionurl4": "shopify:\/\/collections\/pendant-necklace",
         "ecollectionurl5": "shopify:\/\/collections\/diamond-earrings"
       }
@@ -237,7 +237,7 @@
         "subheadp": "Rings",
         "background": "#f0f0f0",
         "collectionproduct": "mens-rings",
-        "viewall": "shopify:\/\/collections\/cuban-chain",
+        "viewall": "shopify:\/\/collections\/cuban-link-chain",
         "button_text": "View All"
       }
     },
