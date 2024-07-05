@@ -549,10 +549,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  
-  .tab_section.width-container{
-    width:100%;
-  }
   .product-single__meta .diamond-box {
     width: 22%;
   }
@@ -979,6 +975,9 @@ textarea#personalize-box::placeholder {
 }
 
 @media screen and (max-width: 1024px) {
+  .tab_section.width-container{
+    width:100%;
+  }
   .product-single__title {
     font-size: 22px;
   }
