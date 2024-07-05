@@ -109,7 +109,7 @@
         "text_JyN4kr": {
           "type": "text",
           "settings": {
-            "category_img": "shopify:\/\/shop_images\/020.jpg",
+            "category_img": "shopify:\/\/shop_images\/020_971b87bf-4bd1-4812-8e09-5001368943b4.jpg",
             "category_text": "<p>Men's Watches<\/p>",
             "collection_url": "shopify:\/\/collections\/mens-watches"
           }
@@ -174,7 +174,7 @@
       "type": "collection-slider-section",
       "settings": {
         "headingtext": "<p>Millennium Jewelery<br\/><\/p>",
-        "sub_p": "Millennium Jewelery is a manufacturer of Gems & Jewelry. We are dealing in Moissanite, Lab Grown Diamond, Natural Diamond Etc. and uses precious metal like Silver, Gold Etc.",
+        "sub_p": "",
         "subhead": "<p>Moissanite Watch<\/p>",
         "subheadp": "Introducing the epitome of elegance and innovation: the Moissanite Watch. Crafted with precision and adorned with the brilliance of lab-created Moissanite gems, this timepiece redefines luxury. Each watch is a testament to sophistication, featuring a sleek design and unparalleled sparkle.",
         "collection_color": "#eaeaea",
@@ -558,6 +558,11 @@
             "trusted_by_image": "shopify:\/\/shop_images\/01.png"
           }
         },
+        "image_XPL4AX": {
+          "type": "image",
+          "settings": {
+          }
+        },
         "image_7HAdB6": {
           "type": "image",
           "settings": {
@@ -585,6 +590,7 @@
       },
       "block_order": [
         "image_JN38P9",
+        "image_XPL4AX",
         "image_7HAdB6",
         "image_UywWiV",
         "image_k9iDNn",
