@@ -268,12 +268,12 @@
         "text_block_HibxR8"
       ],
       "custom_css": [
-        "h2 {fonr-size: 50px;}"
+
       ],
       "settings": {
         "title": "Why Choose Us?",
         "align_text": "center",
-        "divider": true
+        "divider": false
       }
     },
     "1719317208e3be9ea6": {
