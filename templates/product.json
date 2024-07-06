@@ -272,7 +272,7 @@
       ],
       "settings": {
         "title": "Why Choose Us?",
-        "align_text": "left",
+        "align_text": "center",
         "divider": true
       }
     },
