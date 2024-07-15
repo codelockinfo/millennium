@@ -92,6 +92,13 @@
             "category_img": "shopify:\/\/shop_images\/DSC05212.jpg",
             "collection_url": "shopify:\/\/products\/round-and-marquise-cut-anniversary-eternity-band-in-lab-grown-diamond"
           }
+        },
+        "text_M64ADJ": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/DSC05223.jpg",
+            "collection_url": "shopify:\/\/products\/stylish-baguette-shape-wedding-band-in-lab-grown-diamond"
+          }
         }
       },
       "block_order": [
@@ -102,7 +109,8 @@
         "text_w8kCGF",
         "text_QLV9LE",
         "text_qMfkJr",
-        "text_M9FJDp"
+        "text_M9FJDp",
+        "text_M64ADJ"
       ],
       "settings": {
         "headingtext": "<p>Ring<\/p>",
