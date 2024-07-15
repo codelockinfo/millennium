@@ -7,7 +7,7 @@
         </div>
       {% endif %}
       <div>
-        <h1 class="head_1">{{ section.settings.header }}</h1>
+        <div class="head_1">{{ section.settings.header }}</div>
         {% comment %} <img src="{{ section.settings.heading_underline | img_url: 'master' }}" alt=""> {% endcomment %}
       </div>
       {% if section.settings.heading_side_image != blank %}
@@ -39,7 +39,7 @@
           {% endfor %}
         </div>
     </div>
-    <h1 class="head_1">{{ section.settings.header2 }}</h1>
+    <div class="head_1">{{ section.settings.header2 }}</div>
     <div class="shipping_video">
       <video
         loop

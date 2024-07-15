@@ -1,19 +1,5 @@
-<div class="slider-category">
-  {% if section.settings.png_1 != blank %}
-    <img
-      src="{{section.settings.png_1 | img_url:'master'}}"
-      class="png-img-1"
-      alt=""
-    >
-  {% endif %}
-  {% if section.settings.png_2 != blank %}
-    <img
-      src="{{section.settings.png_2 | img_url:'master'}}"
-      class="png-img-2"
-      alt=""
-    >
-  {% endif %}
-  <div class="width-container 111111">
+<div class="slider-gallery">
+  <div class="width-container">
     <div class="common-heading ">
       <div class="section-header">
         <h2 class="heading-text">{{ section.settings.headingtext }}</h2>
@@ -21,7 +7,7 @@
     </div>
   </div>
   <div class="slider-container">
-    <div class="swiper categorySlider">
+    <div class="swiper gallerySlider">
       <div class="swiper-wrapper">
         {%- for block in section.blocks -%}
           <a href="{{block.settings.collection_url}}">
@@ -29,19 +15,16 @@
               <div class="slider-category-collection-box">
                 <div class="slider-category-img-box">
                   {% if block.settings.category_img != blank %}
-                    <div class="slider-box">
-                      <img
-                        src="{{block.settings.category_img | img_url:'master'}}"
-                        class="collection-img"
-                        alt=""
-                      >
-                      <a href="{{block.settings.collection_url}}" class="collection-url">
-                        <div class="slider-category-heading-box slider-collection-heading">
-                          {{ block.settings.category_text }}
+                   <a href="{{block.settings.collection_url}}" class="collection-url"> 
+                        <div class="slider-box">
+                                <img
+                                    src="{{block.settings.category_img | img_url:'master'}}"
+                                    class="collection-img"
+                                    alt=""
+                                >
+                                {% comment %} <div class="design-box"></div> {% endcomment %}
                         </div>
-                      </a>
-                      <div class="design-box"></div>
-                    </div>
+                    </a>
                   {% endif %}
                 </div>
               </div>
@@ -51,19 +34,11 @@
       </div>
     </div>
   </div>
-  <div class="swiper-arrow-button">
-    <div class="swiper-button-prev">
-      <i class="fa-solid fa-angle-left"></i>
-    </div>
-    <div class="swiper-button-next">
-      <i class="fa-solid fa-angle-right"></i>
-    </div>
-  </div>
 </div>
 
 {% schema %}
 {
-  "name": "category slider Section",
+  "name": "Gallery image slider",
   "settings": [
     {
       "type": "richtext",
@@ -74,16 +49,6 @@
       "type": "color",
       "id": "background",
       "label": " background color"
-    },
-    {
-      "type": "image_picker",
-      "id": "png_1",
-      "label": "png img 1"
-    },
-    {
-      "type": "image_picker",
-      "id": "png_2",
-      "label": "png img 2"
     }
 
   ],
@@ -98,11 +63,6 @@
           "label": "category collection img"
         },
         {
-          "type": "richtext",
-          "id": "category_text",
-          "label": "category collection name"
-        },
-        {
           "type": "url",
           "id": "collection_url",
           "label": "select collection"
@@ -112,16 +72,16 @@
   ],
   "presets": [
     {
-      "name": "Category slider section"
+      "name": "Gallery image slider"
     }
   ]
 }
 {% endschema %}
 
 <style>
-    .slider-category {
-      padding-top: 100px;
-      padding-bottom: 100px;
+    .slider-gallery {
+      padding-top: 1px;
+      padding-bottom: 50px;
       background-color: {{ section.settings.background }};
       position: relative;
       z-index: 1;
@@ -132,12 +92,12 @@
       position: relative;
     }
   
-    .categorySlider .swiper-slide:nth-of-type(odd) {
+    /* .gallerySlider .swiper-slide:nth-of-type(odd) {
       margin-top: 0;  
     }
-    .categorySlider .swiper-slide:nth-of-type(even){ 
+    .gallerySlider .swiper-slide:nth-of-type(even){ 
       margin-top:50px;
-    }
+    } */
     .png-img-1 {
       position: absolute;
       right: 5%;
@@ -173,7 +133,7 @@
       text-decoration: none !important;
     }
 
-    .slider-category .slider-category-heading-box {
+    .slider-gallery .slider-gallery-heading-box {
       width: 100%;
       padding: 20px 0;
       margin-top: 5px;
@@ -182,26 +142,26 @@
       bottom: 1.5%;
       background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 81%);
     }
-    .slider-category .slider-box {
+    .slider-gallery .slider-box {
       position: relative;
     }
-    .slider-category .swiper {
+    .slider-gallery .swiper {
       width: 100%;
       height: 100%;
     }
-    .slider-category .swiper-arrow-button {
+    .slider-gallery .swiper-arrow-button {
       width: 100px;
       position: relative;
       margin: 7% auto auto;
     }
-    .slider-category .swiper-slide {
+    .slider-gallery .swiper-slide {
       display: flex;
       justify-content: center;
       align-items: center;
       object-fit: cover;
       transition: transform 0.5s ease;
     }
-    .slider-category .swiper-arrow-button .swiper-button-next {
+    .slider-gallery .swiper-arrow-button .swiper-button-next {
       color: #282828 !important;
       border: 3px solid #282828;
       justify-content: center;
@@ -210,7 +170,7 @@
       border-radius: 50%;
       font-size: 16px;
     }
-    .slider-category .swiper-arrow-button .swiper-button-prev {
+    .slider-gallery .swiper-arrow-button .swiper-button-prev {
       color: #282828;
       border: 3px solid #282828;
       justify-content: center;
@@ -221,9 +181,9 @@
     }
     
 
-    .slider-category .categorySlider .swiper-wrapper{
-  transition-timing-function: linear;
-}
+    .slider-gallery .gallerySlider .swiper-wrapper{
+        transition-timing-function: linear;
+    }
 
   @media (max-width: 1440px) {
     .slider-collection-heading {
@@ -241,14 +201,14 @@
   }
   @media (max-width: 768px) {
 
-    .slider-category-collection-box {
+    .slider-gallery-collection-box {
       padding: 0 15px;
     }
 
     .slider-container {
       margin-left: 0;
     }
-    .slider-category {
+    .slider-gallery {
       padding-top: 50px;
       padding-bottom: 100px;
     }
@@ -274,25 +234,25 @@
     .png-img-2 {
       display: none;
     }
-    .categorySlider .swiper-slide:nth-of-type(even){ 
+    .gallerySlider .swiper-slide:nth-of-type(even){ 
       margin-top:0 ;
     }
     .swiper-arrow-button {
 
       margin-top: 12% !important;
     }
-    .slider-category {
+    .slider-gallery {
         padding-bottom: 50px;
     }
   }
 </style>
 <script>
  $(document).ready(function() { 
-  var nswiper = new Swiper('.categorySlider', {
+  var nswiper = new Swiper('.gallerySlider', {
     slidesPerView: 4.2,
     loop: true,
     freeMode: true,
-    spaceBetween: 30,
+    spaceBetween: 0,
     speed: 5000,
     autoplay: {
       delay: 3000,
