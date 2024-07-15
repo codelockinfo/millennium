@@ -19,6 +19,7 @@
       "blocks": {
         "judge_me_reviews_review_widget_homepage_9kYJ9Y": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget_homepage\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {
             "product": ""
           }
@@ -32,10 +33,86 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "gallery_image_UKrjNa": {
+      "type": "gallery_image",
+      "blocks": {
+        "text_GVg4Kk": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/DSC08947.jpg",
+            "collection_url": "shopify:\/\/collections\/womens-rings"
+          }
+        },
+        "text_6AAVf8": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/DSC08946.jpg",
+            "collection_url": "shopify:\/\/collections\/diamond-rings"
+          }
+        },
+        "text_YRtUTz": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/DSC04898.jpg",
+            "collection_url": "shopify:\/\/products\/c-letter-customized-moissanite-diamond-hip-hop-championship-ring"
+          }
+        },
+        "text_8e3PPk": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/DSC04912.jpg",
+            "collection_url": "shopify:\/\/products\/classic-cluster-brilliant-round-cut-lab-grown-diamond-ring"
+          }
+        },
+        "text_w8kCGF": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/DSC01079.jpg",
+            "collection_url": "shopify:\/\/collections\/mens-rings"
+          }
+        },
+        "text_QLV9LE": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/DSC04152.jpg",
+            "collection_url": "shopify:\/\/products\/classic-cluster-brilliant-round-cut-lab-grown-diamond-ring"
+          }
+        },
+        "text_qMfkJr": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/DSC04117.jpg",
+            "collection_url": "shopify:\/\/products\/half-eternity-baguette-round-cut-lab-grown-diamond-ring"
+          }
+        },
+        "text_M9FJDp": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/DSC05212.jpg",
+            "collection_url": "shopify:\/\/products\/round-and-marquise-cut-anniversary-eternity-band-in-lab-grown-diamond"
+          }
+        }
+      },
+      "block_order": [
+        "text_GVg4Kk",
+        "text_6AAVf8",
+        "text_YRtUTz",
+        "text_8e3PPk",
+        "text_w8kCGF",
+        "text_QLV9LE",
+        "text_qMfkJr",
+        "text_M9FJDp"
+      ],
+      "settings": {
+        "headingtext": "<p>Ring<\/p>",
+        "background": ""
+      }
     }
   },
   "order": [
     "main",
-    "171931560112d71b5f"
+    "171931560112d71b5f",
+    "gallery_image_UKrjNa"
   ]
 }
