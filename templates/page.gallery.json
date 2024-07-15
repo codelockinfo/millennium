@@ -199,12 +199,96 @@
         "headingtext": "<p>Watches<\/p>",
         "background": ""
       }
+    },
+    "gallery_image_fqxYae": {
+      "type": "gallery_image",
+      "blocks": {
+        "text_HULKgJ": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/W_IMG_9362_copy.jpg",
+            "collection_url": "shopify:\/\/products\/1-2-carat-moissanite-pendant-necklace-925-sterling-silver"
+          }
+        },
+        "text_7E8UnE": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/IMG_9364.jpg",
+            "collection_url": "shopify:\/\/products\/1-2-carat-moissanite-pendant-necklace-925-sterling-silver"
+          }
+        },
+        "text_96cQDn": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/4_fc8bd5f2-151e-488a-86aa-8f5bbd032749.jpg",
+            "collection_url": "shopify:\/\/products\/classic-iced-out-moissanite-diamond-duck-hip-hop-style-pendant"
+          }
+        },
+        "text_xazjmb": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/3_db35b236-3c4f-44ab-b314-124385e7497a.jpg",
+            "collection_url": "shopify:\/\/products\/classic-iced-out-moissanite-diamond-duck-hip-hop-style-pendant"
+          }
+        },
+        "text_4bBwJg": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/3_db35b236-3c4f-44ab-b314-124385e7497a.jpg",
+            "collection_url": "shopify:\/\/products\/classic-iced-out-moissanite-diamond-duck-hip-hop-style-pendant"
+          }
+        },
+        "text_tEz8D3": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/IMG_9368.jpg",
+            "collection_url": "shopify:\/\/products\/classic-iced-out-moissanite-diamond-duck-hip-hop-style-pendant"
+          }
+        },
+        "text_4qQfnC": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/3_9085b019-fc59-476b-b549-d574c858467c.jpg",
+            "collection_url": "shopify:\/\/products\/classic-iced-out-moissanite-diamond-duck-hip-hop-style-pendant"
+          }
+        },
+        "text_nfXMkh": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/DSC09337.jpg",
+            "collection_url": "shopify:\/\/products\/classic-iced-out-moissanite-diamond-duck-hip-hop-style-pendant"
+          }
+        },
+        "text_ajM7LM": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/5_ce9eecbd-a734-4951-9a81-5493a2654ae3.jpg",
+            "collection_url": "shopify:\/\/products\/classic-iced-out-moissanite-diamond-duck-hip-hop-style-pendant"
+          }
+        }
+      },
+      "block_order": [
+        "text_HULKgJ",
+        "text_7E8UnE",
+        "text_96cQDn",
+        "text_xazjmb",
+        "text_4bBwJg",
+        "text_tEz8D3",
+        "text_4qQfnC",
+        "text_nfXMkh",
+        "text_ajM7LM"
+      ],
+      "settings": {
+        "headingtext": "<p>Pendants<\/p>",
+        "background": ""
+      }
     }
   },
   "order": [
     "main",
     "171931560112d71b5f",
     "gallery_image_UKrjNa",
-    "gallery_image_RCJUrt"
+    "gallery_image_RCJUrt",
+    "gallery_image_fqxYae"
   ]
 }
