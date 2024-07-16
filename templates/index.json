@@ -241,6 +241,16 @@
         "button_text": "View All"
       }
     },
+    "hiphop_ring_collection_eE7e7w": {
+      "type": "hiphop-ring-collection",
+      "settings": {
+        "subheadp": "Rings",
+        "background": "#f0f0f0",
+        "collectionproduct": "japan-automatic-watches",
+        "viewall": "shopify:\/\/collections\/cuban-link-chain",
+        "button_text": "View All"
+      }
+    },
     "millennium_jewelery_AP9YXh": {
       "type": "millennium-jewelery",
       "disabled": true,
@@ -610,6 +620,7 @@
     "explore_TEHqRw",
     "explore_collection_tGJNWg",
     "hiphop_ring_collection_gRUgG4",
+    "hiphop_ring_collection_eE7e7w",
     "millennium_jewelery_AP9YXh",
     "millennium_video_UarU6d",
     "our_mission_XLE69f",

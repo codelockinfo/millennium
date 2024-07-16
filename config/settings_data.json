@@ -270,12 +270,6 @@
           "button_vertical_position": "lowest",
           "greeting_message": ""
         }
-      },
-      "10821884108211614105": {
-        "type": "shopify:\/\/apps\/best-chat-live-chat\/blocks\/app-embed\/8f04fd48-10ad-4211-86e2-b3b3803a2848",
-        "disabled": false,
-        "settings": {
-        }
       }
     }
   },
