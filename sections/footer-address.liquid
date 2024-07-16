@@ -22,11 +22,13 @@
         {% endif %}
         <div>&nbsp;&nbsp;Powered by <a href="https://codelocksolutions.in">Codelock Solutions</a></div>
       </div>
-      <div class="footer_content_2">
-        {%- for link in footer_menu.links -%}
-          <a href="{{ link.url }}">{{ link.title }}</a>
-        {%- endfor -%}
-      </div>
+      {% if footer_menu.links !=  blank %}
+        <div class="footer_content_2">
+          {%- for link in footer_menu.links -%}
+            <a href="{{ link.url }}">{{ link.title }}</a>
+          {%- endfor -%}
+        </div>
+      {% endif %}
     </div>
   </div>
 {% endunless %}
