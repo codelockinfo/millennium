@@ -298,7 +298,8 @@
   padding-left: 10%;
 }
 
-.site-nav__item .site-nav__link {
+.site-nav__item .site-nav__link,
+.site-nav--has-dropdown.is-focused>a {
   color: #282828 !important;
   font-family: 'Montserrat Alternates';
   font-weight: 500;
@@ -311,6 +312,10 @@
   padding: 7.5px 10px;
   letter-spacing: 0;
 
+}
+
+.site-nav__dropdown.megamenu {
+  margin-top: 1%;
 }
 
 .site-nav__item .site-nav__link:hover {
