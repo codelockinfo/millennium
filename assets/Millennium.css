@@ -316,6 +316,7 @@
 
 .site-nav__dropdown.megamenu {
   margin-top: 28px;
+  border-radius: 10px;
 }
 
 
@@ -1015,7 +1016,7 @@ textarea#personalize-box::placeholder {
 
 @media screen and (min-width: 1024px) {
   .site-nav__dropdown.megamenu {
-    min-width: 900PX;
+    min-width: 900px;
     left: unset;
   }
 
