@@ -1021,7 +1021,7 @@ textarea#personalize-box::placeholder {
     left: unset;
   }
 
-  .medium-up--one-fifth {
+  .site-nav__dropdown.megamenu .medium-up--one-fifth {
     width: 27%;
   }
 
