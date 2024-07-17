@@ -315,12 +315,13 @@
 }
 
 .site-nav__dropdown.megamenu {
-  margin-top: 28px;
+  margin-top: 35px;
   border-radius: 10px;
 }
 
 
-.site-nav__item .site-nav__link:hover {
+.site-nav__item .site-nav__link:hover,
+.site-nav--has-dropdown:hover>a {
   border-left: 1px solid #D0C272;
   border-right: 1px solid #D0C272;
   border-radius: 20px;
