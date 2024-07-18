@@ -319,6 +319,9 @@
   border-radius: 10px;
 }
 
+.site-nav__dropdown-link.site-nav__dropdown-link--top-level {
+  cursor: default;
+}
 
 .site-nav__item .site-nav__link:hover,
 .site-nav--has-dropdown:hover>a {

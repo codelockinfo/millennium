@@ -67,16 +67,15 @@
                       assign subcollection_drop = collections[subcollection_handle]
                     -%}
                     {%- if subcollection_drop.image != blank -%}
-                      <a
-                        href="{{ childlink.url }}"
+                      <div
                         class="megamenu__colection-image"
                         aria-label="{{collections[subcollection_handle].title}}"
-                        style="background-image: url({{ collections[subcollection_handle].image | img_url: '400x' }})"></a>
+                        style="background-image: url({{ collections[subcollection_handle].image | img_url: '400x' }})"></div>
                     {%- endif -%}
                   {%- endif -%}
 
                   <div class="h5">
-                    <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">{{ childlink.title }}</a>
+                    <div class="site-nav__dropdown-link site-nav__dropdown-link--top-level">{{ childlink.title }}</div>
                   </div>
 
                   {%- liquid
