@@ -20,7 +20,7 @@
         {% if section.settings.address != blank %}
           {{ section.settings.address }}
         {% endif %}
-        <div>&nbsp;&nbsp;Powered by <a href="https://codelocksolutions.in">Codelock Solutions</a></div>
+        {% comment %} <div>&nbsp;&nbsp;Powered by <a href="https://codelocksolutions.in">Codelock Solutions</a></div> {% endcomment %}
       </div>
       {% if footer_menu.links !=  blank %}
         <div class="footer_content_2">
@@ -51,6 +51,7 @@
       },
       {
         "type": "color",
+        
         "id": "color_footer_address",
         "label": "color",
         "default": "#111"
