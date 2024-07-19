@@ -83,6 +83,7 @@
     "social_youtube_link": "https:\/\/www.youtube.com\/@MillenniumJewelery",
     "favicon": "shopify:\/\/shop_images\/logo_0139e2b6-92e8-433d-ad1a-3c9dab0588f7.png",
     "search_enable": true,
+    "wishlist_link": "shopify:\/\/pages\/wishlist",
     "show_breadcrumbs": true,
     "show_breadcrumbs_collection_link": false,
     "checkout_logo_position": "left",
@@ -239,12 +240,6 @@
 
     ],
     "blocks": {
-      "8813254906777318544": {
-        "type": "shopify:\/\/apps\/kaktus-advanced-wishlist\/blocks\/app-embeded\/21053a4c-1902-4720-aab8-ebfc69de009a",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "14060646107696862457": {
         "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
@@ -280,6 +275,12 @@
       "7555218208816688692": {
         "type": "shopify:\/\/apps\/tydal-popups-email-pop-ups\/blocks\/app-embed\/48a5a3ef-b6ff-431f-842f-6f17862c4a63",
         "disabled": true,
+        "settings": {
+        }
+      },
+      "8813254906777318544": {
+        "type": "shopify:\/\/apps\/kaktus-advanced-wishlist\/blocks\/app-embeded\/21053a4c-1902-4720-aab8-ebfc69de009a",
+        "disabled": false,
         "settings": {
         }
       }
