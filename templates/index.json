@@ -68,41 +68,6 @@
         "autoplay_speed": 5
       }
     },
-    "banner_custom_section_N3MWmb": {
-      "type": "banner-custom-section",
-      "blocks": {
-        "text_QQUdXR": {
-          "type": "text",
-          "settings": {
-            "banner_img": "shopify:\/\/shop_images\/008.jpg",
-            "banner_heading": "<p>You Were Born <\/p><p>To Stand Out<\/p>",
-            "button1_text": "Get 40-60% Off",
-            "button2_text": "View Collection",
-            "collection_url": "",
-            "sell_discount": ""
-          }
-        },
-        "text_PCRqch": {
-          "type": "text",
-          "settings": {
-            "banner_img": "shopify:\/\/shop_images\/banner.png",
-            "banner_heading": "<p>You Were Born <\/p><p>To Stand Out<\/p>",
-            "button1_text": "Get 40-60% Off",
-            "button2_text": "View Collection",
-            "collection_url": "",
-            "sell_discount": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_QQUdXR",
-        "text_PCRqch"
-      ],
-      "disabled": true,
-      "settings": {
-        "banner_background": "#e1dad0"
-      }
-    },
     "category_slider_LU46Ei": {
       "type": "category-slider",
       "blocks": {
@@ -604,7 +569,6 @@
   },
   "order": [
     "slideshow_cjDeH6",
-    "banner_custom_section_N3MWmb",
     "category_slider_LU46Ei",
     "collection_slider_section_VnyWwX",
     "explore_TEHqRw",
