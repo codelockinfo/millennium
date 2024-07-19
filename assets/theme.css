@@ -4317,7 +4317,7 @@ symbol.icon:not(.icon--full-color) rect {
 .loading:after,
 .unload:after {
   opacity: 0;
-  animation: preloading 0.5s ease 0.3s infinite;
+  animation: preloading 0.5s ease  infinite;
 }
 
 .loading--delayed:before {
