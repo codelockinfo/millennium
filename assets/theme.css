@@ -4321,13 +4321,13 @@ symbol.icon:not(.icon--full-color) rect {
 }
 
 .loading--delayed:before {
-  animation-delay: 0.8s !important;
+  /* animation-delay: 0.8s !important; */
   animation-duration: 1s !important;
 }
 
-.loading--delayed:after {
+/* .loading--delayed:after {
   animation-delay: 1.3s !important;
-}
+} */
 
 .appear-animation {
   opacity: 0;
