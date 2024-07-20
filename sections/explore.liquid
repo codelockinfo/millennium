@@ -4,7 +4,7 @@
       <div class="explore-box1">
         {% if block.settings.explore1 != blank %}
           <div class="explore-img">
-            <img src="{{block.settings.explore1 |  img_url:'master' }}" alt="" class="explore_img_1">
+            <img src="{{block.settings.explore1 |  img_url:'master' }}" alt="" class="explore_img_1" loading="lazy">
             <div class="explore-content">
               <h1 class="content-heading">{{ block.settings.heading_text }}</h1>
               <p class="content-p">{{ block.settings.pargraph_text }}</p>

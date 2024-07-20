@@ -14,13 +14,13 @@
     <div class="trusted_by">
       {% if section.settings.trusted_by_image != blank %}
         <div class="main_image_1">
-          <img src="{{ section.settings.trusted_by_image | img_url: 'master' }}" alt="">
+          <img src="{{ section.settings.trusted_by_image | img_url: 'master' }}" alt="" class="lazyload" loading="lazy">
         </div>
       {% endif %}
       {% if section.settings.heading != blank %}<h2 class="head">{{ section.settings.heading }}</h2>{% endif %}
       {% if section.settings.trusted_by_image != blank %}
         <div class="main_image_1">
-          <img src="{{ section.settings.trusted_by_image | img_url: 'master' }}" alt="">
+          <img src="{{ section.settings.trusted_by_image | img_url: 'master' }}" alt="" class="lazyload" loading="lazy">
         </div>
       {% endif %}
     </div>

@@ -3,21 +3,21 @@
        <div class="grid-container">
          <div class="box_1">
             {% if section.settings.eimg1 != blank %}
-             <div class="grid-item"><a href="{{section.settings.ecollectionurl1}}" class="e-collection-url"><img src="{{section.settings.eimg1 |  img_url:'master' }}" class="e-img" alt=""></a></div>
+             <div class="grid-item"><a href="{{section.settings.ecollectionurl1}}" class="e-collection-url"><img src="{{section.settings.eimg1 |  img_url:'master' }}" class="e-img" alt="" loading="lazy"></a></div>
             {% endif %}
             {% if section.settings.eimg2 != blank %}
-             <div class="grid-item"> <a href="{{section.settings.ecollectionurl2}}" class="e-collection-url"><img src="{{section.settings.eimg2 |  img_url:'master' }}" class="e-img" alt=""></a></div>
+             <div class="grid-item"> <a href="{{section.settings.ecollectionurl2}}" class="e-collection-url"><img src="{{section.settings.eimg2 |  img_url:'master' }}" class="e-img" alt="" loading="lazy"></a></div>
             {% endif %}
          </div>
          <div class="box_2">
             {% if section.settings.eimg3 != blank %}
-            <div class="grid-item"><a href="{{section.settings.ecollectionurl3}}"class="e-collection-url"> <img src="{{section.settings.eimg3 |  img_url:'master' }}" class="e-img" alt=""></a></div>
+            <div class="grid-item"><a href="{{section.settings.ecollectionurl3}}"class="e-collection-url"> <img src="{{section.settings.eimg3 |  img_url:'master' }}" class="e-img" alt="" loading="lazy"></a></div>
         {% endif %}
         {% if section.settings.eimg4 != blank %}
-            <div class="grid-item"><a href="{{section.settings.ecollectionurl4}}"class="e-collection-url"> <img src="{{section.settings.eimg4 |  img_url:'master' }}" class="e-img" alt=""></a></div>
+            <div class="grid-item"><a href="{{section.settings.ecollectionurl4}}"class="e-collection-url"> <img src="{{section.settings.eimg4 |  img_url:'master' }}" class="e-img" alt="" loading="lazy"></a></div>
         {% endif %}
         {% if section.settings.eimg5 != blank %}
-            <div class="grid-item"><a href="{{section.settings.ecollectionurl5}}"class="e-collection-url"><img src="{{section.settings.eimg5 |  img_url:'master' }}" class="e-img" alt=""></a></div>
+            <div class="grid-item"><a href="{{section.settings.ecollectionurl5}}"class="e-collection-url"><img src="{{section.settings.eimg5 |  img_url:'master' }}" class="e-img" alt="" loading="lazy"></a></div>
         {% endif %}
          </div>
        </div>

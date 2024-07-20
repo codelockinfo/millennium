@@ -22,7 +22,7 @@
             <a href="{{ section.settings.jewelery_url_1 }}">
               {{ section.settings.button }}
               {% if section.settings.btn_img != blank %}
-                <img src="{{ section.settings.btn_img |  img_url: 'master' }}" alt="">
+                <img src="{{ section.settings.btn_img |  img_url: 'master' }}" alt="" loading="lazy">
               {% endif %}
             </a>
           </button>
@@ -31,7 +31,7 @@
     </div>
     {% if section.settings.image1 != blank %}
       <div class="line">
-        <img src="{{ section.settings.image1 | img_url: 'master' }}" alt="">
+        <img src="{{ section.settings.image1 | img_url: 'master' }}" alt="" loading="lazy">
       </div>
     {% endif %}
     <div class="content_jewelery_video-2">
@@ -44,7 +44,7 @@
             <a href="{{ section.settings.jewelery_url }}">
               {{ section.settings.button2 }}
               {% if section.settings.btn_img2 != blank %}
-                <img src="{{ section.settings.btn_img2 | img_url: 'master' }}" alt="">
+                <img src="{{ section.settings.btn_img2 | img_url: 'master' }}" alt="" loading="lazy">
               {% endif %}
             </a>
           </button>
