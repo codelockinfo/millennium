@@ -106,19 +106,11 @@
         "enable_color_swatches": true,
         "enable_sort": true
       }
-    },
-    "17216212140e4dd711": {
-      "type": "apps",
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
     }
   },
   "order": [
     "collection-header",
     "promo-grid",
-    "main-collection",
-    "17216212140e4dd711"
+    "main-collection"
   ]
 }
