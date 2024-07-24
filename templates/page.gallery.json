@@ -20,12 +20,6 @@
     "rich_text_9PN8n7": {
       "type": "rich-text",
       "blocks": {
-        "heading_weeE3m": {
-          "type": "heading",
-          "settings": {
-            "title": "About"
-          }
-        },
         "text_mhATt7": {
           "type": "text",
           "settings": {
@@ -35,7 +29,6 @@
         }
       },
       "block_order": [
-        "heading_weeE3m",
         "text_mhATt7"
       ],
       "settings": {
