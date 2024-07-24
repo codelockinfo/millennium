@@ -17,6 +17,21 @@
       "settings": {
       }
     },
+    "text_and_image_f3mgT4": {
+      "type": "text-and-image",
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "About",
+        "text": "<p>Discover our exclusive collection of unique <a href=\"https:\/\/millenniumjewelery.com\/collections\/fully-iced-out-moissanite-diamond-watches\" target=\"_blank\" title=\"https:\/\/millenniumjewelery.com\/collections\/fully-iced-out-moissanite-diamond-watches\"><strong>Diamond Watches<\/strong><\/a>, luxurious <a href=\"https:\/\/millenniumjewelery.com\/collections\/cuban-link-chain\" target=\"_blank\" title=\"https:\/\/millenniumjewelery.com\/collections\/cuban-link-chain\"><strong>Cuban Chains<\/strong><\/a>, and <a href=\"https:\/\/millenniumjewelery.com\/collections\/custom-diamond-jewelry\" target=\"_blank\" title=\"https:\/\/millenniumjewelery.com\/collections\/custom-diamond-jewelry\"><strong>Custom Diamond Jewelry<\/strong><\/a>. Each piece showcases exquisite craftsmanship and timeless elegance. Find the perfect accessory to elevate your style.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
     "rich_text_9PN8n7": {
       "type": "rich-text",
       "blocks": {
@@ -31,6 +46,7 @@
       "block_order": [
         "text_mhATt7"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -205,28 +221,13 @@
         "headingtext": "<p>Cuban Link Chain<\/p>",
         "background": ""
       }
-    },
-    "text_and_image_f3mgT4": {
-      "type": "text-and-image",
-      "settings": {
-        "image_width": 700,
-        "subtitle": "",
-        "title": "About",
-        "text": "<p>Discover our exclusive collection of unique <a href=\"https:\/\/millenniumjewelery.com\/collections\/fully-iced-out-moissanite-diamond-watches\" target=\"_blank\" title=\"https:\/\/millenniumjewelery.com\/collections\/fully-iced-out-moissanite-diamond-watches\"><strong>Diamond Watches<\/strong><\/a>, luxurious <a href=\"https:\/\/millenniumjewelery.com\/collections\/cuban-link-chain\" target=\"_blank\" title=\"https:\/\/millenniumjewelery.com\/collections\/cuban-link-chain\"><strong>Cuban Chains<\/strong><\/a>, and <a href=\"https:\/\/millenniumjewelery.com\/collections\/custom-diamond-jewelry\" target=\"_blank\" title=\"https:\/\/millenniumjewelery.com\/collections\/custom-diamond-jewelry\"><strong>Custom Diamond Jewelry<\/strong><\/a>. Each piece showcases exquisite craftsmanship and timeless elegance. Find the perfect accessory to elevate your style.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "layout": "right",
-        "divider": false
-      }
     }
   },
   "order": [
     "main",
+    "text_and_image_f3mgT4",
     "rich_text_9PN8n7",
     "gallery_image_RCJUrt",
-    "gallery_image_fqxYae",
-    "text_and_image_f3mgT4"
+    "gallery_image_fqxYae"
   ]
 }
