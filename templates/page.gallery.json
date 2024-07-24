@@ -30,11 +30,59 @@
             "category_img": "shopify:\/\/shop_images\/4_a4e86633-83d6-42fd-920e-fbb9e0cae3f1.jpg",
             "collection_url": "shopify:\/\/products\/iced-out-blue-color-belt-automatic-wrist-moissanite-watch"
           }
+        },
+        "text_hNffiT": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/1_bedd9078-98a4-4794-b578-31d47328cdc5.jpg",
+            "collection_url": ""
+          }
+        },
+        "text_UcQYpj": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/4_3b54ee75-dac5-4f07-822f-28220e51a4ab.jpg",
+            "collection_url": ""
+          }
+        },
+        "text_Bjccjx": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/1_258aef31-0f8c-4dce-8475-a57fa9d549d2.jpg",
+            "collection_url": ""
+          }
+        },
+        "text_LJC4zG": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/4_8a113f55-a28d-4c99-9706-b55369eb90cd.jpg",
+            "collection_url": ""
+          }
+        },
+        "text_Ercaem": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/1_3c32fa15-2d7c-41d5-beaf-43e74c4e621d.jpg",
+            "collection_url": ""
+          }
+        },
+        "text_eenmfd": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/5_311af08f-90d7-4a23-ae6f-1759d13c9744.jpg",
+            "collection_url": ""
+          }
         }
       },
       "block_order": [
         "text_y8f3DN",
-        "text_9kLkNr"
+        "text_9kLkNr",
+        "text_hNffiT",
+        "text_UcQYpj",
+        "text_Bjccjx",
+        "text_LJC4zG",
+        "text_Ercaem",
+        "text_eenmfd"
       ],
       "settings": {
         "headingtext": "<p>Watches<\/p>",
