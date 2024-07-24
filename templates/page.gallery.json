@@ -143,7 +143,7 @@
 
       ],
       "settings": {
-        "headingtext": "<p>Watches<\/p>",
+        "headingtext": "<h3>Watches<\/h3>",
         "background": ""
       }
     },
