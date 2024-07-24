@@ -112,71 +112,63 @@
           "type": "text",
           "settings": {
             "category_img": "shopify:\/\/shop_images\/MG_2035_a7d8f6d3-df8a-4987-b264-09d9ffbdaa20.jpg",
-            "collection_url": "shopify:\/\/products\/classic-iced-out-moissanite-diamond-duck-hip-hop-style-pendant"
-          }
-        },
-        "text_iF9a69": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/MG_2073.jpg",
-            "collection_url": ""
+            "collection_url": "shopify:\/\/products\/buy-iced-out-moissanite-diamond-cuban-link-chain-necklace"
           }
         },
         "text_thLKyC": {
           "type": "text",
           "settings": {
             "category_img": "shopify:\/\/shop_images\/1_fc1c46b5-cc76-4175-830f-320e572bcbac.jpg",
-            "collection_url": ""
-          }
-        },
-        "text_ya3AN4": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/Y_MG_9499copy.jpg",
-            "collection_url": ""
+            "collection_url": "shopify:\/\/products\/cuban-link-chain-for-men-iced-out-moissanite-diamond"
           }
         },
         "text_FR63Cq": {
           "type": "text",
           "settings": {
             "category_img": "shopify:\/\/shop_images\/MG_9509_2c376cc0-bd7e-4b20-a482-c50c38f0c82d.jpg",
-            "collection_url": ""
-          }
-        },
-        "text_FRTQJh": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/YB_MG_9533copy.jpg",
-            "collection_url": ""
+            "collection_url": "shopify:\/\/products\/heavy-quality-hip-hop-moissanite-diamond-iced-out-cuban-chain"
           }
         },
         "text_yqTpKV": {
           "type": "text",
           "settings": {
             "category_img": "shopify:\/\/shop_images\/MG_0890_0d5f9111-0142-4224-b2b8-44a6fe39ec9a.jpg",
-            "collection_url": ""
+            "collection_url": "shopify:\/\/products\/buy-iced-out-moissanite-diamond-cuban-link-chain-necklace"
           }
         },
-        "text_fDX8AE": {
+        "text_ihP3Am": {
           "type": "text",
           "settings": {
-            "category_img": "shopify:\/\/shop_images\/MG_0905.jpg",
-            "collection_url": ""
+            "category_img": "shopify:\/\/shop_images\/Y_MG_2450copy.jpg",
+            "collection_url": "shopify:\/\/products\/moissanite-diamond-iced-out-hip-hop-cuban-link-chain"
+          }
+        },
+        "text_cFUbRy": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/MG_1965_e027f004-cdd1-49f6-b04b-c7ceee116552.jpg",
+            "collection_url": "shopify:\/\/products\/moissanite-diamond-embellished-hip-hop-style-cuban-link-chain"
+          }
+        },
+        "text_7xqfYY": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/R__MG_0283_copy_6b95f8af-a04c-497e-99c9-129a2511f08d.jpg",
+            "collection_url": "shopify:\/\/products\/elegant-look-hip-hop-style-moissanite-diamond-iced-out-cuban-chain-for-men"
           }
         }
       },
       "block_order": [
         "text_ajM7LM",
-        "text_iF9a69",
         "text_thLKyC",
-        "text_ya3AN4",
         "text_FR63Cq",
-        "text_FRTQJh",
         "text_yqTpKV",
-        "text_fDX8AE"
+        "text_ihP3Am",
+        "text_cFUbRy",
+        "text_7xqfYY"
       ],
       "settings": {
-        "headingtext": "<p>Pendants<\/p>",
+        "headingtext": "<p>Cuban Link Chain<\/p>",
         "background": ""
       }
     }
