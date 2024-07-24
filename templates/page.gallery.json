@@ -24,24 +24,17 @@
             "collection_url": ""
           }
         },
-        "text_9kLkNr": {
+        "text_NCMpam": {
           "type": "text",
           "settings": {
-            "category_img": "shopify:\/\/shop_images\/4_a4e86633-83d6-42fd-920e-fbb9e0cae3f1.jpg",
-            "collection_url": "shopify:\/\/products\/iced-out-blue-color-belt-automatic-wrist-moissanite-watch"
+            "category_img": "shopify:\/\/shop_images\/01_eda7f9cd-6b62-430d-9251-f454444770f6.jpg",
+            "collection_url": "shopify:\/\/products\/stylish-moissanite-diamond-automatic-dial-with-leather-belt-watch"
           }
         },
         "text_hNffiT": {
           "type": "text",
           "settings": {
             "category_img": "shopify:\/\/shop_images\/1_bedd9078-98a4-4794-b578-31d47328cdc5.jpg",
-            "collection_url": ""
-          }
-        },
-        "text_UcQYpj": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/4_3b54ee75-dac5-4f07-822f-28220e51a4ab.jpg",
             "collection_url": ""
           }
         },
@@ -52,13 +45,6 @@
             "collection_url": ""
           }
         },
-        "text_LJC4zG": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/4_8a113f55-a28d-4c99-9706-b55369eb90cd.jpg",
-            "collection_url": ""
-          }
-        },
         "text_Ercaem": {
           "type": "text",
           "settings": {
@@ -66,23 +52,52 @@
             "collection_url": ""
           }
         },
-        "text_eenmfd": {
+        "text_FcPRKV": {
           "type": "text",
           "settings": {
-            "category_img": "shopify:\/\/shop_images\/5_311af08f-90d7-4a23-ae6f-1759d13c9744.jpg",
+            "category_img": "shopify:\/\/shop_images\/5_aff7b6c3-1958-4ae5-a4c3-a8e3fa58654c.jpg",
+            "collection_url": "shopify:\/\/products\/classic-moissanite-diamond-automatic-movement-two-tone-watch"
+          }
+        },
+        "text_VqAFcy": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/02.jpg",
+            "collection_url": "shopify:\/\/products\/music-edition-fancy-dial-moissanite-diamond-with-yellow-rubber-belt"
+          }
+        },
+        "text_L73Ryg": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/1_05d6b8e5-87f9-4f99-b16d-0e9c34c8d83e.jpg",
+            "collection_url": "shopify:\/\/products\/elegant-automatic-roman-number-swiss-style-moissanite-watch"
+          }
+        },
+        "text_nVeTnf": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/5_0755516d-f543-449c-a0ca-95db79a04f53.jpg",
+            "collection_url": "shopify:\/\/products\/awesome-iced-out-automatic-moissanite-diamond-wrist-watch"
+          }
+        },
+        "text_7LWzwY": {
+          "type": "text",
+          "settings": {
             "collection_url": ""
           }
         }
       },
       "block_order": [
         "text_y8f3DN",
-        "text_9kLkNr",
+        "text_NCMpam",
         "text_hNffiT",
-        "text_UcQYpj",
         "text_Bjccjx",
-        "text_LJC4zG",
         "text_Ercaem",
-        "text_eenmfd"
+        "text_FcPRKV",
+        "text_VqAFcy",
+        "text_L73Ryg",
+        "text_nVeTnf",
+        "text_7LWzwY"
       ],
       "settings": {
         "headingtext": "<p>Watches<\/p>",
@@ -163,31 +178,11 @@
         "headingtext": "<p>Pendants<\/p>",
         "background": ""
       }
-    },
-    "gallery_image_UKrjNa": {
-      "type": "gallery_image",
-      "blocks": {
-        "text_M64ADJ": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/DSC05223.jpg",
-            "collection_url": "shopify:\/\/products\/stylish-baguette-shape-wedding-band-in-lab-grown-diamond"
-          }
-        }
-      },
-      "block_order": [
-        "text_M64ADJ"
-      ],
-      "settings": {
-        "headingtext": "<p>Ring<\/p>",
-        "background": ""
-      }
     }
   },
   "order": [
     "main",
     "gallery_image_RCJUrt",
-    "gallery_image_fqxYae",
-    "gallery_image_UKrjNa"
+    "gallery_image_fqxYae"
   ]
 }
