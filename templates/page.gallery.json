@@ -20,6 +20,8 @@
     "text_and_image_f3mgT4": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled-1_copy.jpg",
+        "image2": "shopify:\/\/shop_images\/Untitled-1_copy.jpg",
         "image_width": 700,
         "subtitle": "",
         "title": "About",
