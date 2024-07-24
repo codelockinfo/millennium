@@ -14,65 +14,36 @@
       "settings": {
       }
     },
+    "gallery_image_RCJUrt": {
+      "type": "gallery_image",
+      "blocks": {
+        "text_y8f3DN": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/1_47cc6661-527a-48bc-8a88-9f79d1eaf372.jpg",
+            "collection_url": ""
+          }
+        },
+        "text_9kLkNr": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/4_a4e86633-83d6-42fd-920e-fbb9e0cae3f1.jpg",
+            "collection_url": "shopify:\/\/products\/iced-out-blue-color-belt-automatic-wrist-moissanite-watch"
+          }
+        }
+      },
+      "block_order": [
+        "text_y8f3DN",
+        "text_9kLkNr"
+      ],
+      "settings": {
+        "headingtext": "<p>Watches<\/p>",
+        "background": ""
+      }
+    },
     "gallery_image_UKrjNa": {
       "type": "gallery_image",
       "blocks": {
-        "text_GVg4Kk": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/DSC08947.jpg",
-            "collection_url": "shopify:\/\/collections\/womens-rings"
-          }
-        },
-        "text_6AAVf8": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/DSC08946.jpg",
-            "collection_url": "shopify:\/\/collections\/diamond-rings"
-          }
-        },
-        "text_YRtUTz": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/DSC04898.jpg",
-            "collection_url": "shopify:\/\/products\/c-letter-customized-moissanite-diamond-hip-hop-championship-ring"
-          }
-        },
-        "text_8e3PPk": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/DSC04912.jpg",
-            "collection_url": "shopify:\/\/products\/classic-cluster-brilliant-round-cut-lab-grown-diamond-ring"
-          }
-        },
-        "text_w8kCGF": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/DSC01079.jpg",
-            "collection_url": "shopify:\/\/collections\/mens-rings"
-          }
-        },
-        "text_QLV9LE": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/DSC04152.jpg",
-            "collection_url": "shopify:\/\/products\/classic-cluster-brilliant-round-cut-lab-grown-diamond-ring"
-          }
-        },
-        "text_qMfkJr": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/DSC04117.jpg",
-            "collection_url": "shopify:\/\/products\/half-eternity-baguette-round-cut-lab-grown-diamond-ring"
-          }
-        },
-        "text_M9FJDp": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/DSC05212.jpg",
-            "collection_url": "shopify:\/\/products\/round-and-marquise-cut-anniversary-eternity-band-in-lab-grown-diamond"
-          }
-        },
         "text_M64ADJ": {
           "type": "text",
           "settings": {
@@ -82,14 +53,6 @@
         }
       },
       "block_order": [
-        "text_GVg4Kk",
-        "text_6AAVf8",
-        "text_YRtUTz",
-        "text_8e3PPk",
-        "text_w8kCGF",
-        "text_QLV9LE",
-        "text_qMfkJr",
-        "text_M9FJDp",
         "text_M64ADJ"
       ],
       "settings": {
@@ -97,148 +60,9 @@
         "background": ""
       }
     },
-    "gallery_image_RCJUrt": {
-      "type": "gallery_image",
-      "blocks": {
-        "text_zqR8hD": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/01_71b6b048-b2ba-4a06-8d81-64b2a069fa1f.jpg",
-            "collection_url": "shopify:\/\/products\/fully-diamond-iced-out-moissanite-watch"
-          }
-        },
-        "text_LnTGKL": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/020_971b87bf-4bd1-4812-8e09-5001368943b4.jpg",
-            "collection_url": "shopify:\/\/products\/amazing-fully-moissanite-diamond-iced-out-wrist-watch"
-          }
-        },
-        "text_LgnAHH": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/03_f08b4b29-5733-4141-90b2-144ced291ab0.jpg",
-            "collection_url": "shopify:\/\/products\/iced-out-blue-color-belt-automatic-wrist-moissanite-watch"
-          }
-        },
-        "text_rQRgNR": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/01_82282cd6-eb65-4da0-bb17-57aa812b1864.jpg",
-            "collection_url": "shopify:\/\/products\/aesthetic-snake-skin-pattern-fully-iced-out-moissanite-watch"
-          }
-        },
-        "text_8qfRgc": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/01_692c6332-f556-4691-9c18-9b07059de289.jpg",
-            "collection_url": "shopify:\/\/products\/moissanite-diamond-iced-out-and-automatic-superior-watch"
-          }
-        },
-        "text_XXbJnJ": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/04_c64fa3c9-693c-4af0-803c-03145539938d.jpg",
-            "collection_url": "shopify:\/\/products\/iced-out-blue-color-belt-automatic-wrist-moissanite-watch"
-          }
-        },
-        "text_Et9Jpq": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/01_692c6332-f556-4691-9c18-9b07059de289.jpg",
-            "collection_url": "shopify:\/\/products\/iced-out-blue-color-belt-automatic-wrist-moissanite-watch"
-          }
-        },
-        "text_kmDXUB": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/02_126ea301-5832-436f-847b-18fc109402fd.jpg",
-            "collection_url": "shopify:\/\/products\/iced-out-blue-color-belt-automatic-wrist-moissanite-watch"
-          }
-        },
-        "text_9kLkNr": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/024_2500x2000_2.jpg",
-            "collection_url": "shopify:\/\/products\/iced-out-blue-color-belt-automatic-wrist-moissanite-watch"
-          }
-        }
-      },
-      "block_order": [
-        "text_zqR8hD",
-        "text_LnTGKL",
-        "text_LgnAHH",
-        "text_rQRgNR",
-        "text_8qfRgc",
-        "text_XXbJnJ",
-        "text_Et9Jpq",
-        "text_kmDXUB",
-        "text_9kLkNr"
-      ],
-      "settings": {
-        "headingtext": "<p>Watches<\/p>",
-        "background": ""
-      }
-    },
     "gallery_image_fqxYae": {
       "type": "gallery_image",
       "blocks": {
-        "text_HULKgJ": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/W_IMG_9362_copy.jpg",
-            "collection_url": "shopify:\/\/products\/1-2-carat-moissanite-pendant-necklace-925-sterling-silver"
-          }
-        },
-        "text_7E8UnE": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/IMG_9364.jpg",
-            "collection_url": "shopify:\/\/products\/1-2-carat-moissanite-pendant-necklace-925-sterling-silver"
-          }
-        },
-        "text_96cQDn": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/4_fc8bd5f2-151e-488a-86aa-8f5bbd032749.jpg",
-            "collection_url": "shopify:\/\/products\/classic-iced-out-moissanite-diamond-duck-hip-hop-style-pendant"
-          }
-        },
-        "text_xazjmb": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/3_db35b236-3c4f-44ab-b314-124385e7497a.jpg",
-            "collection_url": "shopify:\/\/products\/classic-iced-out-moissanite-diamond-duck-hip-hop-style-pendant"
-          }
-        },
-        "text_4bBwJg": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/3_db35b236-3c4f-44ab-b314-124385e7497a.jpg",
-            "collection_url": "shopify:\/\/products\/classic-iced-out-moissanite-diamond-duck-hip-hop-style-pendant"
-          }
-        },
-        "text_tEz8D3": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/IMG_9368.jpg",
-            "collection_url": "shopify:\/\/products\/classic-iced-out-moissanite-diamond-duck-hip-hop-style-pendant"
-          }
-        },
-        "text_4qQfnC": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/3_9085b019-fc59-476b-b549-d574c858467c.jpg",
-            "collection_url": "shopify:\/\/products\/classic-iced-out-moissanite-diamond-duck-hip-hop-style-pendant"
-          }
-        },
-        "text_nfXMkh": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/DSC09337.jpg",
-            "collection_url": "shopify:\/\/products\/classic-iced-out-moissanite-diamond-duck-hip-hop-style-pendant"
-          }
-        },
         "text_ajM7LM": {
           "type": "text",
           "settings": {
@@ -248,14 +72,6 @@
         }
       },
       "block_order": [
-        "text_HULKgJ",
-        "text_7E8UnE",
-        "text_96cQDn",
-        "text_xazjmb",
-        "text_4bBwJg",
-        "text_tEz8D3",
-        "text_4qQfnC",
-        "text_nfXMkh",
         "text_ajM7LM"
       ],
       "settings": {
@@ -266,8 +82,8 @@
   },
   "order": [
     "main",
-    "gallery_image_UKrjNa",
     "gallery_image_RCJUrt",
+    "gallery_image_UKrjNa",
     "gallery_image_fqxYae"
   ]
 }
