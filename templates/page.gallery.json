@@ -19,7 +19,6 @@
     },
     "text_and_image_f3mgT4": {
       "type": "text-and-image",
-      "disabled": true,
       "settings": {
         "image_width": 700,
         "subtitle": "",
