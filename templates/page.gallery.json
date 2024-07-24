@@ -134,7 +134,7 @@
 
       ],
       "settings": {
-        "headingtext": "<h3>Watches<\/h3>",
+        "headingtext": "<p>Watches<\/p>",
         "background": ""
       }
     },
@@ -209,7 +209,7 @@
         "text_EU4kBj"
       ],
       "settings": {
-        "headingtext": "<h3>Cuban Link Chain<\/h3>",
+        "headingtext": "<p>Cuban Link Chain<\/p>",
         "background": ""
       }
     }
