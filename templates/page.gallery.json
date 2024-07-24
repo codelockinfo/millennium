@@ -156,6 +156,13 @@
             "category_img": "shopify:\/\/shop_images\/R__MG_0283_copy_6b95f8af-a04c-497e-99c9-129a2511f08d.jpg",
             "collection_url": "shopify:\/\/products\/elegant-look-hip-hop-style-moissanite-diamond-iced-out-cuban-chain-for-men"
           }
+        },
+        "text_EU4kBj": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/FMC14565_1_1.jpg",
+            "collection_url": "shopify:\/\/products\/moissanite-diamond-embellished-hip-hop-style-unisex-cuban-link-chain"
+          }
         }
       },
       "block_order": [
@@ -165,7 +172,8 @@
         "text_yqTpKV",
         "text_ihP3Am",
         "text_cFUbRy",
-        "text_7xqfYY"
+        "text_7xqfYY",
+        "text_EU4kBj"
       ],
       "settings": {
         "headingtext": "<p>Cuban Link Chain<\/p>",
