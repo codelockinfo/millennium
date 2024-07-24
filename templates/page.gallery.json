@@ -21,7 +21,7 @@
           "type": "text",
           "settings": {
             "category_img": "shopify:\/\/shop_images\/1_47cc6661-527a-48bc-8a88-9f79d1eaf372.jpg",
-            "collection_url": ""
+            "collection_url": "shopify:\/\/products\/elegant-roman-number-moissanite-diamond-iced-out-automatic-watch"
           }
         },
         "text_NCMpam": {
@@ -35,21 +35,14 @@
           "type": "text",
           "settings": {
             "category_img": "shopify:\/\/shop_images\/1_bedd9078-98a4-4794-b578-31d47328cdc5.jpg",
-            "collection_url": ""
+            "collection_url": "shopify:\/\/products\/ravishing-iced-out-black-color-belt-automatic-moissanite-watch"
           }
         },
         "text_Bjccjx": {
           "type": "text",
           "settings": {
             "category_img": "shopify:\/\/shop_images\/1_258aef31-0f8c-4dce-8475-a57fa9d549d2.jpg",
-            "collection_url": ""
-          }
-        },
-        "text_Ercaem": {
-          "type": "text",
-          "settings": {
-            "category_img": "shopify:\/\/shop_images\/1_3c32fa15-2d7c-41d5-beaf-43e74c4e621d.jpg",
-            "collection_url": ""
+            "collection_url": "shopify:\/\/products\/exquisite-fully-moissanite-diamond-iced-out-automatic-watch"
           }
         },
         "text_FcPRKV": {
@@ -83,7 +76,15 @@
         "text_7LWzwY": {
           "type": "text",
           "settings": {
-            "collection_url": ""
+            "category_img": "shopify:\/\/shop_images\/1_6f9496c1-e70e-4d3e-b8e9-86e14c22c749.jpg",
+            "collection_url": "shopify:\/\/products\/classic-iced-out-sapphire-crystal-glass-automatic-watch"
+          }
+        },
+        "text_kNWinp": {
+          "type": "text",
+          "settings": {
+            "category_img": "shopify:\/\/shop_images\/1_8fec6e50-75f4-4d7b-9c54-8b8fc3ec5b53.jpg",
+            "collection_url": "shopify:\/\/products\/iced-out-moissanite-rubber-belt-chronograph-wrist-automatic-watch"
           }
         }
       },
@@ -92,12 +93,12 @@
         "text_NCMpam",
         "text_hNffiT",
         "text_Bjccjx",
-        "text_Ercaem",
         "text_FcPRKV",
         "text_VqAFcy",
         "text_L73Ryg",
         "text_nVeTnf",
-        "text_7LWzwY"
+        "text_7LWzwY",
+        "text_kNWinp"
       ],
       "settings": {
         "headingtext": "<p>Watches<\/p>",
