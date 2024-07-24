@@ -11,7 +11,37 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "custom_css": [
+
+      ],
       "settings": {
+      }
+    },
+    "rich_text_9PN8n7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_weeE3m": {
+          "type": "heading",
+          "settings": {
+            "title": "Gallery"
+          }
+        },
+        "text_mhATt7": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Explore our exclusive gallery showcasing the finest collection of unique diamond watches and luxurious Cuban chains. Each piece is a testament to exquisite craftsmanship and timeless elegance. Browse through our top selections and find the perfect statement accessory to elevate your style.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_weeE3m",
+        "text_mhATt7"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
       }
     },
     "gallery_image_RCJUrt": {
@@ -100,6 +130,9 @@
         "text_7LWzwY",
         "text_kNWinp"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "headingtext": "<p>Watches<\/p>",
         "background": ""
@@ -183,6 +216,7 @@
   },
   "order": [
     "main",
+    "rich_text_9PN8n7",
     "gallery_image_RCJUrt",
     "gallery_image_fqxYae"
   ]
