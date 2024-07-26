@@ -30,6 +30,7 @@
       "block_order": [
         "powerful_form_builder_app_block_97LWfG"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "space_around": true
