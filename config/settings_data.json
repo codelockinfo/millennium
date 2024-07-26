@@ -266,12 +266,6 @@
           "greeting_message": ""
         }
       },
-      "10821884108211614105": {
-        "type": "shopify:\/\/apps\/best-chat-live-chat\/blocks\/app-embed\/8f04fd48-10ad-4211-86e2-b3b3803a2848",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "7555218208816688692": {
         "type": "shopify:\/\/apps\/tydal-popups-email-pop-ups\/blocks\/app-embed\/48a5a3ef-b6ff-431f-842f-6f17862c4a63",
         "disabled": true,
@@ -280,6 +274,12 @@
       },
       "8813254906777318544": {
         "type": "shopify:\/\/apps\/kaktus-advanced-wishlist\/blocks\/app-embeded\/21053a4c-1902-4720-aab8-ebfc69de009a",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "10821884108211614105": {
+        "type": "shopify:\/\/apps\/best-chat-live-chat\/blocks\/app-embed\/8f04fd48-10ad-4211-86e2-b3b3803a2848",
         "disabled": false,
         "settings": {
         }
