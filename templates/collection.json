@@ -17,25 +17,6 @@
         "parallax": true
       }
     },
-    "17219711246b36258a": {
-      "type": "apps",
-      "blocks": {
-        "em_forms_builder_formbuilder_me4nRe": {
-          "type": "shopify:\/\/apps\/em-forms-builder\/blocks\/formbuilder\/a7ecbc03-4652-4439-8d0a-2ade18b6eb99",
-          "settings": {
-            "form_builder_heading": "Form Title",
-            "form_embed_code": "<div id=\"evm-form\"><\/div>\n          <script src=\"https:\/\/evmforms.expertvillagemedia.com\/embed.js\" data-shop-id=\"0e78b1-2c.myshopify.com\" data-form-id=\"7737\" type=\"text\/javascript\"><\/script>"
-          }
-        }
-      },
-      "block_order": [
-        "em_forms_builder_formbuilder_me4nRe"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
-    },
     "promo-grid": {
       "type": "promo-grid",
       "blocks": {
@@ -129,7 +110,6 @@
   },
   "order": [
     "collection-header",
-    "17219711246b36258a",
     "promo-grid",
     "main-collection"
   ]
