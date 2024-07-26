@@ -283,12 +283,6 @@
         "disabled": false,
         "settings": {
         }
-      },
-      "442549160356511856": {
-        "type": "shopify:\/\/apps\/ck-whatsapp-chat-abandoned\/blocks\/app-embed-block\/ce4c5d89-06d5-4502-b18d-35d424a3f693",
-        "disabled": true,
-        "settings": {
-        }
       }
     }
   },
