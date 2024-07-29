@@ -91,6 +91,7 @@
     },
     "custom_banner_section_jMX93F": {
       "type": "custom_banner_section",
+      "disabled": true,
       "settings": {
         "banner_video": "",
         "banner_link": ""
