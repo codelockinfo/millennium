@@ -89,6 +89,13 @@
         "autoplay_speed": 5
       }
     },
+    "custom_banner_section_jMX93F": {
+      "type": "custom_banner_section",
+      "settings": {
+        "banner_video": "",
+        "banner_link": ""
+      }
+    },
     "category_slider_LU46Ei": {
       "type": "category-slider",
       "blocks": {
@@ -597,6 +604,7 @@
   },
   "order": [
     "slideshow_cjDeH6",
+    "custom_banner_section_jMX93F",
     "category_slider_LU46Ei",
     "collection_slider_section_VnyWwX",
     "explore_TEHqRw",
