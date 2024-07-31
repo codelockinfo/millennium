@@ -1,14 +1,13 @@
 <div class="custombanner">
     <a href="{{section.settings.banner_link}}">
-        {% comment %} <video src="{{section.settings.banner_video}}" type="video/mp4" autoplay loop muted
-            class="banner_video"></video> {% endcomment %}
             <video class="banner_video" loop muted autoplay >
                 <source src="{{section.settings.banner_video}}" type="video/mp4">
             </video>
             </a>
    
-    <a href="{{section.settings.banner_link}}"><img src="{{section.settings.banner_img | img_url:'master' }}" alt=""
-            class="custom_banner_img"></a>
+    <a href="{{section.settings.banner_link}}"><video class="custom_banner_img" loop muted autoplay >
+        <source src="{{section.settings.banner_mobile}}" type="video/mp4">
+    </video></a>
 </div>
 
 {% schema %}
@@ -21,9 +20,9 @@
 "label": "Banner video"
 },
 {
-"type": "image_picker",
-"id": "banner_img",
-"label": "Banner img in mobile view"
+"type": "url",
+"id": "banner_mobile",
+"label": "Banner video mobile view"
 },
 {
 "type": "url",
