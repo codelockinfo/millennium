@@ -87,12 +87,12 @@
                               {%- render 'collapsible-icons-alt' -%}
                             </button>
                           {%- else -%}
-                            <a href="{{ childlink.url }}"
+                            <div
                               class="mobile-nav__link"
                               id="Sublabel-{{ grand_child_list_handle }}"
                               {% if childlink.active %}data-active="true"{% endif %}>
                               {{ childlink.title | escape }}
-                            </a>
+                            </div>
                           {%- endif -%}
                           {%- if childlink.url != '#' and has_sub_dropdown -%}
                             <button type="button"
