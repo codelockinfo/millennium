@@ -79,6 +79,30 @@
                     <div class="answer">{{ block.settings.answer5 }}</div>
                   </li>
                 {% endif %}
+                 {% if block.settings.question6 != blank %}
+                  <li>
+                    <div class="accordian-heading">
+                      <span class="accordian-number">05</span>
+                      <h3>{{ block.settings.question6 }}</h3>
+                      <div class="icon-plus">
+                        <i class="fa-solid fa-plus"></i>
+                      </div>
+                    </div>
+                    <div class="answer">{{ block.settings.answer6 }}</div>
+                  </li>
+                {% endif %}
+                 {% if block.settings.question7 != blank %}
+                  <li>
+                    <div class="accordian-heading">
+                      <span class="accordian-number">05</span>
+                      <h3>{{ block.settings.question7 }}</h3>
+                      <div class="icon-plus">
+                        <i class="fa-solid fa-plus"></i>
+                      </div>
+                    </div>
+                    <div class="answer">{{ block.settings.answer7 }}</div>
+                  </li>
+                {% endif %}
               </ul>
             </div>
           {%- when 'content' -%}
@@ -181,6 +205,26 @@
           "type": "richtext",
           "id": "answer5",
           "label": "Answer 5"
+        },
+        {
+          "type": "text",
+          "id": "question6",
+          "label": "Question 6"
+        },
+        {
+          "type": "richtext",
+          "id": "answer6",
+          "label": "Answer 6"
+        },
+        {
+          "type": "text",
+          "id": "question7",
+          "label": "Question 7"
+        },
+        {
+          "type": "richtext",
+          "id": "answer7",
+          "label": "Answer 7"
         }
       ]
     },
