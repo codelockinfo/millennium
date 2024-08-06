@@ -152,6 +152,7 @@
       "block_order": [
         "text_bGRHnH"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "center"
