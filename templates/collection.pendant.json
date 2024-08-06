@@ -128,31 +128,30 @@
     "tab_accordian_q486zh": {
       "type": "tab-accordian",
       "blocks": {
-        "text_bGRHnH": {
+        "text_rCxqeK": {
           "type": "text",
           "settings": {
-            "tabheading": "",
-            "question1": " Does the watch passthe diamond tester?",
-            "answer1": "<p>We are<br\/>using genuine moissanite stones. So, yes you can use any moissanite diamond<br\/>tester, every stone on the watch passes the test. It will pass the diamond<br\/>tester.<\/p>",
-            "question2": "Is the watchautomatic or mechanical?",
-            "answer2": "<p>All the watches are automatic<\/p>",
-            "question3": "How longit takes to deliver?",
-            "answer3": "<p>We have some watches which are ready to ship. Please contact us to<br\/>check the ready-to-ship watches. Made-to-order watches will take 1-2 weeks to<br\/>stud the stones & check quality product.<\/p>",
-            "question4": "Are moissanite iced outwatches available in different designs?",
-            "answer4": "<p>Yes, moissanite iced out watches come in various designs,<br\/>including different styles of dials, bezels, and band types. You can choose<br\/>different metal tones for the watch as well. <\/p>",
-            "question5": "What is the dial size of watch?",
-            "answer5": "<p>Typically, men’s watches tend to range between 38mm to 46mm.<br\/><\/p>",
-            "question6": "Does the watchcontain a brand logo?",
-            "answer6": "<p>Yes, it comes with a logo on<br\/>the watch’s face and engraving on the back. We provide personalized engraving<br\/>at free of cost!<\/p>",
+            "tabheading": "<p><strong>Pendant<\/strong><\/p>",
+            "question1": "Are you able to create custompendants?",
+            "answer1": "<p>Yes, we specialize in creating custom pendants. If you can't find a pendant that meets your needs, please contact us with your ideas or any reference images, and we will assist you for further process.<\/p>",
+            "question2": "Does a pendant come with achain included?",
+            "answer2": "<p>Our pendants are sold individually without a chain. If a chain is included, this will be clearly stated on the specific pendant's detail page. If you require a chain and it is not included with the pendant, please contact us. We can provide a chain for an additional cost.<\/p>",
+            "question3": "What is thedifference between gold-plated and solid gold earrings?",
+            "answer3": "<p><strong>Gold-Plated<\/strong>:<br\/>These earrings have a thin layer of gold applied over a base metal. They are generallymore affordable but may wear off over time.<\/p><p><strong>Solid Gold<\/strong>:<br\/>Made entirely from gold, these earrings are more durable and typically more expensive but retain their appearance longer.<\/p>",
+            "question4": "Does your moissanite passthe diamond tester?",
+            "answer4": "<p>We are using genuine moissanite stones. So, yes you can use any moissanite diamond tester, every stone on the watch passes the test. It will pass the diamond tester.<\/p>",
+            "question5": "Do you offer layaway?",
+            "answer5": "<p>Yes, first you need to pay 60% amount of the total order value. Once we get 60% amount we will start processing your order. Once your order is ready and before dispatching your need to complete the remaining payment of 40%. After payment completion, we will dispatch your order.<\/p>",
+            "question6": "",
+            "answer6": "",
             "question7": "",
             "answer7": ""
           }
         }
       },
       "block_order": [
-        "text_bGRHnH"
+        "text_rCxqeK"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "center"
