@@ -147,31 +147,10 @@
             "question7": "",
             "answer7": ""
           }
-        },
-        "text_4GgwYF": {
-          "type": "text",
-          "settings": {
-            "tabheading": "",
-            "question1": "",
-            "answer1": "",
-            "question2": "",
-            "answer2": "",
-            "question3": "",
-            "answer3": "",
-            "question4": "",
-            "answer4": "<p><strong>FOR READY-TO-SHIP<\/strong><\/p>",
-            "question5": "How longwill it take my order to arrive?",
-            "answer5": "<p>Production of bespoke engagement ring or wedding band takes 7-8<br\/>business days. These pieces ship within 1 business day and after that it take<br\/>8-10 business days to deliver the product (depends on the country). Production<br\/>of customized product or bracelet takes 10-12 business days. <\/p><p>Ready-to-ship product will take 1-2 business days to dispatch and<br\/>6-5 business days to arrive the product (depends on the country).<\/p>",
-            "question6": "",
-            "answer6": "",
-            "question7": "",
-            "answer7": ""
-          }
         }
       },
       "block_order": [
-        "text_rCxqeK",
-        "text_4GgwYF"
+        "text_rCxqeK"
       ],
       "settings": {
         "title": "",
