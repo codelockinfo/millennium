@@ -127,6 +127,31 @@
     },
     "tab_accordian_q486zh": {
       "type": "tab-accordian",
+      "blocks": {
+        "text_YDpBMY": {
+          "type": "text",
+          "settings": {
+            "tabheading": "<p><strong>Hip Hop Ring<\/strong><\/p>",
+            "question1": "",
+            "answer1": "",
+            "question2": "",
+            "answer2": "",
+            "question3": "",
+            "answer3": "",
+            "question4": "",
+            "answer4": "",
+            "question5": "",
+            "answer5": "",
+            "question6": "",
+            "answer6": "",
+            "question7": "",
+            "answer7": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_YDpBMY"
+      ],
       "settings": {
         "title": "",
         "align_text": "center"
