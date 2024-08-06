@@ -128,31 +128,30 @@
     "tab_accordian_q486zh": {
       "type": "tab-accordian",
       "blocks": {
-        "text_bGRHnH": {
+        "text_pEi989": {
           "type": "text",
           "settings": {
             "tabheading": "",
-            "question1": " Does the watch passthe diamond tester?",
-            "answer1": "<p>We are<br\/>using genuine moissanite stones. So, yes you can use any moissanite diamond<br\/>tester, every stone on the watch passes the test. It will pass the diamond<br\/>tester.<\/p>",
+            "question1": "Does the watch passthe diamond tester?",
+            "answer1": "<p>We are using genuine moissanite stones. So, yes you can use any moissanite diamond tester, every stone on the watch passes the test. It will pass the diamond<br\/>tester.<\/p>",
             "question2": "Is the watchautomatic or mechanical?",
-            "answer2": "<p>All the watches are automatic<\/p>",
-            "question3": "How longit takes to deliver?",
-            "answer3": "<p>We have some watches which are ready to ship. Please contact us to<br\/>check the ready-to-ship watches. Made-to-order watches will take 1-2 weeks to<br\/>stud the stones & check quality product.<\/p>",
-            "question4": "Are moissanite iced outwatches available in different designs?",
-            "answer4": "<p>Yes, moissanite iced out watches come in various designs,<br\/>including different styles of dials, bezels, and band types. You can choose<br\/>different metal tones for the watch as well. <\/p>",
-            "question5": "What is the dial size of watch?",
-            "answer5": "<p>Typically, men’s watches tend to range between 38mm to 46mm.<br\/><\/p>",
-            "question6": "Does the watchcontain a brand logo?",
-            "answer6": "<p>Yes, it comes with a logo on<br\/>the watch’s face and engraving on the back. We provide personalized engraving<br\/>at free of cost!<\/p>",
+            "answer2": "<p>All the watches have automatic movement<\/p>",
+            "question3": "What is the dial sizeof watch?",
+            "answer3": "<p>Women’s watches tend to range between 26mm to 36mm. <\/p>",
+            "question4": "What is watch’s beltsize?",
+            "answer4": "<p>For men, fits as 8-8.5\" (however<br\/>you can remove links at any jeweler with a tool)<\/p><p>For women, the standard size is<br\/>between 6 ¾ inches to 8 inches<\/p>",
+            "question5": "Does thewatch come with the box?",
+            "answer5": "<p>Yes, all the watches come in the branded watch box.<\/p>",
+            "question6": "",
+            "answer6": "",
             "question7": "",
             "answer7": ""
           }
         }
       },
       "block_order": [
-        "text_bGRHnH"
+        "text_pEi989"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "center"
