@@ -140,30 +140,17 @@
             "answer3": "<p>We have some watches which are ready to ship. Please contact us to<br\/>check the ready-to-ship watches. Made-to-order watches will take 1-2 weeks to<br\/>stud the stones & check quality product.<\/p>",
             "question4": "Are moissanite iced outwatches available in different designs?",
             "answer4": "<p>Yes, moissanite iced out watches come in various designs,<br\/>including different styles of dials, bezels, and band types. You can choose<br\/>different metal tones for the watch as well. <\/p>",
-            "question5": "What is the dial sizeof watch?",
-            "answer5": "<p>Typically, men’s watches tend to range between 38mm to 46mm.<br\/><\/p>"
-          }
-        },
-        "text_zjETtR": {
-          "type": "text",
-          "settings": {
-            "tabheading": "",
-            "question1": "",
-            "answer1": "",
-            "question2": "",
-            "answer2": "",
-            "question3": "",
-            "answer3": "",
-            "question4": "",
-            "answer4": "",
-            "question5": "",
-            "answer5": ""
+            "question5": "What is the dial size of watch?",
+            "answer5": "<p>Typically, men’s watches tend to range between 38mm to 46mm.<br\/><\/p>",
+            "question6": "Does the watchcontain a brand logo?",
+            "answer6": "<p>Yes, it comes with a logo on<br\/>the watch’s face and engraving on the back. We provide personalized engraving<br\/>at free of cost!<\/p>",
+            "question7": "",
+            "answer7": ""
           }
         }
       },
       "block_order": [
-        "text_bGRHnH",
-        "text_zjETtR"
+        "text_bGRHnH"
       ],
       "settings": {
         "title": "",
