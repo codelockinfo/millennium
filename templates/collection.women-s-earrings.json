@@ -128,31 +128,30 @@
     "tab_accordian_q486zh": {
       "type": "tab-accordian",
       "blocks": {
-        "text_bGRHnH": {
+        "text_jDf6bk": {
           "type": "text",
           "settings": {
-            "tabheading": "",
-            "question1": " Does the watch passthe diamond tester?",
-            "answer1": "<p>We are<br\/>using genuine moissanite stones. So, yes you can use any moissanite diamond<br\/>tester, every stone on the watch passes the test. It will pass the diamond<br\/>tester.<\/p>",
-            "question2": "Is the watchautomatic or mechanical?",
-            "answer2": "<p>All the watches are automatic<\/p>",
-            "question3": "How longit takes to deliver?",
-            "answer3": "<p>We have some watches which are ready to ship. Please contact us to<br\/>check the ready-to-ship watches. Made-to-order watches will take 1-2 weeks to<br\/>stud the stones & check quality product.<\/p>",
-            "question4": "Are moissanite iced outwatches available in different designs?",
-            "answer4": "<p>Yes, moissanite iced out watches come in various designs,<br\/>including different styles of dials, bezels, and band types. You can choose<br\/>different metal tones for the watch as well. <\/p>",
-            "question5": "What is the dial size of watch?",
-            "answer5": "<p>Typically, men’s watches tend to range between 38mm to 46mm.<br\/><\/p>",
-            "question6": "Does the watchcontain a brand logo?",
-            "answer6": "<p>Yes, it comes with a logo on<br\/>the watch’s face and engraving on the back. We provide personalized engraving<br\/>at free of cost!<\/p>",
+            "tabheading": "<p><strong>Women’s Earrings<\/strong><\/p>",
+            "question1": "Are your earringsdesigned for comfortable wear?",
+            "answer1": "<p>Yes, our earrings are specifically designed for daily wear, ensuring comfort even when worn 24\/7.<\/p>",
+            "question2": "Whichearring back is the best?",
+            "answer2": "<p>The best earring back largely depends on your comfort and security preferences. Standard butterfly or friction backs are secure and commonly used. Screw-backs offer additional security and are great for valuable or sentimental earrings.<\/p>",
+            "question3": "Do you offer custom-madeearrings?",
+            "answer3": "<p>Yes, we offer custom-made earrings. Share your ideas or reference images with us, and we will work to bring your vision to life.<\/p>",
+            "question4": " Is a rush order service available?",
+            "answer4": "<p>Yes, we offer rush order\/expedited shipping with an additional fees of 35 USD.<\/p>",
+            "question5": "What is the processfor exchanging the product?",
+            "answer5": "<p>For any reason you are not satisfied with the product or require modifications, we offer a 30-day exchange policy. Kindly email us for further details and instructions on how to proceed with the exchange.<\/p>",
+            "question6": "",
+            "answer6": "",
             "question7": "",
             "answer7": ""
           }
         }
       },
       "block_order": [
-        "text_bGRHnH"
+        "text_jDf6bk"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "center"
