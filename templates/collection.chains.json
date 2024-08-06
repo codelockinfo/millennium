@@ -133,15 +133,15 @@
           "settings": {
             "tabheading": "<p><strong>Chains<\/strong><\/p>",
             "question1": "How do I choosethe right Moissanite Diamond Cuban Chain?",
-            "answer1": "<p>When selecting a<br\/>Moissanite Cuban chain, consider the following:<\/p>",
-            "question2": "",
-            "answer2": "",
-            "question3": "",
-            "answer3": "",
-            "question4": "",
-            "answer4": "",
-            "question5": "",
-            "answer5": "",
+            "answer1": "<p>When selecting a Moissanite Cuban chain, consider the following:<\/p><p><strong>Length and Width<\/strong>: Choose based on your preference and how you intend to wear it.<\/p><p><strong>Quality of Moissanite<\/strong>: Look for high-quality stones with excellent cut,clarity, and color.<\/p><p><strong>Metal Type<\/strong>: Chains can be made from various metals, including gold, platinum, or silver. Choose one that complements your style.<\/p>",
+            "question2": "How does a Moissanite DiamondCuban Chain differ from a diamond Cuban chain?",
+            "answer2": "<p>The primary difference lies in the gemstones used. A diamond<br\/>Cuban chain features natural diamonds, while a Moissanite Cuban chain uses<br\/>Moissanite stones. A Moissanite Diamond Cuban Chain is a piece of jewelry<br\/>featuring a Cuban chain design, where the links are adorned with Moissanite<br\/>stones. Moissanite is generally less expensive than diamonds but offers similar<br\/>visual appeal and durability.<\/p>",
+            "question3": "How to buy customjewelry?",
+            "answer3": "<p>Yes, we do have large selection of custom jewelry which you can customize with your own thought.We specialize in creating one-of-a-kind pieces specifically to your unique style and needs. Whether you have a clear vision for your design or need help refining your ideas, our experienced team is here to assist you every step of the way. Just fill out the form of customization <a href=\"https:\/\/millenniumjewelery.com\/pages\/custom-diamond-jewelry\">https:\/\/millenniumjewelery.com\/pages\/custom-diamond-jewelry  <\/a>or else you can directly send your requirements to us over phone +91 92656 39288<\/p>",
+            "question4": "What if I don't like my jewelry after receive it?",
+            "answer4": "<p>Don't worry about it. We promise an easy 30-day return policy. If you don't like the jewelry after you receive the package, just return it unused and in its original packaging. Upon acceptance of your return, the refund will be issued to your original account. Any promotional gifts must also be returned with your returned item.<\/p>",
+            "question5": "Do you offer layaway?",
+            "answer5": "<p>Yes, first you need to pay 60% amount of the total order value. Once we get 60% amount we will start processing your order. Once your order is ready and before dispatching your need to complete the remaining payment of<br\/>40%. After payment completion, we will dispatch your order.<\/p>",
             "question6": "",
             "answer6": "",
             "question7": "",
@@ -152,7 +152,6 @@
       "block_order": [
         "text_fgdHaF"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "center"
