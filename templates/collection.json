@@ -124,12 +124,41 @@
         "enable_color_swatches": true,
         "enable_sort": true
       }
+    },
+    "tab_accordian_q486zh": {
+      "type": "tab-accordian",
+      "blocks": {
+        "text_bGRHnH": {
+          "type": "text",
+          "settings": {
+            "tabheading": "",
+            "question1": " Does the watch passthe diamond tester?",
+            "answer1": "<p>We are<br\/>using genuine moissanite stones. So, yes you can use any moissanite diamond<br\/>tester, every stone on the watch passes the test. It will pass the diamond<br\/>tester.<\/p>",
+            "question2": "",
+            "answer2": "",
+            "question3": "",
+            "answer3": "",
+            "question4": "",
+            "answer4": "",
+            "question5": "",
+            "answer5": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_bGRHnH"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center"
+      }
     }
   },
   "order": [
     "collection-header",
     "1721989590f2802f46",
     "promo-grid",
-    "main-collection"
+    "main-collection",
+    "tab_accordian_q486zh"
   ]
 }
