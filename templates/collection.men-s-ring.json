@@ -127,6 +127,31 @@
     },
     "tab_accordian_q486zh": {
       "type": "tab-accordian",
+      "blocks": {
+        "text_49z8XE": {
+          "type": "text",
+          "settings": {
+            "tabheading": "",
+            "question1": "Doesmoissanite comes with the certificate?",
+            "answer1": "<p>Yes, we provide moissanite jewelry certificate for our brand<br\/>authenticity. <\/p>",
+            "question2": "Do youcreate men’s jewelry?",
+            "answer2": "<p>We offer a wide range of variety inn men's jewelry, including engagement rings, wedding bands, and other fine jewelry pieces. We are specialize in custom works. If you have some specific design just send us photos we create same piece of jewelry of you. Our expertise in custom jewelry means we can create something that perfectly suits your tastes and preferences.<\/p>",
+            "question3": "Am I ableto customize a piece? Can I make changes to the design?",
+            "answer3": "<p>Yes, custom jewelry is our specialty. We would be happy to provide you a quote and consultation over the phone or via email. You can visit our customization section and fill out the form. So, we get all the details of your custom piece.  <\/p>",
+            "question4": "Do you offer layaway?",
+            "answer4": "<p>Yes, first you need to pay 60% amount of the total order value. Once we get 60% amount we will start processing your order. Once your order is ready and before dispatching your need to complete the remaining payment of 40%. After payment completion, we will dispatch your order.<\/p>",
+            "question5": "Do youoffer other ring sizes which are not listed?",
+            "answer5": "<p>Yes, absolutely. If you are looking for a particular ring size which is not listed on a product page, please select the closest ring size and then mention the exact size you need in the given personalization box while placing the order.<\/p>",
+            "question6": "",
+            "answer6": "",
+            "question7": "",
+            "answer7": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_49z8XE"
+      ],
       "settings": {
         "title": "",
         "align_text": "center"
