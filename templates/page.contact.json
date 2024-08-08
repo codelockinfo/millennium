@@ -1,1 +1,81 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{}},"rich-text":{"type":"rich-text","blocks":{"heading":{"type":"heading","settings":{"title":"Get in touch"}},"text":{"type":"text","settings":{}}},"block_order":["heading","text"],"settings":{}},"form":{"type":"contact-form","settings":{}}},"order":["main","rich-text","form"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Get in touch"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    },
+    "rich_text_6qwbmt": {
+      "type": "rich-text",
+      "blocks": {
+        "text_VhFnTj": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p><strong>Address:<\/strong><\/p><p>Millennium Jewelery,<br\/>Katargam,<br\/>Surat, Gujarat - 395004,<br\/>India<\/p><p><strong>Email Id:<\/strong><\/p><p><a href=\"mailto:milleniumjewelry9@gmail.com\" target=\"_blank\" title=\"mailto:milleniumjewelry9@gmail.com\">milleniumjewelry9@gmail.com<\/a><\/p><p><strong>Phone Number:<\/strong><\/p><p><a href=\"tel:+91 92656 39288\" target=\"_blank\" title=\"tel:+91 92656 39288\">+91 92656 39288<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_VhFnTj"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich-text",
+    "form",
+    "rich_text_6qwbmt"
+  ]
+}
