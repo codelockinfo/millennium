@@ -22,6 +22,12 @@
         {% endif %}
         {% comment %} <div>&nbsp;&nbsp;Powered by <a href="https://codelocksolutions.in">Codelock Solutions</a></div> {% endcomment %}
       </div>
+      <div>
+        {%- if section.settings.svg -%}
+            {%- assign arr = section.settings.svg | remove: ' ' | split:"," -%}
+            {%- for img in arr -%}<img class="lazyload img_tr_svg" src="https://cdn.shopify.com/s/assets/payment_icons/generic-dfdcaf09b6731ca14dd7441354c0ad8bc934184eb15ae1fda6a6b9e307675485.svg" data-src="{{ img | payment_type_img_url }}" alt="{{img | replace:'_',' '}}" />{%- endfor -%}
+        {%- endif -%}
+       </div>
       {% if footer_menu.links !=  blank %}
         <div class="footer_content_2">
           {%- for link in footer_menu.links -%}
@@ -66,6 +72,13 @@
         "id": "footer_menu_link_list",
         "label": "Footer Navigation",
         "default": "main-menu"
+      },
+      {
+          "type": "textarea",
+          "id": "svg",
+          "label": "SVG list",
+          "default": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
+          "info": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa"
       }
     ]
   }
