@@ -57,6 +57,12 @@
             "surface_pickup_enable": true
           }
         },
+        "paymenticon_8QxwdC": {
+          "type": "paymenticon",
+          "settings": {
+            "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -109,6 +115,7 @@
         "variant_picker",
         "quantity_selector_PDn3Pa",
         "buy_buttons",
+        "paymenticon_8QxwdC",
         "description",
         "tab",
         "tab_zWMTPp",
