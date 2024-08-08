@@ -290,14 +290,14 @@
         "settings": {
         }
       },
-      "18423266570658624584": {
-        "type": "shopify:\/\/apps\/best-currency-converter\/blocks\/doubly\/267afa86-a419-4d5b-a61b-556038e7294d",
-        "disabled": true,
+      "776302416715791028": {
+        "type": "shopify:\/\/apps\/bucks\/blocks\/app-embed\/4f0a9b06-9da4-4a49-b378-2de9d23a3af3",
+        "disabled": false,
         "settings": {
         }
       },
-      "776302416715791028": {
-        "type": "shopify:\/\/apps\/bucks\/blocks\/app-embed\/4f0a9b06-9da4-4a49-b378-2de9d23a3af3",
+      "18423266570658624584": {
+        "type": "shopify:\/\/apps\/best-currency-converter\/blocks\/doubly\/267afa86-a419-4d5b-a61b-556038e7294d",
         "disabled": false,
         "settings": {
         }
