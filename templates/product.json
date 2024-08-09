@@ -60,7 +60,7 @@
         "paymenticon_8QxwdC": {
           "type": "paymenticon",
           "settings": {
-            "svg": "visa,master,american_express,apple_pay,google_pay,klarna-pay-later,paypal,rupay,trustly,sofort,giropay,poli,"
+            "svg": "visa,master,american_express,apple_pay,google_pay,paypal,rupay,trustly,sofort,giropay,poli,"
           }
         },
         "description": {
