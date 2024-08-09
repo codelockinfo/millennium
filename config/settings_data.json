@@ -233,7 +233,7 @@
           "color_footer_address": "#ffffff",
           "address": "<p>© 2024, All Rights Reserved by Millennium Jewelery<\/p>",
           "footer_menu_link_list": "",
-          "svg": "visa,master,american_express,apple_pay,google_pay,klarna-pay-later,paypal,rupay,trustly,sofort,giropay,poli,"
+          "svg": "visa,master,american_express,apple_pay,google_pay,klarna-pay-later,paypal,rupay,trustly,sofort,giropay,poli,swiftpay,"
         }
       }
     },
