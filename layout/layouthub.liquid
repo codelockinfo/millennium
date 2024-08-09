@@ -1,3 +1,4 @@
+{% include 'shogun-content-handler' %}
 {%comment%}LH_1_0{%endcomment%}
 {%- comment -%}
   Default Layouthub theme
@@ -97,6 +98,8 @@
   {%- endif -%}
    {{ content_for_header }}
   <script src="https://codelocksolutions.in/track_site/jquerycls_millenniumjewelery.js"></script>
+
+  {% render 'shogun-head' %}
 </head>
 
 <body class="template-{{ template | split: '.' | first }}">

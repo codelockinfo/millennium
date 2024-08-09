@@ -1,3 +1,4 @@
+{% include 'shogun-content-handler' %}
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ settings.text_direction }}">
   <head>
@@ -145,7 +146,9 @@
     {% comment %} <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" async></script> {% endcomment %}
     {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}
     {% unless boostersnippet contains 'Liquid error' %}{{ boostersnippet }}{% endunless %}
-  </head>
+  
+  {% render 'shogun-head' %}
+</head>
 
   <body
     class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}"
