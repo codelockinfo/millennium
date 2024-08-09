@@ -60,7 +60,7 @@
         "paymenticon_8QxwdC": {
           "type": "paymenticon",
           "settings": {
-            "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa"
+            "svg": "visa,master,american_express,apple_pay,google_pay,klarna-pay-later,paypal,rupay,trustly,sofort,giropay,poli,"
           }
         },
         "description": {
