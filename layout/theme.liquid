@@ -21,7 +21,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="{{ settings.color_button }}">
-    <link rel="canonical" href="{{ canonical_url }}">
+     
+    {% if template contains 'product' %}
+        {% assign product_custom_canonical = product.metafields.custom.canonical_url %}
+        {% if product_custom_canonical !=  blank %}
+            <link rel="canonical" href="{{ product_custom_canonical }}">
+        {% else %}
+            <link rel="canonical" href="{{ canonical_url }}">
+        {% endif %}
+    {% else %}
+        <link rel="canonical" href="{{ canonical_url }}">
+    {% endif %}
+
     <link rel="preconnect" href="https://cdn.shopify.com">
     <link rel="preconnect" href="https://fonts.shopifycdn.com">
     <link rel="dns-prefetch" href="https://productreviews.shopifycdn.com">

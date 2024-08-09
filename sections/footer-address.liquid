@@ -25,7 +25,15 @@
       <div>
         {%- if section.settings.svg -%}
             {%- assign arr = section.settings.svg | remove: ' ' | split:"," -%}
-            {%- for img in arr -%}<img class="lazyload img_tr_svg" src="https://cdn.shopify.com/s/assets/payment_icons/generic-dfdcaf09b6731ca14dd7441354c0ad8bc934184eb15ae1fda6a6b9e307675485.svg" data-src="{{ img | payment_type_img_url }}" alt="{{img | replace:'_',' '}}" />{%- endfor -%}
+            {%- for img in arr -%}
+                {% if img == "ach-network" %}
+                  <img class="lazyload img_tr_svg paymentsvg-width" src="https://cdn.shopify.com/s/files/1/0571/2825/5601/files/ACH_Network.svg?v=1723181557" />
+                {%  elsif img == "bacs" %}
+                  <img class="lazyload img_tr_svg paymentsvg-width" src="https://cdn.shopify.com/s/files/1/0571/2825/5601/files/Bacs.svg?v=1723181557" />
+                {%  else %}
+                  <img class="lazyload img_tr_svg" src="https://cdn.shopify.com/s/assets/payment_icons/generic-dfdcaf09b6731ca14dd7441354c0ad8bc934184eb15ae1fda6a6b9e307675485.svg" data-src="{{ img | payment_type_img_url }}" alt="{{img | replace:'_',' '}}" />
+                {% endif %}
+            {%- endfor -%}
         {%- endif -%}
        </div>
       {% if footer_menu.links !=  blank %}
