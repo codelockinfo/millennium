@@ -125,6 +125,22 @@
         "enable_sort": true
       }
     },
+    "text_and_image_mqcFKb": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_8515.jpg",
+        "image_width": 400,
+        "subtitle": "",
+        "title": "",
+        "text": "<h2><strong>Moissanite Diamond Watch Collection<\/strong><br\/><\/h2><p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.<\/p><h2><strong>Automatic Moissanite Mens Watches<\/strong><\/h2><p>Our moissanite mens watches feature precise automatic movements, expertly assembled by skilled watchmakers. Each moissanite watch promises reliability and longevity, making it an essential addition to any discerning watch enthusiast's collection.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "secondary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    },
     "tab_accordian_q486zh": {
       "type": "tab-accordian",
       "blocks": {
@@ -163,6 +179,7 @@
     "1721989590f2802f46",
     "promo-grid",
     "main-collection",
+    "text_and_image_mqcFKb",
     "tab_accordian_q486zh"
   ]
 }
