@@ -199,8 +199,9 @@
         "image_nB6HJ3",
         "liquid_caGyp9"
       ],
+      "disabled": true,
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "space_around": true
       }
     },
@@ -229,11 +230,12 @@
         "liquid_YpWC3J",
         "image_FFEbeA"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "space_around": true
       }
     }
