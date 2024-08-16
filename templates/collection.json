@@ -180,7 +180,7 @@
         "image_nB6HJ3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/022_b4436378-23c4-4543-858d-bbfcaf144852.jpg",
+            "image": "shopify:\/\/shop_images\/023_15a0ce18-21a0-4478-93e1-220f363ec818.jpg",
             "link": "",
             "width": "50%",
             "alignment": "center"
@@ -199,7 +199,6 @@
         "image_nB6HJ3",
         "liquid_caGyp9"
       ],
-      "disabled": true,
       "settings": {
         "full_width": false,
         "space_around": true
