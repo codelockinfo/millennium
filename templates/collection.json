@@ -200,7 +200,7 @@
         "liquid_caGyp9"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "space_around": true
       }
     },
@@ -233,7 +233,7 @@
 
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "space_around": true
       }
     }
