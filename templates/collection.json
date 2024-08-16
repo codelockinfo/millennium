@@ -233,7 +233,7 @@
 
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "space_around": true
       }
     }
