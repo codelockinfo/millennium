@@ -132,11 +132,11 @@
           "type": "text",
           "settings": {
             "tabheading": "<p>Frequently Asked Questions<\/p>",
-            "question1": "How do I choosethe right Moissanite Diamond Cuban Chain?",
-            "answer1": "<p>When selecting a Moissanite Cuban chain, consider the following:<\/p><p><strong>Length and Width<\/strong>: Choose based on your preference and how you intend to wear it.<\/p><p><strong>Quality of Moissanite<\/strong>: Look for high-quality stones with excellent cut,clarity, and color.<\/p><p><strong>Metal Type<\/strong>: Chains can be made from various metals, including gold, platinum, or silver. Choose one that complements your style.<\/p>",
-            "question2": "How does a Moissanite DiamondCuban Chain differ from a diamond Cuban chain?",
+            "question1": "How do I choose the right Moissanite Diamond Cuban Chain?",
+            "answer1": "<p>When selecting a Moissanite Cuban chain, consider the following:<\/p><p><strong>Length and Width<\/strong>: Choose based on your preference and how you intend to wear it.<\/p><p><strong>Quality of Moissanite<\/strong>: Look for high-quality stones with excellent cut, clarity, and color. <a href=\"\/blogs\/blogs\/what-you-need-to-know-about-the-4cs-of-moissanite-diamond\" target=\"_blank\" title=\"What You Need to Know About the 4 Cs?\"><strong>Read more<\/strong><\/a>.<\/p><p><strong>Metal Type<\/strong>: Chains can be made from various metals, including gold, platinum, or silver. Choose one that complements your style.<\/p>",
+            "question2": "How does a Moissanite Diamond Cuban Chain differ from a diamond Cuban chain?",
             "answer2": "<p>The primary difference lies in the gemstones used. A diamond Cuban chain features natural diamonds, while a Moissanite Cuban chain uses Moissanite stones. A Moissanite Diamond Cuban Chain is a piece of jewelry featuring a Cuban chain design, where the links are adorned with Moissanite stones. Moissanite is generally less expensive than diamonds but offers similar visual appeal and durability.<\/p>",
-            "question3": "How to buy customjewelry?",
+            "question3": "How to buy custom jewelry?",
             "answer3": "<p>Yes, we do have large selection of custom jewelry which you can customize with your own thought. We specialize in creating one-of-a-kind pieces specifically to your unique style and needs. Whether you have a clear vision for your design or need help refining your ideas, our experienced team is here to assist you every step of the way. Just fill out the form of <a href=\"\/collections\/custom-diamond-jewelry\" target=\"_blank\" title=\"custom diamond jewelry\"><strong>Customization<\/strong><\/a> or else you can directly send your requirements to us over phone +91 92656 39288<\/p>",
             "question4": "What if I don't like my jewelry after receive it?",
             "answer4": "<p>Don't worry about it. We promise an easy 30-day return policy. If you don't like the jewelry after you receive the package, just return it unused and in its original packaging. Upon acceptance of your return, the refund will be issued to your original account. Any promotional gifts must also be returned with your returned item.<\/p>",
@@ -156,6 +156,68 @@
         "title": "",
         "align_text": "center"
       }
+    },
+    "advanced_content_mDqgAW": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_dDkfHD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/023_cfaa4b37-263f-4145-bf57-8a4e27398026.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_aJaBGd": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Moissanite Diamond Watch Collection<\/h2>\n<p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.<\/p>\n<h2>Moissanite Diamond Watch Collection<\/h2>\n<p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.<\/p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_dDkfHD",
+        "liquid_aJaBGd"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "advanced_content_8Xx8ag": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_AnFtYE": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Moissanite Diamond Watch Collection<\/h2>\n<p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.<\/p>\n<h2>Moissanite Diamond Watch Collection<\/h2>\n<p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.<\/p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "image_8qcQYm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/024_7ce22b58-c193-475a-a5e1-338a659084d4.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_AnFtYE",
+        "image_8qcQYm"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
@@ -163,6 +225,8 @@
     "1721989590f2802f46",
     "promo-grid",
     "main-collection",
-    "tab_accordian_q486zh"
+    "tab_accordian_q486zh",
+    "advanced_content_mDqgAW",
+    "advanced_content_8Xx8ag"
   ]
 }

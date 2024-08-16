@@ -125,25 +125,42 @@
         "enable_sort": true
       }
     },
+    "text_and_image_mqcFKb": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_8515.jpg",
+        "image_width": 400,
+        "subtitle": "",
+        "title": "",
+        "text": "<h2><strong>Moissanite Diamond Watch Collection<\/strong><\/h2><p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.<\/p><h2><strong>Automatic Moissanite Mens Watches<\/strong><\/h2><p>Our moissanite mens watches feature precise automatic movements, expertly assembled by skilled watchmakers. Each moissanite watch promises reliability and longevity, making it an essential addition to any discerning watch enthusiast's collection.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "secondary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    },
     "tab_accordian_q486zh": {
       "type": "tab-accordian",
       "blocks": {
         "text_bGRHnH": {
           "type": "text",
           "settings": {
-            "tabheading": "",
-            "question1": " Does the watch passthe diamond tester?",
-            "answer1": "<p>We are<br\/>using genuine moissanite stones. So, yes you can use any moissanite diamond<br\/>tester, every stone on the watch passes the test. It will pass the diamond<br\/>tester.<\/p>",
-            "question2": "Is the watchautomatic or mechanical?",
-            "answer2": "<p>All the watches are automatic<\/p>",
-            "question3": "How longit takes to deliver?",
-            "answer3": "<p>We have some watches which are ready to ship. Please contact us to<br\/>check the ready-to-ship watches. Made-to-order watches will take 1-2 weeks to<br\/>stud the stones & check quality product.<\/p>",
-            "question4": "Are moissanite iced outwatches available in different designs?",
-            "answer4": "<p>Yes, moissanite iced out watches come in various designs,<br\/>including different styles of dials, bezels, and band types. You can choose<br\/>different metal tones for the watch as well. <\/p>",
-            "question5": "What is the dial size of watch?",
-            "answer5": "<p>Typically, men’s watches tend to range between 38mm to 46mm.<br\/><\/p>",
-            "question6": "Does the watchcontain a brand logo?",
-            "answer6": "<p>Yes, it comes with a logo on<br\/>the watch’s face and engraving on the back. We provide personalized engraving<br\/>at free of cost!<\/p>",
+            "tabheading": "<p>Frequently Asked Questions<\/p>",
+            "question1": "Do you make custom orders?",
+            "answer1": "<p>Yes, we specialize in creating custom pieces. If you can't find a jewelry that meets your needs, please contact us with your ideas or any reference images, and our experienced designer team is here to assist you every step of the way. Just fill out the form of <a href=\"\/collections\/custom-diamond-jewelry\" target=\"_blank\" title=\"custom diamond jewelry\"><strong>Customization <\/strong><\/a>or else you can directly send your requirements to us over phone +91 92656 39288. <\/p>",
+            "question2": "Do you offer other ring sizes which are not listed?",
+            "answer2": "<p>Yes, absolutely. If you are looking for a particular ring size which is not listed on a product page, please select the closest ring size and then mention the exact size you need in the given personalization box while placing the order.<\/p>",
+            "question3": "How do I find out my correct ring size?",
+            "answer3": "<p>Most accurate method to find your ring size is to measure you’re your ring size from the local jeweler. Wrap your finger in a piece of string, paper or tape. Make the point of meeting two ends. Stretch the length of string out along a ruler or measuring tape, and take down the length in millimeters. The length you measured is the circumference of your finger—to calculate the diameter, divide the circumference by pi (dividing by 3.14 will work). Use the ring size chart to compare the diameter of your finger to the standard ring sizes. Please contact us for more information<\/p>",
+            "question4": "Do you offer layaway?",
+            "answer4": "<p>Yes, first you need to pay 60% amount of the total order value.<br\/>Once we get 60% amount we will start processing your order. Once your order is ready and before dispatching your need to complete the remaining payment of 40%. After payment completion, we will dispatch your order.<\/p>",
+            "question5": "Can I get pictures of my order before dispatching?",
+            "answer5": "<p>Yes, you will get the pictures and video of the product before<br\/>dispatching.<\/p>",
+            "question6": "",
+            "answer6": "",
             "question7": "",
             "answer7": ""
           }
@@ -152,10 +169,74 @@
       "block_order": [
         "text_bGRHnH"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "center"
+      }
+    },
+    "advanced_content_JxyhMg": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_nB6HJ3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/023_cfaa4b37-263f-4145-bf57-8a4e27398026.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_caGyp9": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Moissanite Diamond Watch Collection<\/h2>\n<p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.<\/p>\n<h2>Moissanite Diamond Watch Collection<\/h2>\n<p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.<\/p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_nB6HJ3",
+        "liquid_caGyp9"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "advanced_content_z6GhHL": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_YpWC3J": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Moissanite Diamond Watch Collection<\/h2>\n<p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.<\/p>\n<h2>Moissanite Diamond Watch Collection<\/h2>\n<p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.<\/p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "image_FFEbeA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/024_7ce22b58-c193-475a-a5e1-338a659084d4.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_YpWC3J",
+        "image_FFEbeA"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
       }
     }
   },
@@ -164,6 +245,9 @@
     "1721989590f2802f46",
     "promo-grid",
     "main-collection",
-    "tab_accordian_q486zh"
+    "text_and_image_mqcFKb",
+    "tab_accordian_q486zh",
+    "advanced_content_JxyhMg",
+    "advanced_content_z6GhHL"
   ]
 }
