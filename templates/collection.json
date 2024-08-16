@@ -199,6 +199,7 @@
         "image_nB6HJ3",
         "liquid_caGyp9"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "space_around": true
