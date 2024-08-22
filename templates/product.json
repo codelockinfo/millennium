@@ -438,6 +438,35 @@
         "product_recommendations_heading": "Related Products",
         "related_count": 5
       }
+    },
+    "advanced_content_nWYA6U": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_qWM4HM": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_Rk7b7Y": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>You will get this product on amazon also<\/h2>\n\n\n<Strong><p>Cilck Here<\/p><\/Strong>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_qWM4HM",
+        "liquid_Rk7b7Y"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
@@ -451,6 +480,7 @@
     "1721030265664ce908",
     "row_img_text_3WBrBt",
     "slider_testimonial_mfGbj4",
-    "product-recommendations"
+    "product-recommendations",
+    "advanced_content_nWYA6U"
   ]
 }
