@@ -202,7 +202,7 @@
             "textarea": "",
             "cta_text1": "",
             "cta_link1": "",
-            "cta_text2": "Shop All",
+            "cta_text2": "Buy now",
             "cta_link2": "https:\/\/www.amazon.com\/dp\/B0DDXN71CM",
             "image": "shopify:\/\/shop_images\/036_767cf736-1a1a-4b8a-bfb4-76b773f537ae.jpg",
             "mimage": "shopify:\/\/shop_images\/035_38624630-b573-4271-a512-f097327bba84.jpg",
@@ -505,7 +505,6 @@
         "image_qWM4HM": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/032_-1_fa40fda6-417d-4973-86eb-5662a83247c9.jpg",
             "link": "",
             "width": "75%",
             "alignment": "center"
