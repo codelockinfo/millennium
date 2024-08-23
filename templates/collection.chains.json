@@ -240,6 +240,7 @@
         "heading_KPywcT",
         "text_7rdfEm"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "left",
         "narrow_column": true,
@@ -270,6 +271,7 @@
         "image_HkJkTC",
         "liquid_MDPNMV"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "space_around": true
