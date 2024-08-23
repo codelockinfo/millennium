@@ -126,6 +126,11 @@
             "label": "Image"
           },
           {
+            "type": "image_picker",
+            "id": "mimage",
+            "label": "Mobile Image"
+          },
+          {
             "type": "text",
             "id": "video_url",
             "label": "Video url"
@@ -650,3 +655,18 @@
     ]
   }
 {% endschema %}
+
+<style>
+    .bg_mobile{
+    display: none;
+  }
+   @media (max-width:576px) {
+    .bg_desktop{
+    display: none !important;
+  }
+    .bg_mobile{
+      display: block !important;
+      object-fit: contain;
+  }
+  }
+</style>

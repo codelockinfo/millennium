@@ -158,21 +158,29 @@
                         object-position: {{ block.settings.focal_point }};
                       }
                     {%- endstyle -%}
-
                     {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-
                     <img
-                      class="image-fit promo-grid__bg-image promo-grid__bg-image--{{ block.id }} lazyload"
+                      class="image-fit bg_desktop promo-grid__bg-image promo-grid__bg-image--{{ block.id }} lazyload"
                       src="{{ block.settings.image | img_url: '300x' }}"
                       data-src="{{ img_url }}"
                       data-aspectratio="{{ block.settings.image.aspect_ratio }}"
                       data-sizes="auto"
                       alt="{{ block.settings.image.alt | escape }}">
+                      {%- assign img_url = block.settings.mimage | img_url: 'master' -%}
+                      <img
+                      class="image-fit bg_mobile promo-grid__bg-image  lazyload"
+                      src="{{ block.settings.mimage | img_url: '300x' }}"
+                      data-src="{{ img_url }} "   data-sizes="auto" alt="{{ block.settings.mimage.alt | escape }}"
+                     >
                     <noscript>
                       <img
                         class="image-fit promo-grid__bg-image promo-grid__bg-image--{{ block.id }} lazyloaded"
                         src="{{ block.settings.image | img_url: '1800x' }}"
                         alt="{{ block.settings.image.alt }}">
+                      <img
+                        class="image-fit promo-grid__bg-image promo-grid__bg-image--{{ block.id }} lazyloaded"
+                        src="{{ block.settings.mimage | img_url: '1800x' }}"
+                        alt="{{ block.settings.mimage.alt }}">
                     </noscript>
                   {%- else -%}
                     {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
