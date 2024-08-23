@@ -191,23 +191,6 @@
       "settings": {
       }
     },
-    "background_image_text_PgccEt": {
-      "type": "background-image-text",
-      "disabled": true,
-      "settings": {
-        "subtitle": "",
-        "title": "",
-        "text": "",
-        "button_label": "Explore More",
-        "button_link": "https:\/\/www.amazon.com\/dp\/B0DDXN71CM",
-        "image": "shopify:\/\/shop_images\/032_-1.jpg",
-        "focal_point": "center",
-        "layout": "left",
-        "height": 650,
-        "framed": false,
-        "parallax": false
-      }
-    },
     "promo_grid_J47rmP": {
       "type": "promo-grid",
       "blocks": {
@@ -221,8 +204,8 @@
             "cta_link1": "",
             "cta_text2": "Shop All",
             "cta_link2": "https:\/\/www.amazon.com\/dp\/B0DDXN71CM",
-            "image": "shopify:\/\/shop_images\/032.jpg",
-            "mimage": "shopify:\/\/shop_images\/033_9723bc77-a469-4d6e-8e74-a16ceb70c2cc.jpg",
+            "image": "shopify:\/\/shop_images\/036_767cf736-1a1a-4b8a-bfb4-76b773f537ae.jpg",
+            "mimage": "shopify:\/\/shop_images\/035_38624630-b573-4271-a512-f097327bba84.jpg",
             "video_url": "",
             "width": "100",
             "height": 500,
@@ -546,7 +529,6 @@
     "recently-viewed",
     "collection-return",
     "product_servece_section_C8DbLG",
-    "background_image_text_PgccEt",
     "promo_grid_J47rmP",
     "tab_accordian_PmaHAD",
     "1721030265664ce908",
