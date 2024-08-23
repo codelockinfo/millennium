@@ -287,6 +287,35 @@
         "narrow_column": true,
         "divider": false
       }
+    },
+    "advanced_content_w6TC7d": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_PDijKw": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "liquid_pDVYxR": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>The Best Moissanite Gold Chain For Men\n<\/h2><p>\nEvery piece in our collection has been crafted with care and attention to detail. Our gold moissanite chains are designed to be worn regularly, ensuring that you always look your best. Whether you're attending a special event or just want to elevate your everyday style, our Mens cuban link chains are the perfect choice. We believe that jewelry should be both beautiful and functional, which is why our moissanite chains look even better in person than they do in pictures.<\/p>",
+            "width": "66%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_PDijKw",
+        "liquid_pDVYxR"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": true
+      }
     }
   },
   "order": [
@@ -299,6 +328,7 @@
     "advanced_content_8Xx8ag",
     "rich_text_arDkrm",
     "advanced_content_LfdHjW",
-    "rich_text_WpV4CK"
+    "rich_text_WpV4CK",
+    "advanced_content_w6TC7d"
   ]
 }
