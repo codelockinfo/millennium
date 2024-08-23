@@ -1,0 +1,506 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_PzV7wF": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "size_chart": "",
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": true
+          }
+        },
+        "quantity_selector_PDn3Pa": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        },
+        "paymenticon_8QxwdC": {
+          "type": "paymenticon",
+          "settings": {
+            "svg": "visa,master,american_express,apple_pay,google_pay,paypal,rupay,trustly,sofort,giropay,poli,swiftpay,"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": true
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "Customization Options",
+            "content": "<p>• <strong>Personalized Engravings<\/strong>: Add names, dates, or special phrases.<br\/><br\/>• <strong>Custom Designs<\/strong>: Collaborate with our design team for bespoke pieces.<br\/><br\/>• <strong>Stone and Metal Selection<\/strong>: Choose from a variety of stones and metals.<br\/><br\/>• <strong>Size and Fit Adjustments<\/strong>: Ensure a perfect fit with our resizing services.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_zWMTPp": {
+          "type": "tab",
+          "settings": {
+            "title": "Jewelry Care",
+            "content": "<p>• <strong>Regular Cleaning<\/strong>: Use a soft cloth and mild soap solution.<br\/><br\/>• <strong>Proper Storage<\/strong>: Store in a cool, dry place in a jewelry box with compartments.<br\/><br\/>• <strong>Avoid Chemicals<\/strong>: Keep away from perfumes, lotions, and cleaning agents.<br\/><br\/>• <strong>Periodic Inspections<\/strong>: Check for loose stones or damage and get repairs as needed.<br\/><br\/>• <strong>Professional Maintenance<\/strong>: Have your jewelry cleaned and serviced annually.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_7gAgt7": {
+          "type": "tab",
+          "settings": {
+            "title": "Contact Us",
+            "content": "<p>Contact: <strong>+91 92656 39288<\/strong><br\/>Email: <strong>milleniumjewelry9@gmail.com<\/strong><br\/><br\/>• <strong>Customer Support<\/strong>: Email, phone, or live chat for assistance.<br\/><br\/>• <strong>Custom Orders<\/strong>: Schedule consultations for custom pieces.<br\/><br\/>• <strong>Repairs<\/strong>: Contact us for professional inspections and repairs.<\/p>",
+            "page": ""
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "disabled": true,
+          "settings": {
+            "title": "Ask a question",
+            "phone": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_PzV7wF",
+        "price",
+        "separator",
+        "variant_picker",
+        "quantity_selector_PDn3Pa",
+        "buy_buttons",
+        "paymenticon_8QxwdC",
+        "description",
+        "tab",
+        "tab_zWMTPp",
+        "tab_7gAgt7",
+        "contact",
+        "share"
+      ],
+      "settings": {
+        "sku_enable": true,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "product_servece_section_C8DbLG": {
+      "type": "product-servece-section",
+      "blocks": {
+        "text_FMdYiT": {
+          "type": "text",
+          "settings": {
+            "service_img": "shopify:\/\/shop_images\/good-quality.png",
+            "service_text": "100% Quality Guarantee",
+            "back_ground": "#ede9eb"
+          }
+        },
+        "text_ibgaJt": {
+          "type": "text",
+          "settings": {
+            "service_img": "shopify:\/\/shop_images\/handmade.png",
+            "service_text": "Hand Made Product",
+            "back_ground": "#ede9eb"
+          }
+        },
+        "text_YCjgwA": {
+          "type": "text",
+          "settings": {
+            "service_img": "shopify:\/\/shop_images\/world-wide-shopping.png",
+            "service_text": "World Wide Free Shipping",
+            "back_ground": "#ede9eb"
+          }
+        }
+      },
+      "block_order": [
+        "text_FMdYiT",
+        "text_ibgaJt",
+        "text_YCjgwA"
+      ],
+      "settings": {
+      }
+    },
+    "background_image_text_PgccEt": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "Explore More",
+        "button_link": "https:\/\/www.amazon.com\/dp\/B0DDXN71CM",
+        "image": "shopify:\/\/shop_images\/032_-1.jpg",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 650,
+        "framed": false,
+        "parallax": false
+      }
+    },
+    "tab_accordian_PmaHAD": {
+      "type": "tab-accordian",
+      "blocks": {
+        "content_pxCdt6": {
+          "type": "content",
+          "settings": {
+            "tabheading": "<p>Packaging<\/p>",
+            "textcontent": "<h1>Premium Packaging for Your Timeless Treasures<\/h1><br><p>At Millennium Jewelery, we believe in delivering not just products but an experience. That's why we offer premium packaging to ensure your timeless treasures arrive in style and safety.<\/p><br><br>\n<h2><strong>Watch Packaging<\/strong><\/h2><br>\n<p>Each watch from Millennium Jewelery comes with the premium branded watch box and the necessary papers of the particular brand. We take extra care by covering the package with two layers of bubble wrap, providing added protection during transportation.<\/p><br><br>\n<h2><strong>Jewelry Packaging<\/strong><\/h2><br>\n<p>Our jewelry is packaged in a beautiful jewelry box, accompanied by a soft cloth for cleaning. To safeguard your jewelry during transit, we wrap the package in bubble bag packing, ensuring it arrives in pristine condition.<\/p>\n<p>Experience the difference with Millennium Jewelery's premium packaging. <a href=\"https:\/\/millenniumjewelery.com\/collections\/fully-iced-out-moissanite-diamond-watches\"><strong>Shop now<\/strong><\/a> and enjoy the luxury of receiving your timeless treasures in style.<\/p>"
+          }
+        },
+        "content_pbbj9g": {
+          "type": "content",
+          "settings": {
+            "tabheading": "<p>Shipping<\/p>",
+            "textcontent": "<h1 data-mce-fragment=\"1\"><strong>Fast and Reliable Worldwide Shipping at Millennium Jewelery<\/strong><\/h1><br>\n<p data-mce-fragment=\"1\">Shipping Policy: At Millennium Jewelry, we prioritize timely delivery and offer <strong>Free Shipping Worldwide<\/strong>. Please note that delivery times may vary based on the shipping service and destination country.<\/p><br><br>\n<h2 data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">USA Shipping Policy<\/strong><\/h2><br>\n<p data-me-fragment=\"1\">For orders within the USA, we provide a transit time of 8 to 11 days after dispatch. This timeframe does not account for any unforeseen natural disasters or customs clearance delays. In such cases, delivery may take longer, and we appreciate your patience.<\/p><br><br>\n<h2 data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">International Shipping (Except USA):<\/strong><\/h2><br>\n<p data-mce-fragment=\"1\">For orders outside the USA, we offer a transit time of 15 to 18 days. Similar to domestic shipping, this estimate excludes any natural disasters or customs clearance issues that may prolong delivery. Customers are responsible for any customs fees that may apply.<\/p>\n<p data-mce-fragment=\"1\">Week offs are not applicable to the given time frames for USA and Internation Countries.<\/p><br><br>\n<h2 data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Diverse Shipping Partners:<\/strong><\/h2><br>\n<p data-mce-fragment=\"1\">Millennium Jewelery collaborates with reputable shipping partners such as <a href=\"https:\/\/www.ups.com\/in\/en\/Home.page\">UPS<\/a>, USPS, FedEx, DHL, Aramex, and more. We choose the best service based on the destination country to ensure fast and reliable delivery.<\/p>\n<p data-mce-fragment=\"1\">Shop with confidence at Millennium Jewelery, knowing that your order will be handled with care and delivered efficiently. For specific shipping inquiries or assistance, please contact our customer support team.<\/p><br>\n<p data-mce-fragment=\"1\"><strong><a href=\"https:\/\/millenniumjewelery.com\/pages\/contact-us\">Contact Us<\/a><\/strong> for Any Queries.<\/p><br>"
+          }
+        },
+        "content_KE3FYd": {
+          "type": "content",
+          "settings": {
+            "tabheading": "<p>Safety & Security<\/p>",
+            "textcontent": "<h1 data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Order Fulfillment and Legal Compliance<\/strong><\/h1><br>\n<p data-mce-fragment=\"1\">At Millennium Jewelery, when customer place an order on our website, rest assured that we are fully committed to fulfilling it. Our dedication goes beyond delivering exceptional products; we also ensure compliance with all relevant laws and regulations. You can trust Millennium Jewelery to not only meet but exceed your expectations, backed by our adherence to legal standards.<\/p><br><br>\n<h2 data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Transparency<\/strong><\/h2><br>\n<p data-mce-fragment=\"1\">Transparency is key to our commitment to you. In our product descriptions, we provide comprehensive details about every aspect of our offerings, including production time and transit time. This ensures you have a clear understanding of the entire process. At Millennium Jewelery, transparency is not just a practice; it's a promise to keep you informed every step of the way.<\/p><br><br>\n<h2 data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Buyer's Money Security<\/strong><\/h2><br>\n<p data-mce-fragment=\"1\">Ensuring the security of our customer's funds is a top priority at Millennium Jewelery. We understand the concerns around online transactions and fraudulent activities. To provide a secure and trustworthy shopping experience, we implement the following measures:<\/p><br>\n<ol data-mce-fragment=\"1\">\n<li data-mce-fragment=\"1\">\n<strong data-mce-fragment=\"1\">Fund Security:<\/strong> We hold funds in supported payment gateways until the product is successfully delivered, minimizing the risk of fraudulent activities and instilling confidence in our customers.<\/li>\n<br>\n<li data-mce-fragment=\"1\">\n<strong data-mce-fragment=\"1\">Buyer Protection:<\/strong> Buyers have the option to file a complaint through supported payment gateways in case of any illegal activity or dissatisfaction with the purchase.<\/li>\n<br>\n<li data-mce-fragment=\"1\">\n<strong data-mce-fragment=\"1\">Transparent Process:<\/strong> We maintain transparency in our transactions, and supported payment gateways actively track shipments. If we fail to update tracking information, refunds and necessary actions may be initiated.<\/li>\n<br>\n<li data-mce-fragment=\"1\">\n<strong data-mce-fragment=\"1\">Collaboration with Payment Gateways:<\/strong> Our collaboration with trusted payment gateways, such as PayPal, ensures a secure and monitored transaction process. Notifications alert us to refrain from shipping until payment is successfully processed.<\/li>\n<\/ol><br>\n<p data-mce-fragment=\"1\">Shop with confidence at Millennium Jewelery, where your security is our priority. Experience transparent processes, legal compliance, and secure transactions for a safe and enjoyable online shopping experience.<br><br><strong><a href=\"https:\/\/millenniumjewelery.com\/pages\/contact-us\">Contact Us<\/a><\/strong> for Any Queries. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_pxCdt6",
+        "content_pbbj9g",
+        "content_KE3FYd"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center"
+      }
+    },
+    "1721030265664ce908": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_4KxRge": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_4KxRge"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "row_img_text_3WBrBt": {
+      "type": "row-img-text",
+      "blocks": {
+        "text_block_YfNfzq": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Group_1000004722.png",
+            "image_width": 60,
+            "title": "Luxurious Presentation",
+            "text": "<p>Our premium packaging adds a touch of luxury to your purchase, making it a delight to unbox your new watch or jewelry.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "block_align_text": "center"
+          }
+        },
+        "text_block_77dWib": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Vector_4.png",
+            "image_width": 60,
+            "title": "Protection and Safety",
+            "text": "<p>We prioritize the safety of your items, utilizing multiple layers of packaging to prevent damage during transportation.<br\/><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "block_align_text": "center"
+          }
+        },
+        "text_block_HibxR8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Group_2.png",
+            "image_width": 60,
+            "title": "Attention to Detail",
+            "text": "<p>From the branded watch box to the jewelry box and cleaning cloth, every detail is carefully considered to enhance your overall experience.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "block_align_text": "center"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_YfNfzq",
+        "text_block_77dWib",
+        "text_block_HibxR8"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "Why Choose Us?",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "slider_testimonial_mfGbj4": {
+      "type": "slider-testimonial",
+      "blocks": {
+        "text_kjUgWn": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>I've been a hip-hop jewelry enthusiast for years, and these iced-out watches are the best I've ever owned. The quality and design are unmatched. Everywhere I go, people ask me where I got my watch. Highly recommended!<\/p>",
+            "customername": "John Doe",
+            "country": "NY, United States"
+          }
+        },
+        "text_4ADyNT": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>Amazing craftsmanship and attention to detail! My iced-out chain gets compliments everywhere I go. The weight and feel of the chain are perfect, and the sparkle is out of this world.<\/p>",
+            "customername": "Sarah Miller",
+            "country": "LA, United States"
+          }
+        },
+        "text_Xddp6H": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>Top-notch customer service and incredible products. My new bling arrived quickly and was even more stunning in person. It's exactly what I was looking for to complete my collection.<\/p>",
+            "customername": "Michael Thompson",
+            "country": "IL, United States"
+          }
+        },
+        "text_j4q66X": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>The jewelry is stunning, and the prices are unbeatable. I was blown away when I received my pieces. They look and feel so luxurious. I'll definitely be a returning customer.<\/p>",
+            "customername": "Emily Roberts",
+            "country": "FL, United States"
+          }
+        },
+        "text_4NbLeW": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>The sparkle and shine of my new watch are out of this world. It's become my favorite piece of jewelry. The quality is incredible, and it looks like it cost a fortune.<\/p>",
+            "customername": "David Lewis",
+            "country": "TX, United States"
+          }
+        },
+        "text_kXMY9Q": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>Fast shipping and excellent quality. My friends can't stop admiring my new chain! The attention to detail is amazing, and the chain has a really nice weight to it. I'm thrilled with my purchase.<\/p>",
+            "customername": "Jessica Brown",
+            "country": "GA, United States"
+          }
+        },
+        "text_3fJFfe": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>I'm so impressed with the durability and design of my hip-hop jewelry. It looks and feels expensive, and it's held up beautifully even with daily wear. This is my new go-to for jewelry.<\/p>",
+            "customername": "Chris Williams",
+            "country": "PA, United States"
+          }
+        },
+        "text_b8znmB": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>The perfect accessory for any outfit. These pieces elevate my style effortlessly. The designs are versatile and eye-catching, and the quality is top-notch.<\/p>",
+            "customername": "Amanda King",
+            "country": "CA, United States"
+          }
+        },
+        "text_arw9A6": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a_5649220c-2d81-4a50-94cf-42bb99284ab6.png",
+            "content": "<p>I love how unique and eye-catching these designs are. Truly one-of-a-kind jewelry. Every piece I've bought feels special and stands out in the best way possible.<\/p>",
+            "customername": "Brian Smith",
+            "country": "NV, United States"
+          }
+        },
+        "text_8mR8TU": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a_5649220c-2d81-4a50-94cf-42bb99284ab6.png",
+            "content": "<p>I've bought hip-hop jewelry from many places, but this is by far the best. The quality, design, and customer service are all exceptional. Highly recommend!<\/p>",
+            "customername": "Matthew Harris",
+            "country": "MA, United States"
+          }
+        },
+        "text_bMdDkK": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a_5649220c-2d81-4a50-94cf-42bb99284ab6.png",
+            "content": "<p>The attention to detail is phenomenal. My iced-out watch is a real showstopper. It's a real work of art, and I feel so stylish whenever I wear it.<\/p>",
+            "customername": "Olivia Johnson",
+            "country": "CO, United States"
+          }
+        },
+        "text_dArEzr": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a_5649220c-2d81-4a50-94cf-42bb99284ab6.png",
+            "content": "<p>High-quality materials and flawless craftsmanship. These pieces are worth every penny. The quality is outstanding, and you can tell a lot of care goes into making each piece.<\/p>",
+            "customername": "James Parker",
+            "country": "AZ, United States"
+          }
+        }
+      },
+      "block_order": [
+        "text_kjUgWn",
+        "text_4ADyNT",
+        "text_Xddp6H",
+        "text_j4q66X",
+        "text_4NbLeW",
+        "text_kXMY9Q",
+        "text_3fJFfe",
+        "text_b8znmB",
+        "text_arw9A6",
+        "text_8mR8TU",
+        "text_bMdDkK",
+        "text_dArEzr"
+      ],
+      "settings": {
+        "heading": "Let customers speak for us"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "headingtext": "<p>Related Products<\/p>",
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "Related Products",
+        "related_count": 5
+      }
+    },
+    "advanced_content_nWYA6U": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_qWM4HM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled-1_copy_2.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_Rk7b7Y": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>You will get this product on amazon also<\/h2>\n\n\n<Strong><p>Cilck Here<\/p><\/Strong>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_qWM4HM",
+        "liquid_Rk7b7Y"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "main",
+    "sub",
+    "recently-viewed",
+    "collection-return",
+    "product_servece_section_C8DbLG",
+    "background_image_text_PgccEt",
+    "tab_accordian_PmaHAD",
+    "1721030265664ce908",
+    "row_img_text_3WBrBt",
+    "slider_testimonial_mfGbj4",
+    "product-recommendations",
+    "advanced_content_nWYA6U"
+  ]
+}
