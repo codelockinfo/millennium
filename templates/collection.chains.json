@@ -222,12 +222,6 @@
     "rich_text_arDkrm": {
       "type": "rich-text",
       "blocks": {
-        "heading_KPywcT": {
-          "type": "heading",
-          "settings": {
-            "title": ""
-          }
-        },
         "text_7rdfEm": {
           "type": "text",
           "settings": {
@@ -237,7 +231,6 @@
         }
       },
       "block_order": [
-        "heading_KPywcT",
         "text_7rdfEm"
       ],
       "settings": {
@@ -274,6 +267,26 @@
         "full_width": true,
         "space_around": true
       }
+    },
+    "rich_text_WpV4CK": {
+      "type": "rich-text",
+      "blocks": {
+        "text_htwGQN": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h2><strong>Discover Our New Moissanite Diamond Chain Stock<\/strong><\/h2><p>We regularly update our collection with new and unique pieces, so be sure to check back often. Our <strong>moissanite chains and pendants<\/strong> come in a variety of styles and designs, allowing you to express your individuality. These limited edition pieces are highly sought after, so act fast if you see something you love. The beauty of <strong>moissanite diamond chains<\/strong> lies in their versatility—there's virtually no limit to the ways they can be customized and worn.<\/p><h2><strong>Explore Moissanite Mens cuban link chain<\/strong><\/h2><p>We understand that everyone's taste in jewelry is different, which is why we offer a wide selection of <strong>Mens cuban link chains<\/strong> and <strong>moissanite diamond chains<\/strong>. From classic <strong>gold chains for men<\/strong> to more intricate designs like <strong>moissanite baguette chains<\/strong>, we have something for everyone. If you're in the market for a <strong>moissanite chain<\/strong>, you'll be impressed by our diverse range of options that cater to all preferences.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_htwGQN"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -285,6 +298,7 @@
     "advanced_content_mDqgAW",
     "advanced_content_8Xx8ag",
     "rich_text_arDkrm",
-    "advanced_content_LfdHjW"
+    "advanced_content_LfdHjW",
+    "rich_text_WpV4CK"
   ]
 }
