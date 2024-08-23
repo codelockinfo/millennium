@@ -462,26 +462,16 @@
         "image_qWM4HM": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled-1_copy_2.jpg",
+            "image": "shopify:\/\/shop_images\/032_-1_fa40fda6-417d-4973-86eb-5662a83247c9.jpg",
             "link": "",
-            "width": "50%",
-            "alignment": "center"
-          }
-        },
-        "liquid_Rk7b7Y": {
-          "type": "liquid",
-          "settings": {
-            "code": "<h2>You will get this product on amazon also<\/h2>\n\n\n<Strong><p>Cilck Here<\/p><\/Strong>",
-            "width": "50%",
+            "width": "100%",
             "alignment": "center"
           }
         }
       },
       "block_order": [
-        "image_qWM4HM",
-        "liquid_Rk7b7Y"
+        "image_qWM4HM"
       ],
-      "disabled": true,
       "settings": {
         "full_width": false,
         "space_around": true
