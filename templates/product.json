@@ -464,9 +464,26 @@
         "image_qWM4HM",
         "liquid_Rk7b7Y"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "space_around": true
+      }
+    },
+    "background_image_text_PgccEt": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "Explore More",
+        "button_link": "https:\/\/www.amazon.com\/dp\/B0DDXN71CM",
+        "image": "shopify:\/\/shop_images\/032_-1.jpg",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 550,
+        "framed": false,
+        "parallax": false
       }
     }
   },
@@ -482,6 +499,7 @@
     "row_img_text_3WBrBt",
     "slider_testimonial_mfGbj4",
     "product-recommendations",
-    "advanced_content_nWYA6U"
+    "advanced_content_nWYA6U",
+    "background_image_text_PgccEt"
   ]
 }
