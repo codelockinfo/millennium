@@ -245,6 +245,35 @@
         "narrow_column": true,
         "divider": false
       }
+    },
+    "advanced_content_LfdHjW": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_HkJkTC": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_MDPNMV": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Shop for VVS Moissanite Chains Now<\/h2><p>\nAt Millennium Jewelery, we pride ourselves on the quality of our Mens Cuban link chains and other jewelry pieces. Each chain is meticulously crafted by our talented team, ensuring that every piece meets the highest standards of beauty and durability. Whether you're looking for a moissanite gold chain or a classic moissanite silver chain, we guarantee that you'll find a piece that speaks to your style. Our VVS moissanite chains are not only aesthetically pleasing but also built to last, making them the perfect accessory for any occasion.<\/p>",
+            "width": "100%",
+            "alignment": "bottom-middle"
+          }
+        }
+      },
+      "block_order": [
+        "image_HkJkTC",
+        "liquid_MDPNMV"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
@@ -255,6 +284,7 @@
     "tab_accordian_q486zh",
     "advanced_content_mDqgAW",
     "advanced_content_8Xx8ag",
-    "rich_text_arDkrm"
+    "rich_text_arDkrm",
+    "advanced_content_LfdHjW"
   ]
 }
