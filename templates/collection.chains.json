@@ -245,6 +245,7 @@
         "image_HkJkTC": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/01_63cdfd22-387d-4225-8808-4da08c900ab8.jpg",
             "link": "",
             "width": "33%",
             "alignment": "top-middle"
