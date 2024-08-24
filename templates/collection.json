@@ -221,7 +221,7 @@
       ],
       "settings": {
         "align_text": "left",
-        "narrow_column": true,
+        "narrow_column": false,
         "divider": false
       }
     },
