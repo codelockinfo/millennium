@@ -385,6 +385,35 @@
         "narrow_column": false,
         "divider": false
       }
+    },
+    "advanced_content_nAdEQY": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_8YKJiy": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "liquid_XWymAA": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Real Iced Out Chains Made with VVS Moissanite<\/h2><p>The secret to our stunning moissanite chains is the quality of the materials we use. Our VVS moissanite chains are crafted from lab-created diamonds that are virtually indistinguishable from their natural counterparts. These diamonds offer the same brilliance and durability as natural diamonds but at a fraction of the cost. All of our gold moissanite chains are GRA certified, ensuring that you're getting a product of the highest quality.<\/p><br>",
+            "width": "66%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_8YKJiy",
+        "liquid_XWymAA"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": true
+      }
     }
   },
   "order": [
@@ -401,6 +430,7 @@
     "advanced_content_w6TC7d",
     "rich_text_7UXecg",
     "advanced_content_wCrkwx",
-    "rich_text_H4eTW7"
+    "rich_text_H4eTW7",
+    "advanced_content_nAdEQY"
   ]
 }
