@@ -443,6 +443,11 @@
         "product_recommendations_heading": "Related Products",
         "related_count": 5
       }
+    },
+    "pf-1f518ebb": {
+      "type": "pf-1f518ebb",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -458,6 +463,7 @@
     "1721030265664ce908",
     "row_img_text_3WBrBt",
     "slider_testimonial_mfGbj4",
-    "product-recommendations"
+    "product-recommendations",
+    "pf-1f518ebb"
   ]
 }

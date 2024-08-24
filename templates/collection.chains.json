@@ -19,17 +19,6 @@
     },
     "1721989590f2802f46": {
       "type": "apps",
-      "blocks": {
-        "powerful_form_builder_app_block_MHYB6Y": {
-          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
-          "settings": {
-            "shortcode": ""
-          }
-        }
-      },
-      "block_order": [
-        "powerful_form_builder_app_block_MHYB6Y"
-      ],
       "settings": {
         "full_width": false,
         "space_around": true
