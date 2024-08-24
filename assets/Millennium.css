@@ -4,3 +4,6 @@
         bottom: -7px !important;
     }
 }
+.template-collection .theme-block{
+    margin-bottom: 0;
+}
