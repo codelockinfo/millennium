@@ -336,6 +336,35 @@
         "narrow_column": false,
         "divider": false
       }
+    },
+    "advanced_content_wCrkwx": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_fpxyjk": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "33%",
+            "alignment": "top-middle"
+          }
+        },
+        "liquid_PJWNy9": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Satisfied Customers Love Our Cuban Link Chains<\/h2><p>Our Mens cuban link chains and Womens cuban link chains have garnered rave reviews from satisfied customers. These chains are designed to be worn for years without losing their shine or durability. Whether you prefer a moissanite diamond chain or a classic gold chain for men, you can be confident that you're investing in a piece that will stand the test of time. Our reputation for quality and customer satisfaction speaks for itself.<\/p><br>",
+            "width": "66%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_fpxyjk",
+        "liquid_PJWNy9"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": true
+      }
     }
   },
   "order": [
@@ -350,6 +379,7 @@
     "advanced_content_LfdHjW",
     "rich_text_WpV4CK",
     "advanced_content_w6TC7d",
-    "rich_text_7UXecg"
+    "rich_text_7UXecg",
+    "advanced_content_wCrkwx"
   ]
 }
