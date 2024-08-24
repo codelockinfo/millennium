@@ -1,0 +1,62 @@
+
+{% if product.metafields.custom.desktop_custom_banner != blank %}
+    <div class="shopify-section">
+            <div class="page-width">
+                    <div class="shopify-section type-advanced">
+                        <img src="{{ product.metafields.custom.desktop_custom_banner |  img_url: 'master'  }}"  class="{% if  product.metafields.custom.mobile_custom_banner != blank  %}desktophidden{% endif %}"/>
+                        {% if  product.metafields.custom.mobile_custom_banner != blank  %}<img src="{{ product.metafields.custom.mobile_custom_banner |  img_url: 'master'  }}" class="desktop-hidden"/>{% endif %}
+                       {% if product.metafields.custom.banner_button_link  != blank %}
+                            <div class="button-absolute">
+                                <a href="{{ product.metafields.custom.banner_button_link }}" class="btn">Shop all</a>
+                            </div>
+                       {% endif %}
+                    </div>
+            </div>
+    </div>
+{% endif %}
+{% schema %}
+    {
+      "name": "Metafield Banner",
+      "class": "metafield-banner",
+      "settings": [
+      ],
+      "presets": [
+        {
+             "name": "Metafield Banner"
+        }
+      ]
+    }
+{% endschema %}
+<style>
+    .metafield-banner .button-absolute{
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+    .metafield-banner .desktop-hidden{
+        display: none;
+    }
+    .metafield-banner .type-advanced::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 3;
+        background-color: #000;
+        background-color: var(--colorImageOverlay);
+        opacity: .1;
+        opacity: var(--colorImageOverlayOpacity);
+    }
+    @media (max-width:576px){
+        .metafield-banner .desktophidden{
+            display: none;
+        }
+        .metafield-banner .desktop-hidden{
+            display: block;
+        }
+    }
+</style>
