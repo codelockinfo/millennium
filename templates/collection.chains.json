@@ -264,7 +264,7 @@
         "liquid_MDPNMV"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "space_around": true
       }
     },
@@ -313,7 +313,7 @@
         "liquid_pDVYxR"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "space_around": true
       }
     },
@@ -362,7 +362,7 @@
         "liquid_PJWNy9"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "space_around": true
       }
     },
