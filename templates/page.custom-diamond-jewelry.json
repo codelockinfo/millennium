@@ -71,7 +71,7 @@
           "type": "liquid",
           "settings": {
             "code": "<h2>Moissanite Diamond Watch Collection<\/h2>\n<p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.<\/p>\n<h2>Moissanite Diamond Watch Collection<\/h2>\n<p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.<\/p>",
-            "width": "50%",
+            "width": "100%",
             "alignment": "center"
           }
         },
@@ -98,15 +98,6 @@
     "advanced_content_QPBKK6": {
       "type": "advanced-content",
       "blocks": {
-        "image_DMWQjy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/023_cfaa4b37-263f-4145-bf57-8a4e27398026.jpg",
-            "link": "",
-            "width": "50%",
-            "alignment": "center"
-          }
-        },
         "liquid_JCgJxG": {
           "type": "liquid",
           "settings": {
@@ -117,10 +108,8 @@
         }
       },
       "block_order": [
-        "image_DMWQjy",
         "liquid_JCgJxG"
       ],
-      "disabled": true,
       "settings": {
         "full_width": false,
         "space_around": true
