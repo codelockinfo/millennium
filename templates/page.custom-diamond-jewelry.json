@@ -110,9 +110,37 @@
       "block_order": [
         "liquid_JCgJxG"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "space_around": true
+      }
+    },
+    "rich_text_MkYMcx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XfREnT": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "text_wLj3wp": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<h3>Custom Jewelry<\/h3><p>Custom jewelry is the ultimate expression of personal style and luxury. Whether it's a custom diamond piece or a unique design that reflects your personality, custom jewelry allows you to create something truly special. By collaborating with expert jewelers, you can ensure every detail aligns with your vision, resulting in a stunning piece that will be cherished forever.<\/p><h3>Custom Diamond Piece<\/h3><p>Creating a custom diamond piece is a beautiful way to celebrate life's most significant moments. From engagement rings to anniversary gifts, a custom diamond piece can capture your unique story. Choose from a wide selection of diamonds, metals, and settings to design a one-of-a-kind treasure that perfectly suits your taste and budget.<\/p><h3>Custom Diamond Chain<\/h3><p>A custom diamond chain is a stylish way to add sparkle to any outfit. Whether you prefer a sleek, modern look or a bold, statement piece, custom diamond chains offer endless possibilities. You can select the length, type of chain, and size of diamonds to create a chain that reflects your individuality and style.<\/p><h3>Custom Diamond Watch<\/h3><p>Elevate your timepiece collection with a custom diamond watch. Adding diamonds to a watch not only enhances its beauty but also makes it uniquely yours. Choose the watch face, band style, and diamond placement to design a custom diamond watch that is both functional and fashionable.<\/p><h3>Custom Diamond Pendant<\/h3><p>A custom diamond pendant is a timeless accessory that can be worn for any occasion. Whether you want a classic solitaire or a personalized design, a custom diamond pendant allows you to create a piece that is both elegant and meaningful. It’s the perfect way to keep your loved ones close to your heart.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XfREnT",
+        "text_wLj3wp"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
       }
     }
   },
@@ -121,6 +149,7 @@
     "171931560112d71b5f",
     "advanced_content_Jyg7rJ",
     "advanced_content_KgVDnq",
-    "advanced_content_QPBKK6"
+    "advanced_content_QPBKK6",
+    "rich_text_MkYMcx"
   ]
 }
