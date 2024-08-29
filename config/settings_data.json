@@ -277,11 +277,17 @@
         "settings": {
         }
       },
+      "10821884108211614105": {
+        "type": "shopify:\/\/apps\/best-chat-live-chat\/blocks\/app-embed\/8f04fd48-10ad-4211-86e2-b3b3803a2848",
+        "disabled": true,
+        "settings": {
+        }
+      },
       "15683396631634586217": {
         "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
-          "button_color": "#000000",
+          "button_color": "#b69d62",
           "secondary_color": "#ffffff",
           "ternary_color": "#6a6a6a",
           "button_icon": "chat_bubble",
@@ -289,12 +295,6 @@
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
           "greeting_message": ""
-        }
-      },
-      "10821884108211614105": {
-        "type": "shopify:\/\/apps\/best-chat-live-chat\/blocks\/app-embed\/8f04fd48-10ad-4211-86e2-b3b3803a2848",
-        "disabled": true,
-        "settings": {
         }
       }
     }
