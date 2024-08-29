@@ -247,12 +247,6 @@
         "settings": {
         }
       },
-      "10821884108211614105": {
-        "type": "shopify:\/\/apps\/best-chat-live-chat\/blocks\/app-embed\/8f04fd48-10ad-4211-86e2-b3b3803a2848",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "4015264832934714879": {
         "type": "shopify:\/\/apps\/ecomsend-popups\/blocks\/app\/a5670cf8-5705-4b01-ad9e-447033feae26",
         "disabled": false,
@@ -295,6 +289,12 @@
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
           "greeting_message": ""
+        }
+      },
+      "10821884108211614105": {
+        "type": "shopify:\/\/apps\/best-chat-live-chat\/blocks\/app-embed\/8f04fd48-10ad-4211-86e2-b3b3803a2848",
+        "disabled": true,
+        "settings": {
         }
       }
     }
