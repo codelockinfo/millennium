@@ -254,6 +254,23 @@
         "space_around": true
       }
     },
+    "172542125785bf46a3": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_QVcx6T": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_QVcx6T"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
     "row_img_text_3WBrBt": {
       "type": "row-img-text",
       "blocks": {
@@ -462,6 +479,7 @@
     "metafield_banner_txaRyn",
     "tab_accordian_PmaHAD",
     "1721030265664ce908",
+    "172542125785bf46a3",
     "row_img_text_3WBrBt",
     "slider_testimonial_mfGbj4",
     "product-recommendations"
