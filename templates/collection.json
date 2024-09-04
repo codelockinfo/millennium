@@ -167,6 +167,7 @@
         "image_nB6HJ3",
         "liquid_caGyp9"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "space_around": true
@@ -197,6 +198,7 @@
         "liquid_YpWC3J",
         "image_FFEbeA"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -219,6 +221,7 @@
       "block_order": [
         "text_HF7BAT"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "left",
         "narrow_column": false,
