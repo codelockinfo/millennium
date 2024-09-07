@@ -14,7 +14,7 @@
       "settings": {
         "banner_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/89f28323b5404d499b52d2da7583e535.mp4",
         "banner_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a4454373fa3b471eaaed3f5bbd029c9a.mp4",
-        "banner_link": "shopify:\/\/collections\/fully-iced-out-moissanite-diamond-watches"
+        "banner_link": "shopify:\/\/collections\/moissanite-watches"
       }
     },
     "slideshow_cjDeH6": {
@@ -29,7 +29,7 @@
             "subheading": "",
             "link": "",
             "link_text": "Get  Upto 40% Off",
-            "link_2": "shopify:\/\/collections\/fully-iced-out-moissanite-diamond-watches",
+            "link_2": "shopify:\/\/collections\/moissanite-watches",
             "link_text_2": "View Collection",
             "color_accent": "rgba(0,0,0,0)",
             "color_accent2": "#d0c272",
@@ -182,7 +182,7 @@
         "subhead": "<p>Moissanite Watch<\/p>",
         "subheadp": "Introducing the epitome of elegance and innovation: the Moissanite Watch. Crafted with precision and adorned with the brilliance of lab-created Moissanite gems, this timepiece redefines luxury. Each watch is a testament to sophistication, featuring a sleek design and unparalleled sparkle.",
         "collection_color": "#eaeaea",
-        "collectionproduct": "fully-iced-out-moissanite-diamond-watches",
+        "collectionproduct": "moissanite-watches",
         "viewall": "shopify:\/\/collections\/mens-watches",
         "button_text": "View All"
       }
@@ -228,7 +228,7 @@
         "eimg3": "shopify:\/\/shop_images\/03_Cuban_Chain.jpg",
         "eimg4": "shopify:\/\/shop_images\/04_Pendant.jpg",
         "eimg5": "shopify:\/\/shop_images\/05_Earrings.jpg",
-        "ecollectionurl1": "shopify:\/\/collections\/fully-iced-out-moissanite-diamond-watches",
+        "ecollectionurl1": "shopify:\/\/collections\/moissanite-watches",
         "ecollectionurl2": "shopify:\/\/collections\/mens-rings",
         "ecollectionurl3": "shopify:\/\/collections\/cuban-link-chain",
         "ecollectionurl4": "shopify:\/\/collections\/pendant",
