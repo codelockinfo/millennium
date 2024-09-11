@@ -10,10 +10,15 @@
 .template-collection .customj-content-section .custom-content{
     padding-bottom: 20px;
 }
+
+
 .template-article iframe{
   width:100% !important;
 height:100% !important;
 }
 .template-article table,td{
   background-color:transparent !important;
+}
+.template-article table{
+  width:100% !important;
 }
