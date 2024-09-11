@@ -14,3 +14,6 @@
   width:100% !important;
 height:100% !important;
 }
+.template-article table{
+  background-color:transparent;
+}
