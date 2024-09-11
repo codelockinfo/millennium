@@ -34,10 +34,36 @@
         "blog_image_size": "wide",
         "divider": false
       }
+    },
+    "trusted_by_6heyAd": {
+      "type": "trusted-by",
+      "settings": {
+        "video": "",
+        "heading": ""
+      }
+    },
+    "millennium_video_bMRjpR": {
+      "type": "millennium-video",
+      "settings": {
+        "video": "",
+        "video2": "",
+        "para_head": "",
+        "company_name": "",
+        "paragraph": "",
+        "button": "",
+        "jewelery_url_1": "",
+        "para_head2": "",
+        "company_name2": "",
+        "paragraph2": "",
+        "button2": "",
+        "jewelery_url": ""
+      }
     }
   },
   "order": [
     "main",
-    "blog-posts"
+    "blog-posts",
+    "trusted_by_6heyAd",
+    "millennium_video_bMRjpR"
   ]
 }
