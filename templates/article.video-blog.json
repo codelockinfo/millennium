@@ -58,8 +58,9 @@
     "trusted_by_6heyAd": {
       "type": "trusted-by",
       "settings": {
-        "video": "",
-        "heading": ""
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/df1f0675733b4c97beb72d439b9e3ea6.mp4",
+        "heading": "Trusted by",
+        "image_bg": "shopify:\/\/shop_images\/Ellipse_5.png"
       }
     }
   },
