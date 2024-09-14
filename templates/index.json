@@ -36,7 +36,6 @@
             "text_color": "#000000",
             "text_align": "vertical-center horizontal-left",
             "image": "shopify:\/\/shop_images\/008.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/024_2500x2000_3.jpg",
             "overlay_opacity": 0,
             "focal_point": "20% 0"
           }
@@ -187,6 +186,18 @@
         "button_text": "View All"
       }
     },
+    "custom_featured_collection_TpmrUA": {
+      "type": "custom-featured-collection",
+      "settings": {
+        "headingtext": "<p>featured  products<\/p>",
+        "bgimg": "shopify:\/\/shop_images\/bracelet_900x_11343842-c769-432c-b7cb-4f80e6db27f3.jpg",
+        "collectionproduct": "bracelets",
+        "fhead": "Timeless millennium <br> for Every Occasion",
+        "fcolletionp": "the mesmerizing world of Radiant  Treasures, where gemstone delights  await. Our collection showcases an  array of exquisite gemstones.",
+        "fbuttontext": "View All",
+        "viewurl": "shopify:\/\/collections\/bracelets"
+      }
+    },
     "explore_TEHqRw": {
       "type": "explore",
       "blocks": {
@@ -203,7 +214,6 @@
         "text_ANmiib": {
           "type": "text",
           "settings": {
-            "explore1": "shopify:\/\/shop_images\/023_-_01.jpg",
             "heading_text": "<p>Hip Hop Pendants<\/p>",
             "pargraph_text": "",
             "button_text": "Explore More",
@@ -622,6 +632,7 @@
     "custom_banner_section_jMX93F",
     "category_slider_LU46Ei",
     "collection_slider_section_VnyWwX",
+    "custom_featured_collection_TpmrUA",
     "explore_TEHqRw",
     "explore_collection_tGJNWg",
     "hiphop_ring_collection_gRUgG4",
