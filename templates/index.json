@@ -189,11 +189,11 @@
     "custom_featured_collection_TpmrUA": {
       "type": "custom-featured-collection",
       "settings": {
-        "headingtext": "<p>featured  products<\/p>",
+        "headingtext": "<p>Earrings Collections<\/p>",
         "bgimg": "shopify:\/\/shop_images\/038_5964002a-573c-42e2-9862-96df326358be.jpg",
-        "collectionproduct": "bracelets",
-        "fhead": "Timeless millennium  for Every Occasion",
-        "fcolletionp": "the mesmerizing world of Radiant  Treasures, where gemstone delights  await. Our collection showcases an  array of exquisite gemstones.",
+        "collectionproduct": "stud-earrings-collection",
+        "fhead": "Diamond Stud Earrings For Women",
+        "fcolletionp": "",
         "fbuttontext": "View All",
         "viewurl": "shopify:\/\/collections\/bracelets"
       }
