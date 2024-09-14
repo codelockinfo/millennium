@@ -198,6 +198,18 @@
         "viewurl": "shopify:\/\/collections\/bracelets"
       }
     },
+    "custom_featured_collection_wYKBdw": {
+      "type": "custom-featured-collection",
+      "settings": {
+        "headingtext": "<p>Rings Collections<\/p>",
+        "bgimg": "shopify:\/\/shop_images\/039.jpg",
+        "collectionproduct": "eternity-engagement-ring",
+        "fhead": "Timeless millennium  for Every Occasion",
+        "fcolletionp": "the mesmerizing world of Radiant  Treasures, where gemstone delights  await. Our collection showcases an  array of exquisite gemstones.",
+        "fbuttontext": "View All",
+        "viewurl": "shopify:\/\/collections\/bracelets"
+      }
+    },
     "explore_TEHqRw": {
       "type": "explore",
       "blocks": {
@@ -633,6 +645,7 @@
     "category_slider_LU46Ei",
     "collection_slider_section_VnyWwX",
     "custom_featured_collection_TpmrUA",
+    "custom_featured_collection_wYKBdw",
     "explore_TEHqRw",
     "explore_collection_tGJNWg",
     "hiphop_ring_collection_gRUgG4",
