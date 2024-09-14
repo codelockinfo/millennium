@@ -186,18 +186,6 @@
         "button_text": "View All"
       }
     },
-    "custom_featured_collection_TpmrUA": {
-      "type": "custom-featured-collection",
-      "settings": {
-        "headingtext": "<p>Earrings Collections<\/p>",
-        "bgimg": "shopify:\/\/shop_images\/038_5964002a-573c-42e2-9862-96df326358be.jpg",
-        "collectionproduct": "stud-earrings-collection",
-        "fhead": "Diamond Stud Earrings For Women",
-        "fcolletionp": "",
-        "fbuttontext": "View All",
-        "viewurl": "shopify:\/\/collections\/diamond-earrings"
-      }
-    },
     "custom_featured_collection_wYKBdw": {
       "type": "custom-featured-collection",
       "settings": {
@@ -208,6 +196,18 @@
         "fcolletionp": "",
         "fbuttontext": "View All",
         "viewurl": "shopify:\/\/collections\/diamond-rings"
+      }
+    },
+    "custom_featured_collection_TpmrUA": {
+      "type": "custom-featured-collection",
+      "settings": {
+        "headingtext": "<p>Earrings Collections<\/p>",
+        "bgimg": "shopify:\/\/shop_images\/038_5964002a-573c-42e2-9862-96df326358be.jpg",
+        "collectionproduct": "stud-earrings-collection",
+        "fhead": "Diamond Stud Earrings For Women",
+        "fcolletionp": "",
+        "fbuttontext": "View All",
+        "viewurl": "shopify:\/\/collections\/diamond-earrings"
       }
     },
     "explore_TEHqRw": {
@@ -644,8 +644,8 @@
     "custom_banner_section_jMX93F",
     "category_slider_LU46Ei",
     "collection_slider_section_VnyWwX",
-    "custom_featured_collection_TpmrUA",
     "custom_featured_collection_wYKBdw",
+    "custom_featured_collection_TpmrUA",
     "explore_TEHqRw",
     "explore_collection_tGJNWg",
     "hiphop_ring_collection_gRUgG4",
