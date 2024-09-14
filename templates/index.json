@@ -188,7 +188,6 @@
     },
     "custom_featured_collection_TpmrUA": {
       "type": "custom-featured-collection",
-      "disabled": true,
       "settings": {
         "headingtext": "<p>featured  products<\/p>",
         "bgimg": "shopify:\/\/shop_images\/bracelet_900x_11343842-c769-432c-b7cb-4f80e6db27f3.jpg",
