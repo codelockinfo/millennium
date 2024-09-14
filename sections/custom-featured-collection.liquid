@@ -11,15 +11,14 @@
     <div class="f-collection-main">
       <div class="f-collection-img-box" style="background-image: url({{ section.settings.bgimg | img_url:'master' }};">
         <div class="disply">
-          {% if section.settings.fhead != blank %}
-            <div class="f-collection-head">{{ section.settings.fhead }}</div>
-          {% endif %}
-          {% if section.settings.fcolletionp != blank %}
-            <div class="f-collection-p">{{ section.settings.fcolletionp }}</div>
-          {% endif %}
-          {% if section.settings.fbuttontext != blank %}
-            <a href="{{section.settings.viewurl}}" class="f-collection-button">{{ section.settings.fbuttontext }}</a>
-          {% endif %}
+            {% if section.settings.fhead != blank %}
+            <div class="f-collection-head">{{section.settings.fhead}}</div>
+
+            {% if section.settings.fcolletionp != blank %}
+        <div class="f-collection-p">{{section.settings.fcolletionp}} </div>
+        {% if section.settings.fbuttontext != blank %}
+        <a href="{{section.settings.viewurl}}" class="f-collection-button">{{section.settings.fbuttontext}}</a>
+       {% endif %}
         </div>
       </div>
       <div class="f-collection-box">
@@ -114,16 +113,16 @@
 {% endschema %}
 
 <style>
-  .featured-products-main .product-title {
+    .featured-products-main .product-title {
     height: 60px !important ;
-  }
+}
   .featured-products-main {
-    padding: 60px 0;
+    padding: 80px 0;
   }
   .f-collection-main {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 70px;
+    margin-top: 40px;
   }
   .f-collection-box {
     width: 50%;
@@ -161,6 +160,7 @@
   .f-collection-grid-box {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 2fr));
+    padding: 15px;
   }
   .First-collection {
     margin: 0 20px;
