@@ -36,7 +36,6 @@
             "text_color": "#000000",
             "text_align": "vertical-center horizontal-left",
             "image": "shopify:\/\/shop_images\/008.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/024_2500x2000_3.jpg",
             "overlay_opacity": 0,
             "focal_point": "20% 0"
           }
@@ -187,6 +186,17 @@
         "button_text": "View All"
       }
     },
+    "custom_featured_collection_TpmrUA": {
+      "type": "custom-featured-collection",
+      "settings": {
+        "headingtext": "",
+        "collectionproduct": "",
+        "fhead": "",
+        "fcolletionp": "",
+        "fbuttontext": "",
+        "viewurl": ""
+      }
+    },
     "explore_TEHqRw": {
       "type": "explore",
       "blocks": {
@@ -203,7 +213,6 @@
         "text_ANmiib": {
           "type": "text",
           "settings": {
-            "explore1": "shopify:\/\/shop_images\/023_-_01.jpg",
             "heading_text": "<p>Hip Hop Pendants<\/p>",
             "pargraph_text": "",
             "button_text": "Explore More",
@@ -622,6 +631,7 @@
     "custom_banner_section_jMX93F",
     "category_slider_LU46Ei",
     "collection_slider_section_VnyWwX",
+    "custom_featured_collection_TpmrUA",
     "explore_TEHqRw",
     "explore_collection_tGJNWg",
     "hiphop_ring_collection_gRUgG4",
