@@ -1,6 +1,9 @@
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
 <div class="featured-products-main">
   <div class="width-container">
-    <div class="common-heading ">
+    <div class="common-heading">
       <div class="section-header">
         {% if section.settings.headingtext != blank %}
           <h2 class="heading-text">{{ section.settings.headingtext }}</h2>
@@ -8,24 +11,22 @@
       </div>
     </div>
 
-    <div class="f-collection-main {% if section.settings.checkimg %}right-img{% else %}left-img{% endif %} {% if section.settings.checkimgm %}top-img{% else %}bottom-img{% endif %} ">
-        <div class="f-collection-box">
-        <div class="f-collection-grid-box">
+    <div class="f-collection-main {% if section.settings.checkimg %}right-img{% else %}left-img{% endif %} {% if section.settings.checkimgm %}top-img{% else %}bottom-img{% endif %}">
+      <div class="f-collection-box">
+        <div class="f-collection-grid-box slider"> <!-- Add "slider" class -->
           {% for product in section.settings.collectionproduct.products limit: 4 %}
             <div class="First-collection">
               <div class="image-collection">
                 {% if product.featured_image != blank %}
                   <a href="{{ product.url }}">
                     <div class="product-img">
-                      <img src="{{  product.featured_image  | img_url: 'large' }}" class="main-img" loading="lazy">
-                      <img src="{{  product.images[1]  | img_url: 'large' }}" class="hover-image " loading="lazy">
+                      <img src="{{ product.featured_image | img_url: 'large' }}" class="main-img" loading="lazy">
+                      <img src="{{ product.images[1] | img_url: 'large' }}" class="hover-image" loading="lazy">
                     </div>
                   </a>
                 {% endif %}
                 <div class="product-content-box">
-                  <div class="product-title">
-                    {{ product.title }}
-                  </div>
+                  <div class="product-title">{{ product.title }}</div>
                   <div class="pro-rate">
                     <div class="product-price">
                       <span class="grid-product__price--original">{{ product.compare_at_price | money }}</span>
@@ -56,15 +57,15 @@
             <div class="f-collection-p">{{ section.settings.fcolletionp }}</div>
           {% endif %}
           {% if section.settings.fbuttontext != blank %}
-            <a href="{{section.settings.viewurl}}" class="f-collection-button">{{ section.settings.fbuttontext }}</a>
+            <a href="{{ section.settings.viewurl }}" class="f-collection-button">{{ section.settings.fbuttontext }}</a>
           {% endif %}
         </div>
       </div>
-    
     </div>
   </div>
 </div>
 
+  
 {% schema %}
 {
   "name": "custom Featured Products",
@@ -170,10 +171,7 @@
     padding: 10px 30px;
     border: 0;
   }
-  .f-collection-grid-box {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 2fr));
-  }
+ 
   .First-collection {
     margin-right:20px !important; 
   }
@@ -267,6 +265,10 @@
     order: 1;
      padding-left:20px;
     
+  } 
+  .f-collection-grid-box {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* Grid layout for larger screens */
   }
 }
 
@@ -291,6 +293,20 @@
     order: 1 ;
    
   }
+  .slider .First-collection {
+    display: block;
+    margin-right: 0;
+    margin-left: 20px;
+  }
+  .slick-slide {
+    margin: 0 10px; /* Optional padding between slider items */
+  }
+  .slick-list {
+    padding: 0 15px;
+  }
+  .f-collection-grid-box {
+    display: block; /* Disable grid for mobile and enable slider */
+  }
 
  
   }
@@ -302,3 +318,46 @@
     }
   }
 </style>
+
+
+<script>
+  $(document).ready(function() {
+    function initializeSlider() {
+      if ($(window).width() < 992) {
+        if (!$('.slider').hasClass('slick-initialized')) {
+          $('.slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false,
+            arrows: false,
+            responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1.1
+          }
+        }
+      ]
+          });
+        }
+      } else {
+        if ($('.slider').hasClass('slick-initialized')) {
+          $('.slider').slick('unslick');  // Destroy slider on desktop
+        }
+      }
+    }
+
+    initializeSlider(); // Run on page load
+
+    $(window).on('resize', function() {
+      initializeSlider(); // Run on window resize
+    });
+  });
+</script>
