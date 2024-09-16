@@ -196,7 +196,7 @@
         "fcolletionp": "",
         "fbuttontext": "View All",
         "viewurl": "shopify:\/\/collections\/diamond-rings",
-        "checkimg": false
+        "checkimg": true
       }
     },
     "custom_featured_collection_TpmrUA": {
@@ -209,7 +209,7 @@
         "fcolletionp": "",
         "fbuttontext": "View All",
         "viewurl": "shopify:\/\/collections\/diamond-earrings",
-        "checkimg": true
+        "checkimg": false
       }
     },
     "explore_TEHqRw": {
