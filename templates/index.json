@@ -195,7 +195,8 @@
         "fhead": "Diamond Wedding Bands",
         "fcolletionp": "",
         "fbuttontext": "View All",
-        "viewurl": "shopify:\/\/collections\/diamond-rings"
+        "viewurl": "shopify:\/\/collections\/diamond-rings",
+        "checkimg": false
       }
     },
     "custom_featured_collection_TpmrUA": {
@@ -207,7 +208,8 @@
         "fhead": "Diamond Stud Earrings For Women",
         "fcolletionp": "",
         "fbuttontext": "View All",
-        "viewurl": "shopify:\/\/collections\/diamond-earrings"
+        "viewurl": "shopify:\/\/collections\/diamond-earrings",
+        "checkimg": true
       }
     },
     "explore_TEHqRw": {
