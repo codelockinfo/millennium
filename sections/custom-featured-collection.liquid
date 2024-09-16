@@ -8,7 +8,7 @@
       </div>
     </div>
 
-    <div class="f-collection-main {% if section.settings.checkimg %}right-img{% else %}left-img{% endif %} {% if section.settings.checkimgm %}top-img{% endif %} ">
+    <div class="f-collection-main {% if section.settings.checkimg %}right-img{% else %}left-img{% endif %} {% if section.settings.checkimgm %}top-img{% else %}bottom-img{% endif %} ">
         <div class="f-collection-box">
         <div class="f-collection-grid-box">
           {% for product in section.settings.collectionproduct.products limit: 4 %}
@@ -281,7 +281,10 @@
    .f-collection-img-box{
      margin-bottom:50px;
 }
-    
+       .f-collection-main.bottom-img .f-collection-img-box  {
+    order: 1;
+   
+  }
 
   .f-collection-main.top-img .f-collection-box {
     order: 1;
