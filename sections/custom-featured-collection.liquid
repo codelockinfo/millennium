@@ -8,7 +8,7 @@
       </div>
     </div>
 
-    <div class="f-collection-main">
+    <div class="f-collection-main {% if section.settings.checkimg %}left-img{% else %}right-img{% endif %}">
         <div class="f-collection-box">
         <div class="f-collection-grid-box">
           {% for product in section.settings.collectionproduct.products limit: 4 %}
@@ -251,6 +251,16 @@
     display: flex;
     align-items: center;
   }
+    .f-collection-main.img-on-top .right-img {
+    order: -1;
+  }
+
+  .f-collection-main.img-on-bottom .left-img{
+    order: 1;
+  }
+
+
+
   @media (max-width: 991px) {
     .f-collection-box {
       width: 100%;
