@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
 
-<div class="featured-products-main">
+<div class="featured-products-main lazyloaded ">
   <div class="width-container">
     <div class="common-heading">
       <div class="section-header">
@@ -20,8 +20,8 @@
                 {% if product.featured_image != blank %}
                   <a href="{{ product.url }}">
                     <div class="product-img">
-                      <img src="{{ product.featured_image | img_url: 'large' }}" class="main-img" loading="lazy">
-                      <img src="{{ product.images[1] | img_url: 'large' }}" class="hover-image" loading="lazy">
+                      <img src="{{ product.featured_image | img_url: 'large' }}" class="main-img lazyloaded" loading="lazy">
+                      <img src="{{ product.images[1] | img_url: 'large' }}" class="hover-image lazyloaded" loading="lazy">
                     </div>
                   </a>
                 {% endif %}
@@ -48,7 +48,7 @@
           {% endfor %}
         </div>
       </div>
-      <div class="f-collection-img-box" style="background-image: url({{ section.settings.bgimg | img_url:'master' }};">
+      <div class="f-collection-img-box lazyloaded" style="background-image: url({{ section.settings.bgimg | img_url:'master' }};" loading="lazy">
         <div class="disply">
           {% if section.settings.fhead != blank %}
             <div class="f-collection-head">{{ section.settings.fhead }}</div>
@@ -331,6 +331,7 @@
             infinite: true,
             dots: false,
             arrows: false,
+            // autoplay:true,
             responsive: [
         {
           breakpoint: 991,
