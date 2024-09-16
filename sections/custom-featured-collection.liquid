@@ -105,6 +105,11 @@
       "label": "Button url"
     },
     {
+      "id": "checkimgm",
+      "type": "checkbox",
+      "label": " Image on top in mobile view"
+    },
+    {
       "id": "checkimg",
       "type": "checkbox",
       "label": "Left side Image"
@@ -276,6 +281,16 @@
    .f-collection-img-box{
      margin-bottom:50px;
 }
+       .f-collection-main.left-img .f-collection-img-box  {
+    order: 1;
+   
+  }
+
+  .f-collection-main.right-img .f-collection-box {
+    order: 1;
+     padding-left:20px;
+    
+  }
   }
   @media (max-width: 576px) {
     .f-collection-grid-box {
