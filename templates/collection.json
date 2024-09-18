@@ -275,33 +275,37 @@
         "text_RNm8tr": {
           "type": "text",
           "settings": {
-            "content": "",
-            "customername": "",
-            "country": ""
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
+            "content": "<p>I've bought hip-hop jewelry from many places, but this is by far the best. The quality, design, and customer service are all exceptional. Highly recommend!<\/p>",
+            "customername": "Matthew Harris",
+            "country": "MA, United States"
           }
         },
         "text_RGT4q6": {
           "type": "text",
           "settings": {
-            "content": "",
-            "customername": "",
-            "country": ""
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
+            "content": "<p>The attention to detail is phenomenal. My iced-out watch is a real showstopper. It's a real work of art, and I feel so stylish whenever I wear it.<\/p>",
+            "customername": "Olivia Johnson",
+            "country": "CO, United States"
           }
         },
         "text_kfAXmL": {
           "type": "text",
           "settings": {
-            "content": "",
-            "customername": "",
-            "country": ""
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
+            "content": "<p>High-quality materials and flawless craftsmanship. These pieces are worth every penny. The quality is outstanding, and you can tell a lot of care goes into making each piece.<\/p>",
+            "customername": "James Parker",
+            "country": "AZ, United States"
           }
         },
         "text_qHcGFk": {
           "type": "text",
           "settings": {
-            "content": "",
-            "customername": "",
-            "country": ""
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
+            "content": "<p>High-quality materials and flawless craftsmanship. These pieces are worth every penny. The quality is outstanding, and you can tell a lot of care goes into making each piece.<\/p>",
+            "customername": "James Parker",
+            "country": "AZ, United States"
           }
         }
       },
