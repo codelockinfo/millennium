@@ -259,6 +259,62 @@
         "title": "",
         "align_text": "center"
       }
+    },
+    "slider_testimonial_CDMnJC": {
+      "type": "slider-testimonial",
+      "blocks": {
+        "text_iptPz9": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
+            "content": "<p>I love how unique and eye-catching these designs are. Truly one-of-a-kind jewelry. Every piece I've bought feels special and stands out in the best way possible.<\/p>",
+            "customername": "Brian Smith",
+            "country": "NV, United States"
+          }
+        },
+        "text_RNm8tr": {
+          "type": "text",
+          "settings": {
+            "content": "",
+            "customername": "",
+            "country": ""
+          }
+        },
+        "text_RGT4q6": {
+          "type": "text",
+          "settings": {
+            "content": "",
+            "customername": "",
+            "country": ""
+          }
+        },
+        "text_kfAXmL": {
+          "type": "text",
+          "settings": {
+            "content": "",
+            "customername": "",
+            "country": ""
+          }
+        },
+        "text_qHcGFk": {
+          "type": "text",
+          "settings": {
+            "content": "",
+            "customername": "",
+            "country": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_iptPz9",
+        "text_RNm8tr",
+        "text_RGT4q6",
+        "text_kfAXmL",
+        "text_qHcGFk"
+      ],
+      "settings": {
+        "heading": "Let customers speak for us"
+      }
     }
   },
   "order": [
@@ -270,6 +326,7 @@
     "advanced_content_JxyhMg",
     "advanced_content_z6GhHL",
     "rich_text_QAkqMA",
-    "tab_accordian_q486zh"
+    "tab_accordian_q486zh",
+    "slider_testimonial_CDMnJC"
   ]
 }
