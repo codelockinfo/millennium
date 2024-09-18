@@ -196,8 +196,8 @@
         "fcolletionp": "",
         "fbuttontext": "View All",
         "viewurl": "shopify:\/\/collections\/diamond-rings",
-        "checkimgm": true,
-        "checkimg": true
+        "checkimg": true,
+        "checkimgm": true
       }
     },
     "custom_featured_collection_TpmrUA": {
@@ -210,8 +210,8 @@
         "fcolletionp": "",
         "fbuttontext": "View All",
         "viewurl": "shopify:\/\/collections\/diamond-earrings",
-        "checkimgm": true,
-        "checkimg": false
+        "checkimg": false,
+        "checkimgm": true
       }
     },
     "explore_TEHqRw": {
@@ -311,7 +311,7 @@
         "company_name2": "Amazon",
         "paragraph2": "Amazon stands as a beacon of trust for customers, providing a seamless platform for placing orders with confidence. We are proud to announce that our products are now available on Amazon, catering specifically to the USA market. Explore our Amazon store to discover a wide range of offerings and experience the convenience of secure online shopping.",
         "button2": "Explore More",
-        "jewelery_url": "https:\/\/www.amazon.com\/s?rh=n%3A7141123011%2Cp_4%3AMillennium+Jewelery&ref=bl_sl_s_je_web_7141123011",
+        "jewelery_url": "https:\/\/www.amazon.com\/stores\/MillenniunJewelery\/page\/6D0F7043-5B84-4078-B78A-02232831FE81",
         "btn_img2": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
       }
     },
