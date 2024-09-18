@@ -228,38 +228,6 @@
         "divider": false
       }
     },
-    "tab_accordian_q486zh": {
-      "type": "tab-accordian",
-      "blocks": {
-        "text_bGRHnH": {
-          "type": "text",
-          "settings": {
-            "tabheading": "<p>Frequently Asked Questions<\/p>",
-            "question1": "Do you make custom orders?",
-            "answer1": "<p>Yes, we specialize in creating custom pieces. If you can't find a jewelry that meets your needs, please contact us with your ideas or any reference images, and our experienced designer team is here to assist you every step of the way. Just fill out the form of <strong>Customization <\/strong>or else you can directly send your requirements to us over phone +91 92656 39288. <\/p>",
-            "question2": "Is moissanite diamond considered fake?",
-            "answer2": "<p>Moissanite is not considered as fake diamond, Moissanite is the option to find the cheaper jewelry. Moissanite diamond can passed by the diamond tester.<\/p>",
-            "question3": "What does iced out mean on a watch?",
-            "answer3": "<p>Iced out means the full watch is in diamonds. Manufacturer differentiate all the parts of watch and set the diamonds and make the watch again.<\/p>",
-            "question4": "How do you clean an iced out watch?",
-            "answer4": "<p>You can clean the watch using soft cloth. Don’t use any chemical or spray to clean the watch.<\/p>",
-            "question5": "Why are iced out watches so cheap?",
-            "answer5": "<p>Iced out watches can be cheap if use CZ or Moissanite diamond only if you use lab grown diamond or natural diamond it will be expensive.<\/p>",
-            "question6": "Can I get pictures of my order before dispatching?",
-            "answer6": "<p>Yes, you will get the pictures and video of the product before<br\/>dispatching.<\/p>",
-            "question7": "What can I use to clean my watch glass?",
-            "answer7": "<p>You can clean the glass using cloth only or just little wet cloth with water only.<br\/><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_bGRHnH"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center"
-      }
-    },
     "slider_testimonial_CDMnJC": {
       "type": "slider-testimonial",
       "blocks": {
@@ -319,6 +287,38 @@
       "settings": {
         "heading": "Let customers speak for us"
       }
+    },
+    "tab_accordian_q486zh": {
+      "type": "tab-accordian",
+      "blocks": {
+        "text_bGRHnH": {
+          "type": "text",
+          "settings": {
+            "tabheading": "<p>Frequently Asked Questions<\/p>",
+            "question1": "Do you make custom orders?",
+            "answer1": "<p>Yes, we specialize in creating custom pieces. If you can't find a jewelry that meets your needs, please contact us with your ideas or any reference images, and our experienced designer team is here to assist you every step of the way. Just fill out the form of <strong>Customization <\/strong>or else you can directly send your requirements to us over phone +91 92656 39288. <\/p>",
+            "question2": "Is moissanite diamond considered fake?",
+            "answer2": "<p>Moissanite is not considered as fake diamond, Moissanite is the option to find the cheaper jewelry. Moissanite diamond can passed by the diamond tester.<\/p>",
+            "question3": "What does iced out mean on a watch?",
+            "answer3": "<p>Iced out means the full watch is in diamonds. Manufacturer differentiate all the parts of watch and set the diamonds and make the watch again.<\/p>",
+            "question4": "How do you clean an iced out watch?",
+            "answer4": "<p>You can clean the watch using soft cloth. Don’t use any chemical or spray to clean the watch.<\/p>",
+            "question5": "Why are iced out watches so cheap?",
+            "answer5": "<p>Iced out watches can be cheap if use CZ or Moissanite diamond only if you use lab grown diamond or natural diamond it will be expensive.<\/p>",
+            "question6": "Can I get pictures of my order before dispatching?",
+            "answer6": "<p>Yes, you will get the pictures and video of the product before<br\/>dispatching.<\/p>",
+            "question7": "What can I use to clean my watch glass?",
+            "answer7": "<p>You can clean the glass using cloth only or just little wet cloth with water only.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_bGRHnH"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center"
+      }
     }
   },
   "order": [
@@ -330,7 +330,7 @@
     "advanced_content_JxyhMg",
     "advanced_content_z6GhHL",
     "rich_text_QAkqMA",
-    "tab_accordian_q486zh",
-    "slider_testimonial_CDMnJC"
+    "slider_testimonial_CDMnJC",
+    "tab_accordian_q486zh"
   ]
 }
