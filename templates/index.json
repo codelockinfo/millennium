@@ -35,7 +35,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "color_accent2": "#d0c272",
             "text_color": "#000000",
-            "text_align": "vertical-center horizontal-left",
+            "text_align": "vertical-center horizontal-right",
             "image": "shopify://shop_images/051_2bd2009f-68d0-4127-98bd-12c1028df62d.jpg",
             "overlay_opacity": 0,
             "focal_point": "20% 0"
