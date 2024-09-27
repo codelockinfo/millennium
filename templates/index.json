@@ -11,6 +11,7 @@
   "sections": {
     "custom_banner_section_eCcyDN": {
       "type": "custom_banner_section",
+      "disabled": true,
       "settings": {
         "banner_video": "https://cdn.shopify.com/videos/c/o/v/89f28323b5404d499b52d2da7583e535.mp4",
         "banner_mobile": "https://cdn.shopify.com/videos/c/o/v/a4454373fa3b471eaaed3f5bbd029c9a.mp4",
@@ -87,7 +88,6 @@
         "image_bHAkaH",
         "image_hR4j6F"
       ],
-      "disabled": true,
       "settings": {
         "section_height": "750px",
         "mobile_height": "auto",
