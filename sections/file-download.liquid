@@ -1,0 +1,115 @@
+<div class="text-button-section">
+  <div class="text-content">
+    <h2>{{ section.settings.text_title }}</h2>
+    <p>{{ section.settings.text_description }}</p>
+  </div>
+  
+  <div class="button-content">
+    <a href="{{ section.settings.pdf_url }}" class="cta-button" download="{{ section.settings.button_text }}.pdf">
+      {{ section.settings.button_text }}
+    </a>
+  </div>
+</div>
+
+<style>
+.text-button-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F0F0F0; 
+  padding: 40px;
+  margin: 50px;
+}
+
+.text-content {
+  width: 60%; 
+  color: #333;
+}
+
+.text-content h2 {
+  font-family: 'Italiana' !important;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.text-content p {
+  font-family: "Montserrat Alternates";
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.button-content {
+  width: 30%;
+  text-align: right;
+}
+
+.cta-button {
+  background-color: #B69D62;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Montserrat Alternates";
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .text-button-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    display: block;
+  }
+
+  .text-content, .button-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .cta-button {
+    margin-top: 20px;
+  }
+}
+</style>
+
+{% schema %}
+  {
+    "name": "File download",
+    "settings": [
+      {
+        "type": "text",
+        "id": "text_title",
+        "label": "Text Title",
+        "default": "Welcome to Our Store!"
+      },
+      {
+        "type": "textarea",
+        "id": "text_description",
+        "label": "Text Description",
+        "default": "Discover our amazing collection of products and enjoy a seamless shopping experience."
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text",
+        "default": "Download PDF"
+      },
+      {
+        "type": "url",
+        "id": "pdf_url",
+        "label": "PDF File URL"
+      }
+    ],
+    "presets": [
+      {
+        "name": "File download"
+      }
+    ]
+  }
+{% endschema %}

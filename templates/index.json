@@ -11,10 +11,11 @@
   "sections": {
     "custom_banner_section_eCcyDN": {
       "type": "custom_banner_section",
+      "disabled": true,
       "settings": {
-        "banner_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/89f28323b5404d499b52d2da7583e535.mp4",
-        "banner_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a4454373fa3b471eaaed3f5bbd029c9a.mp4",
-        "banner_link": "shopify:\/\/collections\/moissanite-watches"
+        "banner_video": "https://cdn.shopify.com/videos/c/o/v/89f28323b5404d499b52d2da7583e535.mp4",
+        "banner_mobile": "https://cdn.shopify.com/videos/c/o/v/a4454373fa3b471eaaed3f5bbd029c9a.mp4",
+        "banner_link": "shopify://collections/moissanite-watches"
       }
     },
     "slideshow_cjDeH6": {
@@ -24,18 +25,19 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "You Were Born\nTo Stand Out",
-            "title_size": 96,
+            "title": "Premium \nMoissanite Watches",
+            "title_size": 60,
             "subheading": "",
             "link": "",
-            "link_text": "Get  Upto 40% Off",
-            "link_2": "shopify:\/\/collections\/moissanite-watches",
+            "link_text": "Get Up to 40% Off",
+            "link_2": "shopify://collections/moissanite-watches",
             "link_text_2": "View Collection",
             "color_accent": "rgba(0,0,0,0)",
             "color_accent2": "#d0c272",
             "text_color": "#000000",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/008.jpg",
+            "image": "shopify://shop_images/051_2bd2009f-68d0-4127-98bd-12c1028df62d.jpg",
+            "image_mobile": "shopify://shop_images/051_M.jpg",
             "overlay_opacity": 0,
             "focal_point": "20% 0"
           }
@@ -44,19 +46,18 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Shine With\nCuban Designs",
-            "title_size": 96,
+            "title": "Shine with bold \nCuban chains.",
+            "title_size": 60,
             "subheading": "",
             "link": "",
             "link_text": "Get 10% Off",
-            "link_2": "shopify:\/\/collections",
+            "link_2": "shopify://collections",
             "link_text_2": "View Collection",
             "color_accent": "rgba(0,0,0,0)",
             "color_accent2": "#d0c272",
             "text_color": "#000000",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/013.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/025_2f108fc7-f327-4a85-a463-2102fd07236a.jpg",
+            "image": "shopify://shop_images/013.jpg",
             "overlay_opacity": 0,
             "focal_point": "20% 0"
           }
@@ -87,7 +88,6 @@
         "image_bHAkaH",
         "image_hR4j6F"
       ],
-      "disabled": true,
       "settings": {
         "section_height": "750px",
         "mobile_height": "auto",
@@ -112,49 +112,49 @@
         "text_JyN4kr": {
           "type": "text",
           "settings": {
-            "category_img": "shopify:\/\/shop_images\/01_2.jpg",
-            "category_text": "<p>Men's Watches<\/p>",
-            "collection_url": "shopify:\/\/collections\/mens-moissanite-watch"
+            "category_img": "shopify://shop_images/01_2.jpg",
+            "category_text": "<p>Men's Watches</p>",
+            "collection_url": "shopify://collections/mens-moissanite-watch"
           }
         },
         "text_nWQjV8": {
           "type": "text",
           "settings": {
-            "category_img": "shopify:\/\/shop_images\/016.jpg",
-            "category_text": "<p>Cuban Chains<\/p>",
-            "collection_url": "shopify:\/\/collections\/cuban-link-chain"
+            "category_img": "shopify://shop_images/016.jpg",
+            "category_text": "<p>Cuban Chains</p>",
+            "collection_url": "shopify://collections/cuban-link-chain"
           }
         },
         "text_aDNqVC": {
           "type": "text",
           "settings": {
-            "category_img": "shopify:\/\/shop_images\/018.jpg",
-            "category_text": "<p>Hip Hop Jewelry<\/p>",
-            "collection_url": "shopify:\/\/collections\/hip-hop-diamond-jewelry"
+            "category_img": "shopify://shop_images/018.jpg",
+            "category_text": "<p>Hip Hop Jewelry</p>",
+            "collection_url": "shopify://collections/hip-hop-diamond-jewelry"
           }
         },
         "text_89teFA": {
           "type": "text",
           "settings": {
-            "category_img": "shopify:\/\/shop_images\/015.jpg",
-            "category_text": "<p>Bracelets<\/p>",
-            "collection_url": "shopify:\/\/collections\/bracelets"
+            "category_img": "shopify://shop_images/015.jpg",
+            "category_text": "<p>Bracelets</p>",
+            "collection_url": "shopify://collections/bracelets"
           }
         },
         "text_fAL8xq": {
           "type": "text",
           "settings": {
-            "category_img": "shopify:\/\/shop_images\/019_98a5a1ff-c9c6-4586-8c27-94bd746afc78.jpg",
-            "category_text": "<p>Rings<\/p>",
-            "collection_url": "shopify:\/\/collections\/womens-rings"
+            "category_img": "shopify://shop_images/019_98a5a1ff-c9c6-4586-8c27-94bd746afc78.jpg",
+            "category_text": "<p>Rings</p>",
+            "collection_url": "shopify://collections/womens-rings"
           }
         },
         "text_7AY3FC": {
           "type": "text",
           "settings": {
-            "category_img": "shopify:\/\/shop_images\/017.jpg",
-            "category_text": "<p>Earrings<\/p>",
-            "collection_url": "shopify:\/\/collections\/diamond-earrings"
+            "category_img": "shopify://shop_images/017.jpg",
+            "category_text": "<p>Earrings</p>",
+            "collection_url": "shopify://collections/diamond-earrings"
           }
         }
       },
@@ -167,51 +167,51 @@
         "text_7AY3FC"
       ],
       "settings": {
-        "headingtext": "<p>our category<\/p>",
+        "headingtext": "<p>our category</p>",
         "background": "#f0f0f0",
-        "png_1": "shopify:\/\/shop_images\/Vector_20_2.png",
-        "png_2": "shopify:\/\/shop_images\/Vector_20_2.png"
+        "png_1": "shopify://shop_images/Vector_20_2.png",
+        "png_2": "shopify://shop_images/Vector_20_2.png"
       }
     },
     "collection_slider_section_VnyWwX": {
       "type": "collection-slider-section",
       "settings": {
-        "headingtext": "<p>Millennium Jewelery<br\/><\/p>",
+        "headingtext": "<p>Millennium Jewelery<br/></p>",
         "sub_p": "",
-        "subhead": "<p>Moissanite Watch<\/p>",
+        "subhead": "<p>Moissanite Watch</p>",
         "subheadp": "Introducing the epitome of elegance and innovation: the Moissanite Watch. Crafted with precision and adorned with the brilliance of lab-created Moissanite gems, this timepiece redefines luxury. Each watch is a testament to sophistication, featuring a sleek design and unparalleled sparkle.",
         "collection_color": "#eaeaea",
         "collectionproduct": "moissanite-watches",
-        "viewall": "shopify:\/\/collections\/mens-moissanite-watch",
+        "viewall": "shopify://collections/mens-moissanite-watch",
         "button_text": "View All"
       }
     },
     "custom_featured_collection_wYKBdw": {
       "type": "custom-featured-collection",
       "settings": {
-        "headingtext": "<p>Rings Collections<\/p>",
-        "bgimg": "shopify:\/\/shop_images\/039_48bebcaa-bb27-4da5-97d7-70712ce18ab7.jpg",
+        "headingtext": "<p>Rings Collections</p>",
+        "bgimg": "shopify://shop_images/039_48bebcaa-bb27-4da5-97d7-70712ce18ab7.jpg",
         "collectionproduct": "eternity-engagement-ring",
         "fhead": "Diamond Wedding Bands",
         "fcolletionp": "",
         "fbuttontext": "View All",
-        "viewurl": "shopify:\/\/collections\/diamond-rings",
-        "checkimgm": true,
-        "checkimg": true
+        "viewurl": "shopify://collections/diamond-rings",
+        "checkimg": true,
+        "checkimgm": true
       }
     },
     "custom_featured_collection_TpmrUA": {
       "type": "custom-featured-collection",
       "settings": {
-        "headingtext": "<p>Earrings Collections<\/p>",
-        "bgimg": "shopify:\/\/shop_images\/040_180698a5-239c-4c8c-8973-cac21190ac08.jpg",
+        "headingtext": "<p>Earrings Collections</p>",
+        "bgimg": "shopify://shop_images/040_180698a5-239c-4c8c-8973-cac21190ac08.jpg",
         "collectionproduct": "stud-earrings-collection",
         "fhead": "Diamond Stud Earrings For Women",
         "fcolletionp": "",
         "fbuttontext": "View All",
-        "viewurl": "shopify:\/\/collections\/diamond-earrings",
-        "checkimgm": true,
-        "checkimg": false
+        "viewurl": "shopify://collections/diamond-earrings",
+        "checkimg": false,
+        "checkimgm": true
       }
     },
     "explore_TEHqRw": {
@@ -220,20 +220,20 @@
         "text_VGUH6c": {
           "type": "text",
           "settings": {
-            "explore1": "shopify:\/\/shop_images\/022.jpg",
-            "heading_text": "<p>Cuban Chains<\/p>",
+            "explore1": "shopify://shop_images/022.jpg",
+            "heading_text": "<p>Cuban Chains</p>",
             "pargraph_text": "",
             "button_text": "Explore More",
-            "explolre_url": "shopify:\/\/collections\/cuban-link-chain"
+            "explolre_url": "shopify://collections/cuban-link-chain"
           }
         },
         "text_ANmiib": {
           "type": "text",
           "settings": {
-            "heading_text": "<p>Hip Hop Pendants<\/p>",
+            "heading_text": "<p>Hip Hop Pendants</p>",
             "pargraph_text": "",
             "button_text": "Explore More",
-            "explolre_url": "shopify:\/\/collections\/pendant"
+            "explolre_url": "shopify://collections/pendant"
           }
         }
       },
@@ -249,16 +249,16 @@
     "explore_collection_tGJNWg": {
       "type": "explore-collection",
       "settings": {
-        "eimg1": "shopify:\/\/shop_images\/01_Watch.jpg",
-        "eimg2": "shopify:\/\/shop_images\/02_Ring_3133c939-6073-47fe-9042-80bce9c61c2b.jpg",
-        "eimg3": "shopify:\/\/shop_images\/03_Cuban_Chain.jpg",
-        "eimg4": "shopify:\/\/shop_images\/04_Pendant.jpg",
-        "eimg5": "shopify:\/\/shop_images\/05_Earrings.jpg",
-        "ecollectionurl1": "shopify:\/\/collections\/moissanite-watches",
-        "ecollectionurl2": "shopify:\/\/collections\/mens-rings",
-        "ecollectionurl3": "shopify:\/\/collections\/cuban-link-chain",
-        "ecollectionurl4": "shopify:\/\/collections\/pendant",
-        "ecollectionurl5": "shopify:\/\/collections\/diamond-earrings"
+        "eimg1": "shopify://shop_images/01_Watch.jpg",
+        "eimg2": "shopify://shop_images/02_Ring_3133c939-6073-47fe-9042-80bce9c61c2b.jpg",
+        "eimg3": "shopify://shop_images/03_Cuban_Chain.jpg",
+        "eimg4": "shopify://shop_images/04_Pendant.jpg",
+        "eimg5": "shopify://shop_images/05_Earrings.jpg",
+        "ecollectionurl1": "shopify://collections/moissanite-watches",
+        "ecollectionurl2": "shopify://collections/mens-rings",
+        "ecollectionurl3": "shopify://collections/cuban-link-chain",
+        "ecollectionurl4": "shopify://collections/pendant",
+        "ecollectionurl5": "shopify://collections/diamond-earrings"
       }
     },
     "hiphop_ring_collection_gRUgG4": {
@@ -267,7 +267,7 @@
         "subheadp": "Cuban Link Chain",
         "background": "#f0f0f0",
         "collectionproduct": "cuban-link-chain",
-        "viewall": "shopify:\/\/collections\/cuban-link-chain",
+        "viewall": "shopify://collections/cuban-link-chain",
         "button_text": "View All"
       }
     },
@@ -275,21 +275,21 @@
       "type": "millennium-jewelery",
       "disabled": true,
       "settings": {
-        "image_main": "shopify:\/\/shop_images\/03_6cda9990-3e12-4df4-b3df-f5afe3463ba7.jpg",
+        "image_main": "shopify://shop_images/03_6cda9990-3e12-4df4-b3df-f5afe3463ba7.jpg",
         "para_head": "MILLENNIUM JEWELERY",
         "company_name": "Alibaba",
         "paragraph": "Discover Millennium Jewelery, a trusted and verified supplier on Alibaba.com. This platform helps to connect with customers worldwide, offering a convenient hub for retailers seeking top-quality moissanite watches and jewelry. With a focus on craftsmanship and reliability, we are your go-to manufacturer for exquisite moissanite pieces. Explore our extensive range of products on our Alibaba store for a showcase of elegance and sophistication.",
         "button": "Explore More",
-        "btn_img": "shopify:\/\/shop_images\/arrow-right.png",
-        "jewelery_url_1": "https:\/\/in1564485498ycjd.trustpass.alibaba.com\/index.html?spm=a2700.details.0.0.844416aahQEBVi&from=detail&productId=10000019226367",
-        "image1": "shopify:\/\/shop_images\/Vector_22.png",
+        "btn_img": "shopify://shop_images/arrow-right.png",
+        "jewelery_url_1": "https://in1564485498ycjd.trustpass.alibaba.com/index.html?spm=a2700.details.0.0.844416aahQEBVi&from=detail&productId=10000019226367",
+        "image1": "shopify://shop_images/Vector_22.png",
         "para_head2": "MILLENNIUM JEWELERY",
         "company_name2": "Amazon",
         "paragraph2": "Amazon stands as a beacon of trust for customers, providing a seamless platform for placing orders with confidence. We are proud to announce that our products are now available on Amazon, catering specifically to the USA market. Explore our Amazon store to discover a wide range of offerings and experience the convenience of secure online shopping.",
         "button2": "Explore More",
-        "jewelery_url": "https:\/\/www.amazon.com\/s?rh=n%3A7141123011%2Cp_4%3AMillennium+Jewelery&ref=bl_sl_s_je_web_7141123011",
-        "btn_img2": "shopify:\/\/shop_images\/arrow-right.png",
-        "image_main_1": "shopify:\/\/shop_images\/04_b1cd1117-056d-4b12-82b5-fb2cdc3f0ad0.jpg"
+        "jewelery_url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cp_4%3AMillennium+Jewelery&ref=bl_sl_s_je_web_7141123011",
+        "btn_img2": "shopify://shop_images/arrow-right.png",
+        "image_main_1": "shopify://shop_images/04_b1cd1117-056d-4b12-82b5-fb2cdc3f0ad0.jpg"
       }
     },
     "millennium_video_UarU6d": {
@@ -298,34 +298,34 @@
 
       ],
       "settings": {
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7de07270d89f460a9a3857b92e103bc9.mp4",
-        "video2": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/91f9e4f5c6f24652aa3d9f14045bea8b.mp4",
+        "video": "https://cdn.shopify.com/videos/c/o/v/7de07270d89f460a9a3857b92e103bc9.mp4",
+        "video2": "https://cdn.shopify.com/videos/c/o/v/91f9e4f5c6f24652aa3d9f14045bea8b.mp4",
         "para_head": "MILLENNIUM JEWELERY",
         "company_name": "Alibaba",
         "paragraph": "Discover Millennium Jewelery, a trusted and verified supplier on Alibaba.com. This platform helps to connect with customers worldwide, offering a convenient hub for retailers seeking top-quality moissanite watches and jewelry. With a focus on craftsmanship and reliability, we are your go-to manufacturer for exquisite moissanite pieces. Explore our extensive range of products on our Alibaba store for a showcase of elegance and sophistication.",
         "button": "Explore More",
-        "btn_img": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png",
-        "jewelery_url_1": "https:\/\/in1564485498ycjd.trustpass.alibaba.com\/index.html?spm=a2700.details.0.0.844416aahQEBVi&from=detail&productId=10000019226367",
-        "image1": "shopify:\/\/shop_images\/Vector_20_2_1969bd94-d62b-4e63-b987-1778315cbd03.png",
+        "btn_img": "shopify://shop_images/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png",
+        "jewelery_url_1": "https://in1564485498ycjd.trustpass.alibaba.com/index.html?spm=a2700.details.0.0.844416aahQEBVi&from=detail&productId=10000019226367",
+        "image1": "shopify://shop_images/Vector_20_2_1969bd94-d62b-4e63-b987-1778315cbd03.png",
         "para_head2": "MILLENNIUM JEWELERY",
         "company_name2": "Amazon",
         "paragraph2": "Amazon stands as a beacon of trust for customers, providing a seamless platform for placing orders with confidence. We are proud to announce that our products are now available on Amazon, catering specifically to the USA market. Explore our Amazon store to discover a wide range of offerings and experience the convenience of secure online shopping.",
         "button2": "Explore More",
-        "jewelery_url": "https:\/\/www.amazon.com\/s?rh=n%3A7141123011%2Cp_4%3AMillennium+Jewelery&ref=bl_sl_s_je_web_7141123011",
-        "btn_img2": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
+        "jewelery_url": "https://www.amazon.com/stores/MillenniunJewelery/page/6D0F7043-5B84-4078-B78A-02232831FE81",
+        "btn_img2": "shopify://shop_images/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
       }
     },
     "our_mission_XLE69f": {
       "type": "our-mission",
       "settings": {
         "Commitment_head": "Our Mission",
-        "Commitment_img_1": "shopify:\/\/shop_images\/11502090.png",
+        "Commitment_img_1": "shopify://shop_images/11502090.png",
         "Commitment_para_1": "Best and Easy<br>Service to Customer",
-        "Commitment_img_2": "shopify:\/\/shop_images\/8909309.png",
+        "Commitment_img_2": "shopify://shop_images/8909309.png",
         "Commitment_para_2": "Be Eco-Friendly",
-        "Commitment_img_3": "shopify:\/\/shop_images\/5078214.png",
+        "Commitment_img_3": "shopify://shop_images/5078214.png",
         "Commitment_para_3": "Increase   Employment",
-        "Commitment_img_4": "shopify:\/\/shop_images\/5790545.png",
+        "Commitment_img_4": "shopify://shop_images/5790545.png",
         "Commitment_para_4": "World Wide   Presence"
       }
     },
@@ -335,31 +335,31 @@
         "image_QiLdRr": {
           "type": "image",
           "settings": {
-            "trusted_by_image": "shopify:\/\/shop_images\/01_copy_255b88a7-ed19-4ad2-9da6-a205741cf1f3.png"
+            "trusted_by_image": "shopify://shop_images/01_copy_255b88a7-ed19-4ad2-9da6-a205741cf1f3.png"
           }
         },
         "image_HBcw9X": {
           "type": "image",
           "settings": {
-            "trusted_by_image": "shopify:\/\/shop_images\/02.png"
+            "trusted_by_image": "shopify://shop_images/02.png"
           }
         },
         "image_jDfkat": {
           "type": "image",
           "settings": {
-            "trusted_by_image": "shopify:\/\/shop_images\/03.png"
+            "trusted_by_image": "shopify://shop_images/03.png"
           }
         },
         "image_p4d9V6": {
           "type": "image",
           "settings": {
-            "trusted_by_image": "shopify:\/\/shop_images\/04_1_326f8e90-7b10-4b4a-8915-302df0c4905a.png"
+            "trusted_by_image": "shopify://shop_images/04_1_326f8e90-7b10-4b4a-8915-302df0c4905a.png"
           }
         },
         "image_FfKRWc": {
           "type": "image",
           "settings": {
-            "trusted_by_image": "shopify:\/\/shop_images\/05.png"
+            "trusted_by_image": "shopify://shop_images/05.png"
           }
         }
       },
@@ -371,9 +371,9 @@
         "image_FfKRWc"
       ],
       "settings": {
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/df1f0675733b4c97beb72d439b9e3ea6.mp4",
+        "video": "https://cdn.shopify.com/videos/c/o/v/df1f0675733b4c97beb72d439b9e3ea6.mp4",
         "heading": "Trusted by",
-        "image_bg": "shopify:\/\/shop_images\/Ellipse_5.png"
+        "image_bg": "shopify://shop_images/Ellipse_5.png"
       }
     },
     "slider_testimonial_bxePfz": {
@@ -382,8 +382,8 @@
         "text_iDK4hW": {
           "type": "text",
           "settings": {
-            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>I've been a hip-hop jewelry enthusiast for years, and these iced-out watches are the best I've ever owned. The quality and design are unmatched. Everywhere I go, people ask me where I got my watch. Highly recommended!<\/p>",
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>I've been a hip-hop jewelry enthusiast for years, and these iced-out watches are the best I've ever owned. The quality and design are unmatched. Everywhere I go, people ask me where I got my watch. Highly recommended!</p>",
             "customername": "John Doe",
             "country": "NY, United States"
           }
@@ -391,8 +391,8 @@
         "text_nQAERh": {
           "type": "text",
           "settings": {
-            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>Amazing craftsmanship and attention to detail! My iced-out chain gets compliments everywhere I go. The weight and feel of the chain are perfect, and the sparkle is out of this world.<\/p>",
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>Amazing craftsmanship and attention to detail! My iced-out chain gets compliments everywhere I go. The weight and feel of the chain are perfect, and the sparkle is out of this world.</p>",
             "customername": "Sarah Miller",
             "country": "CA, United States"
           }
@@ -400,8 +400,8 @@
         "text_HiCneA": {
           "type": "text",
           "settings": {
-            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>Top-notch customer service and incredible products. My new bling arrived quickly and was even more stunning in person. It's exactly what I was looking for to complete my collection.<\/p>",
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>Top-notch customer service and incredible products. My new bling arrived quickly and was even more stunning in person. It's exactly what I was looking for to complete my collection.</p>",
             "customername": "Michael Thompson",
             "country": "IL, United States"
           }
@@ -409,8 +409,8 @@
         "text_jHXBiN": {
           "type": "text",
           "settings": {
-            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>The jewelry is stunning, and the prices are unbeatable. I was blown away when I received my pieces. They look and feel so luxurious. I'll definitely be a returning customer.<\/p>",
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>The jewelry is stunning, and the prices are unbeatable. I was blown away when I received my pieces. They look and feel so luxurious. I'll definitely be a returning customer.</p>",
             "customername": "Emily Roberts",
             "country": "FL, United States"
           }
@@ -418,8 +418,8 @@
         "text_9FAUYB": {
           "type": "text",
           "settings": {
-            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>The sparkle and shine of my new watch are out of this world. It's become my favorite piece of jewelry. The quality is incredible, and it looks like it cost a fortune.<\/p>",
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>The sparkle and shine of my new watch are out of this world. It's become my favorite piece of jewelry. The quality is incredible, and it looks like it cost a fortune.</p>",
             "customername": "David Lewis",
             "country": "TX, United States"
           }
@@ -427,8 +427,8 @@
         "text_KztdmA": {
           "type": "text",
           "settings": {
-            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>Fast shipping and excellent quality. My friends can't stop admiring my new chain! The attention to detail is amazing, and the chain has a really nice weight to it. I'm thrilled with my purchase.<\/p>",
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>Fast shipping and excellent quality. My friends can't stop admiring my new chain! The attention to detail is amazing, and the chain has a really nice weight to it. I'm thrilled with my purchase.</p>",
             "customername": "Jessica Brown",
             "country": "GA, United States"
           }
@@ -436,8 +436,8 @@
         "text_giYmgn": {
           "type": "text",
           "settings": {
-            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>I'm so impressed with the durability and design of my hip-hop jewelry. It looks and feels expensive, and it's held up beautifully even with daily wear. This is my new go-to for jewelry.<\/p>",
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>I'm so impressed with the durability and design of my hip-hop jewelry. It looks and feels expensive, and it's held up beautifully even with daily wear. This is my new go-to for jewelry.</p>",
             "customername": "Chris Williams",
             "country": "PA, United States"
           }
@@ -445,8 +445,8 @@
         "text_MaeqL3": {
           "type": "text",
           "settings": {
-            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>The perfect accessory for any outfit. These pieces elevate my style effortlessly. The designs are versatile and eye-catching, and the quality is top-notch.<\/p>",
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>The perfect accessory for any outfit. These pieces elevate my style effortlessly. The designs are versatile and eye-catching, and the quality is top-notch.</p>",
             "customername": "Amanda King",
             "country": "CA, United States"
           }
@@ -454,8 +454,8 @@
         "text_enQm8X": {
           "type": "text",
           "settings": {
-            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>I love how unique and eye-catching these designs are. Truly one-of-a-kind jewelry. Every piece I've bought feels special and stands out in the best way possible.<\/p>",
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>I love how unique and eye-catching these designs are. Truly one-of-a-kind jewelry. Every piece I've bought feels special and stands out in the best way possible.</p>",
             "customername": "Brian Smith",
             "country": "NV, United States"
           }
@@ -463,8 +463,8 @@
         "text_HfbJAA": {
           "type": "text",
           "settings": {
-            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>I've bought hip-hop jewelry from many places, but this is by far the best. The quality, design, and customer service are all exceptional. Highly recommend!<\/p>",
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>I've bought hip-hop jewelry from many places, but this is by far the best. The quality, design, and customer service are all exceptional. Highly recommend!</p>",
             "customername": "Matthew Harris",
             "country": "MA, United States"
           }
@@ -472,8 +472,8 @@
         "text_CagigC": {
           "type": "text",
           "settings": {
-            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>The attention to detail is phenomenal. My iced-out watch is a real showstopper. It's a real work of art, and I feel so stylish whenever I wear it.<\/p>",
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>The attention to detail is phenomenal. My iced-out watch is a real showstopper. It's a real work of art, and I feel so stylish whenever I wear it.</p>",
             "customername": "Olivia Johnson",
             "country": "CO, United States"
           }
@@ -481,8 +481,8 @@
         "text_Pm4xQh": {
           "type": "text",
           "settings": {
-            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-            "content": "<p>High-quality materials and flawless craftsmanship. These pieces are worth every penny. The quality is outstanding, and you can tell a lot of care goes into making each piece.<\/p>",
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+            "content": "<p>High-quality materials and flawless craftsmanship. These pieces are worth every penny. The quality is outstanding, and you can tell a lot of care goes into making each piece.</p>",
             "customername": "James Parker",
             "country": "AZ, United States"
           }
@@ -510,12 +510,12 @@
       "type": "certificate_section",
       "settings": {
         "heading_1": "Certificate",
-        "heading_image": "shopify:\/\/shop_images\/Vector_20_2_1969bd94-d62b-4e63-b987-1778315cbd03.png",
-        "Certificate_1": "shopify:\/\/shop_images\/A3b92a42cdfc5459ab2a2f7e2374e036dt.jpg",
-        "Certificate_2": "shopify:\/\/shop_images\/Ab223f6a2b6d246d0a21a73716f9130ac1.jpg",
-        "Certificate_3": "shopify:\/\/shop_images\/Adf07c7e17e0e489d8421a43b9b03a778u.jpg",
-        "Certificate_4": "shopify:\/\/shop_images\/A3ba296f812764b41a2a90d05bb6dee092.jpg",
-        "Certificate_5": "shopify:\/\/shop_images\/012_1.jpg"
+        "heading_image": "shopify://shop_images/Vector_20_2_1969bd94-d62b-4e63-b987-1778315cbd03.png",
+        "Certificate_1": "shopify://shop_images/A3b92a42cdfc5459ab2a2f7e2374e036dt.jpg",
+        "Certificate_2": "shopify://shop_images/Ab223f6a2b6d246d0a21a73716f9130ac1.jpg",
+        "Certificate_3": "shopify://shop_images/Adf07c7e17e0e489d8421a43b9b03a778u.jpg",
+        "Certificate_4": "shopify://shop_images/A3ba296f812764b41a2a90d05bb6dee092.jpg",
+        "Certificate_5": "shopify://shop_images/012_1.jpg"
       }
     },
     "shipping_partner_Y7Rf8m": {
@@ -524,46 +524,46 @@
         "text_hKYC7N": {
           "type": "text",
           "settings": {
-            "box_image_1": "shopify:\/\/shop_images\/f4798250133f5bc49e18f96b77c7d6e9.png",
+            "box_image_1": "shopify://shop_images/f4798250133f5bc49e18f96b77c7d6e9.png",
             "box_content": "Track Your Parcel",
-            "box_url": "http:\/\/ups.com\/",
-            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
+            "box_url": "http://ups.com/",
+            "box_arrow": "shopify://shop_images/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
           }
         },
         "text_6VLPH9": {
           "type": "text",
           "settings": {
-            "box_image_1": "shopify:\/\/shop_images\/1a2dc24ec115f0b1e63bd80caf9dbb50.png",
+            "box_image_1": "shopify://shop_images/1a2dc24ec115f0b1e63bd80caf9dbb50.png",
             "box_content": "Track Your Parcel",
-            "box_url": "https:\/\/www.usps.com\/",
-            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
+            "box_url": "https://www.usps.com/",
+            "box_arrow": "shopify://shop_images/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
           }
         },
         "text_mL3gaA": {
           "type": "text",
           "settings": {
-            "box_image_1": "shopify:\/\/shop_images\/image_16.png",
+            "box_image_1": "shopify://shop_images/image_16.png",
             "box_content": "Track Your Parcel",
-            "box_url": "https:\/\/www.aramex.com\/",
-            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
+            "box_url": "https://www.aramex.com/",
+            "box_arrow": "shopify://shop_images/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
           }
         },
         "text_zqNcTM": {
           "type": "text",
           "settings": {
-            "box_image_1": "shopify:\/\/shop_images\/bffa9a1dc2f9feac7498a5656cf67c8a.png",
+            "box_image_1": "shopify://shop_images/bffa9a1dc2f9feac7498a5656cf67c8a.png",
             "box_content": "Track Your Parcel",
-            "box_url": "https:\/\/www.dhl.com\/",
-            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
+            "box_url": "https://www.dhl.com/",
+            "box_arrow": "shopify://shop_images/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
           }
         },
         "text_w767KM": {
           "type": "text",
           "settings": {
-            "box_image_1": "shopify:\/\/shop_images\/fedex-logo-free-download-free-vector-1.jpg",
+            "box_image_1": "shopify://shop_images/fedex-logo-free-download-free-vector-1.jpg",
             "box_content": "Track Your Parcel",
-            "box_url": "https:\/\/www.fedex.com\/",
-            "box_arrow": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
+            "box_url": "https://www.fedex.com/",
+            "box_arrow": "shopify://shop_images/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
           }
         }
       },
@@ -575,11 +575,11 @@
         "text_w767KM"
       ],
       "settings": {
-        "bg_image_1": "shopify:\/\/shop_images\/Ellipse_6_1.png",
-        "heading_side_image": "shopify:\/\/shop_images\/Vector_23_aeb8b8f4-6296-422b-b52b-20ce593e645f.png",
+        "bg_image_1": "shopify://shop_images/Ellipse_6_1.png",
+        "heading_side_image": "shopify://shop_images/Vector_23_aeb8b8f4-6296-422b-b52b-20ce593e645f.png",
         "header": "Shipping Partner",
         "header2": "our story",
-        "Video_2": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/640d7f396cce4f6f9d6e8ffd2dec0307.mp4"
+        "Video_2": "https://cdn.shopify.com/videos/c/o/v/640d7f396cce4f6f9d6e8ffd2dec0307.mp4"
       }
     },
     "trustedby_WmF4RN": {
@@ -588,7 +588,7 @@
         "image_JN38P9": {
           "type": "image",
           "settings": {
-            "trusted_by_image": "shopify:\/\/shop_images\/01.png"
+            "trusted_by_image": "shopify://shop_images/01.png"
           }
         },
         "image_XPL4AX": {
@@ -599,25 +599,25 @@
         "image_7HAdB6": {
           "type": "image",
           "settings": {
-            "trusted_by_image": "shopify:\/\/shop_images\/02.png"
+            "trusted_by_image": "shopify://shop_images/02.png"
           }
         },
         "image_UywWiV": {
           "type": "image",
           "settings": {
-            "trusted_by_image": "shopify:\/\/shop_images\/03.png"
+            "trusted_by_image": "shopify://shop_images/03.png"
           }
         },
         "image_k9iDNn": {
           "type": "image",
           "settings": {
-            "trusted_by_image": "shopify:\/\/shop_images\/04.png"
+            "trusted_by_image": "shopify://shop_images/04.png"
           }
         },
         "image_KVGqYL": {
           "type": "image",
           "settings": {
-            "trusted_by_image": "shopify:\/\/shop_images\/05.png"
+            "trusted_by_image": "shopify://shop_images/05.png"
           }
         }
       },
