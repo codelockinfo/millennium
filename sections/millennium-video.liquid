@@ -21,7 +21,8 @@
         {% endif %}
         <div class="paragraph-1">
           <h6 class="para_h6">{{ section.settings.para_head }}</h6>
-          <h2 class="para_h2">{{ section.settings.company_name }}</h2>
+          <a href="{{ section.settings.jewelery_url_1  }}" class="para_h2">{{ section.settings.company_name }}</a>
+          {% comment %} <h2 class="para_h2">{{ section.settings.company_name }}</h2> {% endcomment %}
           <p class="para_p">{{ section.settings.paragraph }}</p>
           <button class="para_button">
             <a href="{{ section.settings.jewelery_url_1 }}">
@@ -43,7 +44,8 @@
       <div class="box-2">
         <div class="paragraph-2">
           <h6 class="para_h6">{{ section.settings.para_head2 }}</h6>
-          <h2 class="para_h2_2">{{ section.settings.company_name2 }}</h2>
+          <a href="{{ section.settings.jewelery_url }}" class="para_h2_2">{{ section.settings.company_name2 }}</a>
+          {% comment %} <h2 class="para_h2_2">{{ section.settings.company_name2 }}</h2> {% endcomment %}
           <p class="para_p_2">{{ section.settings.paragraph2 }}</p>
           <button class="para_button">
             <a href="{{ section.settings.jewelery_url }}">
@@ -230,17 +232,18 @@
 
   .millennium_video .para_h2 {
     text-transform: none !important;
-    font-size: 36px;
+    font-size: 42px;
     font-family: "Italiana";
     color: #F37936;
+    cursor: pointer;
   }
 
   .millennium_video .para_h2_2 {
     text-transform: none !important;
-    font-size: 36px;
+    font-size: 42px;
     color: #282828;
     font-family: "Italiana";
-
+    cursor: pointer;
   }
 
   .millennium_video .para_p {
