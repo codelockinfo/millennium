@@ -1,5 +1,6 @@
 <div class="main_div">
   <div class="bg_image">
+    {% if section.settings.video  != blank %}
     <div class="video_section">
       <video
         class="video"
@@ -11,6 +12,7 @@
       </video>
 
     </div>
+    {% endif %}
     <div class="trusted_by">
       {% if section.settings.trusted_by_image != blank %}
         <div class="main_image_1">
