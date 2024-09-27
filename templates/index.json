@@ -57,7 +57,8 @@
             "color_accent2": "#d0c272",
             "text_color": "#000000",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify://shop_images/013.jpg",
+            "image": "shopify://shop_images/055.jpg",
+            "image_mobile": "shopify://shop_images/055_M.jpg",
             "overlay_opacity": 0,
             "focal_point": "20% 0"
           }
