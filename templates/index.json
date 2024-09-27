@@ -62,6 +62,27 @@
             "focal_point": "20% 0"
           }
         },
+        "image_zYJJCR": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Our Latest\nCollections.",
+            "title_size": 60,
+            "subheading": "",
+            "link": "",
+            "link_text": "Get 10% Off",
+            "link_2": "shopify://collections",
+            "link_text_2": "View Collection",
+            "color_accent": "rgba(0,0,0,0)",
+            "color_accent2": "#d0c272",
+            "text_color": "#000000",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify://shop_images/056.jpg",
+            "image_mobile": "shopify://shop_images/056_M.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "20% 0"
+          }
+        },
         "image_hR4j6F": {
           "type": "image",
           "disabled": true,
@@ -86,6 +107,7 @@
       "block_order": [
         "image_WGV893",
         "image_bHAkaH",
+        "image_zYJJCR",
         "image_hR4j6F"
       ],
       "settings": {
