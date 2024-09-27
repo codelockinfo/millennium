@@ -75,15 +75,15 @@
     "cart_type": "drawer",
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
-    "social_facebook_link": "https:\/\/www.facebook.com\/profile.php?id=61551420178146",
-    "social_pinterest_link": "https:\/\/www.pinterest.com\/MillenniumJewelery\/",
-    "social_instagram_link": "https:\/\/www.instagram.com\/millenniumjewelery\/",
-    "social_tiktok_link": "https:\/\/tiktok.com\/@millennium_jeweler",
-    "social_linkedin_link": "https:\/\/www.linkedin.com\/in\/millennium-jewelery-1435012b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    "social_youtube_link": "https:\/\/www.youtube.com\/@MillenniumJewelery",
-    "favicon": "shopify:\/\/shop_images\/logo_0139e2b6-92e8-433d-ad1a-3c9dab0588f7.png",
+    "social_facebook_link": "https://www.facebook.com/profile.php?id=61551420178146",
+    "social_pinterest_link": "https://www.pinterest.com/MillenniumJewelery/",
+    "social_instagram_link": "https://www.instagram.com/millenniumjewelery/",
+    "social_tiktok_link": "https://tiktok.com/@millennium_jeweler",
+    "social_linkedin_link": "https://www.linkedin.com/in/millennium-jewelery-1435012b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "social_youtube_link": "https://www.youtube.com/@MillenniumJewelery",
+    "favicon": "shopify://shop_images/logo_0139e2b6-92e8-433d-ad1a-3c9dab0588f7.png",
     "search_enable": true,
-    "wishlist_link": "shopify:\/\/pages\/wishlist",
+    "wishlist_link": "shopify://pages/wishlist",
     "show_breadcrumbs": true,
     "show_breadcrumbs_collection_link": false,
     "checkout_logo_position": "left",
@@ -102,7 +102,7 @@
           "1524770014057": {
             "type": "logo",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/logo_0139e2b6-92e8-433d-ad1a-3c9dab0588f7.png",
+              "logo": "shopify://shop_images/logo_0139e2b6-92e8-433d-ad1a-3c9dab0588f7.png",
               "desktop_logo_width": 140,
               "mobile_logo_width": 110
             }
@@ -135,8 +135,8 @@
             "settings": {
               "show_footer_title": true,
               "title": "",
-              "image": "shopify:\/\/shop_images\/image_18.png",
-              "text": "<p>Millennium Jewelery is a manufacturer of Gems & Jewelry and Moissanite Watches as well. We are dealing in Moissanite, Lab Grown Diamond, Natural Diamond Etc. and uses precious metal like Silver, Gold Etc.<\/p>",
+              "image": "shopify://shop_images/image_18.png",
+              "text": "<p>Millennium Jewelery is a manufacturer of Gems & Jewelry and Moissanite Watches as well. We are dealing in Moissanite, Lab Grown Diamond, Natural Diamond Etc. and uses precious metal like Silver, Gold Etc.</p>",
               "container_width": 25
             }
           },
@@ -202,7 +202,7 @@
           "popup_seconds": 5,
           "popup_days": 30,
           "popup_title": "Sign up and save",
-          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.</p>",
           "close_text": "No thanks",
           "enable_newsletter": true,
           "button_label": "Optional button",
@@ -231,7 +231,7 @@
           "show_homepage": true,
           "bgcolor_footer_address": "#111111",
           "color_footer_address": "#ffffff",
-          "address": "<p>© 2024, All Rights Reserved by Millennium Jewelery<\/p>",
+          "address": "<p>© 2024, All Rights Reserved by Millennium Jewelery</p>",
           "footer_menu_link_list": "",
           "svg": "visa,master,american_express,apple_pay,google_pay,klarna-pay-later,paypal,rupay,trustly,sofort,giropay,poli,swiftpay,"
         }
@@ -242,43 +242,43 @@
     ],
     "blocks": {
       "478144830049398400": {
-        "type": "shopify:\/\/apps\/storeseo\/blocks\/store_seo_meta\/64b24496-16f9-4afc-a800-84e6acc4a36c",
+        "type": "shopify://apps/storeseo/blocks/store_seo_meta/64b24496-16f9-4afc-a800-84e6acc4a36c",
         "disabled": false,
         "settings": {
         }
       },
       "776302416715791028": {
-        "type": "shopify:\/\/apps\/bucks\/blocks\/app-embed\/4f0a9b06-9da4-4a49-b378-2de9d23a3af3",
+        "type": "shopify://apps/bucks/blocks/app-embed/4f0a9b06-9da4-4a49-b378-2de9d23a3af3",
         "disabled": false,
         "settings": {
         }
       },
       "6279071938380501511": {
-        "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+        "type": "shopify://apps/powerful-form-builder/blocks/app-embed/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
         "disabled": false,
         "settings": {
         }
       },
       "8813254906777318544": {
-        "type": "shopify:\/\/apps\/k-wish-list-advanced-wishlist\/blocks\/app-embeded\/21053a4c-1902-4720-aab8-ebfc69de009a",
+        "type": "shopify://apps/k-wish-list-advanced-wishlist/blocks/app-embeded/21053a4c-1902-4720-aab8-ebfc69de009a",
         "disabled": false,
         "settings": {
         }
       },
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {
         }
       },
       "10821884108211614105": {
-        "type": "shopify:\/\/apps\/best-chat-live-chat\/blocks\/app-embed\/8f04fd48-10ad-4211-86e2-b3b3803a2848",
+        "type": "shopify://apps/best-chat-live-chat/blocks/app-embed/8f04fd48-10ad-4211-86e2-b3b3803a2848",
         "disabled": true,
         "settings": {
         }
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
           "button_color": "#b69d62",
@@ -292,20 +292,14 @@
         }
       },
       "6610233760104865948": {
-        "type": "shopify:\/\/apps\/pushowl-brevo\/blocks\/pushowl-app-embed-3d2ff2b5\/fa20c3ba-38bf-43e0-ba5c-431f6ae07d95",
+        "type": "shopify://apps/pushowl-brevo/blocks/pushowl-app-embed-3d2ff2b5/fa20c3ba-38bf-43e0-ba5c-431f6ae07d95",
         "disabled": false,
         "settings": {
         }
       },
       "13768625480086291342": {
-        "type": "shopify:\/\/apps\/forms\/blocks\/forms\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
         "disabled": false,
-        "settings": {
-        }
-      },
-      "4015264832934714879": {
-        "type": "shopify:\/\/apps\/ecomsend-popups\/blocks\/app\/a5670cf8-5705-4b01-ad9e-447033feae26",
-        "disabled": true,
         "settings": {
         }
       }
@@ -556,7 +550,7 @@
               "settings": {
                 "text": "Free shipping",
                 "link_text": "On all orders over $100",
-                "link": "shopify:\/\/collections\/all"
+                "link": "shopify://collections/all"
               }
             },
             "1520888647304": {
@@ -564,7 +558,7 @@
               "settings": {
                 "text": "Hassle-free returns",
                 "link_text": "30-day postage paid returns",
-                "link": "shopify:\/\/collections\/all"
+                "link": "shopify://collections/all"
               }
             }
           },
@@ -605,7 +599,7 @@
               "settings": {
                 "show_footer_title": true,
                 "title": "Sign up and save",
-                "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+                "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
                 "container_width": 30
               }
             },
@@ -641,7 +635,7 @@
             "popup_days": 30,
             "popup_title": "Sign up and save",
             "popup_image": "",
-            "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+            "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.</p>",
             "close_text": "No thanks",
             "enable_newsletter": true,
             "button_label": "Optional button",
@@ -666,7 +660,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }
@@ -677,7 +671,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }
@@ -688,7 +682,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }
