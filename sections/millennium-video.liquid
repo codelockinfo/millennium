@@ -2,6 +2,11 @@
   <div class="width-container">
     <div class="content_jewelery_video">
       <div class="box-1">
+        {% if section.settings.image_1 != blank  and section.settings.video == blank  %}
+          <div class="video-section">
+            <img src="{{ section.settings.image_1  | img_url: 'master' }}" alt="" loading="lazy"/>
+          </div>
+        {% endif %}
         {% if section.settings.video != blank %}
           <div class="video-section">
             <video
@@ -62,6 +67,11 @@
           </div>
         
         {% endif %}
+        {% if section.settings.image_2 != blank and section.settings.video2 == blank %}
+          <div class="video-section">
+            <img src="{{ section.settings.image_2  | img_url: 'master' }}" alt="" loading="lazy"/>
+          </div>
+        {% endif %}
       </div>
     </div>
   </div>
@@ -79,9 +89,19 @@
         "label": "video_watch"
       },
       {
+        "type": "image_picker",
+        "id": "image_1",
+        "label": "Select Image"
+      },
+      {
         "type": "url",
         "id": "video2",
         "label": "video_watch2"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_2",
+        "label": "Select Image"
       },
       {
         "type": "text",
