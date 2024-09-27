@@ -274,43 +274,48 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function(event) {
-    event.preventDefault()  
-      var swiper = new Swiper(".testimonialSwiper", {
-        slidesPerView: 4,
-        spaceBetween: 30,
-        cssMode: true,
-        loop:true,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        mousewheel: true,
-       keyboard: true,
-        breakpoints: {
-          
-          375: {
-            slidesPerView: 1,
-          },
-          576: {
-            slidesPerView: 1,
-          },
-          600: {
-            slidesPerView: 2  ,
-          },
+    event.preventDefault();
 
-          768: {
-            slidesPerView: 2,
-            
-          },
-          800: {
-            slidesPerView: 3,
-            
-          },
-          1000: {
-            slidesPerView: 4,
-      
-          },
-        }
-      });
+    var swiper = new Swiper(".testimonialSwiper", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      mousewheel: true,
+      keyboard: true,
+      breakpoints: {
+        // Below 375px
+        320: {
+          slidesPerView: 1, // Ensure this is applied for very small screens
+          spaceBetween: 20, // You can also reduce the space between slides
+        },
+        375: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        576: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+        },
+        600: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        800: {
+          slidesPerView: 3,
+        },
+        1000: {
+          slidesPerView: 4,
+        },
+      },
     });
+
+    swiper.update(); // Force update in case the breakpoints aren't working properly.
+  });
 </script>
