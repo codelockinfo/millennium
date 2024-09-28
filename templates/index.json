@@ -132,8 +132,8 @@
     "file_download_FzRXRC": {
       "type": "file-download",
       "settings": {
-        "text_title": "",
-        "text_description": "Our current stock",
+        "text_title": "Stock Available In USA",
+        "text_description": "You will get this watches in 3-5 Days.",
         "button_text": "Download PDF",
         "pdf_url": "https://cdn.shopify.com/s/files/1/0571/2825/5601/files/USA_STOCK_24.09.24_compressed.pdf?v=1727333231"
       }
