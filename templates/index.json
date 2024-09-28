@@ -129,6 +129,15 @@
         "banner_link": ""
       }
     },
+    "file_download_FzRXRC": {
+      "type": "file-download",
+      "settings": {
+        "text_title": "",
+        "text_description": "Our current stock",
+        "button_text": "Download PDF",
+        "pdf_url": "https://cdn.shopify.com/s/files/1/0571/2825/5601/files/USA_STOCK_24.09.24_compressed.pdf?v=1727333231"
+      }
+    },
     "category_slider_LU46Ei": {
       "type": "category-slider",
       "blocks": {
@@ -665,21 +674,13 @@
         "full_width": false,
         "space_around": true
       }
-    },
-    "file_download_FzRXRC": {
-      "type": "file-download",
-      "settings": {
-        "text_title": "",
-        "text_description": "Our current stock",
-        "button_text": "Download PDF",
-        "pdf_url": "https://cdn.shopify.com/s/files/1/0571/2825/5601/files/USA_STOCK_24.09.24_compressed.pdf?v=1727333231"
-      }
     }
   },
   "order": [
     "custom_banner_section_eCcyDN",
     "slideshow_cjDeH6",
     "custom_banner_section_jMX93F",
+    "file_download_FzRXRC",
     "category_slider_LU46Ei",
     "collection_slider_section_VnyWwX",
     "custom_featured_collection_wYKBdw",
@@ -694,7 +695,6 @@
     "slider_testimonial_bxePfz",
     "certificate_section_qjB9fx",
     "shipping_partner_Y7Rf8m",
-    "file_download_FzRXRC",
     "trustedby_WmF4RN",
     "1721621029c00929a0"
   ]
