@@ -346,7 +346,7 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "divider": false
+        "divider": true
       }
     }
   },
