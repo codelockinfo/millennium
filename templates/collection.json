@@ -21,7 +21,7 @@
       "type": "apps",
       "blocks": {
         "powerful_form_builder_app_block_MHYB6Y": {
-          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
           "settings": {
             "shortcode": ""
           }
@@ -129,11 +129,11 @@
       "type": "text-and-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_8515.jpg",
+        "image": "shopify://shop_images/IMG_8515.jpg",
         "image_width": 400,
         "subtitle": "",
         "title": "",
-        "text": "<h2><strong>Moissanite Diamond Watch Collection<\/strong><\/h2><p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.<\/p><h2><strong>Automatic Moissanite Mens Watches<\/strong><\/h2><p>Our moissanite mens watches feature precise automatic movements, expertly assembled by skilled watchmakers. Each moissanite watch promises reliability and longevity, making it an essential addition to any discerning watch enthusiast's collection.<\/p>",
+        "text": "<h2><strong>Moissanite Diamond Watch Collection</strong></h2><p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.</p><h2><strong>Automatic Moissanite Mens Watches</strong></h2><p>Our moissanite mens watches feature precise automatic movements, expertly assembled by skilled watchmakers. Each moissanite watch promises reliability and longevity, making it an essential addition to any discerning watch enthusiast's collection.</p>",
         "button_label": "",
         "button_link": "",
         "button_style": "secondary",
@@ -148,7 +148,7 @@
         "image_nB6HJ3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/023_cfaa4b37-263f-4145-bf57-8a4e27398026.jpg",
+            "image": "shopify://shop_images/023_cfaa4b37-263f-4145-bf57-8a4e27398026.jpg",
             "link": "",
             "width": "50%",
             "alignment": "center"
@@ -157,7 +157,7 @@
         "liquid_caGyp9": {
           "type": "liquid",
           "settings": {
-            "code": "<h2><Strong>Men's Moissanite Watches<\/Strong><\/h2>Discover our curated selection of <strong><a href=\"<strong><a href=\"https:\/\/millenniumjewelery.com\/collections\/mens-watches\">Men's Moissanite Watches<\/a><\/strong> designed to suit a range of styles and tastes. Whether you're in the market for a fully iced-out watch, a minimalist design without diamonds on the face, or a sporty watch with a <strong><a href=\"https:\/\/millenniumjewelery.com\/collections\/rubber-belt-watch\">Rubber Band<\/a><\/strong>, our collection offers something for every discerning gentleman\n<br><\/br>\n<h3><strong>Automatic Moissanite Diamond Watches<\/strong><\/h3>\nEach of our moissanite diamond watches is powered by precision <strong><a href=\"https:\/\/millenniumjewelery.com\/blogs\/blogs\/automatic-vs-mechanical-watches\">Automatic movements<\/a><\/strong>, meticulously handcrafted by skilled artisans. This dedication to craftsmanship ensures that your timepiece not only looks stunning but also delivers unparalleled accuracy and reliability, making it a perfect blend of style and function.\n<br><br>\nWe use only the finest VVS, D-color moissanite stones in our watches, celebrated for their exceptional clarity and brilliance. With a refractive index that surpasses natural diamonds, these stones ensure your watch radiates luxury and quality. Each stone is carefully selected to pass diamond testers, guaranteeing a timepiece that rivals the elegance of high-end diamond watches.",
+            "code": "<h2><Strong>Men's Moissanite Watches</Strong></h2>Discover our curated selection of <strong><a href=\"<strong><a href=\"https://millenniumjewelery.com/collections/mens-watches\">Men's Moissanite Watches</a></strong> designed to suit a range of styles and tastes. Whether you're in the market for a fully iced-out watch, a minimalist design without diamonds on the face, or a sporty watch with a <strong><a href=\"https://millenniumjewelery.com/collections/rubber-belt-watch\">Rubber Band</a></strong>, our collection offers something for every discerning gentleman\n<br></br>\n<h3><strong>Automatic Moissanite Diamond Watches</strong></h3>\nEach of our moissanite diamond watches is powered by precision <strong><a href=\"https://millenniumjewelery.com/blogs/blogs/automatic-vs-mechanical-watches\">Automatic movements</a></strong>, meticulously handcrafted by skilled artisans. This dedication to craftsmanship ensures that your timepiece not only looks stunning but also delivers unparalleled accuracy and reliability, making it a perfect blend of style and function.\n<br><br>\nWe use only the finest VVS, D-color moissanite stones in our watches, celebrated for their exceptional clarity and brilliance. With a refractive index that surpasses natural diamonds, these stones ensure your watch radiates luxury and quality. Each stone is carefully selected to pass diamond testers, guaranteeing a timepiece that rivals the elegance of high-end diamond watches.",
             "width": "50%",
             "alignment": "center"
           }
@@ -179,7 +179,7 @@
         "liquid_YpWC3J": {
           "type": "liquid",
           "settings": {
-            "code": "<h2><Strong>Iced Out Moissanite Watches in 3 Color Options<\/h2><\/Strong>\nChoose your perfect moissanite iced out watch from three luxurious color options: White, Yellow, or Rose Gold color. Each fully iced out watch is designed to make a bold statement while offering the ultimate in style and elegance.\n<br><\/br>\n<h3><strong>Buy a Bust Down Moissanite Watch From Us<\/Strong><\/h3>\nExplore our collection of bust down moissanite watches or bring your own timepiece for a custom transformation. We specialize in adding moissanite diamonds to create the perfect fully iced out watch.\n<br><\/br>\nCheckout our Castomization option for <strong><a href=\"https:\/\/millenniumjewelery.com\/pages\/custom-diamond-jewelry\">Custom Jewelery.<\/a><\/strong>",
+            "code": "<h2><Strong>Iced Out Moissanite Watches in 3 Color Options</h2></Strong>\nChoose your perfect moissanite iced out watch from three luxurious color options: White, Yellow, or Rose Gold color. Each fully iced out watch is designed to make a bold statement while offering the ultimate in style and elegance.\n<br></br>\n<h3><strong>Buy a Bust Down Moissanite Watch From Us</Strong></h3>\nExplore our collection of bust down moissanite watches or bring your own timepiece for a custom transformation. We specialize in adding moissanite diamonds to create the perfect fully iced out watch.\n<br></br>\nCheckout our Castomization option for <strong><a href=\"https://millenniumjewelery.com/pages/custom-diamond-jewelry\">Custom Jewelery.</a></strong>",
             "width": "50%",
             "alignment": "center"
           }
@@ -187,7 +187,7 @@
         "image_FFEbeA": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/024_7ce22b58-c193-475a-a5e1-338a659084d4.jpg",
+            "image": "shopify://shop_images/024_7ce22b58-c193-475a-a5e1-338a659084d4.jpg",
             "link": "",
             "width": "50%",
             "alignment": "top-middle"
@@ -214,7 +214,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<h2><strong>Iced Out Watch Moissanite<\/strong><\/h2><p>Design in our moissanite watch collection caters to every individual taste and preference, be it in the high brilliance of an iced-out moissanite watch or with an understated luxury appeal of a plain watch. Our collection consists of unique timepieces from splendidly luxurious to the most classic. Each timepiece in our collection is elaborated with meticulous attention to detail, making it no longer just an accessory but truly your style.<\/p><h2><strong>Moissanite Diamond Watch<\/strong><\/h2><p>The iced-out moissanite watch is extraordinary, bringing together the timeless brilliance of the moissanite with modernist features in aesthetics and design. Perfect for somebody who loves simplicity combined with luxury, our plain watches simply define sophistication. These are designed for individuals who wish to use a more discreet way of expressing their fashion sense. Still, although they bear that minimalist design, these plain watches are made with the same precision and high-quality materials as our more detailed versions, hence always being the embodiment of refined taste.<\/p><h2><strong>Mens Moissanite Watch<\/strong><\/h2><p>Each moissanite iced-out watch in our collection is not just a watch but a statement of class and elegance. The brilliance of moissanite, famous for its characteristics similar to that of a diamond, evokes dazzling shine in each of these watches. The watches are a perfect fusion of luxury and modernity, whether one is heading for some formal function or simply wants to upgrade their everyday appearance.<\/p><h2><strong>Moissanite Watch<\/strong><\/h2><p>You will certainly find a perfect moissanite watch to suit your style and preference with our extensive selection of options. Whether you are looking to add a stunning new piece to your collection or customize an existing one, our selection offers something for everyone. We host a variety of collections from iced-out moissanite watches, bold and eye-catching, to the plain watches sleek and subtle. We designed them to fill a gap in what the market offers for people who want quality but with style in their accessories.<\/p><p>Customization of your moissanite watch is yet another way to make that personal statement. Each collection in our series can be adapted to an extent where it reflects your tastes in style, size, or design element, and that makes the watch not just an accessory but a unique reflection of you and so, an irreplaceable piece in your collection over many years.<\/p>"
+            "text": "<h2><strong>Iced Out Watch Moissanite</strong></h2><p>Design in our moissanite watch collection caters to every individual taste and preference, be it in the high brilliance of an iced-out moissanite watch or with an understated luxury appeal of a plain watch. Our collection consists of unique timepieces from splendidly luxurious to the most classic. Each timepiece in our collection is elaborated with meticulous attention to detail, making it no longer just an accessory but truly your style.</p><h2><strong>Moissanite Diamond Watch</strong></h2><p>The iced-out moissanite watch is extraordinary, bringing together the timeless brilliance of the moissanite with modernist features in aesthetics and design. Perfect for somebody who loves simplicity combined with luxury, our plain watches simply define sophistication. These are designed for individuals who wish to use a more discreet way of expressing their fashion sense. Still, although they bear that minimalist design, these plain watches are made with the same precision and high-quality materials as our more detailed versions, hence always being the embodiment of refined taste.</p><h2><strong>Mens Moissanite Watch</strong></h2><p>Each moissanite iced-out watch in our collection is not just a watch but a statement of class and elegance. The brilliance of moissanite, famous for its characteristics similar to that of a diamond, evokes dazzling shine in each of these watches. The watches are a perfect fusion of luxury and modernity, whether one is heading for some formal function or simply wants to upgrade their everyday appearance.</p><h2><strong>Moissanite Watch</strong></h2><p>You will certainly find a perfect moissanite watch to suit your style and preference with our extensive selection of options. Whether you are looking to add a stunning new piece to your collection or customize an existing one, our selection offers something for everyone. We host a variety of collections from iced-out moissanite watches, bold and eye-catching, to the plain watches sleek and subtle. We designed them to fill a gap in what the market offers for people who want quality but with style in their accessories.</p><p>Customization of your moissanite watch is yet another way to make that personal statement. Each collection in our series can be adapted to an extent where it reflects your tastes in style, size, or design element, and that makes the watch not just an accessory but a unique reflection of you and so, an irreplaceable piece in your collection over many years.</p>"
           }
         }
       },
@@ -234,8 +234,8 @@
         "text_iptPz9": {
           "type": "text",
           "settings": {
-            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
-            "content": "<p>I love how unique and eye-catching these designs are. Truly one-of-a-kind jewelry. Every piece I've bought feels special and stands out in the best way possible.<\/p>",
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
+            "content": "<p>I love how unique and eye-catching these designs are. Truly one-of-a-kind jewelry. Every piece I've bought feels special and stands out in the best way possible.</p>",
             "customername": "Brian Smith",
             "country": "NV, United States"
           }
@@ -243,8 +243,8 @@
         "text_RNm8tr": {
           "type": "text",
           "settings": {
-            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
-            "content": "<p>I've bought hip-hop jewelry from many places, but this is by far the best. The quality, design, and customer service are all exceptional. Highly recommend!<\/p>",
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
+            "content": "<p>I've bought hip-hop jewelry from many places, but this is by far the best. The quality, design, and customer service are all exceptional. Highly recommend!</p>",
             "customername": "Matthew Harris",
             "country": "MA, United States"
           }
@@ -252,8 +252,8 @@
         "text_RGT4q6": {
           "type": "text",
           "settings": {
-            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
-            "content": "<p>The attention to detail is phenomenal. My iced-out watch is a real showstopper. It's a real work of art, and I feel so stylish whenever I wear it.<\/p>",
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
+            "content": "<p>The attention to detail is phenomenal. My iced-out watch is a real showstopper. It's a real work of art, and I feel so stylish whenever I wear it.</p>",
             "customername": "Olivia Johnson",
             "country": "CO, United States"
           }
@@ -261,8 +261,8 @@
         "text_kfAXmL": {
           "type": "text",
           "settings": {
-            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
-            "content": "<p>High-quality materials and flawless craftsmanship. These pieces are worth every penny. The quality is outstanding, and you can tell a lot of care goes into making each piece.<\/p>",
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
+            "content": "<p>High-quality materials and flawless craftsmanship. These pieces are worth every penny. The quality is outstanding, and you can tell a lot of care goes into making each piece.</p>",
             "customername": "James Parker",
             "country": "AZ, United States"
           }
@@ -270,8 +270,8 @@
         "text_qHcGFk": {
           "type": "text",
           "settings": {
-            "box_image": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
-            "content": "<p>High-quality materials and flawless craftsmanship. These pieces are worth every penny. The quality is outstanding, and you can tell a lot of care goes into making each piece.<\/p>",
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
+            "content": "<p>High-quality materials and flawless craftsmanship. These pieces are worth every penny. The quality is outstanding, and you can tell a lot of care goes into making each piece.</p>",
             "customername": "James Parker",
             "country": "AZ, United States"
           }
@@ -294,21 +294,21 @@
         "text_bGRHnH": {
           "type": "text",
           "settings": {
-            "tabheading": "<p>Frequently Asked Questions<\/p>",
+            "tabheading": "<p>Frequently Asked Questions</p>",
             "question1": "Do you make custom orders?",
-            "answer1": "<p>Yes, we specialize in creating custom pieces. If you can't find a jewelry that meets your needs, please contact us with your ideas or any reference images, and our experienced designer team is here to assist you every step of the way. Just fill out the form of <strong>Customization <\/strong>or else you can directly send your requirements to us over phone +91 92656 39288. <\/p>",
+            "answer1": "<p>Yes, we specialize in creating custom pieces. If you can't find a jewelry that meets your needs, please contact us with your ideas or any reference images, and our experienced designer team is here to assist you every step of the way. Just fill out the form of <strong>Customization </strong>or else you can directly send your requirements to us over phone +91 92656 39288. </p>",
             "question2": "Is moissanite diamond considered fake?",
-            "answer2": "<p>Moissanite is not considered as fake diamond, Moissanite is the option to find the cheaper jewelry. Moissanite diamond can passed by the diamond tester.<\/p>",
+            "answer2": "<p>Moissanite is not considered as fake diamond, Moissanite is the option to find the cheaper jewelry. Moissanite diamond can passed by the diamond tester.</p>",
             "question3": "What does iced out mean on a watch?",
-            "answer3": "<p>Iced out means the full watch is in diamonds. Manufacturer differentiate all the parts of watch and set the diamonds and make the watch again.<\/p>",
+            "answer3": "<p>Iced out means the full watch is in diamonds. Manufacturer differentiate all the parts of watch and set the diamonds and make the watch again.</p>",
             "question4": "How do you clean an iced out watch?",
-            "answer4": "<p>You can clean the watch using soft cloth. Don’t use any chemical or spray to clean the watch.<\/p>",
+            "answer4": "<p>You can clean the watch using soft cloth. Don’t use any chemical or spray to clean the watch.</p>",
             "question5": "Why are iced out watches so cheap?",
-            "answer5": "<p>Iced out watches can be cheap if use CZ or Moissanite diamond only if you use lab grown diamond or natural diamond it will be expensive.<\/p>",
+            "answer5": "<p>Iced out watches can be cheap if use CZ or Moissanite diamond only if you use lab grown diamond or natural diamond it will be expensive.</p>",
             "question6": "Can I get pictures of my order before dispatching?",
-            "answer6": "<p>Yes, you will get the pictures and video of the product before<br\/>dispatching.<\/p>",
+            "answer6": "<p>Yes, you will get the pictures and video of the product before<br/>dispatching.</p>",
             "question7": "What can I use to clean my watch glass?",
-            "answer7": "<p>You can clean the glass using cloth only or just little wet cloth with water only.<br\/><\/p>"
+            "answer7": "<p>You can clean the glass using cloth only or just little wet cloth with water only.<br/></p>"
           }
         }
       },
@@ -318,6 +318,33 @@
       "settings": {
         "title": "",
         "align_text": "center"
+      }
+    },
+    "rich_text_UHhMGm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mbA6Hm": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "text_9j6Kkw": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>{{ collection.metafields.custom.custom_content | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mbA6Hm",
+        "text_9j6Kkw"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
       }
     }
   },
@@ -331,6 +358,7 @@
     "advanced_content_z6GhHL",
     "rich_text_QAkqMA",
     "slider_testimonial_CDMnJC",
-    "tab_accordian_q486zh"
+    "tab_accordian_q486zh",
+    "rich_text_UHhMGm"
   ]
 }
