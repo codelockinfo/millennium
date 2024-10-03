@@ -335,7 +335,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "{{ collection.metafields.custom.custom_content | metafield_tag }}"
+            "text": "<p></p>{{ collection.metafields.custom.custom_content | metafield_tag }}"
           }
         }
       },
