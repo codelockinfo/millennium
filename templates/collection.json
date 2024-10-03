@@ -353,6 +353,7 @@
       "blocks": {
         "question_HKwVTj": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "Frequently asked question",
             "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
@@ -360,6 +361,7 @@
         },
         "question_qKMtHj": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "Frequently asked question",
             "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
@@ -371,7 +373,7 @@
         "question_qKMtHj"
       ],
       "settings": {
-        "title": "FAQs"
+        "title": "FAQs{{ collection.metafields.custom.faqs.value }}"
       }
     }
   },
