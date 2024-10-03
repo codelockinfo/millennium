@@ -347,6 +347,32 @@
         "narrow_column": true,
         "divider": false
       }
+    },
+    "faq_zBr38T": {
+      "type": "faq",
+      "blocks": {
+        "question_HKwVTj": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+          }
+        },
+        "question_qKMtHj": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_HKwVTj",
+        "question_qKMtHj"
+      ],
+      "settings": {
+        "title": "FAQs"
+      }
     }
   },
   "order": [
@@ -360,6 +386,7 @@
     "rich_text_QAkqMA",
     "slider_testimonial_CDMnJC",
     "tab_accordian_q486zh",
-    "rich_text_UHhMGm"
+    "rich_text_UHhMGm",
+    "faq_zBr38T"
   ]
 }
