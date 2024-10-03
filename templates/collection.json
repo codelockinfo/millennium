@@ -325,6 +325,7 @@
       "blocks": {
         "heading_mbA6Hm": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "Rich text"
           }
@@ -333,7 +334,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>{{ collection.metafields.custom.custom_content | metafield_tag }}"
+            "text": "{{ collection.metafields.custom.custom_content | metafield_tag }}"
           }
         }
       },
@@ -341,7 +342,6 @@
         "heading_mbA6Hm",
         "text_9j6Kkw"
       ],
-      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
