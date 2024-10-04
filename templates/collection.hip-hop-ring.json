@@ -219,6 +219,34 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "rich_text_9jkfWc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FJktiD": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "text_bgbh3J": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "{{ collection.metafields.custom.custom_content | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FJktiD",
+        "text_bgbh3J"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -228,6 +256,7 @@
     "main-collection",
     "tab_accordian_q486zh",
     "advanced_content_cxKci9",
-    "advanced_content_DGqEAR"
+    "advanced_content_DGqEAR",
+    "rich_text_9jkfWc"
   ]
 }
