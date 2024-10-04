@@ -21,7 +21,7 @@
       "type": "apps",
       "blocks": {
         "powerful_form_builder_app_block_MHYB6Y": {
-          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
           "settings": {
             "shortcode": ""
           }
@@ -131,17 +131,17 @@
         "text_YDpBMY": {
           "type": "text",
           "settings": {
-            "tabheading": "<p>Frequently Asked Questions<\/p>",
+            "tabheading": "<p>Frequently Asked Questions</p>",
             "question1": "Do you offer layaway?",
-            "answer1": "<p>Yes, first you need to pay 60% amount of the total order value. Once we get 60% amount we will start processing your order. Once your order is ready and before dispatching your need to complete the remaining payment of 40%. After payment completion, we will dispatch your order.<\/p>",
+            "answer1": "<p>Yes, first you need to pay 60% amount of the total order value. Once we get 60% amount we will start processing your order. Once your order is ready and before dispatching your need to complete the remaining payment of 40%. After payment completion, we will dispatch your order.</p>",
             "question2": "Do you make custom orders?",
-            "answer2": "<p>Yes, we do have large selection of custom jewelry which you can customize with your own thought. We specialize in creating one-of-a-kind pieces specifically to your unique style and needs. Whether you have a clear vision for your design or need help refining your ideas, our experienced team is here to assist you every step of the way. Just fill out the form of <a href=\"\/collections\/custom-diamond-jewelry\" title=\"custom diamond jewelry\"><strong>Customization<\/strong><\/a> or else you can directly send your requirements to us over phone +91 92656 39288.  <\/p>",
+            "answer2": "<p>Yes, we do have large selection of custom jewelry which you can customize with your own thought. We specialize in creating one-of-a-kind pieces specifically to your unique style and needs. Whether you have a clear vision for your design or need help refining your ideas, our experienced team is here to assist you every step of the way. Just fill out the form of <a href=\"/collections/custom-diamond-jewelry\" title=\"custom diamond jewelry\"><strong>Customization</strong></a> or else you can directly send your requirements to us over phone +91 92656 39288.  </p>",
             "question3": "Is it possible to get pictures of my order prior to dispatch?",
-            "answer3": "<p>Yes, we provide you pictures and videos of your order before dispatching. And after getting confirmation from you we will dispatch your order.<\/p>",
+            "answer3": "<p>Yes, we provide you pictures and videos of your order before dispatching. And after getting confirmation from you we will dispatch your order.</p>",
             "question4": "What payment methods do you accept?",
-            "answer4": "<p>We accept payment via PayPal, RazorPay etc.<\/p>",
+            "answer4": "<p>We accept payment via PayPal, RazorPay etc.</p>",
             "question5": "How do find out my correct ring size?",
-            "answer5": "<p>Most accurate method to find your ring size is to measure you’re your ring size from the local jeweler. Wrap your finger in a piece of string, paper or tape. Make the point of meeting two ends. Stretch the length of string out along a ruler or measuring tape, and take down the length in millimeters. The length you measured is the circumference of your finger—to calculate the diameter, divide the circumference by pi (dividing by 3.14 will work). Use the ring size chart to compare the diameter of your finger to the standard ring sizes. Please contact us for more information<\/p>",
+            "answer5": "<p>Most accurate method to find your ring size is to measure you’re your ring size from the local jeweler. Wrap your finger in a piece of string, paper or tape. Make the point of meeting two ends. Stretch the length of string out along a ruler or measuring tape, and take down the length in millimeters. The length you measured is the circumference of your finger—to calculate the diameter, divide the circumference by pi (dividing by 3.14 will work). Use the ring size chart to compare the diameter of your finger to the standard ring sizes. Please contact us for more information</p>",
             "question6": "",
             "answer6": "",
             "question7": "",
@@ -152,6 +152,7 @@
       "block_order": [
         "text_YDpBMY"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "center"
@@ -163,7 +164,7 @@
         "image_4acJdK": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/023_cfaa4b37-263f-4145-bf57-8a4e27398026.jpg",
+            "image": "shopify://shop_images/023_cfaa4b37-263f-4145-bf57-8a4e27398026.jpg",
             "link": "",
             "width": "50%",
             "alignment": "center"
@@ -172,7 +173,7 @@
         "liquid_fP4Y4Q": {
           "type": "liquid",
           "settings": {
-            "code": "<h2>Moissanite Diamond Watch Collection<\/h2>\n<p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.<\/p>\n<h2>Moissanite Diamond Watch Collection<\/h2>\n<p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.<\/p>",
+            "code": "<h2>Moissanite Diamond Watch Collection</h2>\n<p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.</p>\n<h2>Moissanite Diamond Watch Collection</h2>\n<p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.</p>",
             "width": "50%",
             "alignment": "center"
           }
@@ -194,7 +195,7 @@
         "liquid_3hgftA": {
           "type": "liquid",
           "settings": {
-            "code": "<h2>Moissanite Diamond Watch Collection<\/h2>\n<p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.<\/p>\n<h2>Moissanite Diamond Watch Collection<\/h2>\n<p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.<\/p>",
+            "code": "<h2>Moissanite Diamond Watch Collection</h2>\n<p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.</p>\n<h2>Moissanite Diamond Watch Collection</h2>\n<p>Discover our exclusive lineup of moissanite diamond watches, crafted for those who demand the perfect blend of luxury and value. Whether you're looking for a simple yet elegant design or an extravagant iced out moissanite watch, our collection offers an array of options to suit your style and occasion.</p>",
             "width": "50%",
             "alignment": "center"
           }
@@ -202,7 +203,7 @@
         "image_X4r6in": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/024_7ce22b58-c193-475a-a5e1-338a659084d4.jpg",
+            "image": "shopify://shop_images/024_7ce22b58-c193-475a-a5e1-338a659084d4.jpg",
             "link": "",
             "width": "50%",
             "alignment": "center"
