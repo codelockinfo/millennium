@@ -21,7 +21,7 @@
       "type": "apps",
       "blocks": {
         "powerful_form_builder_app_block_MHYB6Y": {
-          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
           "settings": {
             "shortcode": ""
           }
@@ -131,19 +131,19 @@
         "text_bGRHnH": {
           "type": "text",
           "settings": {
-            "tabheading": "<p>Frequently Asked Questions<\/p>",
+            "tabheading": "<p>Frequently Asked Questions</p>",
             "question1": "Does the watch pass the diamond tester?",
-            "answer1": "<p>We are using genuine moissanite stones. So, yes you can use any moissanite diamond tester, every stone on the watch passes the test. It will pass the diamond tester.<\/p>",
+            "answer1": "<p>We are using genuine moissanite stones. So, yes you can use any moissanite diamond tester, every stone on the watch passes the test. It will pass the diamond tester.</p>",
             "question2": "Is the watch automatic or mechanical?",
-            "answer2": "<p>All the watches are automatic<\/p>",
+            "answer2": "<p>All the watches are automatic</p>",
             "question3": "How long it takes to deliver?",
-            "answer3": "<p>We have some watches which are ready to ship. Please contact us to check the ready-to-ship watches. Made-to-order watches will take 1-2 weeks to stud the stones & check quality product.<\/p>",
+            "answer3": "<p>We have some watches which are ready to ship. Please contact us to check the ready-to-ship watches. Made-to-order watches will take 1-2 weeks to stud the stones & check quality product.</p>",
             "question4": "Are moissanite iced-out watches available in different designs?",
-            "answer4": "<p>Yes, moissanite iced out watches come in various designs, including different styles of dials, bezels, and band types. You can choose different metal tones for the watch as well. <\/p>",
+            "answer4": "<p>Yes, moissanite iced out watches come in various designs, including different styles of dials, bezels, and band types. You can choose different metal tones for the watch as well. </p>",
             "question5": "What is the dial size of watch?",
-            "answer5": "<p>Typically, men’s watches tend to range between 38mm to 46mm.<br\/><\/p>",
+            "answer5": "<p>Typically, men’s watches tend to range between 38mm to 46mm.<br/></p>",
             "question6": "Does the watch contain a brand logo?",
-            "answer6": "<p>Yes, it comes with a logo on the watch’s face and engraving on the back. We provide personalized engraving at free of cost!<\/p>",
+            "answer6": "<p>Yes, it comes with a logo on the watch’s face and engraving on the back. We provide personalized engraving at free of cost!</p>",
             "question7": "",
             "answer7": ""
           }
@@ -152,6 +152,7 @@
       "block_order": [
         "text_bGRHnH"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "center"
