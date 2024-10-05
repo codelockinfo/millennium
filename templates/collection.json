@@ -228,6 +228,34 @@
         "divider": false
       }
     },
+    "rich_text_UHhMGm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mbA6Hm": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "text_9j6Kkw": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "{{ collection.metafields.custom.custom_content | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mbA6Hm",
+        "text_9j6Kkw"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": true
+      }
+    },
     "slider_testimonial_CDMnJC": {
       "type": "slider-testimonial",
       "blocks": {
@@ -320,34 +348,6 @@
         "title": "{{ collection.metafields.custom.faqs.value }}",
         "align_text": "center"
       }
-    },
-    "rich_text_UHhMGm": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_mbA6Hm": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "title": "Rich text"
-          }
-        },
-        "text_9j6Kkw": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "{{ collection.metafields.custom.custom_content | metafield_tag }}"
-          }
-        }
-      },
-      "block_order": [
-        "heading_mbA6Hm",
-        "text_9j6Kkw"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": true
-      }
     }
   },
   "order": [
@@ -359,8 +359,8 @@
     "advanced_content_JxyhMg",
     "advanced_content_z6GhHL",
     "rich_text_QAkqMA",
+    "rich_text_UHhMGm",
     "slider_testimonial_CDMnJC",
-    "tab_accordian_q486zh",
-    "rich_text_UHhMGm"
+    "tab_accordian_q486zh"
   ]
 }
