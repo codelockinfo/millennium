@@ -333,6 +333,7 @@
         },
         "text_9j6Kkw": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "enlarge_text": false,
             "text": "<p></p>{{ collection.metafields.custom.custom_content | metafield_tag }}"
