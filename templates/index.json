@@ -154,7 +154,7 @@
           "settings": {
             "category_img": "shopify://shop_images/016.jpg",
             "category_text": "<p>Cuban Chains</p>",
-            "collection_url": "shopify://collections/cuban-link-chain"
+            "collection_url": "shopify://collections/moissanite-chain"
           }
         },
         "text_aDNqVC": {
@@ -256,7 +256,7 @@
             "heading_text": "<p>Cuban Chains</p>",
             "pargraph_text": "",
             "button_text": "Explore More",
-            "explolre_url": "shopify://collections/cuban-link-chain"
+            "explolre_url": "shopify://collections/moissanite-chain"
           }
         },
         "text_ANmiib": {
@@ -288,7 +288,7 @@
         "eimg5": "shopify://shop_images/05_Earrings.jpg",
         "ecollectionurl1": "shopify://collections/moissanite-watches",
         "ecollectionurl2": "shopify://collections/hip-hop-rings",
-        "ecollectionurl3": "shopify://collections/cuban-link-chain",
+        "ecollectionurl3": "shopify://collections/moissanite-chain",
         "ecollectionurl4": "shopify://collections/hip-hop-pendants",
         "ecollectionurl5": "shopify://collections/moissanite-earrings"
       }
@@ -298,8 +298,8 @@
       "settings": {
         "subheadp": "Cuban Link Chain",
         "background": "#f0f0f0",
-        "collectionproduct": "cuban-link-chain",
-        "viewall": "shopify://collections/cuban-link-chain",
+        "collectionproduct": "moissanite-chain",
+        "viewall": "shopify://collections/moissanite-chain",
         "button_text": "View All"
       }
     },
