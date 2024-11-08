@@ -31,7 +31,7 @@
           {% for block in section.blocks  %}
               {% if block.settings.trusted_by_image != blank %}
                 <div class="trustedby_image">
-                  <img src="{{ block.settings.trusted_by_image | img_url: 'master' }}" alt="">
+                  <img src="{{ block.settings.trusted_by_image | img_url: 'master' }}" alt="" loading="lazy">
                 </div>
               {% endif %}
           {% endfor %}

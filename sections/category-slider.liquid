@@ -4,6 +4,7 @@
       src="{{section.settings.png_1 | img_url:'master'}}"
       class="png-img-1"
       alt=""
+      loading="lazy"
     >
   {% endif %}
   {% if section.settings.png_2 != blank %}
@@ -11,6 +12,7 @@
       src="{{section.settings.png_2 | img_url:'master'}}"
       class="png-img-2"
       alt=""
+      loading="lazy"
     >
   {% endif %}
   <div class="width-container 111111">
@@ -34,6 +36,7 @@
                         src="{{block.settings.category_img | img_url:'master'}}"
                         class="collection-img"
                         alt=""
+                        loading="lazy"
                       >
                       <a href="{{block.settings.collection_url}}" class="collection-url">
                         <div class="slider-category-heading-box slider-collection-heading">
