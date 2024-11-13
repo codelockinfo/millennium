@@ -37,6 +37,7 @@
             "text_color": "#000000",
             "text_align": "vertical-center horizontal-right",
             "image": "shopify://shop_images/black_friday.jpg",
+            "image_mobile": "shopify://shop_images/17_Black_Friday_MV.jpg",
             "overlay_opacity": 0,
             "focal_point": "20% 0"
           }
