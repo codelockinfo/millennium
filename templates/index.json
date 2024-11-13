@@ -21,9 +21,28 @@
     "slideshow_cjDeH6": {
       "type": "slideshow",
       "blocks": {
+        "image_ybbeWB": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 60,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "shopify://collections/hip-hop-rings",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "color_accent2": "#d0c272",
+            "text_color": "#000000",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify://shop_images/black_friday.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "20% 0"
+          }
+        },
         "image_WGV893": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "Premium \nMoissanite Watches",
@@ -65,28 +84,9 @@
             "focal_point": "20% 0"
           }
         },
-        "image_ybbeWB": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 60,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "shopify://collections/hip-hop-rings",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "color_accent2": "#d0c272",
-            "text_color": "#000000",
-            "text_align": "vertical-center horizontal-right",
-            "image": "shopify://shop_images/black_friday.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "20% 0"
-          }
-        },
         "image_zYJJCR": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "Our Latest\nCollections.",
@@ -128,9 +128,9 @@
         }
       },
       "block_order": [
+        "image_ybbeWB",
         "image_WGV893",
         "image_bHAkaH",
-        "image_ybbeWB",
         "image_zYJJCR",
         "image_hR4j6F"
       ],
