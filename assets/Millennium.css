@@ -25,4 +25,8 @@ height:100% !important; */
 #shopify-section-template--15403530354801__custom_featured_collection_wYKBdw .featured-products-main{
       padding-bottom: 0;
 }
+ .samita-ws-loading [data-cart-subtotal]{
+visibility: visible !important;
+                opacity: 1 !important;
+            }
 /* cls016 */
