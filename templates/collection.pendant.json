@@ -242,7 +242,7 @@
         "text_NmGLKT"
       ],
       "settings": {
-        "align_text": "center",
+        "align_text": "left",
         "narrow_column": true,
         "divider": false
       }
