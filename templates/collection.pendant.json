@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "collection-header": {
@@ -92,8 +92,7 @@
         "collection_description": {
           "type": "collection_description",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "subcollections": {
           "type": "subcollections",
@@ -219,6 +218,34 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "rich_text_NDpjDd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_t7BGDd": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "text_NmGLKT": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "{{ collection.metafields.custom.custom_content | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_t7BGDd",
+        "text_NmGLKT"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -228,6 +255,7 @@
     "main-collection",
     "tab_accordian_q486zh",
     "advanced_content_f3tfMh",
-    "advanced_content_w3hK7D"
+    "advanced_content_w3hK7D",
+    "rich_text_NDpjDd"
   ]
 }
