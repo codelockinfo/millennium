@@ -116,8 +116,8 @@
       ],
       "settings": {
         "section_height": "750px",
-        "mobile_height": "auto",
-        "parallax": false,
+        "mobile_height": "500px",
+        "parallax": true,
         "style": "arrows",
         "autoplay": true,
         "autoplay_speed": 5
