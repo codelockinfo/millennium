@@ -23,6 +23,7 @@
       "blocks": {
         "image_ybbeWB": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "",
