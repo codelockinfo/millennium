@@ -1,5 +1,3 @@
-mj theme.css
-
 /*
 @license
   Impulse by Archetype Themes (https://archetypethemes.co)
