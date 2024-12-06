@@ -965,17 +965,39 @@ lazySizesConfig.expFactor = 4;
         }));
       },
   
-      _updatePrice: function(variant) {
-        if (this.currentVariant && variant.price === this.currentVariant.price && variant.compare_at_price === this.currentVariant.compare_at_price) {
-          return;
-        }
-  
-        this.container.dispatchEvent(new CustomEvent('variantPriceChange', {
-          detail: {
-            variant: variant
-          }
-        }));
-      },
+     document.addEventListener('variantChange', (event) => {
+  const { variant } = event.detail;
+
+  // Regular Price
+  const priceElement = document.querySelector('[data-product-price]');
+  if (priceElement) {
+    priceElement.textContent = Shopify.formatMoney(variant.price, Shopify.money_format);
+  }
+
+  // Compare Price
+  const comparePriceElement = document.querySelector('[data-compare-price]');
+  if (comparePriceElement) {
+    if (variant.compare_at_price > variant.price) {
+      comparePriceElement.textContent = Shopify.formatMoney(variant.compare_at_price, Shopify.money_format);
+      comparePriceElement.classList.remove('hide');
+    } else {
+      comparePriceElement.classList.add('hide');
+    }
+  }
+
+  // Savings
+  const savingsElement = document.querySelector('[data-save-price]');
+  if (savingsElement) {
+    if (variant.compare_at_price > variant.price) {
+      const savings = variant.compare_at_price - variant.price;
+      savingsElement.textContent = `(${Shopify.formatMoney(savings, Shopify.money_format)} OFF)`;
+      savingsElement.classList.remove('hide');
+    } else {
+      savingsElement.classList.add('hide');
+    }
+  }
+});
+
   
       _updateUnitPrice: function(variant) {
         if (this.currentVariant && variant.unit_price === this.currentVariant.unit_price) {
