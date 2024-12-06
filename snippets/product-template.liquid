@@ -138,13 +138,12 @@
                       {%- when 'price' -%}
                         <div class="product-block product-block--price" {{ block.shopify_attributes }}>
                           <div>
-                            <!-- {{ current_variant.compare_at_price  }} -->
+                            
                             <span data-product-price class="product__price{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
-                              {%- unless product.empty? -%}
-                                {{ current_variant.price | money }}
-                              {%- else -%}
-                                {{ 1999 | money }}
-                              {%- endunless -%}
+                             {%- assign hide_sale_price = true -%}
+    {%- if current_variant.compare_at_price and current_variant.compare_at_price > current_variant.price -%}
+      {%- assign hide_sale_price = false -%}
+    {%- endif -%}
                             </span>
 
                             {%- assign hide_sale_price = true -%}
