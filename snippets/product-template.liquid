@@ -139,6 +139,7 @@
                         <div class="product-block product-block--price" {{ block.shopify_attributes }}>
                           <div>
                             <span data-product-price class="product__price{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
+                              
                               {%- unless product.empty? -%}
                                 {{ current_variant.price | money }}
                               {%- else -%}
@@ -158,7 +159,7 @@
                                   {{ 'products.general.regular_price' | t }}
                               </span>
                               <span data-product-price-wrap class="{% if hide_sale_price %} hide{% endif %}">
-                                <span  class="product__price product__price--compare">
+                                <span data-compare-price class="product__price product__price--compare">
                                   {%- if current_variant.compare_at_price > current_variant.price -%}
                                     {{ current_variant.compare_at_price | money }}
                                   {%- endif -%}
@@ -527,4 +528,4 @@
       font-size: 20px;
     }
    }
-  </style>
+</style>
