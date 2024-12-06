@@ -139,6 +139,11 @@
                         <div class="product-block product-block--price" {{ block.shopify_attributes }}>
                           <div>
                             <span data-product-price class="product__price{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
+                              <!-- Compare at Price -->
+    {%- assign hide_sale_price = true -%}
+    {%- if current_variant.compare_at_price and current_variant.compare_at_price > current_variant.price -%}
+      {%- assign hide_sale_price = false -%}
+    {%- endif -%}
                               {%- unless product.empty? -%}
                                 {{ current_variant.price | money }}
                               {%- else -%}
