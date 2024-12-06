@@ -34,7 +34,7 @@ visibility: visible !important;
 .image-wrap img:not([role=presentation]){
   opacity: 1 !important;
 }
-.product-block .product__price{
+/* .product-block .product__price{
   display:inline !important;
-}
+} */
 /* cls016 */
