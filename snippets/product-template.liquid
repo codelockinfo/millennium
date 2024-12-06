@@ -170,7 +170,7 @@
                               <span data-a11y-price class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
                             {%- endif -%}
 
-                            <!-- {%- if settings.product_save_amount -%}
+                            {%- if settings.product_save_amount -%}
                               {%- if settings.product_save_type == 'dollar' -%}
                                 {%- capture saved_amount -%}{{ current_variant.compare_at_price | minus: current_variant.price | money }}{%- endcapture -%}
                               {%- else -%}
@@ -181,7 +181,7 @@
                                   ({{  saved_amount }}&nbsp;OFF)
                                 {%- endunless -%}
                               </span>
-                            {%- endif -%} -->
+                            {%- endif -%}
 
                             <div
                               data-unit-price-wrapper
