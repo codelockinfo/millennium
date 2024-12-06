@@ -966,16 +966,22 @@ lazySizesConfig.expFactor = 4;
       },
   
       _updatePrice: function(variant) {
-        if (this.currentVariant && variant.price === this.currentVariant.price && variant.compare_at_price === this.currentVariant.compare_at_price) {
-          return;
-        }
-  
-        this.container.dispatchEvent(new CustomEvent('variantPriceChange', {
-          detail: {
-            variant: variant
-          }
-        }));
-      },
+    if (
+        this.currentVariant &&
+        variant.price === this.currentVariant.price &&
+        variant.compare_at_price === this.currentVariant.compare_at_price
+    ) {
+        return; // No change in price; skip update
+    }
+
+    // Dispatch event to notify other components of the change
+    this.container.dispatchEvent(new CustomEvent('variantPriceChange', {
+        detail: { variant }
+    }));
+
+    // Update currentVariant to prevent redundant updates
+    this.currentVariant = variant;
+}
   
       _updateUnitPrice: function(variant) {
         if (this.currentVariant && variant.unit_price === this.currentVariant.unit_price) {
