@@ -138,7 +138,7 @@
                       {%- when 'price' -%}
                         <div class="product-block product-block--price" {{ block.shopify_attributes }}>
                           <div>
-                            <span data-product-price class="product__price com-custom{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
+                            <span data-product-price class=" com-custom{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
                               
                               {%- unless product.empty? -%}
                                 {{ current_variant.price | money }}
