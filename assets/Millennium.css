@@ -37,4 +37,25 @@ visibility: visible !important;
 /* .product-block .product__price{
   display:inline !important;
 } */
-/* cls016 */
+/* cls016 */.product__price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.product__price--compare {
+  font-size: 1rem;
+  color: #999;
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+
+.product__price-savings {
+  font-size: 0.9rem;
+  color: #ff0000;
+  margin-left: 8px;
+}
+
+.hide {
+  display: none !important;
+}
