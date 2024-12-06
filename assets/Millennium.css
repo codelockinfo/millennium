@@ -28,10 +28,10 @@ height:100% !important; */
  .samita-ws-loading [data-cart-subtotal]{
 visibility: visible !important;
                 opacity: 1 !important;
-            }
+}
+            
+ .com-custom{}
 .image-wrap img:not([role=presentation]){
   opacity: 1 !important;
-}
-  
 }
 /* cls016 */
