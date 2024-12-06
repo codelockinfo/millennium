@@ -146,7 +146,7 @@
                               {%- endunless -%}
                             </span>
 
-                            {%- assign hide_sale_price = true -%}
+                             {%- assign hide_sale_price = true -%}
                             {%- if product.compare_at_price_max > product.price -%}
                               {%- if current_variant.compare_at_price > current_variant.price -%}
                                 {%- assign hide_sale_price = false -%}
@@ -167,6 +167,19 @@
                               <span data-compare-price-a11y class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
                             {%- else -%}
                               <span data-a11y-price class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
+                            {%- endif -%}
+
+                            {%- if settings.product_save_amount -%}
+                              {%- if settings.product_save_type == 'dollar' -%}
+                                {%- capture saved_amount -%}{{ current_variant.compare_at_price | minus: current_variant.price | money }}{%- endcapture -%}
+                              {%- else -%}
+                                {%- capture saved_amount -%}{{ current_variant.compare_at_price | minus: current_variant.price | times: 100.0 | divided_by: current_variant.compare_at_price | round }}%{%- endcapture -%}
+                              {%- endif -%}
+                              <span data-save-price class="product__price-savings{% if hide_sale_price %} hide{% endif %}">
+                                {%- unless hide_sale_price -%}
+                                  ({{  saved_amount }}&nbsp;OFF)
+                                {%- endunless -%}
+                              </span>
                             {%- endif -%}
 
                             {%- if settings.product_save_amount -%}
