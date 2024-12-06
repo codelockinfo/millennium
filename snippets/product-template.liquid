@@ -158,7 +158,7 @@
                                 aria-hidden="{{ hide_sale_price }}">
                                   {{ 'products.general.regular_price' | t }}
                               </span>
-                              <span data-product-price-wrap class="{% if hide_sale_price %} {% endif %}">
+                              <span data-product-price-wrap class="{% if hide_sale_price %} hide{% endif %}">
                                 <span data-compare-price class="product__price product__price--compare">
                                   {%- if current_variant.compare_at_price > current_variant.price -%}
                                     {{ current_variant.compare_at_price | money }}
