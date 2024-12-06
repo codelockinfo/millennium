@@ -29,4 +29,9 @@ height:100% !important; */
 visibility: visible !important;
                 opacity: 1 !important;
             }
+.image-wrap img:not([role=presentation]){
+  opacity: 1 !important;
+}
+  
+}
 /* cls016 */
