@@ -138,7 +138,8 @@
                       {%- when 'price' -%}
                         <div class="product-block product-block--price" {{ block.shopify_attributes }}>
                           <div>
-                            <span data-product-price class="product__price{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
+                            <!-- {{ current_variant.compare_at_price  }} -->
+                            <span data-product-price class="product__price{% if current_variant.compare_at_price > current_variant.price %}on-sale{% endif %}">
                               {%- unless product.empty? -%}
                                 {{ current_variant.price | money }}
                               {%- else -%}
@@ -396,7 +397,7 @@
       {% assign metaldetails = product.metafields.custom.metaldetails | remove: '["' | remove: '"]' %}
         <div class="custom_description">
           {% if descriptioninformation != blank or metaldetails != blank %}
-            <h1 class="custom_description_h1">Description</h1>
+            <h3 class="custom_description_h1">Description</h3>
           {% endif %}
             <div class="info_box">
               {% if descriptioninformation != blank %}
