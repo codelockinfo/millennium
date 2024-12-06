@@ -30,6 +30,6 @@ height:100% !important; */
 .image-wrap img:not([role=presentation]){
   opacity: 1 !important;
 }
-.product__price--compare.d-inline-c{
+/* .product__price--compare.d-inline-c{
   display:inline-block !important;
-}
+} */
