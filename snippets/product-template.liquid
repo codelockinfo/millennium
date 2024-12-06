@@ -160,9 +160,9 @@
                               </span>
                               <span data-product-price-wrap class="{% if hide_sale_price %} hide{% endif %}">
                                 <span data-compare-price class="product__price product__price--compare">
-                                 
-                                    {{ current_variant.compare_at_price > current_variant.price  }}
-                               
+                                  {%- if current_variant.compare_at_price > current_variant.price -%}
+                                    {{ current_variant.compare_at_price | money }}
+                                  {%- endif -%}
                                 </span>
                               </span>
                               <span data-compare-price-a11y class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
