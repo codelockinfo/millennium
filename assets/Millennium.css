@@ -30,7 +30,7 @@ visibility: visible !important;
                 opacity: 1 !important;
 }
             
- .com-custom{font-family:Montserrat Alternates;font-size:18px;font-weight:700;color:#777;}
+ .com-custom{font-family:Montserrat Alternates;font-size:18px;font-weight:600;color:#777;}
 .image-wrap img:not([role=presentation]){
   opacity: 1 !important;
 }
