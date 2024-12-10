@@ -8,7 +8,7 @@
         {% for block in section.blocks  %}
             {% if block.settings.trusted_by_image != blank %}
               <div class="trustedby_image">
-                <img src="{{ block.settings.trusted_by_image | img_url: 'master' }}" alt="" class="lazyload" loading="lazy">
+                <img src="{{ block.settings.trusted_by_image | img_url: 'master' }}" alt="trust2" class="lazyautosizes lazyloaded" loading="lazy">
               </div>
             {% endif %}
         {% endfor %}
