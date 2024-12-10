@@ -9,15 +9,6 @@
  */
 {
   "sections": {
-    "custom_banner_section_eCcyDN": {
-      "type": "custom_banner_section",
-      "disabled": true,
-      "settings": {
-        "banner_video": "https://cdn.shopify.com/videos/c/o/v/89f28323b5404d499b52d2da7583e535.mp4",
-        "banner_mobile": "https://cdn.shopify.com/videos/c/o/v/a4454373fa3b471eaaed3f5bbd029c9a.mp4",
-        "banner_link": "shopify://collections/moissanite-watches"
-      }
-    },
     "slideshow_cjDeH6": {
       "type": "slideshow",
       "blocks": {
@@ -121,15 +112,6 @@
         "style": "arrows",
         "autoplay": true,
         "autoplay_speed": 5
-      }
-    },
-    "custom_banner_section_jMX93F": {
-      "type": "custom_banner_section",
-      "disabled": true,
-      "settings": {
-        "banner_video": "",
-        "banner_mobile": "",
-        "banner_link": ""
       }
     },
     "file_download_FzRXRC": {
@@ -249,38 +231,6 @@
         "checkimgm": true
       }
     },
-    "explore_TEHqRw": {
-      "type": "explore",
-      "blocks": {
-        "text_VGUH6c": {
-          "type": "text",
-          "settings": {
-            "explore1": "shopify://shop_images/022.jpg",
-            "heading_text": "<p>Cuban Chains</p>",
-            "pargraph_text": "",
-            "button_text": "Explore More",
-            "explolre_url": "shopify://collections/moissanite-chain"
-          }
-        },
-        "text_ANmiib": {
-          "type": "text",
-          "settings": {
-            "heading_text": "<p>Hip Hop Pendants</p>",
-            "pargraph_text": "",
-            "button_text": "Explore More",
-            "explolre_url": "shopify://collections/pendant"
-          }
-        }
-      },
-      "block_order": [
-        "text_VGUH6c",
-        "text_ANmiib"
-      ],
-      "disabled": true,
-      "settings": {
-        "background_color": "#f0f0f0"
-      }
-    },
     "explore_collection_tGJNWg": {
       "type": "explore-collection",
       "settings": {
@@ -306,27 +256,6 @@
         "button_text": "View All"
       }
     },
-    "millennium_jewelery_AP9YXh": {
-      "type": "millennium-jewelery",
-      "disabled": true,
-      "settings": {
-        "image_main": "shopify://shop_images/03_6cda9990-3e12-4df4-b3df-f5afe3463ba7.jpg",
-        "para_head": "MILLENNIUM JEWELERY",
-        "company_name": "Alibaba",
-        "paragraph": "Discover Millennium Jewelery, a trusted and verified supplier on Alibaba.com. This platform helps to connect with customers worldwide, offering a convenient hub for retailers seeking top-quality moissanite watches and jewelry. With a focus on craftsmanship and reliability, we are your go-to manufacturer for exquisite moissanite pieces. Explore our extensive range of products on our Alibaba store for a showcase of elegance and sophistication.",
-        "button": "Explore More",
-        "btn_img": "shopify://shop_images/arrow-right.png",
-        "jewelery_url_1": "https://in1564485498ycjd.trustpass.alibaba.com/index.html?spm=a2700.details.0.0.844416aahQEBVi&from=detail&productId=10000019226367",
-        "image1": "shopify://shop_images/Vector_22.png",
-        "para_head2": "MILLENNIUM JEWELERY",
-        "company_name2": "Amazon",
-        "paragraph2": "Amazon stands as a beacon of trust for customers, providing a seamless platform for placing orders with confidence. We are proud to announce that our products are now available on Amazon, catering specifically to the USA market. Explore our Amazon store to discover a wide range of offerings and experience the convenience of secure online shopping.",
-        "button2": "Explore More",
-        "jewelery_url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cp_4%3AMillennium+Jewelery&ref=bl_sl_s_je_web_7141123011",
-        "btn_img2": "shopify://shop_images/arrow-right.png",
-        "image_main_1": "shopify://shop_images/04_b1cd1117-056d-4b12-82b5-fb2cdc3f0ad0.jpg"
-      }
-    },
     "millennium_video_UarU6d": {
       "type": "millennium-video",
       "custom_css": [],
@@ -336,14 +265,14 @@
         "video2": "",
         "image_2": "shopify://shop_images/057.png",
         "para_head": "MILLENNIUM JEWELERY",
-        "company_name": "<h2>Alibaba</h2>",
+        "company_name": "Alibaba",
         "paragraph": "Discover Millennium Jewelery, a trusted and verified supplier on Alibaba.com. This platform helps to connect with customers worldwide, offering a convenient hub for retailers seeking top-quality moissanite watches and jewelry. With a focus on craftsmanship and reliability, we are your go-to manufacturer for exquisite moissanite pieces. Explore our extensive range of products on our Alibaba store for a showcase of elegance and sophistication.",
         "button": "Explore More",
         "btn_img": "shopify://shop_images/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png",
         "jewelery_url_1": "https://in1564485498ycjd.trustpass.alibaba.com/index.html?spm=a2700.details.0.0.844416aahQEBVi&from=detail&productId=10000019226367",
         "image1": "shopify://shop_images/Vector_20_2_1969bd94-d62b-4e63-b987-1778315cbd03.png",
         "para_head2": "MILLENNIUM JEWELERY",
-        "company_name2": "<h2>Amazon</h2>",
+        "company_name2": "Amazon",
         "paragraph2": "Amazon stands as a beacon of trust for customers, providing a seamless platform for placing orders with confidence. We are proud to announce that our products are now available on Amazon, catering specifically to the USA market. Explore our Amazon store to discover a wide range of offerings and experience the convenience of secure online shopping.",
         "button2": "Explore More",
         "jewelery_url": "https://www.amazon.com/stores/MillenniunJewelery/page/6D0F7043-5B84-4078-B78A-02232831FE81",
@@ -355,7 +284,7 @@
       "settings": {
         "Commitment_head": "Our Mission",
         "Commitment_img_1": "shopify://shop_images/11502090.png",
-        "Commitment_para_1": "Best and Easy<br>Service to Customer",
+        "Commitment_para_1": "Best and EasyService to Customer",
         "Commitment_img_2": "shopify://shop_images/8909309.png",
         "Commitment_para_2": "Be Eco-Friendly",
         "Commitment_img_3": "shopify://shop_images/5078214.png",
@@ -617,57 +546,6 @@
         "Video_2": "https://cdn.shopify.com/videos/c/o/v/640d7f396cce4f6f9d6e8ffd2dec0307.mp4"
       }
     },
-    "trustedby_WmF4RN": {
-      "type": "trustedby",
-      "blocks": {
-        "image_JN38P9": {
-          "type": "image",
-          "settings": {
-            "trusted_by_image": "shopify://shop_images/01.png"
-          }
-        },
-        "image_XPL4AX": {
-          "type": "image",
-          "settings": {}
-        },
-        "image_7HAdB6": {
-          "type": "image",
-          "settings": {
-            "trusted_by_image": "shopify://shop_images/02.png"
-          }
-        },
-        "image_UywWiV": {
-          "type": "image",
-          "settings": {
-            "trusted_by_image": "shopify://shop_images/03.png"
-          }
-        },
-        "image_k9iDNn": {
-          "type": "image",
-          "settings": {
-            "trusted_by_image": "shopify://shop_images/04.png"
-          }
-        },
-        "image_KVGqYL": {
-          "type": "image",
-          "settings": {
-            "trusted_by_image": "shopify://shop_images/05.png"
-          }
-        }
-      },
-      "block_order": [
-        "image_JN38P9",
-        "image_XPL4AX",
-        "image_7HAdB6",
-        "image_UywWiV",
-        "image_k9iDNn",
-        "image_KVGqYL"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "Trusted by"
-      }
-    },
     "1721621029c00929a0": {
       "type": "apps",
       "settings": {
@@ -677,25 +555,20 @@
     }
   },
   "order": [
-    "custom_banner_section_eCcyDN",
     "slideshow_cjDeH6",
-    "custom_banner_section_jMX93F",
     "file_download_FzRXRC",
     "category_slider_LU46Ei",
     "collection_slider_section_VnyWwX",
     "custom_featured_collection_wYKBdw",
     "custom_featured_collection_TpmrUA",
-    "explore_TEHqRw",
     "explore_collection_tGJNWg",
     "hiphop_ring_collection_gRUgG4",
-    "millennium_jewelery_AP9YXh",
     "millennium_video_UarU6d",
     "our_mission_XLE69f",
     "trusted_by_FUaihx",
     "slider_testimonial_bxePfz",
     "certificate_section_qjB9fx",
     "shipping_partner_Y7Rf8m",
-    "trustedby_WmF4RN",
     "1721621029c00929a0"
   ]
 }
