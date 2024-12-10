@@ -4,7 +4,7 @@
       <div class="box-1">
         {% if section.settings.image_1 != blank  and section.settings.video == blank  %}
           <div class="video-section">
-            <img src="{{ section.settings.image_1  | img_url: 'master' }}" alt="" loading="lazy"/>
+            <img src="{{ section.settings.image_1  | img_url: 'master' }}" alt="jewelry-img" class="lazyautosizes lazyloaded" loading="lazy"/>
           </div>
         {% endif %}
         {% if section.settings.video != blank %}
@@ -28,7 +28,7 @@
             <a href="{{ section.settings.jewelery_url_1 }}">
               {{ section.settings.button }}
               {% if section.settings.btn_img != blank %}
-                <img src="{{ section.settings.btn_img |  img_url: 'master' }}" alt="" loading="lazy">
+                <img src="{{ section.settings.btn_img |  img_url: 'master' }}" alt="jewelry-img" class="lazyautosizes lazyloaded" loading="lazy">
               {% endif %}
             </a>
           </button>
@@ -37,7 +37,7 @@
     </div>
     {% if section.settings.image1 != blank %}
       <div class="line">
-        <img src="{{ section.settings.image1 | img_url: 'master' }}" alt="" loading="lazy">
+        <img src="{{ section.settings.image1 | img_url: 'master' }}" alt="jewelry-img" class="lazyautosizes lazyloaded" loading="lazy">
       </div>
     {% endif %}
     <div class="content_jewelery_video-2">
@@ -51,7 +51,7 @@
             <a href="{{ section.settings.jewelery_url }}">
               {{ section.settings.button2 }}
               {% if section.settings.btn_img2 != blank %}
-                <img src="{{ section.settings.btn_img2 | img_url: 'master' }}" alt="" loading="lazy">
+                <img src="{{ section.settings.btn_img2 | img_url: 'master' }}" alt="jewelry-img" class="lazyautosizes lazyloaded" loading="lazy">
               {% endif %}
             </a>
           </button>
@@ -71,7 +71,7 @@
         {% endif %}
         {% if section.settings.image_2 != blank and section.settings.video2 == blank %}
           <div class="video-section">
-            <img src="{{ section.settings.image_2  | img_url: 'master' }}" alt="" loading="lazy"/>
+            <img src="{{ section.settings.image_2  | img_url: 'master' }}" alt="video-jewelry" class="lazyautosizes lazyloaded" preload="none" loading="lazy"/>
           </div>
         {% endif %}
       </div>
