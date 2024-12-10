@@ -3,7 +3,7 @@
     <div class="head_img">
       {% if section.settings.heading_side_image != blank %}
         <div class="side_image">
-          <img src="{{ section.settings.heading_side_image | img_url: 'master' }}" alt="">
+          <img src="{{ section.settings.heading_side_image | img_url: 'master' }}" alt="shippingimg1" class="lazyautosizes lazyloaded" loading="lazy">
         </div>
       {% endif %}
       <div>
@@ -12,7 +12,7 @@
       </div>
       {% if section.settings.heading_side_image != blank %}
         <div class="side_image">
-          <img src="{{ section.settings.heading_side_image | img_url: 'master' }}" alt="">
+          <img src="{{ section.settings.heading_side_image | img_url: 'master' }}" alt="shippingimg12" class="lazyautosizes lazyloaded" loading="lazy">
         </div>
       {% endif %}
     </div>
@@ -24,13 +24,13 @@
                 <div class="myshipping_slider">
                   {% if block.settings.box_image_1 != blank %}
                     <div class="box_image_1">
-                      <img src="{{block.settings.box_image_1 | img_url: 'master'}}" alt="">
+                      <img src="{{block.settings.box_image_1 | img_url: 'master'}}" alt="shippingimg13" class="lazyautosizes lazyloaded" loading="lazy">
                     </div>
                   {% endif %}
                   <div class="box_img_paragraph">
                     <p>{{ block.settings.box_content }}</p>
                     {% if block.settings.box_arrow != blank %}
-                      <img src="{{block.settings.box_arrow | img_url: 'master'}}" alt="">
+                      <img src="{{block.settings.box_arrow | img_url: 'master'}}" alt="shippingimg14" class="lazyautosizes lazyloaded" loading="lazy">
                     {% endif %}
                   </div>
                 </div>
@@ -46,7 +46,7 @@
         muted
         autoplay
         playsinline>
-        <source src="{{ section.settings.Video_2  }}" type="video/mp4">
+        <source src="{{ section.settings.Video_2  }}" type="video/mp4" preload="none" >
       </video>
     </div>
   </div>
