@@ -11,10 +11,7 @@
     padding-bottom: 20px;
 }
 
-/* cls016 */
-/* .template-article iframe{
-  width:100% !important;
-height:100% !important; */
+
 
 .template-article table,td{
   background-color:transparent !important;
@@ -25,11 +22,3 @@ height:100% !important; */
 #shopify-section-template--15403530354801__custom_featured_collection_wYKBdw .featured-products-main{
       padding-bottom: 0;
 }
-/* cls016 */
-/* .com-custom{font-family:Montserrat Alternates;font-size:18px;font-weight:600;color:#777;}
-.image-wrap img:not([role=presentation]){
-  opacity: 1 !important;
-} */
-/* .product__price--compare{
-  display:inline-block !important;
-} */
