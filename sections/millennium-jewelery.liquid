@@ -4,7 +4,7 @@
       <div class="box1">
         {% if section.settings.image_main != blank %}
           <div class="image1">
-            <img src="{{ section.settings.image_main | img_url: 'master' }}" alt="" loading="lazy">
+            <img src="{{ section.settings.image_main | img_url: 'master' }}" alt=""  class="lazyautosizes lazyloaded" loading="lazy">
           </div>
         {% endif %}
         <div class="paragraph1">
@@ -15,7 +15,7 @@
             <a href="{{ section.settings.jewelery_url_1 }}">
               {{ section.settings.button }}
               {% if section.settings.btn_img != blank %}
-                <img src="{{ section.settings.btn_img |  img_url: 'master' }}" alt="" loading="lazy">
+                <img src="{{ section.settings.btn_img |  img_url: 'master' }}" alt="" class="lazyautosizes lazyloaded" loading="lazy">
               {% endif %}
             </a>
           </button>
@@ -24,7 +24,7 @@
     </div>
     {% if section.settings.image1 != blank %}
       <div class="line">
-        <img src="{{ section.settings.image1 | img_url: 'master' }}" alt="" loading="lazy">
+        <img src="{{ section.settings.image1 | img_url: 'master' }}" alt="" class="lazyautosizes lazyloaded" loading="lazy">
       </div>
     {% endif %}
     <div class="content_jewelery_2">
@@ -37,14 +37,14 @@
             <a href="{{ section.settings.jewelery_url }}">
               {{ section.settings.button2 }}
               {% if section.settings.btn_img2 != blank %}
-                <img src="{{ section.settings.btn_img2 | img_url: 'master' }}" alt="" loading="lazy">
+                <img src="{{ section.settings.btn_img2 | img_url: 'master' }}" alt="" class="lazyautosizes lazyloaded" loading="lazy">
               {% endif %}
             </a>
           </button>
         </div>
         {% if section.settings.image_main_1 != blank %}
           <div class="image1">
-            <img src="{{ section.settings.image_main_1 | img_url: 'master' }}" alt="" loading="lazy">
+            <img src="{{ section.settings.image_main_1 | img_url: 'master' }}" alt="" class="lazyautosizes lazyloaded" loading="lazy">
           </div>
         {% endif %}
       </div>
