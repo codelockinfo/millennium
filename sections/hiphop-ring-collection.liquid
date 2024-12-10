@@ -14,8 +14,8 @@
             {% if product.featured_image != blank %}
               <a href="{{ product.url }}">
               <div class="product-img">
-                  <img src="{{  product.featured_image  | img_url: 'large' }}" class="main-img" loading="lazy" alt="">
-                  <img src="{{  product.images[1]  | img_url: 'large' }}" class="hover-image "  loading="lazy" alt="">
+                  <img src="{{  product.featured_image  | img_url: 'large' }}" class="main-img lazyautosizes lazyloaded" loading="lazy" alt="product-img">
+                  <img src="{{  product.images[1]  | img_url: 'large' }}" class="hover-image lazyautosizes lazyloaded "  loading="lazy" alt="product-img">
                   </div>
                 </a>
             {% endif %}
