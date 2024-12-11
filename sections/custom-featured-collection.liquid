@@ -373,45 +373,6 @@
 </style>
 
 <script>
-  $(document).ready(function () {
-    function initializeSlider() {
-      if ($(window).width() < 992) {
-        if (!$('.slider').hasClass('slick-initialized')) {
-          $('.slider').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: false,
-            prevArrow: "<button type='button' class='slick-prev '></button>",
-            nextArrow: "<button type='button' class='slick-next '></button>",
-            autoplay: true,
-            responsive: [
-              {
-                breakpoint: 991,
-                settings: {
-                  slidesToShow: 2,
-                },
-              },
-              {
-                breakpoint: 576,
-                settings: {
-                  slidesToShow: 1,
-                },
-              },
-            ],
-          });
-        }
-      } else {
-        if ($('.slider').hasClass('slick-initialized')) {
-          $('.slider').slick('unslick'); // Destroy slider on desktop
-        }
-      }
-    }
-
-    initializeSlider(); // Run on page load
-
-    $(window).on('resize', function () {
-      initializeSlider(); // Run on window resize
-    });
-  });
+ $(document).ready(function(){function initializeSlider(){if($(window).width()<992){if(!$('.slider').hasClass('slick-initialized')){$('.slider').slick({slidesToShow:1,slidesToScroll:1,infinite:!0,dots:!1,prevArrow:"<button type='button' class='slick-prev '></button>",nextArrow:"<button type='button' class='slick-next '></button>",autoplay:!0,responsive:[{breakpoint:991,settings:{slidesToShow:2,},},{breakpoint:576,settings:{slidesToShow:1,},},],})}}else{if($('.slider').hasClass('slick-initialized')){$('.slider').slick('unslick')}}}
+initializeSlider();$(window).on('resize',function(){initializeSlider()})})
 </script>
