@@ -328,36 +328,5 @@
 </style>
 
 <script>
-  $('.Collection-cls').slick({
-    infinite: true,
-    arrows: true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    appendArrows: $('.news__arrows'),
-    prevArrow: "<button type='button'  aria-label='previous' class='slick-prev pull-left arrowidth'></button>",
-    nextArrow: "<button type='button'   aria-label='next' class='slick-next pull-right arrowidth'></button>",
-    responsive: [
-      {
-        breakpoint: 1025,
-        settings: { 
-          slidesToShow: 3,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 800,
-        settings: { 
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: { 
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  });
+ $('.Collection-cls').slick({infinite:true,arrows:true,slidesToShow:4,slidesToScroll:1,appendArrows:$('.news__arrows'),prevArrow:"<button type='button'  aria-label='previous' class='slick-prev pull-left arrowidth'></button>",nextArrow:"<button type='button'   aria-label='next' class='slick-next pull-right arrowidth'></button>",responsive:[{breakpoint:1025,settings:{slidesToShow:3,slidesToScroll:1,},},{breakpoint:800,settings:{slidesToShow:2,slidesToScroll:1,},},{breakpoint:600,settings:{slidesToShow:1,slidesToScroll:1,},},],});
 </script>
