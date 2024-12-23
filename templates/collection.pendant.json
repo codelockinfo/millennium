@@ -246,6 +246,13 @@
         "narrow_column": true,
         "divider": false
       }
+    },
+    "tab_accordian_PKDbrk": {
+      "type": "tab-accordian",
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "align_text": "center"
+      }
     }
   },
   "order": [
@@ -256,6 +263,7 @@
     "tab_accordian_q486zh",
     "advanced_content_f3tfMh",
     "advanced_content_w3hK7D",
-    "rich_text_NDpjDd"
+    "rich_text_NDpjDd",
+    "tab_accordian_PKDbrk"
   ]
 }
