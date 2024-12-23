@@ -130,13 +130,12 @@
                           {% assign tab_id = block.id | append: product.id %}
                           {%- render 'tab-contact', id: tab_id, block: block -%}
                         </div>
-                      
                       {%- when 'description' -%}
+                      {{ product.type }}????
                         <div class="11111111111111111 product-block{% if block.settings.is_tab %} product-block--tab{% endif %}" {{ block.shopify_attributes }}>
                           {%- assign id = block.id | append: product.id -%}
                           {%- render 'product-description', id: id, product: product, is_tab: block.settings.is_tab -%}
                         </div>
-                      
                       {%- when 'price' -%}
                         <div class="product-block product-block--price" {{ block.shopify_attributes }}>
                           <div>
