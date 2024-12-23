@@ -439,8 +439,10 @@
                 </div>
               {% endif %}
             </div>
-            <!-- <h3 class="custom_description_h1">Description</h3> --> 
-         {{ product.description }}
+          {%  if product.type == "Watch" %}
+            <h3 class="custom_description_h1">Description</h3> 
+             {{ product.description }}
+          {%  endif %}
         </div>
         {% comment %} {{product.description}} {% endcomment %}
     </div>
