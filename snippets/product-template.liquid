@@ -441,7 +441,7 @@
             </div>
           {%  if product.type == "Watch" %}
             <!-- <h3 class="custom_description_h2">Description</h3>  -->
-             {{ product.description }}
+             <div class="custom-down-description">{{ product.description }}</div>
           {%  endif %}
         </div>
         {% comment %} {{product.description}} {% endcomment %}
@@ -455,6 +455,9 @@
     margin-top: 50px;
     font-family: 'Montserrat Alternates';
    }
+  .custom-down-description{
+    margin-top:50px;
+  }
    .info_box{
     display: flex;
     flex-wrap: wrap;
