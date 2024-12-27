@@ -103,6 +103,42 @@
                     <div class="answer">{{ block.settings.answer7 }}</div>
                   </li>
                 {% endif %}
+                 {% if block.settings.question8 != blank %}
+                  <li>
+                    <div class="accordian-heading">
+                      <span class="accordian-number">08</span>
+                      <h3>{{ block.settings.question8 }}</h3>
+                      <div class="icon-plus">
+                        <i class="fa-solid fa-plus"></i>
+                      </div>
+                    </div>
+                    <div class="answer">{{ block.settings.answer8 }}</div>
+                  </li>
+                {% endif %}
+                 {% if block.settings.question9 != blank %}
+                  <li>
+                    <div class="accordian-heading">
+                      <span class="accordian-number">09</span>
+                      <h3>{{ block.settings.question9 }}</h3>
+                      <div class="icon-plus">
+                        <i class="fa-solid fa-plus"></i>
+                      </div>
+                    </div>
+                    <div class="answer">{{ block.settings.answer9 }}</div>
+                  </li>
+                {% endif %}
+                 {% if block.settings.question10 != blank %}
+                  <li>
+                    <div class="accordian-heading">
+                      <span class="accordian-number">10</span>
+                      <h3>{{ block.settings.question10 }}</h3>
+                      <div class="icon-plus">
+                        <i class="fa-solid fa-plus"></i>
+                      </div>
+                    </div>
+                    <div class="answer">{{ block.settings.answer10 }}</div>
+                  </li>
+                {% endif %}
               </ul>
             </div>
           {%- when 'content' -%}
@@ -225,6 +261,36 @@
           "type": "richtext",
           "id": "answer7",
           "label": "Answer 7"
+        },
+         {
+          "type": "text",
+          "id": "question8",
+          "label": "Question 8"
+        },
+        {
+          "type": "richtext",
+          "id": "answer8",
+          "label": "Answer 8"
+        },
+         {
+          "type": "text",
+          "id": "question9",
+          "label": "Question 9"
+        },
+        {
+          "type": "richtext",
+          "id": "answer9",
+          "label": "Answer 9"
+        },
+         {
+          "type": "text",
+          "id": "question10",
+          "label": "Question 10"
+        },
+        {
+          "type": "richtext",
+          "id": "answer10",
+          "label": "Answer 10"
         }
       ]
     },
