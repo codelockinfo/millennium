@@ -202,6 +202,26 @@
         "space_around": true
       }
     },
+    "rich_text_QAkqMA": {
+      "type": "rich-text",
+      "blocks": {
+        "text_HF7BAT": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<h2><strong>Iced Out Watch Moissanite</strong></h2><p>Design in our moissanite watch collection caters to every individual taste and preference, be it in the high brilliance of an iced-out moissanite watch or with an understated luxury appeal of a plain watch. Our collection consists of unique timepieces from splendidly luxurious to the most classic. Each timepiece in our collection is elaborated with meticulous attention to detail, making it no longer just an accessory but truly your style.</p><h2><strong>Moissanite Diamond Watch</strong></h2><p>The iced-out moissanite watch is extraordinary, bringing together the timeless brilliance of the moissanite with modernist features in aesthetics and design. Perfect for somebody who loves simplicity combined with luxury, our plain watches simply define sophistication. These are designed for individuals who wish to use a more discreet way of expressing their fashion sense. Still, although they bear that minimalist design, these plain watches are made with the same precision and high-quality materials as our more detailed versions, hence always being the embodiment of refined taste.</p><h2><strong>Men's Moissanite Watch</strong></h2><p>Each moissanite iced-out watch in our collection is not just a watch but a statement of class and elegance. The brilliance of moissanite, famous for its characteristics similar to that of a diamond, evokes dazzling shine in each of these watches. The watches are a perfect fusion of luxury and modernity, whether one is heading for some formal function or simply wants to upgrade their everyday appearance.</p><h2><strong>Moissanite Watch</strong></h2><p>You will certainly find a perfect moissanite watch to suit your style and preference with our extensive selection of options. Whether you are looking to add a stunning new piece to your collection or customize an existing one, our selection offers something for everyone. We host a variety of collections from iced-out moissanite watches, bold and eye-catching, to the plain watches sleek and subtle. We designed them to fill a gap in what the market offers for people who want quality but with style in their accessories.</p><p>Customization of your moissanite watch is yet another way to make that personal statement. Each collection in our series can be adapted to an extent where it reflects your tastes in style, size, or design element, and that makes the watch not just an accessory but a unique reflection of you and so, an irreplaceable piece in your collection over many years.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_HF7BAT"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "divider": false
+      }
+    },
     "rich_text_AQNL8z": {
       "type": "rich-text",
       "blocks": {
@@ -222,26 +242,6 @@
       "block_order": [
         "heading_idgMUw",
         "text_eY3NNe"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
-    "rich_text_QAkqMA": {
-      "type": "rich-text",
-      "blocks": {
-        "text_HF7BAT": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<h2><strong>Iced Out Watch Moissanite</strong></h2><p>Design in our moissanite watch collection caters to every individual taste and preference, be it in the high brilliance of an iced-out moissanite watch or with an understated luxury appeal of a plain watch. Our collection consists of unique timepieces from splendidly luxurious to the most classic. Each timepiece in our collection is elaborated with meticulous attention to detail, making it no longer just an accessory but truly your style.</p><h2><strong>Moissanite Diamond Watch</strong></h2><p>The iced-out moissanite watch is extraordinary, bringing together the timeless brilliance of the moissanite with modernist features in aesthetics and design. Perfect for somebody who loves simplicity combined with luxury, our plain watches simply define sophistication. These are designed for individuals who wish to use a more discreet way of expressing their fashion sense. Still, although they bear that minimalist design, these plain watches are made with the same precision and high-quality materials as our more detailed versions, hence always being the embodiment of refined taste.</p><h2><strong>Men's Moissanite Watch</strong></h2><p>Each moissanite iced-out watch in our collection is not just a watch but a statement of class and elegance. The brilliance of moissanite, famous for its characteristics similar to that of a diamond, evokes dazzling shine in each of these watches. The watches are a perfect fusion of luxury and modernity, whether one is heading for some formal function or simply wants to upgrade their everyday appearance.</p><h2><strong>Moissanite Watch</strong></h2><p>You will certainly find a perfect moissanite watch to suit your style and preference with our extensive selection of options. Whether you are looking to add a stunning new piece to your collection or customize an existing one, our selection offers something for everyone. We host a variety of collections from iced-out moissanite watches, bold and eye-catching, to the plain watches sleek and subtle. We designed them to fill a gap in what the market offers for people who want quality but with style in their accessories.</p><p>Customization of your moissanite watch is yet another way to make that personal statement. Each collection in our series can be adapted to an extent where it reflects your tastes in style, size, or design element, and that makes the watch not just an accessory but a unique reflection of you and so, an irreplaceable piece in your collection over many years.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_HF7BAT"
       ],
       "settings": {
         "align_text": "left",
@@ -296,8 +296,8 @@
     "text_and_image_mqcFKb",
     "advanced_content_JxyhMg",
     "advanced_content_z6GhHL",
-    "rich_text_AQNL8z",
     "rich_text_QAkqMA",
+    "rich_text_AQNL8z",
     "tab_accordian_q486zh"
   ]
 }
