@@ -17,7 +17,7 @@
 
   {%- unless blog.empty? or blog.articles.size == 0 -%}
 
-    <div class="grid grid--uniform">
+    <div class="grid grid--uniform 111111111">
       {%- for article in blog.articles limit: section.settings.post_limit -%}
         {%- render 'article-grid-item',
           blog: blog,
