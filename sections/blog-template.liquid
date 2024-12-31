@@ -30,7 +30,7 @@
 
 
   
-
+<!-- 
 <div class="blogs-custom-tab">
    <a href="/blogs/{{ blog.handle }}" class="blog-button">All blogs</a>
    {%- if current_tags.size > 0 -%}
@@ -52,8 +52,14 @@
          {%- endfor -%}
       {%- endfor -%}
    {%- endif -%}
-</div>
+</div> -->
 
+
+  <div class="blogs-custom-tab">
+{%- for block in section.blocks -%}
+  <a href="{{ block.settings.categoryurl }}" class="blog-button">{{ block.settings.blogtext }}</a>
+ {% endfor %}
+  </div>
 
   
     <div class="grid grid--uniform 333333333">
