@@ -28,10 +28,10 @@
       {%- endif -%}
     </header>
 
- <div class="blogs-custom-tab">
+<div class="blogs-custom-tab">
   {%- for block in section.blocks -%}
     {% if block.settings.categoryurl != blank %}
-      <a href="{{ block.settings.categoryurl }}" class="blog-button" onclick="setActiveTab(event)">{{ block.settings.blogtext }}</a>
+      <a href="{{ block.settings.categoryurl }}" class="blog-button {% if forloop.first %}active{% endif %}" onclick="setActiveTab(event)">{{ block.settings.blogtext }}</a>
     {% endif %}
   {%- endfor -%}
 </div>
@@ -157,12 +157,13 @@
     margin-bottom:10px;
   }
   .blogs-custom-tab .blog-button.active {
-  background-color: #007bff; /* Example: Change to your desired color */
+  background-color: #000000; /* Example: Change to your desired color */
   color: #ffffff; /* Example: Change text color */
   border: 1px solid #0056b3; /* Optional: Add a border */
 }
 </style>
-<script>function setActiveTab(event) {
+<script>
+ function setActiveTab(event) {
   // Prevent default link behavior if needed
   event.preventDefault();
 
@@ -172,4 +173,5 @@
 
   // Add the 'active' class to the clicked tab
   event.currentTarget.classList.add('active');
-}</script>
+}
+</script>
