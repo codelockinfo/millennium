@@ -29,13 +29,21 @@
     </header>
 
 
-  <!-- 
+  
 <div class="blogs-custom-tab">
-{%- for block in section.blocks -%}
-  <a href="{{ block.settings.categoryurl }}" class="blog-button">{{ block.settings.blogtext }}</a>
- {% endfor %}
-  </div>
- -->
+   <a href="/blogs/{{ blog.handle }}" class="blog-button">All Blogs</a>
+   {%- if current_tags.size > 0 -%}
+      <!-- Display only the selected tag -->
+      <a href="/blogs/{{ blog.handle }}/tagged/{{ current_tags[0] | handleize }}" class="blog-button">
+         {{ current_tags[0] }}
+      </a>
+   {%- else -%}
+      <!-- Display all tags if no tag is selected -->
+      {%- for tag in blog.all_tags -%}
+         <a href="/blogs/{{ blog.handle }}/tagged/{{ tag | handleize }}" class="blog-button">{{ tag }}</a>
+      {%- endfor -%}
+   {%- endif -%}
+</div>
 
   
     <div class="grid grid--uniform 333333333">
@@ -123,24 +131,6 @@
         ]
       }
     ],
-    "blocks": [
-    {
-      "name": "Category",
-      "type": "text",
-      "settings": [
-        {
-          "type": "text",
-          "id": "blogtext",
-          "label": "Blog category heading"
-        },
-          {
-          "type": "url",
-          "id": "categoryurl",
-          "label": "Blog category url"
-        }
-      ]
-    }
-  ],
   }
 {% endschema %}
 <style>
@@ -156,5 +146,6 @@
     padding:10px 15px;
     background-color:#d0c272;
     font-weight:600;
+    margin-bottom:10px;
   }
 </style>
