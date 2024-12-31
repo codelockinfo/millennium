@@ -28,7 +28,15 @@
       {%- endif -%}
     </header>
 
-  <!-- <div class="blog-button">moissanite</div> -->
+
+  
+<div class="blogs-custom-tab">
+{%- for block in section.blocks -%}
+  <a href="{{ block.settings.categoryurl }}" class="blog-button">{{ block.settings.blogtext }}</a>
+ {% endfor %}
+  </div>
+
+
   
     <div class="grid grid--uniform 333333333">
       {%- for article in blog.articles -%}
@@ -114,6 +122,39 @@
           }
         ]
       }
-    ]
+    ],
+    "blocks": [
+    {
+      "name": "Category",
+      "type": "text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "blogtext",
+          "label": "Blog category heading"
+        },
+          {
+          "type": "url",
+          "id": "categoryurl",
+          "label": "Blog category url"
+        }
+      ]
+    }
+  ],
   }
 {% endschema %}
+<style>
+  .blogs-custom-tab{
+    padding:50px 0;
+    justify-content:center;
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .blog-button{
+    margin:0 5px;
+    font-size:20px;
+    padding:10px 15px;
+    background-color:#d0c272;
+    font-weight:600;
+  }
+</style>
