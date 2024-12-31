@@ -29,9 +29,11 @@
     </header>
 
   <div class="blogs-custom-tab">
+ {% if block.settings.categoryurl != blank %}
 {%- for block in section.blocks -%}
   <a href="{{ block.settings.categoryurl }}" class="blog-button">{{ block.settings.blogtext }}</a>
  {% endfor %}
+    {% endif %}
   </div>
   
     <div class="grid grid--uniform 333333333">
