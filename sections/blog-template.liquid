@@ -165,15 +165,22 @@
 }
 </style>
 <script>
- function setActiveTab(event) {
-  // Prevent default link behavior if needed
-  event.preventDefault();
-
-  // Remove the 'active' class from all tabs
+ document.addEventListener('DOMContentLoaded', () => {
   const tabs = document.querySelectorAll('.blogs-custom-tab .blog-button');
-  tabs.forEach(tab => tab.classList.remove('active'));
 
-  // Add the 'active' class to the clicked tab
-  event.currentTarget.classList.add('active');
-}
+  // Set the first tab as active by default
+  if (tabs.length > 0) {
+    tabs[0].classList.add('active');
+  }
+
+  // Add click event to each tab
+  tabs.forEach(tab => {
+    tab.addEventListener('click', event => {
+      // Remove 'active' class from all tabs
+      tabs.forEach(t => t.classList.remove('active'));
+
+
+    });
+  });
+});
 </script>
