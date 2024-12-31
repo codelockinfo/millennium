@@ -35,7 +35,7 @@
    <a href="/blogs/{{ blog.handle }}" class="blog-button">All blogs</a>
    {%- if current_tags.size > 0 -%}
       <!-- Display the currently selected tag -->
-      <a href="/blogs/{{ blog.handle }}//{{ current_tags[0] | handleize }}" class="blog-button">
+      <a href="/blogs/{{ blog.handle }}/tagged/{{ current_tags[0] | handleize }}" class="blog-button">
          {{ current_tags[0] }}
       </a>
    {%- else -%}
@@ -45,7 +45,7 @@
          {%- for tag in article.tags -%}
             {%- unless used_tags contains tag -%}
                {%- assign used_tags = used_tags | append: tag | append: "," -%}
-               <a href="/blogs/{{ blog.handle }}//{{ tag | handleize }}" class="blog-button">
+               <a href="/blogs/{{ blog.handle }}/tagged/{{ tag | handleize }}" class="blog-button">
                   {{ tag }}
                </a>
             {%- endunless -%}
