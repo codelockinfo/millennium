@@ -175,13 +175,14 @@
 
   // Add click event to each tab
   tabs.forEach(tab => {
-    tab.addEventListener('click', event => {
+    tab.addEventListener('click', function () {
       // Remove 'active' class from all tabs
       tabs.forEach(t => t.classList.remove('active'));
 
       // Add 'active' class to the clicked tab
-      event.currentTarget.classList.add('active');
+      this.classList.add('active');
     });
   });
 });
+
 </script>
