@@ -28,13 +28,18 @@
       {%- endif -%}
     </header>
 
-  <div class="blogs-custom-tab">
-{%- for block in section.blocks -%}
- {% if block.settings.categoryurl != blank %}
-  <a href="{{ block.settings.categoryurl }}" class="blog-button">{{ block.settings.blogtext }}</a>
+ <div class="blogs-custom-tab">
+  {%- for block in section.blocks -%}
+    {% if block.settings.categoryurl != blank %}
+      <a 
+        href="{{ block.settings.categoryurl }}?tab={{ block.settings.blogtext | escape }}" 
+        class="blog-button {% if forloop.first %}active{% endif %}" 
+      >
+        {{ block.settings.blogtext }}
+      </a>
     {% endif %}
- {% endfor %}
-  </div>
+  {%- endfor -%}
+</div>
   
     <div class="grid grid--uniform 333333333">
       {%- for article in blog.articles -%}
@@ -152,9 +157,41 @@
     margin:0 5px;
     font-size:20px;
     padding:10px 15px;
-    background-color:#d0c272;
+    /* background-color:#d0c272; */
     font-weight:600;
     margin-bottom:10px;
   }
+  .blog-button.active {
+    color: #fff;
+    background-color: #d0c272;
+    /* border-color: blue; */
+  }
 
 </style>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Get all blog buttons
+    const tabs = document.querySelectorAll('.blog-button');
+
+    // Get the current tab from the URL (query parameter "tab")
+    const urlParams = new URLSearchParams(window.location.search);
+    const activeTabText = urlParams.get('tab');
+
+    // Set the active tab based on the query parameter
+    let activeSet = false;
+    tabs.forEach(tab => {
+      const tabText = tab.textContent.trim();
+      if (tabText === activeTabText) {
+        tab.classList.add('active');
+        activeSet = true;
+      } else {
+        tab.classList.remove('active');
+      }
+    });
+
+    // If no tab is active, make the first tab active by default
+    if (!activeSet && tabs.length > 0) {
+      tabs[0].classList.add('active');
+    }
+  });
+</script>
