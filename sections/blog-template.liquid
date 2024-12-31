@@ -156,20 +156,5 @@
     font-weight:600;
     margin-bottom:10px;
   }
-  .blogs-custom-tab .blog-button.active {
-  background-color: #007bff; /* Example: Change to your desired color */
-  color: #ffffff; /* Example: Change text color */
-  border: 1px solid #0056b3; /* Optional: Add a border */
-}
+
 </style>
-<script>function setActiveTab(event) {
-  // Prevent default link behavior if needed
-  event.preventDefault();
-
-  // Remove the 'active' class from all tabs
-  const tabs = document.querySelectorAll('.blogs-custom-tab .blog-button');
-  tabs.forEach(tab => tab.classList.remove('active'));
-
-  // Add the 'active' class to the clicked tab
-  event.currentTarget.classList.add('active');
-}</script>
