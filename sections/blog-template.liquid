@@ -31,19 +31,27 @@
 
   
 <div class="blogs-custom-tab">
-   <a href="/blogs/{{ blog.handle }}" class="blog-button">All Blogs</a>
    {%- if current_tags.size > 0 -%}
-      <!-- Display only the selected tag -->
+      <!-- Display the currently selected tag -->
       <a href="/blogs/{{ blog.handle }}/tagged/{{ current_tags[0] | handleize }}" class="blog-button">
          {{ current_tags[0] }}
       </a>
    {%- else -%}
-      <!-- Display all tags if no tag is selected -->
-      {%- for tag in blog.all_tags -%}
-         <a href="/blogs/{{ blog.handle }}/tagged/{{ tag | handleize }}" class="blog-button">{{ tag }}</a>
+      <!-- Loop through articles to collect only used tags -->
+      {%- assign used_tags = "" -%}
+      {%- for article in blog.articles -%}
+         {%- for tag in article.tags -%}
+            {%- unless used_tags contains tag -%}
+               {%- assign used_tags = used_tags | append: tag | append: "," -%}
+               <a href="/blogs/{{ blog.handle }}/tagged/{{ tag | handleize }}" class="blog-button">
+                  {{ tag }}
+               </a>
+            {%- endunless -%}
+         {%- endfor -%}
       {%- endfor -%}
    {%- endif -%}
 </div>
+
 
   
     <div class="grid grid--uniform 333333333">
