@@ -24,7 +24,7 @@
       "type": "blog-posts",
       "settings": {
         "title": "You may also like",
-        "blog": "moissanite-watch-1",
+        "blog": "all-blogs",
         "post_limit": 3,
         "blog_show_tags": false,
         "blog_show_date": true,
