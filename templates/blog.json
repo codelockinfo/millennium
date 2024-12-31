@@ -12,13 +12,6 @@
     "main": {
       "type": "blog-template",
       "blocks": {
-        "text_QkKW9M": {
-          "type": "text",
-          "settings": {
-            "blogtext": "All blogs",
-            "categoryurl": "shopify://blogs/blogs"
-          }
-        },
         "text_pnmmUt": {
           "type": "text",
           "settings": {
@@ -32,12 +25,35 @@
             "blogtext": "Moissanite Earrings",
             "categoryurl": "shopify://blogs/moissanite-earrings"
           }
+        },
+        "text_whbEhx": {
+          "type": "text",
+          "settings": {
+            "blogtext": "Mossanite Rings",
+            "categoryurl": "shopify://blogs/mossanite-rings"
+          }
+        },
+        "text_3ercBx": {
+          "type": "text",
+          "settings": {
+            "blogtext": "Hip hop pandant",
+            "categoryurl": "shopify://blogs/hip-hop-pandant"
+          }
+        },
+        "text_z4aaqy": {
+          "type": "text",
+          "settings": {
+            "blogtext": "Gold jawelry",
+            "categoryurl": "shopify://blogs/gold-jawelry"
+          }
         }
       },
       "block_order": [
-        "text_QkKW9M",
         "text_pnmmUt",
-        "text_Pxc7hw"
+        "text_Pxc7hw",
+        "text_whbEhx",
+        "text_3ercBx",
+        "text_z4aaqy"
       ],
       "settings": {
         "blog_show_tag_filter": false,
