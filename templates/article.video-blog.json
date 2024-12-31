@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -23,21 +23,21 @@
     "millennium_video_bMRjpR": {
       "type": "millennium-video",
       "settings": {
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7de07270d89f460a9a3857b92e103bc9.mp4",
-        "video2": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/91f9e4f5c6f24652aa3d9f14045bea8b.mp4",
+        "video": "https://cdn.shopify.com/videos/c/o/v/7de07270d89f460a9a3857b92e103bc9.mp4",
+        "video2": "https://cdn.shopify.com/videos/c/o/v/91f9e4f5c6f24652aa3d9f14045bea8b.mp4",
         "para_head": "MILLENNIUM JEWELERY",
         "company_name": "Alibaba",
         "paragraph": "Discover Millennium Jewelery, a trusted and verified supplier on Alibaba.com. This platform helps to connect with customers worldwide, offering a convenient hub for retailers seeking top-quality moissanite watches and jewelry. With a focus on craftsmanship and reliability, we are your go-to manufacturer for exquisite moissanite pieces. Explore our extensive range of products on our Alibaba store for a showcase of elegance and sophistication.",
         "button": "Explore More",
-        "btn_img": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png",
-        "jewelery_url_1": "https:\/\/in1564485498ycjd.trustpass.alibaba.com\/index.html?spm=a2700.details.0.0.844416aahQEBVi&from=detail&productId=10000019226367",
-        "image1": "shopify:\/\/shop_images\/Vector_20_2_1969bd94-d62b-4e63-b987-1778315cbd03.png",
+        "btn_img": "shopify://shop_images/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png",
+        "jewelery_url_1": "https://in1564485498ycjd.trustpass.alibaba.com/index.html?spm=a2700.details.0.0.844416aahQEBVi&from=detail&productId=10000019226367",
+        "image1": "shopify://shop_images/Vector_20_2_1969bd94-d62b-4e63-b987-1778315cbd03.png",
         "para_head2": "MILLENNIUM JEWELERY",
         "company_name2": "Amazon",
         "paragraph2": "Amazon stands as a beacon of trust for customers, providing a seamless platform for placing orders with confidence. We are proud to announce that our products are now available on Amazon, catering specifically to the USA market. Explore our Amazon store to discover a wide range of offerings and experience the convenience of secure online shopping.",
         "button2": "Explore More",
-        "jewelery_url": "https:\/\/www.amazon.com\/s?rh=n%3A7141123011%2Cp_4%3AMillennium+Jewelery&ref=bl_sl_s_je_web_7141123011",
-        "btn_img2": "shopify:\/\/shop_images\/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
+        "jewelery_url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cp_4%3AMillennium+Jewelery&ref=bl_sl_s_je_web_7141123011",
+        "btn_img2": "shopify://shop_images/arrow-right_9f803839-0122-4dd9-b270-c6a88bafe63e.png"
       }
     },
     "trusted_by_6heyAd": {
@@ -46,31 +46,31 @@
         "image_eqKHGz": {
           "type": "image",
           "settings": {
-            "trusted_by_image": "shopify:\/\/shop_images\/01_copy_255b88a7-ed19-4ad2-9da6-a205741cf1f3.png"
+            "trusted_by_image": "shopify://shop_images/01_copy_255b88a7-ed19-4ad2-9da6-a205741cf1f3.png"
           }
         },
         "image_4PrQNX": {
           "type": "image",
           "settings": {
-            "trusted_by_image": "shopify:\/\/shop_images\/02.png"
+            "trusted_by_image": "shopify://shop_images/02.png"
           }
         },
         "image_zx9bBf": {
           "type": "image",
           "settings": {
-            "trusted_by_image": "shopify:\/\/shop_images\/03.png"
+            "trusted_by_image": "shopify://shop_images/03.png"
           }
         },
         "image_KYM6yQ": {
           "type": "image",
           "settings": {
-            "trusted_by_image": "shopify:\/\/shop_images\/04_1_326f8e90-7b10-4b4a-8915-302df0c4905a.png"
+            "trusted_by_image": "shopify://shop_images/04_1_326f8e90-7b10-4b4a-8915-302df0c4905a.png"
           }
         },
         "image_Jy37tm": {
           "type": "image",
           "settings": {
-            "trusted_by_image": "shopify:\/\/shop_images\/05.png"
+            "trusted_by_image": "shopify://shop_images/05.png"
           }
         }
       },
@@ -82,16 +82,16 @@
         "image_Jy37tm"
       ],
       "settings": {
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/df1f0675733b4c97beb72d439b9e3ea6.mp4",
+        "video": "https://cdn.shopify.com/videos/c/o/v/df1f0675733b4c97beb72d439b9e3ea6.mp4",
         "heading": "Trusted by",
-        "image_bg": "shopify:\/\/shop_images\/Ellipse_5.png"
+        "image_bg": "shopify://shop_images/Ellipse_5.png"
       }
     },
     "blog-posts": {
       "type": "blog-posts",
       "settings": {
         "title": "You may also like",
-        "blog": "blogs",
+        "blog": "all-blogs",
         "post_limit": 3,
         "blog_show_tags": false,
         "blog_show_date": true,
