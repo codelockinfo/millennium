@@ -165,17 +165,14 @@
 }
 </style>
 <script>
- document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
   const tabs = document.querySelectorAll('.blogs-custom-tab .blog-button');
-
-  // Set the first tab as active by default
-  if (tabs.length > 0) {
-    tabs[0].classList.add('active');
-  }
 
   // Add click event to each tab
   tabs.forEach(tab => {
-    tab.addEventListener('click', function () {
+    tab.addEventListener('click', function (event) {
+      event.preventDefault(); // Prevent default link behavior if necessary
+
       // Remove 'active' class from all tabs
       tabs.forEach(t => t.classList.remove('active'));
 
@@ -184,5 +181,4 @@
     });
   });
 });
-
 </script>
