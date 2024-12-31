@@ -36,15 +36,22 @@
         "text_3ercBx": {
           "type": "text",
           "settings": {
-            "blogtext": "Hip hop pandant",
+            "blogtext": "Hip Hop Pandant",
             "categoryurl": "shopify://blogs/hip-hop-pandant"
           }
         },
-        "text_z4aaqy": {
+        "text_ptBLRc": {
           "type": "text",
           "settings": {
-            "blogtext": "Gold jawelry",
-            "categoryurl": "shopify://blogs/gold-jawelry"
+            "blogtext": "Diamond Jewelry",
+            "categoryurl": "shopify://blogs/diamond-jewelry"
+          }
+        },
+        "text_kcFLnK": {
+          "type": "text",
+          "settings": {
+            "blogtext": "Education",
+            "categoryurl": "shopify://blogs/education"
           }
         }
       },
@@ -53,7 +60,8 @@
         "text_Pxc7hw",
         "text_whbEhx",
         "text_3ercBx",
-        "text_z4aaqy"
+        "text_ptBLRc",
+        "text_kcFLnK"
       ],
       "settings": {
         "blog_show_tag_filter": false,
