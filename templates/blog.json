@@ -11,6 +11,34 @@
   "sections": {
     "main": {
       "type": "blog-template",
+      "blocks": {
+        "text_QkKW9M": {
+          "type": "text",
+          "settings": {
+            "blogtext": "All blogs",
+            "categoryurl": "shopify://blogs/blogs"
+          }
+        },
+        "text_pnmmUt": {
+          "type": "text",
+          "settings": {
+            "blogtext": "Moissanite Watch",
+            "categoryurl": "shopify://blogs/moissanite-watch"
+          }
+        },
+        "text_Pxc7hw": {
+          "type": "text",
+          "settings": {
+            "blogtext": "Moissanite Earrings",
+            "categoryurl": "shopify://blogs/moissanite-earrings"
+          }
+        }
+      },
+      "block_order": [
+        "text_QkKW9M",
+        "text_pnmmUt",
+        "text_Pxc7hw"
+      ],
       "settings": {
         "blog_show_tag_filter": false,
         "blog_show_rss": false,
