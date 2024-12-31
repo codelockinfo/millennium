@@ -30,36 +30,20 @@
 
 
   
-<!-- 
 <div class="blogs-custom-tab">
-   <a href="/blogs/{{ blog.handle }}" class="blog-button">All blogs</a>
+   <a href="/blogs/{{ blog.handle }}" class="blog-button">All Blogs</a>
    {%- if current_tags.size > 0 -%}
-      <!-- Display the currently selected tag -->
+      <!-- Display only the selected tag -->
       <a href="/blogs/{{ blog.handle }}/tagged/{{ current_tags[0] | handleize }}" class="blog-button">
          {{ current_tags[0] }}
       </a>
    {%- else -%}
-      <!-- Loop through articles to collect only used tags -->
-      {%- assign used_tags = "" -%}
-      {%- for article in blog.articles -%}
-         {%- for tag in article.tags -%}
-            {%- unless used_tags contains tag -%}
-               {%- assign used_tags = used_tags | append: tag | append: "," -%}
-               <a href="/blogs/{{ blog.handle }}/tagged/{{ tag | handleize }}" class="blog-button">
-                  {{ tag }}
-               </a>
-            {%- endunless -%}
-         {%- endfor -%}
+      <!-- Display all tags if no tag is selected -->
+      {%- for tag in blog.all_tags -%}
+         <a href="/blogs/{{ blog.handle }}/tagged/{{ tag | handleize }}" class="blog-button">{{ tag }}</a>
       {%- endfor -%}
    {%- endif -%}
-</div> -->
-
-
-  <div class="blogs-custom-tab">
-{%- for block in section.blocks -%}
-  <a href="{{ block.settings.categoryurl }}" class="blog-button">{{ block.settings.blogtext }}</a>
- {% endfor %}
-  </div>
+</div>
 
   
     <div class="grid grid--uniform 333333333">
@@ -147,24 +131,6 @@
         ]
       }
     ],
-     "blocks": [
-    {
-      "name": "Category",
-      "type": "text",
-      "settings": [
-        {
-          "type": "text",
-          "id": "blogtext",
-          "label": "Blog category heading"
-        },
-          {
-          "type": "url",
-          "id": "categoryurl",
-          "label": "Blog category url"
-        }
-      ]
-    }
-  ],
   }
 {% endschema %}
 <style>
