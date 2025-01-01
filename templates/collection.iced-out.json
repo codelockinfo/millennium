@@ -310,6 +310,9 @@
         "text_kfAXmL",
         "text_qHcGFk"
       ],
+      "custom_css": [
+        ".slider_section{margin-bottom:50px}"
+      ],
       "settings": {
         "heading": "Let customers speak for us"
       }
