@@ -321,27 +321,32 @@
           "type": "text",
           "settings": {
             "tabheading": "<p>Frequently Asked Questions</p>",
-            "question1": "Do you make custom orders?",
-            "answer1": "<p>Yes, we specialize in creating custom pieces. If you can't find a jewelry that meets your needs, please contact us with your ideas or any reference images, and our experienced designer team is here to assist you every step of the way. Just fill out the form of <strong>Customization </strong>or else you can directly send your requirements to us over phone +91 92656 39288. </p>",
-            "question2": "Is moissanite diamond considered fake?",
-            "answer2": "<p>Moissanite is not considered as fake diamond, Moissanite is the option to find the cheaper jewelry. Moissanite diamond can passed by the diamond tester.</p>",
-            "question3": "What does iced out mean on a watch?",
-            "answer3": "<p>Iced out means the full watch is in diamonds. Manufacturer differentiate all the parts of watch and set the diamonds and make the watch again.</p>",
+            "question1": "Are iced out watches covered in gems?",
+            "answer1": "<p>Yes! Iced out watches are adorned with diamonds or other gemstones. These designs offer a bold and glamorous look and are perfect to make a statement.</p>",
+            "question2": "Which one should I go for, a moissanite watch or a diamond watch?",
+            "answer2": "<p>Choosing between a diamond watch and a moissanite watch is entirely based on your preferences and budget. If you’re opting for timeless elegance and have the budget, a diamond watch is perfect for you. However, if you’re looking for a cost-effective alternative with exceptional sparkle and durability, you should go for a moissanite watch.</p>",
+            "question3": "What is a bust down watch?",
+            "answer3": "<p>Known for their dazzling and opulent design, a bust down watch is a transformed timepiece where a simple watch is customized with gemstones or diamonds, covering most or all of its surface.<br/></p>",
             "question4": "How do you clean an iced out watch?",
             "answer4": "<p>You can clean the watch using soft cloth. Don’t use any chemical or spray to clean the watch.</p>",
-            "question5": "Why are iced out watches so cheap?",
-            "answer5": "<p>Iced out watches can be cheap if use CZ or Moissanite diamond only if you use lab grown diamond or natural diamond it will be expensive.</p>",
-            "question6": "Can I get pictures of my order before dispatching?",
-            "answer6": "<p>Yes, you will get the pictures and video of the product before<br/>dispatching.</p>",
+            "question5": "Does your collection offer affordable iced out watches?",
+            "answer5": "<p>Absolutely! We, at Millennium Jewelery ensure that luxury can be accessible. Our collection offers affordable iced out watches while ensuring you receive high standards of craftsmanship and style for your wrist.<br/></p>",
+            "question6": "What are some of your famous iced out watch styles?",
+            "answer6": "<p>We have a diverse style in our collection of iced out watches. Some of them include:</p><p><br/>Fully iced out watches, Black moissanite watches, Hip Hop iced out watches, etc.<br/>Check out our online store for more styles and find what you’re looking for.</p>",
             "question7": "What can I use to clean my watch glass?",
-            "answer7": "<p>You can clean the glass using cloth only or just little wet cloth with water only.<br/></p>"
+            "answer7": "<p>You can clean the glass using cloth only or just little wet cloth with water only.<br/></p>",
+            "question8": "",
+            "answer8": "",
+            "question9": "",
+            "answer9": "",
+            "question10": "",
+            "answer10": ""
           }
         }
       },
       "block_order": [
         "text_bGRHnH"
       ],
-      "disabled": true,
       "settings": {
         "title": "{{ collection.metafields.custom.faqs.value }}",
         "align_text": "center"
