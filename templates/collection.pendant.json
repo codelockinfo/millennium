@@ -225,34 +225,6 @@
         "space_around": true
       }
     },
-    "rich_text_NDpjDd": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_t7BGDd": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "title": "Rich text"
-          }
-        },
-        "text_NmGLKT": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "{{ collection.metafields.custom.custom_content | metafield_tag }}"
-          }
-        }
-      },
-      "block_order": [
-        "heading_t7BGDd",
-        "text_NmGLKT"
-      ],
-      "settings": {
-        "align_text": "left",
-        "narrow_column": false,
-        "divider": false
-      }
-    },
     "tab_accordian_PKDbrk": {
       "type": "tab-accordian",
       "blocks": {
@@ -290,6 +262,34 @@
         "title": "",
         "align_text": "center"
       }
+    },
+    "rich_text_NDpjDd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_t7BGDd": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "text_NmGLKT": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "{{ collection.metafields.custom.custom_content | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_t7BGDd",
+        "text_NmGLKT"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -300,7 +300,7 @@
     "tab_accordian_q486zh",
     "advanced_content_f3tfMh",
     "advanced_content_w3hK7D",
-    "rich_text_NDpjDd",
-    "tab_accordian_PKDbrk"
+    "tab_accordian_PKDbrk",
+    "rich_text_NDpjDd"
   ]
 }
