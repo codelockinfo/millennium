@@ -314,6 +314,34 @@
         "heading": "Let customers speak for us"
       }
     },
+    "rich_text_Gt7yK6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nbN3wn": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": ""
+          }
+        },
+        "text_b3XTQV": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "{{ collection.metafields.custom.custom_content | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nbN3wn",
+        "text_b3XTQV"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "tab_accordian_q486zh": {
       "type": "tab-accordian",
       "blocks": {
@@ -364,6 +392,7 @@
     "rich_text_QAkqMA",
     "rich_text_UHhMGm",
     "slider_testimonial_CDMnJC",
+    "rich_text_Gt7yK6",
     "tab_accordian_q486zh"
   ]
 }
