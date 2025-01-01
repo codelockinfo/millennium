@@ -254,67 +254,6 @@
         "divider": true
       }
     },
-    "slider_testimonial_CDMnJC": {
-      "type": "slider-testimonial",
-      "blocks": {
-        "text_iptPz9": {
-          "type": "text",
-          "settings": {
-            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
-            "content": "<p>I love how unique and eye-catching these designs are. Truly one-of-a-kind jewelry. Every piece I've bought feels special and stands out in the best way possible.</p>",
-            "customername": "Brian Smith",
-            "country": "NV, United States"
-          }
-        },
-        "text_RNm8tr": {
-          "type": "text",
-          "settings": {
-            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
-            "content": "<p>I've bought hip-hop jewelry from many places, but this is by far the best. The quality, design, and customer service are all exceptional. Highly recommend!</p>",
-            "customername": "Matthew Harris",
-            "country": "MA, United States"
-          }
-        },
-        "text_RGT4q6": {
-          "type": "text",
-          "settings": {
-            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
-            "content": "<p>The attention to detail is phenomenal. My iced-out watch is a real showstopper. It's a real work of art, and I feel so stylish whenever I wear it.</p>",
-            "customername": "Olivia Johnson",
-            "country": "CO, United States"
-          }
-        },
-        "text_kfAXmL": {
-          "type": "text",
-          "settings": {
-            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
-            "content": "<p>High-quality materials and flawless craftsmanship. These pieces are worth every penny. The quality is outstanding, and you can tell a lot of care goes into making each piece.</p>",
-            "customername": "James Parker",
-            "country": "AZ, United States"
-          }
-        },
-        "text_qHcGFk": {
-          "type": "text",
-          "settings": {
-            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
-            "content": "<p>High-quality materials and flawless craftsmanship. These pieces are worth every penny. The quality is outstanding, and you can tell a lot of care goes into making each piece.</p>",
-            "customername": "James Parker",
-            "country": "AZ, United States"
-          }
-        }
-      },
-      "block_order": [
-        "text_iptPz9",
-        "text_RNm8tr",
-        "text_RGT4q6",
-        "text_kfAXmL",
-        "text_qHcGFk"
-      ],
-      "custom_css": [],
-      "settings": {
-        "heading": "Let customers speak for us"
-      }
-    },
     "tab_accordian_q486zh": {
       "type": "tab-accordian",
       "blocks": {
@@ -380,6 +319,67 @@
         "narrow_column": false,
         "divider": false
       }
+    },
+    "slider_testimonial_CDMnJC": {
+      "type": "slider-testimonial",
+      "blocks": {
+        "text_iptPz9": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
+            "content": "<p>I love how unique and eye-catching these designs are. Truly one-of-a-kind jewelry. Every piece I've bought feels special and stands out in the best way possible.</p>",
+            "customername": "Brian Smith",
+            "country": "NV, United States"
+          }
+        },
+        "text_RNm8tr": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
+            "content": "<p>I've bought hip-hop jewelry from many places, but this is by far the best. The quality, design, and customer service are all exceptional. Highly recommend!</p>",
+            "customername": "Matthew Harris",
+            "country": "MA, United States"
+          }
+        },
+        "text_RGT4q6": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
+            "content": "<p>The attention to detail is phenomenal. My iced-out watch is a real showstopper. It's a real work of art, and I feel so stylish whenever I wear it.</p>",
+            "customername": "Olivia Johnson",
+            "country": "CO, United States"
+          }
+        },
+        "text_kfAXmL": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
+            "content": "<p>High-quality materials and flawless craftsmanship. These pieces are worth every penny. The quality is outstanding, and you can tell a lot of care goes into making each piece.</p>",
+            "customername": "James Parker",
+            "country": "AZ, United States"
+          }
+        },
+        "text_qHcGFk": {
+          "type": "text",
+          "settings": {
+            "box_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a_4a0a145d-2466-4e95-8622-f84516f83937.png",
+            "content": "<p>High-quality materials and flawless craftsmanship. These pieces are worth every penny. The quality is outstanding, and you can tell a lot of care goes into making each piece.</p>",
+            "customername": "James Parker",
+            "country": "AZ, United States"
+          }
+        }
+      },
+      "block_order": [
+        "text_iptPz9",
+        "text_RNm8tr",
+        "text_RGT4q6",
+        "text_kfAXmL",
+        "text_qHcGFk"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading": "Let customers speak for us"
+      }
     }
   },
   "order": [
@@ -392,8 +392,8 @@
     "advanced_content_z6GhHL",
     "rich_text_QAkqMA",
     "rich_text_UHhMGm",
-    "slider_testimonial_CDMnJC",
+    "rich_text_Gt7yK6",
     "tab_accordian_q486zh",
-    "rich_text_Gt7yK6"
+    "slider_testimonial_CDMnJC"
   ]
 }
