@@ -41,9 +41,24 @@
   {%- endfor -%}
 </div>
   
-    <div class="grid grid--uniform 333333333">
+      <div class="grid grid--uniform 333333333">
       {%- for article in blog.articles -%}
         {%- render 'article-grid-item', article: article, grid_item_width: 'medium-up--one-third', per_row: '3', image_size: section.settings.blog_image_size -%}
+       {%- if blog.metafields.custom.collection_banner != blank and forloop.index == 2 -%}
+           <div class="grid__item medium-up--one-third collection-banner ">
+            <div class="grid__item small--one-third 11111111">
+               <div>
+                    <img src="{{ blog.metafields.custom.collection_banner | img_url: 'large' }}" alt="Promotional Banner">
+                 
+              </div>
+<div class="c-banner-content">
+   <div class="banner-text">{{ blog.metafields.custom.collection_banner_text}}</div>
+<a href="{{ blog.metafields.custom.collection_banner_url }}" class="c-banner-button">Shop now</a>
+  </div>
+           </div>
+  </div>
+
+{%- endif -%}
       {%- endfor -%}
     </div>
 
