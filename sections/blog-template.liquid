@@ -168,26 +168,83 @@
     display:flex;
     flex-wrap:wrap;
   }
-  .blog-button{
-    margin:0 5px;
-    font-size:20px;
-    padding:10px 15px;
-    /* background-color:#d0c272; */
-    font-weight:600;
-    margin-bottom:10px;
-  }
-   /* .blog-button:hover{
-    background-color:#d0c272;
-    border-radius:10px;
-   color:#fff;
-   } */
-  .blog-button.active {
-    color: #fff;
-    background-color: #d0c272;
-    /* border-color: blue; */
-border-radius:10px;
+.blog-button {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
   }
 
+  .blog-button.active {
+    color: white;
+    background-color: blue;
+    border-color: blue;
+  }
+  .collection-banner {
+	text-align: center;
+	position: relative;
+	height: 100%;
+  }
+  .collection-banner img {
+	object-fit: cover;
+	/* width: 100%; */
+	/* height: 100%; */
+  }
+  .banner-text {
+	font-weight:900;
+    font-size:36px;
+    /* color:#fff; */
+  }
+  .c-banner-button {
+	font-weight:600;
+    font-size:20px;
+    /* color:#fff; */
+text-decoration:underline;
+  }
+  .c-banner-content{
+    position: absolute;
+    width:100%;
+    text-align:center;
+	top: 45%;
+    left:0;
+    height:100%;
+  }
+  .collection-banner {
+  grid-column: span 1; /* Ensures it aligns with grid items */
+  margin: 0; /* Removes margin around the banner */
+  padding: 0; /* Removes padding around the banner */
+}
+
+.collection-banner img {
+  width: 100%; /* Ensures the image stretches to fill the space */
+  /* height: 360px; */
+}
+@media (max-width:1300px){
+   .banner-text {
+	font-weight:600;
+    font-size:26px;
+    /* color:#fff; */
+  }
+}
+@media (max-width:991px){
+   .banner-text {
+    font-size:20px;
+    /* color:#fff; */
+  }
+}
+@media (max-width:768px){
+  .c-banner-content{
+    top:20%;
+    margin-left:50px;
+height:auto;
+  }
+}
+
+  
 </style>
 <script>
   document.addEventListener('DOMContentLoaded', () => {
