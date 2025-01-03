@@ -264,11 +264,6 @@
         "disabled": false,
         "settings": {}
       },
-      "10821884108211614105": {
-        "type": "shopify://apps/best-chat-live-chat/blocks/app-embed/8f04fd48-10ad-4211-86e2-b3b3803a2848",
-        "disabled": true,
-        "settings": {}
-      },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
