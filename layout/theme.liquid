@@ -160,18 +160,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       rel="stylesheet preload"
     >
     {{ 'Millennium.css' | asset_url | stylesheet_tag: preload: true }}
-    <link rel="stylesheet preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet preload" href="https://unpkg.com/swiper/swiper-bundle.min.css" >
-    <link rel="stylesheet preload" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" >
-    <link rel="stylesheet preload" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" >
-    <link rel="stylesheet preload"  src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" >
-    <link rel="stylesheet preload"   src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css"  >
-    <link rel="canonical preload" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" >
+    <link rel='preload' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css' as="style" fetchpriority="high" />
+    <link rel='preload' href='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css' as="style" fetchpriority="high" />
     <script  language="JavaScript" src="https://code.jquery.com/jquery-3.6.0.min.js" preload="true"></script>
-    <script language="JavaScript" src="https://unpkg.com/swiper/swiper-bundle.min.js"  preload="true"></script>
-    <script language="JavaScript"  src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js" preload="true"></script>
-    <script language="JavaScript"  src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" preload="true"></script>
-    <script language="JavaScript"  src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" preload="true"></script>
     <script language="JavaScript"  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js" preload="true"></script>
     {% comment %} <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" async></script> {% endcomment %}
     {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}
